@@ -1,5 +1,5 @@
 ---
-title: "Now"
+title: "now"
 ---
 
 - 📶 I create electrical models of transistors used in radio communication devices
