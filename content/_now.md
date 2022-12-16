@@ -1,5 +1,5 @@
 ---
-title: "now"
+title: "_now"
 ---
 
 - 📶 I create electrical models of transistors used in radio communication devices
@@ -23,5 +23,9 @@ I play in the community rock band at [[https://villamusica.org/product/adultrock
 ## Self-hosting
 
 I host my own cloud storage with [[https://nextcloud.com|Nextcloud]] and my google photos alternative is [[https://photoprism.app|Photoprism]]. I have a home server whose specs I'll list out at some point, but it's fairly simple and low powered. I host a whole host of other services too, but maybe more on that later.
+
+## Books
+
+[[https://www.amazon.com/Cant-Hurt-Me-David-Goggins-audiobook/dp/B07KKP62FW|Can't Hurt Me]] by David Goggins has had an immense impact on how I think about myself, and what I am capable of. Embracing the hard things in life has definitely had a positive impact on my life.
 
 *Last update: Dec 16, 2022*
