@@ -14,7 +14,7 @@ I do not use to-do lists. I much prefer daily highlights.
 
 ## Health
 
-Over the past year, I have focused on improving health through exercise and nutrition. I weight train 3x per week, and try to incorporate animal-based food when possible. Stretching in the evenings is an important part of my evening routine. I usually get at least 7 hours of sleep.
+Over the past year, I have focused on improving health through exercise and nutrition. I weight train 3x per week, and try to incorporate animal-based foods when possible. Stretching is an important part of my evening routine. I usually get at least 7 hours of sleep.
 
 ## Music
 
