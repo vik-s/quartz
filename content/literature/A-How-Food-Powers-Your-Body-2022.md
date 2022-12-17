@@ -1,7 +1,6 @@
 ---
 title: "How food powers your body"
 author: James Somers
-url: "https://www.newyorker.com/science/elements/how-food-powers-your-body-metabolism-calories"
 publisher: The New Yorker
 date: 2022-10-25
 tags: health
@@ -60,3 +59,4 @@ Due to mitochondrial wear and tear, waste products from the mitochondria start t
 # References
 
 - [[How Food Powers Your Body]]
+- https://www.newyorker.com/science/elements/how-food-powers-your-body-metabolism-calories
