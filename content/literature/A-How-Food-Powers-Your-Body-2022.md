@@ -1,7 +1,7 @@
 ---
 title: "How food powers your body"
 author: James Somers
-url: https://www.newyorker.com/science/elements/how-food-powers-your-body-metabolism-calories
+url: "https://www.newyorker.com/science/elements/how-food-powers-your-body-metabolism-calories"
 publisher: The New Yorker
 date: 2022-10-25
 tags: health
