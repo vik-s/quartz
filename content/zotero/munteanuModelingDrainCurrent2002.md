@@ -1,0 +1,12 @@
+
+# Annotations  
+(11/8/2022, 11:16:59 AM)
+
+[Go to annotation](zotero://open-pdf/library/items/FZ7E4S47?page=1198&annotation=V5TVLHIK)“Abstract—This work reports on a new general modeling of recombination-based mechanisms related to electrically floating-body partially-depleted (PD) SOI MOSFETs. The model describes drain current overshoots induced when turning on the transistor gate and suggests a novel extraction method for the recombination lifetime in the silicon film.” ([Munteanu and Ionescu, 2002, p. 1198](zotero://select/library/items/IZJVHYUY))
+
+[Go to annotation](zotero://open-pdf/library/items/FZ7E4S47?page=1198&annotation=GF3Q3W3B)“The experiment consists in maintaining the SOI MOSFET back gate grounded, whereas the front gate is switched from depletion or accumulation regime to strong inversion (Fig. 1). The minority carriers needed in the inversion channel are rapidly supplied by the heavy doped source/drain regions. The positive pulse on the front gate leads to the depletion region extension, but in the case of a PD SOI film, the majority carriers expelled from this region cannot be removed instantaneously and are stored in the neutral body. This induces a temporary increase in the body potential, , which lowers the threshold voltage and results in excess drain current (Fig. 1). Equilibrium is reached through carrier recombination for removing the excess majority carriers.” ([Munteanu and Ionescu, 2002, p. 1198](zotero://select/library/items/IZJVHYUY)) This describes the physical reasons why drain current overshoots and how recombination effects bring it back to steady state
+
+ [Go to annotation](zotero://open-pdf/library/items/FZ7E4S47?page=1199&annotation=ZRNFEIB7)  
+([Munteanu and Ionescu, 2002, p. 1199](zotero://select/library/items/IZJVHYUY)) Figure shows show the depletion region widens when a positive pulse is applied at the gate. The excess holes in the body raises the body potential, resulting in a threshold voltage drop, and drain current overshoot.
+
+[Go to annotation](zotero://open-pdf/library/items/FZ7E4S47?page=1199&annotation=BWKVMIXF)“The transient duration is essentially governed by the carrier recombination lifetime in the silicon film [13], [16]: lower the lifetime, lower the recovery time” ([Munteanu and Ionescu, 2002, p. 1199](zotero://select/library/items/IZJVHYUY))
