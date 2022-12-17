@@ -1,16 +1,12 @@
 ---
-title: "_now"
+title: "Now"
 ---
 
-- 📶 I create electrical models of transistors used in radio communication devices
-- 🎙️ I co-host a lifestyle podcast - [[https://www.halflife.show | Half Life Show]]
-- ✏️ I mostly ponder about writing more about radio frequency integrated circuits on my tech blog [[https://rfic.io]].
+📶 I create electrical models of transistors used in radio communication devices
 
-## Managing time
+🎙️ I co-host a lifestyle podcast - [Half Life Show](https://www.halflife.show)
 
-I try not to get too focused on utilizing every moment of my waking life to any useful purpose. Fulfilling work and family responsibilities is the highest priority, and everything else follows.
-
-I do not use to-do lists. I much prefer daily highlights.
+✏️ I mostly ponder about writing more about radio frequency integrated circuits on my [tech blog](https://rfic.io)
 
 ## Health
 
@@ -18,14 +14,34 @@ Over the past year, I have focused on improving health through exercise and nutr
 
 ## Music
 
-I play in the community rock band at [[https://villamusica.org/product/adultrock|Villa Musica]]. I was a former lead guitarist for [[https://www.reverbnation.com/fused |FUSED]]. I was a founding member of [[https://blackearth.in|Black Earth]]. I've been focusing on alternative and sweep picking techniques to add flurry to my metal lead playing. [[https://www.jonbjorkmusic.com|Jon Bjork]] has some reallly good tips, and I took lessons for a while with [[https://www.instagram.com/stratenmarshall|Straten Marshall]].
+I play in the community rock band at [Villa Musica](https://villamusica.org/product/adultrock). I was a former lead guitarist for [FUSED](https://www.reverbnation.com/fused). I was a founding member of [Black Earth](https://blackearth.in). I've been focusing on alternative and sweep picking techniques to add flurry to my metal lead playing. [Jon Bjork](https://www.jonbjorkmusic.com) has some reallly good tips, and I took lessons for a while with [Straten Marshall](https://www.instagram.com/stratenmarshall).
 
 ## Self-hosting
 
-I host my own cloud storage with [[https://nextcloud.com|Nextcloud]] and my google photos alternative is [[https://photoprism.app|Photoprism]]. I have a home server whose specs I'll list out at some point, but it's fairly simple and low powered. I host a whole host of other services too, but maybe more on that later.
+I host my own cloud storage with [Nextcloud](https://nextcloud.com) and my google photos alternative is [Photoprism](https://photoprism.app). I have a home server whose specs I'll list out at some point, but it's fairly simple and low powered. I host a slew of other services too, but maybe more on that later.
 
 ## Books
 
-[[https://www.amazon.com/Cant-Hurt-Me-David-Goggins-audiobook/dp/B07KKP62FW|Can't Hurt Me]] by David Goggins has had an immense impact on how I think about myself, and what I am capable of. Embracing the hard things in life has definitely had a positive impact on my life.
+[Can't Hurt Me](https://www.amazon.com/Cant-Hurt-Me-David-Goggins-audiobook/dp/B07KKP62FW) by David Goggins has had an immense impact on how I think about myself, and what I am capable of. Embracing the hard things in life has definitely had a positive impact on my life. A more detailed reading list is [[here]].
+
+## Podcast list
+
+I am a fairly heavy podcast listener. Here is my current rotation.
+
+### General
+- [All-in podcast](https://www.allinpodcast.co)- Absolutely hilarious discussion of current events and business from industry titans.
+- [Lex Fridman podcast](https://lexfridman.com/podcast/)-Long form discussions with a variety of guests.
+- [Cortex](https://www.relay.fm/cortex)-Discussion between two people about handling their lives.
+
+### Health
+- [Huberman Lab Podcast](https://hubermanlab.com)-Science-based tools for health and wellness.
+- [The Drive](https://peterattiamd.com/podcast/)-Sometimes has good guests on, but paywalled episode releases are mildly annoying.
+- [Found my fitness](https://www.foundmyfitness.com/episodes)-Can get in-depth for casual listening but usually has good interviews.
+
+### Tech
+- [Self-hosted show](https://selfhosted.show)-Running your own servers
+- [Linux Unplugged](https://linuxunplugged.com)-Updates on the world of linux
+- [Coder Radio](https://coder.show)-About the software industry
+
 
 *Last update: Dec 16, 2022*
