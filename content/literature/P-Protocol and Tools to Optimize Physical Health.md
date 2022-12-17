@@ -1,10 +1,11 @@
 ---
-Title: "Fitness toolkit: Protocol and Tools to Optimize Physical Health"
-Podcast Name: Huberman Lab Podcast
-Episode: 94
-Date Aired: Oct 17, 2022
-Status: #podcast
-Tags: #health #workout
+title: "Fitness toolkit: Protocol and Tools to Optimize Physical Health"
+podcast: Huberman Lab Podcast
+episode: 94
+date: Oct 17, 2022
+status: #podcast
+tags: 
+- #health 
 ---
 ## What is a [[Foundational Protocol]] for fitness?
 

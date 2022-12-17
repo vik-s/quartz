@@ -1,12 +1,11 @@
-20221108-1130
-Status: #literature #inbox/done 
-
 ---
- - URL: [https://www.newyorker.com/science/elements/how-food-powers-your-body-metabolism-calories](url)
-* Author: James Somers
-* Publisher: The New Yorker
-* Published Date: 2022-10-25
-* Tags: #health 
+title: "How food powers your body"
+author: James Somers
+url: https://www.newyorker.com/science/elements/how-food-powers-your-body-metabolism-calories
+publisher: The New Yorker
+date: 2022-10-25
+tags: health
+status: #literature 
 ---
 
 >Life is nothing but an electron looking for a place to rest

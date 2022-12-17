@@ -1,11 +1,12 @@
 ---
-Status: #literature/course 
-Tags: #ai/deeplearning #inbox/to-process 
-Title: Introduction to PyTorch
-Instructor: Ben Sherman
-Affiliation: Weights and Biases
-URL:
-Year: 2022
+title: "Introduction to PyTorch"
+instructor: Ben Sherman
+affiliation: Weights and Biases
+status: #literature/course 
+tags: 
+- #ai/deeplearning 
+- #inbox/to-process 
+year: 2022
 ---
 
 *This course was offered to Qualcomm employees as Engineering Development*

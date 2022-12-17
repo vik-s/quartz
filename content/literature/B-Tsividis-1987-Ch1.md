@@ -1,6 +1,16 @@
-20221031-1231
-Status: #literature 
-Tags: #ee/device #inbox/to-process
+---
+title: "Operation and Modeling of the MOS Transistor"
+author: Yannis Tsividis
+year: 1987
+status: 
+- #literature/book 
+- #inbox/to-process 
+tags: 
+- #ee/device
+---
+
+![tsividis](https://m.media-amazon.com/images/I/41wL-KP1sNL._SX218_BO1,204,203,200_QL40_ML2_.jpg)
+
 
 ## 1.2 Semiconductors
 

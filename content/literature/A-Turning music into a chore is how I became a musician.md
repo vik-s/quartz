@@ -1,8 +1,12 @@
-## Metadata
-* URL: [https://the.scapegoat.dev/turning-music-into-a-chore-is-what-made-me-an-artist/](url)
-* Publisher: the.scapegoat.dev
-* Published Date: 2022-07-05
-* Tags: #music, #productivity
+---
+title: "Turning music into a chore is how I became a musician"
+publisher: the.scapegoat.dev
+date: 2022-07-05
+url: https://the.scapegoat.dev/turning-music-into-a-chore-is-what-made-me-an-artist
+tags: 
+- #music
+- #productivity 
+---
 
 ## Summary
 

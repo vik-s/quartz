@@ -1,4 +1,5 @@
 ---
+title: "developing ideas from your note system"
 status: #permanent
 tags: #zettelkasten 
 ---

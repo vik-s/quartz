@@ -1,4 +1,5 @@
 ---
+title: "Common pitfalls in note taking methods"
 status: #permanent
 tags: #zettelkasten 
 ---

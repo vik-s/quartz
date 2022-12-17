@@ -1,6 +1,9 @@
 ---
+title: "Glycolysis is the breaking down of a glucose molecule"
 status: #permanent
-tags: #health #biology
+tags:
+- #health 
+- #biology
 ---
 
 Glycolysis is the breaking down of glucose by the cell by stripping it of its highest energy electrons and using it to construct NADH (Nicotinamide Adenine Dinucleotide + Hydrogen, or coenzyme 1).

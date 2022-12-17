@@ -1,4 +1,5 @@
 ---
+title: "Conventional writing methods are flawed right from the start"
 status: #permanent
 tags: #zettelkasten 
 ---

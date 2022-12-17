@@ -1,9 +1,17 @@
-20221101-1150
-Status: #inbox/to-process 
-Tags: #literature 
+---
+title: "Fundamentals of Microelectronics"
+author: Behzad Razavi
+year: 2013
+status: 
+- #literature/book 
+- #inbox/to-process 
+tags: 
+- #ee/analog 
+---
 
+![razavi-microelec](https://media.wiley.com/product_data/coverImage300/47/11196951/1119695147.jpg)
 
-## [[permanent/Need for Current Mirrors in Microelectronics]]
+## ![[permanent/Need for Current Mirrors in Microelectronics]]
 
 - The biasing provided to circuits should be independent of:
 	- Voltage variation: Eg, the voltage from a battery drops as it discharges slowly
@@ -31,7 +39,7 @@ Tags: #literature
 
 ---
 
-## [[permanent/Working principle of a Current Mirror]]
+## ![[permanent/Working principle of a Current Mirror]]
 
 The basic idea is to use the current generated from a golden source like a bandgap reference circuit and use that to generate a voltage, which will then be applied to another transistor to generate a copy of the current.
 
@@ -52,7 +60,7 @@ The voltage at the base of transistors Q1 and Q2 is proportional to the natural 
 
 So, how does this solve the temperature sensitivity issue? The voltage at the base of the transistors does vary with temperature. But since Q1 and Q2 are identical, they are affected in the same way by temperature. As a result, the copied current is insensitive to temperature.
 
-## [[permanent/Using a current mirror to create multiple copies, multiples, or fractions of a reference current]]
+## ![[permanent/Using a current mirror to create multiple copies, multiples, or fractions of a reference current]]
 
 - Once the $V_{BE}$ voltage has been generated from the reference current (that uses bandgap reference) using the diode connected transistor, it can be used as the $V_{BE}$ for several output transistors.
 	- If you apply the voltage to several transistors Q3, Q4, Q5, then you can create 3 copies of the reference current.

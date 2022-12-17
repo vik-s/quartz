@@ -1,13 +1,15 @@
 ---
-Status: #literature/book 
-Tags: #inbox/to-process #productivity  
-Title: Four Thousand Weeks: Time management for mortals
-Author: Oliver Burkeman
-Publisher: Farrar, Straus and Giroux
-Year: 2021
-Edition: 1
+title: "Four Thousand Weeks: Time management for mortals"
+author: Oliver Burkeman
+year: 2021
+edition: 1
+status: 
+- #literature/book 
+- #inbox/to-process 
+tags: 
+- #productivity  
 ---
-
+![4k-weeks](https://static.wixstatic.com/media/053ea9_019073577d0445b6b521687231c3166f~mv2.png/v1/fill/w_1420,h_1312,al_c,q_90,usm_0.66_1.00_0.01,enc_auto/1621444132.png)
 ## Introduction: In the long run, we're all dead
 
 * We have 4000 weeks to live. Thats very short in the grand scheme of things. This book is about facing that fact, and accepting that we will never get everything done

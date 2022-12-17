@@ -1,8 +1,11 @@
 ---
 title: "How to Take Smart Notes"
-status: #literature
-tags: #zettelkasten #inbox/done 
+status: 
+- #literature
+- #inbox/done 
+tags: #zettelkasten 
 ---
+
 ![How to take smart notes](https://images.squarespace-cdn.com/content/v1/61ea8612f1b4331a57b5f9d1/1652195260055-D0V8QNUADQJ8YPJTDQR7/TSN-English-small.jpg?format=300w)
 
 ## Chapter 1: Introduction

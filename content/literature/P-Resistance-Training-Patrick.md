@@ -1,9 +1,13 @@
-Podcast Name: Found my Fitness
-Podcast Title: Resistance training for time efficiency, body composition, and maximum hypertrophy with Brad Schoenfeld
-Episode: 78
-Date Aired: 12-06-2022
-Status: #inbox/to-process 
-Tags: #podcast #training
+---
+title: "Resistance training for time efficiency, body composition, and maximum hypertrophy with Brad Schoenfeld"
+name: Found my Fitness
+episode: 78
+date: 2022-12-06
+status: #inbox/to-process 
+tags:
+- #podcast 
+- #health 
+---
 
 ### Why should we be resistance training?
 

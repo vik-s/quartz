@@ -1,6 +1,8 @@
-20221031-1129
-Status: #permanent 
-Tags:
+---
+title: "Good workflow design"
+status: #permanent
+tags: #productivity 
+---
 
 A good workflow design should:
 - have a low threshold and be simple to use
