@@ -1,6 +1,7 @@
 ---
+title: "mindset of a creative person alternates between playful and narrow focus modes"
 status: #permanent
-tags: #productivity  
+tags: #productivity 
 ---
 
 Studies have shown that the most creative people in history switch between wide-open and playful mindsets and narrow, work focused modes of work. This is also refered to in the book "Hyperfocus" by Bailey where he talks about alternating between deep work mode (hyperfocus) and wandering mind mode (scatterfocus).

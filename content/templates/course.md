@@ -1,16 +1,8 @@
 ---
-Status: #literature/course 
-Tags:
-Title:
-Instructor:
-Affiliation:
-URL:
-Year:
+title: "<% tp.file.title %>"
+instructor:
+affiliation:
+created: "<% tp.file.creation_date %>"
+status: #literature/course 
+tags:
 ---
-
-
-
-
-
----
-# References

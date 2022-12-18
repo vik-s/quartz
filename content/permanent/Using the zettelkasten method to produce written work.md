@@ -1,6 +1,8 @@
-20221103-2128
-Status: #permanent 
-Tags: #zettelkasten 
+---
+title: "Using the zettelkasten method to produce written work"
+status: #permanent
+tags: #zettelkasten 
+---
 
 1. Always externalize your thoughts, inputs and interpretations in written form, as a collection of notes that will form the external scaffolding needed for your brain to generate ideas
 	1. Use fleeting notes to capture any thought that comes up to the mind. Note them down very roughly and process them later

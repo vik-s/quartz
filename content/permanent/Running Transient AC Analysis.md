@@ -1,8 +1,8 @@
-20221017-0907
-Status: #how-to
-Tags: #cadence #simulation
-
-## What is transient AC analysis?
+---
+title: "Running Transient AC Analysis"
+status: #permanent
+tags: #tools
+---
 
 Let's say that you have to run [[s-parameter]] simulation as a function of time, where conditions such as voltages are changing in the window of time, then you need to run the AC simulation at every time point that is of interest.
 

@@ -1,6 +1,7 @@
 ---
+title: "Mechanism of generation of ATP by mitochondria"
 status: #permanent
-tags: #biology
+tags: #biology 
 ---
 
 The protein protrusions on the external chamber of the mitochondrion capture electrons and pull them into its inner chamber (see [[permanent/Mitochondria and their structure]]). When an electron is pulled into its internal chamber of the mitochondrion, a proton is expelled to the outer chamber. An electric field is built up between the inner and outer chamber. Each mitochondrion is like an electric battery waiting to discharge. The electric field strength is about 30 million V/m. Its like lightning in a bottle.

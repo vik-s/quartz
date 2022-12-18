@@ -1,6 +1,8 @@
-20221103-2122
-Status: #permanent 
-Tags: #zettelkasten 
+---
+title: "The importance of writing for learning, understanding, thinking and retention"
+status: #permanent
+tags: #zettelkasten 
+---
 
 Writing is the best way to ensure that you are thinking about what you're reading, and not simply hearing the author's voice in your head. Writing does not merely put down in words, the thoughts that are in the mind. Writing *is* thinking.
 

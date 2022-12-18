@@ -1,12 +1,8 @@
-Podcast Name:
-Podcast Title:
-Episode:
-Date Aired:
-Status: #podcast
-Tags:
-
-
-
-
 ---
-# References
+title: "<% tp.file.title %>"
+podcast: 
+created: "<% tp.file.creation_date %>"
+status: #literature/podcast 
+tags:
+aired:
+---

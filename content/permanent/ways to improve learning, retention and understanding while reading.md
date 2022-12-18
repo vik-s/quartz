@@ -1,6 +1,9 @@
 ---
+title: "ways to improve learning, retention and understanding while reading"
 status: #permanent
-tags: #zettelkasten #productivity 
+tags: 
+- #zettelkasten 
+- #productivity 
 ---
 
 - Always read with a pen (or keyboard) in hand. The end goal is to create permanent notes in the slipbox

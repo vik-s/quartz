@@ -1,6 +1,8 @@
-20221103-0532
-Status: #permanent 
-Tags: #ee/analog 
+---
+title: "Improved current source with low-gain bipolar devices"
+status: #permanent
+tags: #ee/analog 
+---
 
 ![[images/bjt-current-source-modified-for-lowgain-bjt.jpeg|400]]
 

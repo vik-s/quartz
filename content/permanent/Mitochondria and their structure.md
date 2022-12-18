@@ -1,6 +1,7 @@
 ---
+title: "Mitochondria and their structure"
 status: #permanent
-tags: #biology
+tags: #biology 
 ---
 
 They are structures believed to have descended from free-floating bacterium that our ancestors injected a long time ago. They do not share the same DNA make-up as humans, but instead they have their own DNA, and co-exist with humans to enable life as we know it.

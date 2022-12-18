@@ -1,6 +1,8 @@
-20221103-1850
-Status: #permanent 
-Tags: #ee/analog 
+---
+title: "Thevenin voltage as a figure of merit for current source performance"
+status: #permanent
+tags: #ee/analog 
+---
 
 The open-circuit equivalent voltage given by the Thevenin equivalent representation is the figure of merit for a current source. The higher the open circuit voltage, the better. For the case of an ideal BJT current mirror, the thevenin voltage is the early voltage of the transistor. This makes sense because an infinite output resistance transistor would have infinite early voltage, and therefore results in the best current mirror performance.
 

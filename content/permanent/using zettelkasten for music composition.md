@@ -1,6 +1,10 @@
 ---
+title: "using zettelkasten for music composition"
 status: #permanent
-tags: #music #productivity #zettelkasten 
+tags: 
+- #music 
+- #productivity 
+- #zettelkasten 
 ---
 
 ### What is your thought?

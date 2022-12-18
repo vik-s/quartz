@@ -1,8 +1,11 @@
 ---
-date: {{date:YYYY/MM/DD}}
+title: "<% tp.file.title %>"
+created: "<% tp.file.creation_date %>"
+status: #literature/thought 
 tags:
-title:
+enableToc: false
 ---
+
 
 ### What is your thought?
 ---

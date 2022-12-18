@@ -1,4 +1,5 @@
 ---
+title: "work strategies for successful writing"
 status: #permanent
 tags: #productivity 
 ---

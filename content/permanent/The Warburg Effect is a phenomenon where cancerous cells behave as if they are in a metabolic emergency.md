@@ -1,6 +1,7 @@
 ---
+title: "The Warburg Effect is a phenomenon where cancerous cells behave as if they are in a metabolic emergency"
 status: #permanent
-tags: #biology
+tags: #biology 
 ---
 
 The Warburg Effect is a phenomenon that occurs almost universally among all cancer cells, where the cells behave as if they are deprived of oxygen (even if they are not) and are in a state of metabolic energy where energy needs to be produced immediately by breaking down glucose into lactic acid, a process of fermentation, much like what happens in muscles when they are pushed to their limit during exercise. 

@@ -1,6 +1,8 @@
-20221103-0537
-Status: #permanent 
-Tags: #idea 
+---
+title: "Value of an idea depends on its context"
+status: #permanent
+tags: #idea
+---
 
 If you have an idea that is related to a topic that you are working on, it often has other applications in areas that you still have not considered. True creativity and productivity comes from using an idea from one context, in another completely different one.
 

@@ -1,6 +1,8 @@
-20221026-2056
-Status: #permanent
-Tags: #zettelkasten 
+---
+title: "Zettelkasten example workflow"
+status: #permanent
+tags: #zettelkasten 
+---
 
 For a beginner getting started with zettelkasten note-taking, the following steps will serve as a quick start guide.
 1. Take fleeting notes in any medium in a stream-of-conciousness style that captures all relevant ideas from the source.
