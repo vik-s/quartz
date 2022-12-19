@@ -1,6 +1,6 @@
 baseURL = "https://notes.vsekar.com/"
 languageCode = "en-us"
-googleAnalytics = "G-XYFD95KB4J"
+googleAnalytics = "G-5N9RQH0WPK"
 relativeURLs = false
 disablePathToLower = true
 ignoreFiles = [
