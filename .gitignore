@@ -3,6 +3,11 @@ public
 resources
 .idea
 content/.obsidian
+content/daily
+content/fleeting
+content/Matter
+content/zotero
+content/templates
 assets/indices/linkIndex.json
 assets/indices/contentIndex.json
 linkmap
