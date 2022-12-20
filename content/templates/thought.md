@@ -1,6 +1,6 @@
 ---
 title: "<% tp.file.title %>"
-created: "<% tp.file.creation_date %>"
+created: "<% tp.file.creation_date() %>"
 status: #literature/thought 
 tags:
 enableToc: false

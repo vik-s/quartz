@@ -1,7 +1,7 @@
 ---
 title: "<% tp.file.title %>"
 podcast: 
-created: "<% tp.file.creation_date %>"
+created: "<% tp.file.creation_date() %>"
 status: #literature/podcast 
 tags:
 aired:

@@ -1,4 +1,8 @@
-Tag: #daily
+---
+title: "<% tp.file.title %>"
+created: <% tp.file.creation_date() %>
+status: #daily  
+---
 
 ## Key parameters
 
