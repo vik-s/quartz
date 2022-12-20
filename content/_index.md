@@ -19,6 +19,12 @@ Here's what I am up to [[blog/_now|now]].
 
 [[blog/_allpodcast|View all podcast notes]]
 
+# Recent Book Notes
+
+- [[literature/B-Ahrens-2017|How to Take Smart Notes]]
+
+[[blog/_reading|View all book notes]]
+
 # Entry Points
 
 - [[permanent/Productivity|Productivity]]

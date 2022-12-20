@@ -20,8 +20,8 @@ A foundational protocol for fitness is a workout routine that optimizes all prot
 5. Hypertrophy
 6. Muscular Endurance
 7. Aerobic Endurance
-	1. < 30 mins (high heart rate)
-	2. > 30 mins (lower heart rate)
+	1. Over 30 mins (high heart rate)
+	2. Over 30 mins (lower heart rate)
 
 ## How can a weekly workout be designed to hit all these protocols?
 
