@@ -84,11 +84,31 @@ tags:
 ### 7: We never really have time
 - Douglas Hofstadter jokingly said- Any task will take longer than you expect, even when you take into account Hofstadter's law. For example, the sydney opera house took 14 years instead of the planned 4 years.
 - In trying to plan everything ahead of time to perfection, so that you will be able to avoid an outcome you do not want, you often cause more anxiety to yourself instead of facing the actual consequencies would cause themselves.
-- We strive to control our time and refuse to accept our limitations.
+- We strive to control our time and refuse to accept our limitations. By trying to shape our future by controlling time today, which leads to anxiety. A simple cure to this anxiety is to realize that we will never be able to fully ensure our future outcomes
+- Uncertainity has brought us this far in life. We handled it once, and will surely handle it in the future. Learn to accept future outcomes even if it is not the ideal one you imagined.
+
+### 8: You are here
+- *Instrumentalizing time*: Using time as a means to achieve something in the future. This is a problem we all face.
+- Abandon the future-chasing mentality of "when-i-finally" to do something. There is no fixed task list that you can complete that will result in an overnight state of happiness.
+- Children are a great example of being in the present. Their purpose is to be a child. They dont worry about kindergarden, grade school, high school, college, etc. This kind of future chasing mentality comes from the parent.
+- Life is just a series of moments that you have to experience now. Being absent in the present and working towards a future benefit means that you will miss life itself.
+
+### 9: Rediscovering Rest
+
+- We have even taking the pleasure out of leisure by:
+	- Pressurizing ourselves to extract the most out of our holiday time
+	- Use our time off to get things done and be "productive"
+	- Using leisure as a means to be more productive later
+- True leisure according to Aristotle is self-reflection and philisophical contemplation, and is the highest of virtues.
 
 ### Quotes
 
 >“We labour at our daily work more ardently and thoughtlessly than is necessary to sustain our life,” wrote Nietzsche, “because to us it is even more necessary not to have leisure to stop and think. Haste is universal because everyone is in flight from himself.”
+
+> “We treat everything we’re doing—life itself, in other words—as valuable only insofar as it lays the groundwork for something else.” -- in the context of instrumentalizing time.
+
+> “Our obsession with extracting the greatest future value out of our time blinds us to the reality that, in fact, the moment of truth is always now—that life is nothing but a succession of present moments, culminating in death, and that you’ll probably never get to a point where you feel you have things in perfect working order. And that therefore you had better stop postponing the “real meaning” of your existence into the future, and throw yourself into life now.”
+
 
 
 ---
