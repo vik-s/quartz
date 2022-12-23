@@ -100,6 +100,8 @@ tags:
 	- Use our time off to get things done and be "productive"
 	- Using leisure as a means to be more productive later
 - True leisure according to Aristotle is self-reflection and philisophical contemplation, and is the highest of virtues.
+- Medival peasants worked only for 150 days a year, but the industrial age meant that workers need to be in factories, and were allowed to do what they pleased with their time off as long as it didnt interrupt profits.
+- Todays concept of rest is only a means to recuperate from work, and be more productive when going back to it, or to improve ourselves for a future benefit. Anything that does not fit into this framework is viewed as wasteful.
 
 ### Quotes
 
@@ -109,7 +111,7 @@ tags:
 
 > “Our obsession with extracting the greatest future value out of our time blinds us to the reality that, in fact, the moment of truth is always now—that life is nothing but a succession of present moments, culminating in death, and that you’ll probably never get to a point where you feel you have things in perfect working order. And that therefore you had better stop postponing the “real meaning” of your existence into the future, and throw yourself into life now.”
 
-
+>“In order to most fully inhabit the only life you ever get, you have to refrain from using every spare hour for personal growth”
 
 ---
 # References
