@@ -102,6 +102,30 @@ tags:
 - True leisure according to Aristotle is self-reflection and philisophical contemplation, and is the highest of virtues.
 - Medival peasants worked only for 150 days a year, but the industrial age meant that workers need to be in factories, and were allowed to do what they pleased with their time off as long as it didnt interrupt profits.
 - Todays concept of rest is only a means to recuperate from work, and be more productive when going back to it, or to improve ourselves for a future benefit. Anything that does not fit into this framework is viewed as wasteful.
+- To truly enjoy rest, you have to accept that this is it, and that you cannot work yourself towards a state of perfect happiness. Real rest, where we do nothing can feel uncomfortable at first, but that is a sign that you are doing it right.
+- It is worth undertaking 'atelic' activities, what are things you do for the sake of doing them alone, like hiking.
+
+### 10: The Impatience Spiral
+
+- We suffer from chronic impatience, where we honk at others for no reason, don't wait for the microwave timer to run out, inch towards cars at red lights, etc.
+- Technology has made things fast for us, but we still strive to go faster. Food reheats in a minute, but we would rather it took zero seconds. This impatience has led us to experience "restlessness" when we pick up a book to read, because reading is something that cannot be rushed. We are constantly submitting to interruptions, and using it as an excuse to avoid the discomfort that comes with something that takes time.
+- Working faster has become an addiction, where we believe that we need to work as hard and as fast as possible to survive, leading to anxiety, which only makes us work more. This phenomenon is celebrated society as being "driven"
+- Surrender to the reality that things will take the time they take. Reframe your perspective to relish the hard things in life that take time.
+
+### 11: Stay on the Bus
+
+- To be successful at the hard things, "stay on the bus". Stick with it longer than others can and will, while having the patience to face failure and imperfection and you will be successful after sufficient effort has been put into your endeavor.
+- Not being in control results in discomfort and we shy away from situations where patience and acceptance of the lack of control would be the better choice. Example, fixing an unknown problem, listening to your partner carefully, working on a difficult creative problem.
+- Three principles of patience:
+	- Develop a taste for having problems. Learn to love them.
+	- Embrace radical incrementalism. Be consistent in getting a little better everyday. The results will be staggering. Don't be impatient for dramatic results.
+		- If you've dedicated a small time slot for consistently chipping away on a project, walk away when that time slot is done even if you're in the flow. The ability to do this everyday is more important that doing a lot in one day. Stopping helps develop the patience muscle to keep getting after it day after day.
+	- Originality lies on the far side of unoriginality. Your initial work will always be unoriginal, but you have to "stay on the bus" long enough till true originality starts to emerge.
+
+### 12: The Loneliness of the Digital Nomad
+
+- Time is not useful if you are forced to experience it all on your own. It is a "networked good", whose value is higher when other people's time is shared and co-ordinated with yours (like a phone; it's no use having it all to yourself)
+- In Russia, 
 
 ### Quotes
 
