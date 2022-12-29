@@ -125,7 +125,19 @@ tags:
 ### 12: The Loneliness of the Digital Nomad
 
 - Time is not useful if you are forced to experience it all on your own. It is a "networked good", whose value is higher when other people's time is shared and co-ordinated with yours (like a phone; it's no use having it all to yourself)
-- In Russia, 
+- In the post-covid world, there is an increasing number of people who work from anywhere in the work, aka, the digital nomad. But people found that without a sense of community, it gets increasingly lonely.
+- In USSR, Stalin's chief economist, Yuri Larin,  suggested having a staggered day off in the week, so that the factories can run all week, and increase productivity. The result was the people were unhappy because their inner circle never had time off at the same time. Time off only makes sense if it is synced with others you want to spend your time with.
+- This is why Sweden's, *fika* works so well. In a fika, the entire workplace gathers at the same time in the day for coffee and cake, and they even get offended if people don't show up at a fika. You dont control your time off in this case, but it makes it very meaningful to connect with others.
+- Burkeman talks about keeping in sync during drills, in a choir, or in communal prayers where time feels more *vivid*, when it is filled with more meaning.
+- We need to draw a balance between individual and communal time to extract most meaning out of life. Too much of either can be detrimental to overall happiness.
+
+### 13: Cosmic Insignificance Theory
+
+-  In the time scale of the cosmos, our finite lives are truly insignificant, and the universe could not care less about what we do with our time.
+- Burkeman says that the whole of human civilization is about sixty lifetimes, and goes on to conclude that our own lifetime is nothing but a meaningless flicker.
+	- This absolutely makes no sense. If all of human civilization is *only* sixty lifetimes, then each of our lives is absolutely meaningful, and what we do with our time can affect the course of human civilization, no matter in how miniscule a way.
+	- He says if we realized how insignificant we are, we would not even be motivated to propagate our genes. Another absurd claim.
+- What does make sense is to not hold ourselves to a unrealisitic standard of what can be considered a significnat life well spent.
 
 ### Quotes
 
