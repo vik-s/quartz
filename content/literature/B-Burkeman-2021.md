@@ -20,29 +20,30 @@ If you are feeling overwhelmed with the number of things piling up in your to-do
 
 ## Tools to embrace our finitude
 
-### Adopt a fixed volume approach to productivity
-
-Use dual to-do list approach:
-- A "current" one limited to 10 entries. Only by finishing tasks, can you make way for more.
-- An "open" one that you put all your tasks into, knowing full well that some of them may never be finished.
-
-Another apporach is to use a fixed time approach to establish the boundaries of daily work.
-
-### Serialize
-
-Only focus on a big project at a time and see it to completion before moving on to the next.
-
-### Decide in advance what to fail at
-
-There are great benefits to strategic underachievement. You can identify beforehard what you intend to do poorly at, and that will make way for you to succeed in the important things. You can also take a cyclical approach to failing, where you decide that you will not do something or do it poorly for the next few months.
-
-### Make a Completed list
-
-Instead of always looking to a to-do list, start a completed list and only list tasks you have completed on it. This will avoid the anxiety of seeing all the tasks yet to be finished and derive satisfaction from your successes.
-
-### Consolidate your caring
-
-If you are donating time to charity, political causes or activism, make sure you limit yourself to a few tasks.
+- Adopt a fixed volume approach to productivity
+	- Use dual to-do list approach:
+		- A "current" one limited to 10 entries. Only by finishing tasks, can you make way for more.
+		- An "open" one that you put all your tasks into, knowing full well that some of them may never be finished.
+	- Another apporach is to use a fixed time approach to establish the boundaries of daily work.
+- Serialize
+	- Only focus on a big project at a time and see it to completion before moving on to the next.
+- Decide in advance what to fail at
+	- There are great benefits to strategic underachievement. You can identify beforehard what you intend to do poorly at, and that will make way for you to succeed in the important things. You can also take a cyclical approach to failing, where you decide that you will not do something or do it poorly for the next few months.
+- Make a Completed list
+	- Instead of always looking to a to-do list, start a completed list and only list tasks you have completed on it. This will avoid the anxiety of seeing all the tasks yet to be finished and derive satisfaction from your successes.
+- Consolidate your caring
+	- If you are donating time to charity, political causes or activism, make sure you limit yourself to a few tasks.
+- Embrace single purpose technology
+	- Pen and paper is often effective for note taking
+	- When not reading physical books, kindle has minimal distractions compared to iPads
+- Seek out novelty in the mundane
+	- Enjoy what you are doing instead of seeking out new pleasures. Absorb the now, and you will fill out time a lot longer. Go on walks, play with a child, meditate. Draw attention to the present.
+- Become a better listener
+	- Relationships will be strengthened if you pay more attention to the other person speaking. Ask questions and adopt a mentality of curiousity, and show that you genuinely care about others.
+- Become spontaneous
+	- If you think of calling a friend, do it right away. If you want to donate money, dont put it off until too much later.
+- Practice doing nothing
+	- Just doing nothing enables you to feel the sensations and time flowing around you. Be present in it and stop trying to constantly manipulate your present experience.
 
 ## Chapter Notes
 ### Introduction: In the long run, we're all dead
