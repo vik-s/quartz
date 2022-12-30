@@ -22,6 +22,7 @@ Here's what I am up to [[blog/_now|now]].
 # Recent Book Notes
 
 - [[literature/B-Ahrens-2017|How to Take Smart Notes]]
+- [[literature/B-Burkeman-2021|Four Thousand Weeks]]
 
 [[blog/_reading|View all book notes]]
 

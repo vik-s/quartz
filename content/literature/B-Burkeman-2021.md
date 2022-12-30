@@ -10,7 +10,42 @@ tags:
 - #productivity  
 ---
 ![4k-weeks](https://static.wixstatic.com/media/053ea9_019073577d0445b6b521687231c3166f~mv2.png/v1/fill/w_1420,h_1312,al_c,q_90,usm_0.66_1.00_0.01,enc_auto/1621444132.png)
-## Introduction: In the long run, we're all dead
+## What is the book about?
+
+Our time on this earth is limited to four thousand weeks, but our commitments, goals and desires far outstretch what is achievable in this short span of time. This book is about facing our finitude and making choices to pick and choose activities that give us most happiness and satisfaction in our limited time. Reader should be aware that this book often dabbles in existential nihilism hinting that our life is so short that it is basically devoid of meaning. Instead, the takeaway really here is that time is our most valuable resource and we should treat it as such.
+
+## Who should read this book?
+
+If you are feeling overwhelmed with the number of things piling up in your to-do list, fueled by your commitment to work, family and hobbies that you derive satisfaction, this book gives some perspectives on how we can pick and choose things that we will get most happiness from. If you have trouble saying no, this book will help you identify that making hard choices is required to make use of our finite time. I would assume that this book is directed at at-least 30 somethings who have reached a point in their career and family where the number of obligations is too much to meet. 
+
+## Tools to embrace our finitude
+
+### Adopt a fixed volume approach to productivity
+
+Use dual to-do list approach:
+- A "current" one limited to 10 entries. Only by finishing tasks, can you make way for more.
+- An "open" one that you put all your tasks into, knowing full well that some of them may never be finished.
+
+Another apporach is to use a fixed time approach to establish the boundaries of daily work.
+
+### Serialize
+
+Only focus on a big project at a time and see it to completion before moving on to the next.
+
+### Decide in advance what to fail at
+
+There are great benefits to strategic underachievement. You can identify beforehard what you intend to do poorly at, and that will make way for you to succeed in the important things. You can also take a cyclical approach to failing, where you decide that you will not do something or do it poorly for the next few months.
+
+### Make a Completed list
+
+Instead of always looking to a to-do list, start a completed list and only list tasks you have completed on it. This will avoid the anxiety of seeing all the tasks yet to be finished and derive satisfaction from your successes.
+
+### Consolidate your caring
+
+If you are donating time to charity, political causes or activism, make sure you limit yourself to a few tasks.
+
+## Chapter Notes
+### Introduction: In the long run, we're all dead
 
 * We have 4000 weeks to live. Thats very short in the grand scheme of things. This book is about facing that fact, and accepting that we will never get everything done
 * Productivity has become: how do we cram most number of tasks into as little time as possible
@@ -139,6 +174,18 @@ tags:
 	- He says if we realized how insignificant we are, we would not even be motivated to propagate our genes. Another absurd claim.
 - What does make sense is to not hold ourselves to a unrealisitic standard of what can be considered a significnat life well spent.
 
+### 14: The Human Disease
+
+Burkeman poses five questions that we can answer for ourselves to assess the reality of our finite-time situation:
+
+1. *“Where in your life or your work are you currently pursuing comfort, when what’s called for is a little discomfort?”*  -- you want to make sure you're making choices that result in personal growth.
+2. *“Are you holding yourself to, and judging yourself by, standards of productivity or performance that are impossible to meet?”* -- be realisitic in what you can do.
+3. *“In what ways have you yet to accept the fact that you are who you are, not the person you think you ought to be?”* -- don't prove yourself to anyone, or meet expectations set by others, instead accept who you are and what you can achieve.
+4. *“In which areas of life are you still holding back until you feel like you know what you’re doing?”* -- you may never reach mastery on a skill you're working on, so get started with what you have right now and do what you will with it.
+5. *“How would you spend your days differently if you didn’t care so much about seeing your actions reach fruition?”* -- avoid being driven by results to achieve satisfaction; the journey is just as important.
+
+
+
 ### Quotes
 
 >“We labour at our daily work more ardently and thoughtlessly than is necessary to sustain our life,” wrote Nietzsche, “because to us it is even more necessary not to have leisure to stop and think. Haste is universal because everyone is in flight from himself.”
@@ -150,6 +197,6 @@ tags:
 >“In order to most fully inhabit the only life you ever get, you have to refrain from using every spare hour for personal growth”
 
 ---
-# References
+### References
 
 Oliver Burkeman, Four Thousand Weeks: Time Management for Mortals, Farrar, Straus and Giroux, 2021, 1st Ed.
