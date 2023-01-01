@@ -10,6 +10,7 @@ Here's what I am up to [[blog/_now|now]].
 # Recent Blog Posts
 
 - [[blog/Yearly Themes 2023|Yearly Themes 2023]]
+- [[blog/2022 in Review|2022 in Review]]
 
 [[blog/_allblog|View all blog posts]]
 
