@@ -63,3 +63,63 @@ To develop the ability to master hard things, we need to have
 1. Intense concentration where all our attention is solely focused on overcoming the challenge ahead of us, without distraction
 2. Deliberate practice to fail multiple times, use the feedback from the experience and correct your methods till you achieve success
 3. Neurological scaffolding called Myelin, which is a fatty tissue that develops around neurons when they are being used to do challenging tasks. Repeated work triggers oligodendrocytes to wrap myelin around neurons
+
+Newport uses the example of Adam Grant, the youngest tenured prof at Wharton, who produced an absurdly high number of papers and a best selling book Give and Take. He takes the fall semester to do all his teaching and then all this research is batched into spring and summer. He also uses smaller batches to time to work deep, by putting out-of-office notices when he is working on a paper.
+
+The reason you need long stretches of time to do deep work is due to attention residue. When you switch from one task to another, there is a residue left over from the previous task. This is entirely antithetical to the idea of multi-tasking where the semi-distracted state never lets you ultimately focus.
+
+What about Jack Dorsey? The twitter ex-CEO famously spends time in meetings and conversations with people doing what we define here as shallow work. He is still an effective leader and has proven he can disrupt the industry. Why? Deep work is not always applicable to all kinds of people in all roles. But in most circumstances deep work is usually valuable. There are always exceptions to the rule.
+
+### Deep work is rare
+
+Today's work culture is chock full of terms that are meant to keep people and ideas "connected" together; open workpaces, instant messaging, social media. Many organizations *require* their employees to respond instantly to emails and messages, and even to develop a social media presence, while not prioritizing deep work as a fundamental component of achieving productivity in a workplace.
+
+The reason the companies do not see that the always-connected trend is detrimental to their business is due to the **metric black hole**, which is another way of saying that it is difficult to put a monetary value on the impact on the business causes by these office distractions which keep people away from deep work.
+
+What are some of the mental models that cause people to embrace distractions instead of deep work?
+- Principle of least resistance
+	- Getting an answer to your question immediately makes your work easier, at least for the time being
+	- People appear to be working when sending/receiving emails even if they have nothing else to show for work. Companies seem to permit working out of an email inbox.
+	- Setting weekly meetings on the pretext of following up on projects is a proxy for staying on track with your own work, even if others have nothing to contribute in your meeting.
+- Busyness as a proxy for productivity
+	- Knowledge work lacks real metrics to show that you have been productive
+	- Being visibly busy is a viable option to prove to management that you are productive (even if you have nothing to show for it)
+- The cult of the internet
+	- We have come to accept the "internet" as being good for us, often without considering the ramifications entirely.
+	- This technopoly assumes that everyone should and will adopt the latest in technology because it is "good" for them (why won't you have a cell phone? do you know how convienient it is?)
+
+With distractions from social media and the culture of connectivity in workplaces, deep work is becoming increasing rare, which is really bad for businesses. However, if everyone is always in a distracted state, those who are capable of deep work will suddenly find themselves in a fortunate position when they can produce at an elite level.
+
+### Deep work is meaningful
+
+Everything is not always about being successful and wealthy. Deep work is capable making a life meaningful and well worth living. The following arguments will prove that it is so, in a neurological, psychological and philosophical sense.
+
+**Neurological**: Science writer, Winifred Gallagher, in her book Rapt, says that our quality of life depends on what we pay attention to and what we ignore. Most often, we look at it backwards, ie, what happens to us should dictate how we feel. (There are some fMRI experiement arguments trying to support the neurological origin for this argument that does not make much sense.)
+
+Deep work allows your attention to focus on what is important, and ignore the minute stresses that are present in shallow work such as emails and instant messages. As such this results in an improved quality of life, because the small stuff does not stress us out throughout the day. A meaningful connection with your work can be very fulfilling.
+
+**Psychological**: When humans are deeply immersed in a challeging activity, they engage the limits of the mental powers while achieving what Csikszentmihalyi calls a *flow state* during which time takes on a different meaning, and a deep sense of satisfaction and happiness emerges.
+
+**Philosophical**: Sacredness has always been connected to meaning in the course of human culture, but since the evolution of Descartes' skepticism which put an individual over the importance of an all-knowing god, has led us to a life devoid of meaning. However, by dedicating ourselves to our craft, we can once again spark that connection to the sacredness and meaning.  Cultivating craftsmanship is a deep task that requires a commitment to deep work. It can be argued that our daily job is much too mundane to be sacred. This is because we have been led to believe that rarified jobs (nonprofits, startups, unique roles) are the only ones with meaning. Newport refutes this with
+>[!quote] You don't need a rarified job; you need instead a rarified approach to your work
+
+### Rule 1: Work Deeply
+
+David Dewane envisions what he calls *The Eudaimonia Machine* which is an architectural concept for a workspace whose sole purpose is to enable deep work. The structure is a one-storey narrow rectangle with five rooms placed in a line, but there are no shared hallways. You need to pass through each room to get to the next one. The five rooms are
+1. *The Gallery*: contains examples of deep work produced in the building, to create a healthy mix of stress and peer pressure
+2. *The Salon*: a place to create intense curiousity and arguments that you will later develop deeper in the machine
+3. *The Library*: has records of all work produced in the machine, and has copies and scanners that you can use to collect material for your own deep work
+4. *The Office*: place to complete all the shallow work needed for your projects, email notes, webpage clippings, note collections.
+5. *The Chamber*: room with sound proof wall for total focus. The intention is to spend 90 minutes at a time and take a 90 minute break, and repeat this a few times a day will the brain has reached it's capacity for deep work.
+
+We need to somehow emulate this process in our daily lives so that we can slip into deep work modes. We always have the urge to turn to something superficial, and this is the biggest obstacle to deep work. Roy Baumeister established that *willpower* is a finite resource that gets depleted as you use it. The key is to *not* rely on willpower to do deep work but instead develop a work habit that adds routines and rituals to put you in a state of intense concentration.
+
+==**Decide on your depth philosophy**==
+
+You *must* decide on a depth philosophy that best suites your lifestyle and commitments. Here are some options:
+- Monastic
+	- This is most suitable for people who have a well-defined and highly valued professional goal that only comes from doing this one thing exceptionally well
+	- Applies to people like Donald Knuth where he spends his time on computer programming or Neal Stephanson, writing science fiction novels. These people usually have a single point of focus in their lives (novels for Stephanson, to produce accessible forms of computer science knowledge to people)
+	- This may not apply to people who have meetings to attend to at work, and other shallow commitments that are a requirement to fulfill
+- Bimodal
+	- 

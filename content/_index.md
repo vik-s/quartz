@@ -24,6 +24,7 @@ Here's what I am up to [[blog/_now|now]].
 
 - [[literature/B-Ahrens-2017|How to Take Smart Notes]]
 - [[literature/B-Burkeman-2021|Four Thousand Weeks]]
+- [[literature/B-Newport-DeepWork|Deep Work]]
 
 [[blog/_reading|View all book notes]]
 
