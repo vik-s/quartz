@@ -119,7 +119,40 @@ We need to somehow emulate this process in our daily lives so that we can slip i
 You *must* decide on a depth philosophy that best suites your lifestyle and commitments. Here are some options:
 - Monastic
 	- This is most suitable for people who have a well-defined and highly valued professional goal that only comes from doing this one thing exceptionally well
-	- Applies to people like Donald Knuth where he spends his time on computer programming or Neal Stephanson, writing science fiction novels. These people usually have a single point of focus in their lives (novels for Stephanson, to produce accessible forms of computer science knowledge to people)
+	- Applies to people like Donald Knuth where he spends his time on computer programming or Neal Stephanson, writing science fiction novels. These people usually have a single point of focus in their lives (novels for Neal Stephanson; to produce accessible forms of computer science knowledge to people, for Donald Knuth)
 	- This may not apply to people who have meetings to attend to at work, and other shallow commitments that are a requirement to fulfill
 - Bimodal
-	- 
+	- Define a clearly defined stretch of time in a week to deep work and leave the rest open to everything else. However, the amount of time has to be substantially long (at least a full day) for one to reach maximum cognitive load.
+	- This method of deep work is best suited to those who have committments that involve shallow tasks, whether they like it or not (most people).
+	- Carl Jung used split his time between his retreat and treating patients in his clinic. Adam Grant, the Wharton professor, split his time between teaching in fall, and research in summer and spring. They used bimodal depth philosophies.
+	- The key to making this work is to make yourself unavailable during deep work periods, and totally accessible during open work times. The hope is people working with you will come to accept this work modality.
+- Rhythmic
+	- In this philosophy, you commit yourself to habits where you work deeply at a prescribed time. You could also create for yourself a calendar where you mark your deep work, and as you build up a work streak, you will be hesitant to break it.
+	- The mode of work is most suitable to office workers
+	- This seems to be a very short time-scale implementation of the bimodal approach. The difference between this method and the bimodal method is elucidated clearly by Newport.
+		- Rhythmic approach will not produce the level of depth that bimodal would, but this form of work is much more suitable to reality.
+		- Rhythmic approach is capable of logging more deep work hours in a given year compared to bimodal, by its sheer repetitive nature.
+- Journalistic
+	- Here, you fit in deep work at any time you get a chance to. You should have the ability to quickly sink into deep concentration and work deeply. 
+	- This is something that is only acquired by practice and is not often suitable for a beginner. A beginner will likely quickly deplete willpower reserves. Also, one must have the conviction that the work at hand is important, which usually only happens to already accomplished people.
+	- The journalist Walter Issacson apparently worked on his book any chance he got. Newport also admits to using this technique to write this book. Although not as spontaneous, he mapped out in advance any free time he had to write this book.
+
+**==Ritualize==**
+
+Completely ignore the need for inspiration to do deep work, and create idiosyncratic rituals to minimize all friction in getting to work. A ritual can be designed around the following considerations:
+1. Specify a location for your deep work, and decide how long you will work.
+2. Define rules and metrics, such as no internet, external communication, or words typed in a fixed time interval
+3. Minimize all friction required to do work. Use good stationary, appropriate computer peripherals, computer files ready to go, coffee if you need it.
+
+These principles cement into your mind that your deep work is the highest priority and needs this kind of committment.
+
+**==Make Grand Gestures==**
+
+Increase the perceived importance of a task by making a *grand gesture* that often involves significant effort or energy. Here are some fun examples:
+- J.K. Rowling checked nto the 5-star Balmoral Hotel to finish the last Harry Potter book. Physicist 
+- Physicist and novelist, Alan Lightman retires to a remote island in Maine with no phone access. 
+- William Shockley invented the junction transistor by locking himself in a Chicago hotel. 
+- Entrepreneur Peter Shankman found that he wrote best when on a plane. So to meet a deadline, he booked a round trip flight to Japan and wrote for the next 30 hours.
+
+**==Don't Work Alone==**
+
