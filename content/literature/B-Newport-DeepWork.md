@@ -135,7 +135,7 @@ You *must* decide on a depth philosophy that best suites your lifestyle and comm
 - Journalistic
 	- Here, you fit in deep work at any time you get a chance to. You should have the ability to quickly sink into deep concentration and work deeply. 
 	- This is something that is only acquired by practice and is not often suitable for a beginner. A beginner will likely quickly deplete willpower reserves. Also, one must have the conviction that the work at hand is important, which usually only happens to already accomplished people.
-	- The journalist Walter Issacson apparently worked on his book any chance he got. Newport also admits to using this technique to write this book. Although not as spontaneous, he mapped out in advance any free time he had to write this book.
+	- The journalist Walter Isaacson apparently worked on his book any chance he got. Newport also admits to using this technique to write this book. Although not as spontaneous, he mapped out in advance any free time he had to write this book.
 
 **==Ritualize==**
 
@@ -149,10 +149,58 @@ These principles cement into your mind that your deep work is the highest priori
 **==Make Grand Gestures==**
 
 Increase the perceived importance of a task by making a *grand gesture* that often involves significant effort or energy. Here are some fun examples:
-- J.K. Rowling checked nto the 5-star Balmoral Hotel to finish the last Harry Potter book. Physicist 
+- J.K. Rowling checked into the 5-star Balmoral Hotel to finish the last Harry Potter book. Physicist 
 - Physicist and novelist, Alan Lightman retires to a remote island in Maine with no phone access. 
 - William Shockley invented the junction transistor by locking himself in a Chicago hotel. 
 - Entrepreneur Peter Shankman found that he wrote best when on a plane. So to meet a deadline, he booked a round trip flight to Japan and wrote for the next 30 hours.
 
 **==Don't Work Alone==**
+
+So far in the book, it seems that going solo is the only way to work deeply at all. However, collaboration and interaction with others is an important aspect in creative work. *The whiteboard effect*, a term coined by Newport to describe the phenomenon where your collaborator pushes you into deeper work, than when you were working alone. This is the basis of the "open-workspace" concept applied in offices today, and it seems to have it's origins in Building 20, in MIT, where this lab produced an enormous amount of work ranging from the first solar cell, to fiber optics. This hastily constructed lab in MIT housed people of multiple unrelated disciplies working together, and this is the often cited reasons for why open workspaces work. 
+
+However, Newport argues that even Building 20 has a "hub-and-spoke" architecture, where people congregated in hubs to discuss ideas and then retreated to their spoke to work deeply. I recommend reading this chapter for more reasoning of why this is so, and how it works. In contrast, our open workspace offices provide nothing but constant distraction. The key to successful collaboration is treat interaction and deep work as two separate entities, and therefore need to be optimized separately. Do collaborate when necessary, but be cautious to not overdo it, at the cost of your own ability to do deep work.
+
+**==Execute like a business==**
+
+In this section, Newport explains how he adapted a book titled "The 4 Disciplines of Execution" - a book about corporate strategy - to how to spend more time working deeply. The four "adapted" disciplines as related to deep work are:
+
+1. **Focus on the wildly important**: Identify and work on a small number of ambitious outcomes
+2. **Act on Lead Measures**: Lag measures are metrics evaluated after a relevant span of time, but lead measures are metrics that can be evaluated immediately towards a goal. Instead of defining a lag measure like, "I will write X papers this year", adopt a lead measure like, "I will spend 4 hours in deep work everyday."
+3. **Keep a compelling scoreboard**: Setup a real scoreboard that measures the amount of time spent in deep work. A simple way is to write down deep work hours in a calendar, and mark off important milestones achieved to indicate how many deep work hours were required to achieve that goal.
+4. **Create a cadence of accountability**: Setup a weekly review with yourself to go over your deep work count, identify wins and losses, and make course corrections for the next week.
+
+**==Be Lazy==**
+
+Giving yourself time to recover from deep work, so that you can attack the next day with the same intensity is vitally important. To ensure this happens, Newport suggests that one invents a shutdown routine you go through to tell your mind that the work for the day is done, and from that point on, you do not apply your mind to any work activity. Here are some reasons why shutting down is important:
+
+1. **Downtime aids insights**: A well rested mind is capable of making much better connections between ideas, and improves creativity and problem solving.
+2. **Downtime helps recharge**: Directed attention, like willpower, is finite, and is easily exhausted. To replenish our reserves, we need downtime where our mind is put at ease by engaging in relaxing activities.
+3. **Working during downtimes results in poor quality**: Our capacity for deep work in a day is limited to about 4 hours, which you should fit into your workday. Any work done outside of that is usually of poor quality.
+
+The need for a shutdown ritual is important when considering the Zeigernik effect- which points out that incomplete tasks will dominate our attention. Note that the task need not actually be completed, but we need to devise a way to trick the brain into thinking that it's completed, at least for now. This is where a strict shutdown ritual helps, and it can be something like this:
+
+1. Review all incomplete tasks, goals and projects
+2. Make sure you have a plan for it's completion
+3. Capture all the details in a place you will revisit when the time is right
+4. Verbally declare the day complete ("Shutdown complete" or "That's enough for the day")
+
+Now, your obligations has been released from your brain, and your recovery period begins. 
+>[!quote] When you work, work hard. When you're done, you're done.
+
+### Rule 2: Embrace Boredom
+
+Like most skills, the ability to work deeply and concentrate intensely cannot be gained overnight. Much like anything else, it requires repeated and deliberate practice. However, it is not sufficient to simply practice concentrating on a task. We must actively work on minimizing our distractions. 
+
+With the ubiquity of smart phones, we have the ability to distract ourselves at a moments notice, when we are standing in line at the grocery store, or when we are waiting for a friend to arrive, by getting on social media or checking news and email. Unless we work on staving off the need to distract ourselves, there is no way our ability to concentrate will improve. We must *embrace boredom*. This chapter outlines some strategeies to minimize distraction and practise focus.
+
+**==Take breaks from focus, instead of breaks from distraction==**
+
+**==Work like Teddy Roosevelt==**
+
+**==Meditate Productively==**
+
+**==Memorize a deck of cards==**
+
+### Rule 3: Quit Social Media
+
 
