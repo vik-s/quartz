@@ -195,12 +195,71 @@ With the ubiquity of smart phones, we have the ability to distract ourselves at 
 
 **==Take breaks from focus, instead of breaks from distraction==**
 
+A popular strategy to break away from distracton addiction is to take an Internet Sabbath, a day devoid of any digital devices, once every week. Newport suggests an alternative, where instead of taking a break from distraction so you can focus, you instead take a break from focus for distraction.
+
+For example, schedule in advance when you will use the internet by writing down on a notepad the exact time you will allowed to browse the internet. This will force ourselves not to reach for distraction at the slightest hint of boredom.
+
+- This strategy works even if your job requires lots of internet use / emails
+	- You will just need to schedule more internet blocks to get the job done
+- Time outside of internet blocks should be absolutely free from internet use
+	- If you find the need to get a piece of information online to do your job offline, you must resist the temptation to go online immediately, but instead wait for your next online block to roll by. Even take a break to relax if you have to.
+	- If you happen to go online during an offline block, you will risk running in distractions in the form of urgent emails or messages from people.
+- Schedule internet use at home as well
+	- This will help unplug from social media and news when at home.
+	- Only exceptions are time sensitive internet use, like co-ordinating with a friend for dinner.
+
+To reiterate, the key strategy is to avoid going online at the slightest hint of boredom. This is something to be practiced mindfully, and one must take every opportunity to do so - for exapmle, when waiting in line at the grocery store.
+
 **==Work like Teddy Roosevelt==**
+
+Theodore Roosevelt had an amazing array of interests ranging from body building to naturalism, but he still did well in his classes at Harvard. He was not at the top of his class but he did quite well. His interests left him very little time to actually focus on academics and therefore he worked on school work for only short periods of time but with *blistering intensity*.
+
+Here is how we can adopt this strategy: identify a deep work, high priority task and give yourself a hard deadline that drastically reduces the time usually taken to do such a task. Make it even harder by publicly proclaiming that deadline, and set a countdown timer and set to work on it. Newport calls such work periods *Roosevelt Dashes*.
+
+Always make sure you keep Roosevelt dashes on the edge of feasibility, where the successful completion of the task will require levels of concentration higher than usual. It provides interval training for the brain.
 
 **==Meditate Productively==**
 
+Productive meditation is when you focus your attention on a mental task such as outlining an article, or solving a hard problem, while walking, jogging or showering. And whenever you mind starts to wander from the topic you intended to meditate on, you forcibly bring your attention back to the topic at hand.
+
+Newport suggests that two or three such sessions in a week is sufficient, and finding such time blocks is usually easy because it is usually easy to occupy between chores and other tasks on which time would otherwise be spent without thinking anyway.
+
+Here are some potential pitfalls to watch out for:
+- Be wary of distractions and looping
+	- If you attention is slipping away, gently remind yourself that you're supposed to be thinking about something else, and you can address the distraction later.
+	- Avoid looping the same thought over and over, which is what happens when addressing a hard problem. Push the mind to go beyond the usual thought process.
+- Structure your deep thinking
+	- Clearly define what question you are looking to answer
+	- Gather all the relevant variables and commit them to working memory
+	- At the end of the session, consolidate your thoughts by reviewing the answer you have come up with
+
 **==Memorize a deck of cards==**
+
+In this section, Newport goes fairly into depth about strategies for memorizing a deck of cards, and the details are best read from the book itself and are not worth repeating here unless you intend to memorize a deck of cards (which I don't).
+
+The key takeaway here is that training your memory often leads to an increase in concentration, and any kind of mental training  you can undertake to improve memory will result in concentration gains.
 
 ### Rule 3: Quit Social Media
 
+In this chapter, Newport argues that Social Media has its place in society and the level of adoption in your personal life should be considered with care. The binary nature of the title of this chapter is not what he actually suggests, knowing that many people could either not stick to completely quitting social media, or that some walks of life actually do benefit from social media. So he offers a more nuaced approach.
 
+Social media is a tool. Like any craftsman, the tool should be adopted only if it's positive impacts substantially outweights its negative impacts. Before adopting every social media platform, ask yourself what the impact is, and then evaluate carefully.
+
+- Identify high level goals in your professional and personal life.
+- List a few activities that help you achieve these goals.
+- Consider the "network-tools" like social media, chat, etc, that you use
+- Ask if the tool has a positive, negative, or minimal impact on the listed activities
+- Keep the tool only if positive impact *substantially* outwights the negative impacts
+
+Even if these tools do positively contribute, but only to a small extent, consider not adopting the tool at all. High impact activities that contribute heavily to the overall outcome should be prioritized instead.
+
+Actually do try quitting social media for a month and see how it goes. Do you miss people? Do people miss you? What impact does it have on your life? Based on the outcome, you can always get back into it. But if your life has improved as a result of quitting, consider keeping it that way.
+
+Arnold Bennett, an English writer, suggests in his self-help classic - *How to live on 24 hours a day* - that there is plenty of time outside of the 8 hour work period where one can focus on self-improvement of various kinds. What this means today is - you can and should make *deliberate* use of your time outside work. Avoid using the internet as a source of entertainment at all time. By no means should you avoid watching a movie or show on TV, but do so with intention. Put more thought into your leisure time. For this, structured hobbies such as reading, music or woodworking are an excellent way to spend free time with intention.
+
+The argument that working eight hours in the day will tire your mental faculties so much that you will not be able to spend leisure time with intention is a myth. Arnold Bennett writes-
+>[!quote] “What? You say that full energy given to those sixteen hours will lessen the value of the business eight? Not so. On the contrary, it will assuredly increase the value of the business eight. One of the chief things which my typical man has to learn is that the mental faculties are capable of a continuous hard activity; they do not tire like an arm or a leg. All they want is change—not rest, except in sleep.”
+
+In summary, give your brain a quality alternative to relaxation other than social media and online entertainment. Learn to live, not just exist.
+
+### Rule 4: Drain the Shallows
