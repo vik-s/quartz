@@ -20,3 +20,5 @@ On this note, radio producer Ira Glass has a beautiful quote:
 ---
 [[permanent/lower bound on time to get a task done]]
 [[permanent/treating music composition as a routine chore]]
+
+
