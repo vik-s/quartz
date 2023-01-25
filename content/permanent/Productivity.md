@@ -5,3 +5,4 @@ status: #moc
 ---
 
 - [[permanent/Good workflow design|Good workflow design]]
+- [[permanent/facing our limits and finitude|Time management]]

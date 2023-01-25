@@ -11,5 +11,6 @@ For example, when we go on vacation, we line up so many activities that the busy
 
 ### References
 ---
-- [[permanent/overcoming existential overwhelm]]
+- [[permanent/busyness as a proxy for productivity and prestige]]
+- [[permanent/what it means to get rest]]
 - [[literature/B-Burkeman-2021]]
