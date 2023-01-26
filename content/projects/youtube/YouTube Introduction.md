@@ -5,3 +5,4 @@ project: fullcircle
 tags: #script
 ---
 
+How do we provide value?
