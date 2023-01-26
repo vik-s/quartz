@@ -1,7 +1,7 @@
 ---
 title: "four thousand weeks book discussion"
 date: "2023-01-25 05:24"
-project: half-life
+project: halflife
 tags: #bookreview #productivity 
 ---
 
