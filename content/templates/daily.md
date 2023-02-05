@@ -4,8 +4,8 @@ created: <% tp.file.creation_date() %>
 status: #daily  
 ---
 
- [[<% tp.date.now(“YYYY-MM-DD”, -1, tp.file.title, “YYYY-MM-DD”) %>|Yesterday]] <% tp.file.title %> [[|Tomorrow<% tp.date.now(“YYYY-MM-DD”, 1, tp.file.title, “YYYY-MM-DD”) %>]]
-
+[[daily/<% tp.date.now("YYYY-MM-DD", -1, tp.file.title, "YYYY-MM-DD") %>|Yesterday]] 👈🏽   <% tp.file.title %>  👉🏽  [[daily/<% tp.date.now("YYYY-MM-DD", 1, tp.file.title, "YYYY-MM-DD") %>|Tomorrow]]
+  
 ### What's on your mind?
 
 
