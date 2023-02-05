@@ -262,4 +262,6 @@ The argument that working eight hours in the day will tire your mental faculties
 
 In summary, give your brain a quality alternative to relaxation other than social media and online entertainment. Learn to live, not just exist.
 
-	### Rule 4: Drain the Shallows
+### Rule 4: Drain the Shallows
+
+
