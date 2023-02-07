@@ -1,6 +1,6 @@
 ---
 title: "<% tp.file.title %>"
-created: <% tp.file.creation_date() %>
+day: <% tp.file.title %>
 status: #daily  
 ---
 
