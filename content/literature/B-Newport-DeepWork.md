@@ -264,4 +264,27 @@ In summary, give your brain a quality alternative to relaxation other than socia
 
 ### Rule 4: Drain the Shallows
 
+Find ways to tame shallow work in your day to day life because it is usually not as important as it seems. It has a habit of dangerously eating into your deep work time. Sadly, most knowledge work has some amount of shallow work. It is prudent to schedule shallow work after we have exhausted our capacity for deep work.
 
+Newport suggests three main strategies to minimize shallow work.
+
+==**Schedule Every Minute**==
+- Newport suggests that one must schedule every minute, and chart out a plan on paper with "task-blocks," which are free to expand and contract as the work needs. If disrupted, one simply rearranges the task-blocks and continues. If an important insight shows up, then it is okay to abandon all task-blocks for the rest of the day.
+- I've actually tried this before I read the book, and it gets exhausting after some time. I'm not sure it works for me.
+- The key takeaway is to be *intentional* with your time, and make sure you do not slip into autopilot mode.
+
+==**Quantify the depth of every activity**==
+- To quantify the depth of a task, ask how long (in months) it would take to train a recent smart college grad with no specialized training to do the task? If the answer is many months, then the task clearly has some depth. After sorting tasks by quantifying them, prioritize deep work over shallow.
+
+==**Ask your boss for a shallow work budget**==
+- Anywhere between 30-50% is a reasonable ask for purely shallow work. Anything more than 50%, and you will be viewed as a hermit with deep thoughts. Anything less than 30%, and there is a fear you won't respond to email.
+- You maintain the ratio of these work types, you will have to say no to shallow tasks like weekly sync meetings, and instead ask for a more results driven interaction, where you meet when there are results to report.
+- If your boss insists that you are still required to respond immediately to responses, even if they do interrupt, then it is time to look for a new position that values depth in work.
+
+==**Finish your work by 5:30pm**==
+- *Fixed schedule productivity* - where you need to finish your work by a given time of day, requires you to ruthlessly say no to anything that will not allow you to do deep work. At this point, you will be forced to adopt a scarcity mindset and find all ways to minimize shallow work.
+
+==**Become hard to reach**==
+- Make people who send you email do more work, by setting conditions that the emailer has to satisfy, so that they can expect a response from you. Newport calls this a sender filter. For example, you can blatantly state that you will respond only if interests match. There is nothing offensive in doing this.
+- Do more work when  you send emails. Newport suggests that you use process centric emails to respond to people, instead of responding in an open ended fashion. Attempt to provide enough details or outline enough steps that the email sender has a clear picture of what needs to be done next. This will minimize the number of emails you receive, and also close the loop on the issue at hand.
+- Don't respond. Adopt a mentality that the default reaction is not to respond at all. This might not work in all situations.
