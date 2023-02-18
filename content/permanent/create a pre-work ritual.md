@@ -1,5 +1,5 @@
 ---
-title: "create a work ritual"
+title: "create a pre-work ritual"
 created: 2023-02-17 19:39
 status: #permanent
 tags: #productivity 
@@ -14,3 +14,6 @@ Some things to ritualize can be:
 3. Output rules - generate certain words per hour, or other known metrics
 4. Environment rules - Proper stationery, computer peripherals, minimal running programs
 5. Personal rules - Cup of coffee, fill water bottle, use bathroom in advance
+
+References
+- [[literature/B-Newport-DeepWork]]
