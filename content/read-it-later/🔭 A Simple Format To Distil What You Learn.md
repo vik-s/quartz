@@ -35,3 +35,8 @@ I'm learning a lot more and taking more information in whereas before it would h
 
 If you're thinking about starting a newsletter of your own or simply starting a blog, I'd encourage you to "steal" this format and conduct your own learning experiments. [⤴️](https://omnivore.app/me/a-simple-format-to-distil-what-you-learn-186d10c28a7#b244bfbe-eeca-457e-9cd5-9bb789b5f833)
 
+Links
+
+- [[permanent/work strategies for successful writing]]
+- [[permanent/The Bottom’s Up Approach To Writing That 99- Guarantees A Successful Article]]
+- [[permanent/The importance of writing for learning, understanding, thinking and retention]]
