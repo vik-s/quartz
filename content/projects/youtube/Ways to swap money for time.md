@@ -26,3 +26,4 @@ tentative title:
 	- Setting up a home gym can be a high one time cost, but it pays back long term, minimizes inertia
 	- Buying a set of adjustable dumbells is a compact solution
 	- There are plenty of exercises that can be done in a small space
+- Shop almost entirely online
