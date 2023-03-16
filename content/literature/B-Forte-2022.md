@@ -42,3 +42,11 @@ One pitfall in the capture process is saving too much information. There needs t
 
 ### ORGANIZE
 
+The framework to organize notes is based on actionability - "In which project will this be most useful?" - and is based on the PARA System; **Projects**, **Areas**, **Resources**, **Archives**.
+
+- Projects -  These are current projects you are working on, which could include work, personal or side projects. You could put notes related to each project directly into its associated project folder.
+- Areas - These are broader "areas" in your life that are not tied to a particular project. They could be things like Health, Finance, Writing, Music, etc. Notes that fall into these areas of interest area stored in its own location, and can be easily pulled from later.
+- Resources - These are topics you are interested in, and generally serve no immediate purpose other than your broad interest in them. They serve as a source for research material later on, if you happen to convert these areas of interest into projects.  Some examples are - Notetaking, Nutrition, Music Recording, Habit formation, etc.
+- Archives - All things no longer relevant from the previous three areas go here. Projects that are done or abandoned, areas that are no longer relevant, or resources you are no longer interested in.
+
+Whenever you capture a note, ask yourself which of these areas it belongs to, and categorize it appropriately. Notes do not permanently live in any category, they are constantly moving and rearranging depending on how your interests and priorities progress.
