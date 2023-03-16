@@ -59,3 +59,15 @@ The method used to distill a note into its essence is called **Progressive Summa
 - Level 1 - Highlight all the important aspects of the note, so that you can tell the essence of the note by just reading the highlights.
 - Level 2 - Bold (or use another highlighter color) to highlight your earlier highlights so that just a few sentences can tell you what the note is about.
 - Level 3 - At the top of the note, write an executive summary of the note in your own words that you can quickly read to understand the gist of it. This level is probably not needed for all notes.
+
+To be effective, it is important to "take-away" from the note and only leave in what captures the absolute essence of the note.
+
+Pitfalls in the highlighting process:
+- Over highlighting - marking up too much of the original note makes it useless to your future self because you are going to have to re-read all of that again.
+- Highlighting without a purpose - you should only be doing the highlighting on a particular note when you have the intention to actually use it for something. You don't have to highlight every note you capture.
+- Making highlighting difficult - highlighting should be an easy process while relying on the feeling of "resonance", and not an overly analytical activity.
+
+The key point here is that *every time you touch a note, you leave it a bit more discoverable for your future self*.
+
+### EXPRESS
+
