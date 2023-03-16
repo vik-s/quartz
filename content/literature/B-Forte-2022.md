@@ -53,3 +53,4 @@ Whenever you capture a note, ask yourself which of these areas it belongs to, an
 
 ### DISTILL
 
+When you are creating notes for your future self, it is important to find ways to convey the idea from any given note in its most succint form to your future self who will likely not have the time to review the note in its original captured form. This is where the need to distill comes in.
