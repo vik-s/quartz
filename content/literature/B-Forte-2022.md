@@ -36,3 +36,6 @@ Using a second brain system has the following benefits:
 
 ### CAPTURE
 
+Many highly creative people have a creative process that they rely on. [[Taylor Swift]] writes down snippets of lyrics or music that comes into her mind at random times, and then relies on that to build up her music writing process. [[Jerry Seinfeld]] wrote down all ideas for jokes in a yellow legal pad and filed it away in an accordian folder, and used that to write all his material. The key here lies in capturing what comes across your way so that it can be transformed into somthing useful later.
+
+One pitfall in the capture process is saving too much information. There needs to be some criteria for how to choose what needs to be captured. Broadly, it should have at least some of the following elements: Inspiring, Useful, Personal, Surprising. The recommendation is to ultimately capture what "resonates" - as loose as this term may be. In all cases, *the source of the note* should be captured.
