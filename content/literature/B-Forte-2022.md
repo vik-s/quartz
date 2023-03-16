@@ -54,3 +54,8 @@ Whenever you capture a note, ask yourself which of these areas it belongs to, an
 ### DISTILL
 
 When you are creating notes for your future self, it is important to find ways to convey the idea from any given note in its most succint form to your future self who will likely not have the time to review the note in its original captured form. This is where the need to distill comes in.
+
+The method used to distill a note into its essence is called **Progressive Summarization**. You pick up any particular note and create highlights of the important parts, and you can do this at several levels:
+- Level 1 - Highlight all the important aspects of the note, so that you can tell the essence of the note by just reading the highlights.
+- Level 2 - Bold (or use another highlighter color) to highlight your earlier highlights so that just a few sentences can tell you what the note is about.
+- Level 3 - At the top of the note, write an executive summary of the note in your own words that you can quickly read to understand the gist of it. This level is probably not needed for all notes.
