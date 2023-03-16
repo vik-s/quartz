@@ -40,7 +40,7 @@ Many highly creative people have a creative process that they rely on. [[Taylor 
 
 One pitfall in the capture process is saving too much information. There needs to be some criteria for how to choose what needs to be captured. Broadly, it should have at least some of the following elements: Inspiring, Useful, Personal, Surprising. The recommendation is to ultimately capture what "resonates" - as loose as this term may be. In all cases, *the source of the note* should be captured.
 
-### ORGANIZE
+### ORGANIZE - THE PARA FRAMEWORK
 
 The framework to organize notes is based on actionability - "In which project will this be most useful?" - and is based on the PARA System; **Projects**, **Areas**, **Resources**, **Archives**.
 
@@ -50,3 +50,6 @@ The framework to organize notes is based on actionability - "In which project wi
 - Archives - All things no longer relevant from the previous three areas go here. Projects that are done or abandoned, areas that are no longer relevant, or resources you are no longer interested in.
 
 Whenever you capture a note, ask yourself which of these areas it belongs to, and categorize it appropriately. Notes do not permanently live in any category, they are constantly moving and rearranging depending on how your interests and priorities progress.
+
+### DISTILL
+
