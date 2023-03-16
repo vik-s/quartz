@@ -17,7 +17,7 @@ In today's digital world we are inundated with information in the form of books,
 
 Enter "the [[second brain]]", a digital [[commonplace book]], where we capture information and organize it in a meaningful way that enables easy retrieval later. It is a form of [[personal knowledge management]] where we build up a repository of knowledge that is relavant to our interests and pull from it for the rest of our lives.  
 
-In the professional world, [[notetaking]] involves creating notes while viewing them as a knowledge building block. Collect enough of them and reconstruct it in your own way to create something beautiful or important. The length and format of a note does not matter, as long as it is interpreted through your own lens, curated by your tastes, and drawn from your personal experience (this is in direct contrast to [[zettelkasten]] where notes should be as succint as possible [[permanent/Zettelkasten example workflow]], [[permanent/Using the zettelkasten method to produce written work]]).
+In the professional world, [[notetaking]] involves creating notes while viewing them as a knowledge building block. Collect enough of them and reconstruct it in your own way to create something beautiful or important. The length and format of a note does not matter, as long as it is interpreted through your own lens, curated by your tastes, and drawn from your personal experience (this is in direct contrast to [[zettelkasten]] where notes should be as succint as possible [[permanent/Zettelkasten example workflow]], [[permanent/Using the zettelkasten method to produce written work]]; Forte does bring up the reduction of a note to it's essence later however).
 
 Using a second brain system has the following benefits:
 - It helps us declutter out minds by putting thoughts down as notes
@@ -29,4 +29,10 @@ Using a second brain system has the following benefits:
 
 [[Tiago Forte]] proposes the Capture, Organize, Distill, Express (CODE) framework to implement the second brain system.
 
-- Capture: 
+- ==Capture==: Whenever something "resonates" with you, capture it in your notetaking system. It is not an analytical decision - identify things that incite, curiousity, pleasure, wonder, or excitement.
+- ==Organize==: Save notes by **actionability**, based on your current projects.
+- ==Distill==: Reduce the idea to it's key concept, in it's most concise form.
+- ==Express==: Use all your capture to create something new.
+
+### CAPTURE
+
