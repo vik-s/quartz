@@ -9,3 +9,4 @@ enableToc: false
 
 ### 2023
 - [[literature/B-Newport-DeepWork|Deep Work]]
+- [[literature/B-Forte-2022|Building a Second Brain]]
