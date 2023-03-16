@@ -19,3 +19,14 @@ Enter "the [[second brain]]", a digital [[commonplace book]], where we capture i
 
 In the professional world, [[notetaking]] involves creating notes while viewing them as a knowledge building block. Collect enough of them and reconstruct it in your own way to create something beautiful or important. The length and format of a note does not matter, as long as it is interpreted through your own lens, curated by your tastes, and drawn from your personal experience (this is in direct contrast to [[zettelkasten]] where notes should be as succint as possible [[permanent/Zettelkasten example workflow]], [[permanent/Using the zettelkasten method to produce written work]]).
 
+Using a second brain system has the following benefits:
+- It helps us declutter out minds by putting thoughts down as notes
+- Reveals new associations between ideas (it's not entirely clear how though, as we will see later; in zettelkasten, the links between notes exist to make clear connections)
+- Incubate our ideas over time (we tend to choose our most recent ideas and run with it - [[recency bias]]; using old notes might help us discover older but still good ideas)
+- Sharpen our perspectives ([[personal knowledge management]] systems gives us a trove of supporting material we can pull from to make a point on any topic)
+
+## The CODE Framework
+
+[[Tiago Forte]] proposes the Capture, Organize, Distill, Express (CODE) framework to implement the second brain system.
+
+- Capture: 
