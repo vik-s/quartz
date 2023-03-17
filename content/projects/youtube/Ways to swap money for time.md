@@ -5,6 +5,10 @@ topic: #lifestyle
 tentative title:
 ---
 
+We've all been there. When we have more things to do than time allows leading us to feel overwhelmed and stressed out. Time is a continuously depleted resource. We cant store it, we can't compound it. It is a use it or lose it kind of deal.
+
+Money compounds when invested properly. You can make more money by investing the time you have into developing your skills, or taking on more responsibility at work. You can use your time to relax, exercise or spend meaningful time with the people you care about - your friends and family.
+
 Reasons to pay for services.
 - you cant youtube everything, some things need an expert to get done
 - it may be beyond your current physical ability
