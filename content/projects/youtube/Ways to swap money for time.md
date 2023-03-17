@@ -16,8 +16,9 @@ In this video, we'll talk about 10 ways in which you can buy back your time with
 - you may risk hurting yourself
 
 - Housecleaning
-	- Good vacuum cleaner - like dyson, vac+mop, or robovac
-	- House cleaning services $30-50/hr
+	- There are two options here:
+		- Get a good vacuum cleaner, something that is lightweight like a Dyson or even automatic like a EuFY or Roomba. These can be expensive, but it is a one time cost that will reduce your time to clean, or make you less tired because it won't weight a ton. Dumping your old heavy vacuum cleaner for a more modern one is just low hanging fruit. However this is just the floors, you will still have to do the kitchen countertops and bathrooms yourself.
+		- Get House cleaning services. These typically run $20-50/hr of work depending on where you live and who you ask. A house cleaner coming in will typically do a good job, and will be able to clean more than just floors, like countertops and bathrooms. You can determine the frequency of house cleaning depending on how quickly it gets dirty (it can, if you have kids or pets), and how much you want to spend on the service. You can even get just deep cleanings done once a quarter, where things like blinds and fans get cleaned out too, and this typically runs about $200-$500 depending on the size of your house.
 - Yardwork
 	- Mowing lawn, trimming outgrowth
 	- Pool cleaning
