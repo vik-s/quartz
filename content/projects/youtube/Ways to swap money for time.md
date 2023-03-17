@@ -5,6 +5,10 @@ topic: #lifestyle
 tentative title:
 ---
 
+Reasons to pay for services.
+- you cant youtube everything, some things need an expert to get done
+- it may be beyond your current physical ability
+- 
 - Housecleaning
 	- Good vacuum cleaner - like dyson, vac+mop, or robovac
 	- House cleaning services $30-50/hr
