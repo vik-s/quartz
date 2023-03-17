@@ -5,16 +5,15 @@ topic: #lifestyle
 tentative title:
 ---
 
-We've all been there. When we have more things to do than time allows leading us to feel overwhelmed and stressed out. Time is a continuously depleted resource. We cant store it, we can't compound it. It is a use it or lose it kind of deal.
+We've all been there. Those times when we have more things to do than time allows, leading us to feel overwhelmed and stressed out. Time is a continuously depleted resource. We cant store it, we can't compound it. It is a use it or lose it kind of deal.
 
-Money compounds when invested properly. You can make more money by investing the time you have into developing your skills, or taking on more responsibility at work. You can use your time to relax, exercise or spend meaningful time with the people you care about - your friends and family.
+Money compounds when invested properly. You can make more money by investing the time you have into developing your skills, or taking on more responsibility at work. You can use your time to relax, exercise or spend meaningful time with the people you care about - your friends and family.  When you spend time doing everything yourself, you also spend energy, and you need to spend more time to recover that energy. Precious time that you cannot spend on doing the things you want to do.
 
-Reasons to pay for services.
-- you cant youtube everything, some things need an expert to get done
+In this video, we'll talk about 10 ways in which you can buy back your time with money, and here are some reasons apart from the time thing, why you should consider doing so.
+- you cant youtube everything, some things need an expert to get done properly
 - it may be beyond your current physical ability
 - you just don't enjoy doing it
 - you may risk hurting yourself
-
 
 - Housecleaning
 	- Good vacuum cleaner - like dyson, vac+mop, or robovac
