@@ -39,7 +39,7 @@ Reasons to pay for services.
 	- Buying a set of adjustable dumbells is a compact solution
 	- There are plenty of exercises that can be done in a small space
 	- Personal trainer
-- Shop almost entirely online
+- Shop almost entirely online 
 - Car care
 	- Get oil changes and tire rotations done
 - Childcare
