@@ -8,7 +8,10 @@ tentative title:
 Reasons to pay for services.
 - you cant youtube everything, some things need an expert to get done
 - it may be beyond your current physical ability
-- 
+- you just don't enjoy doing it
+- you may risk hurting yourself
+
+
 - Housecleaning
 	- Good vacuum cleaner - like dyson, vac+mop, or robovac
 	- House cleaning services $30-50/hr
@@ -16,10 +19,10 @@ Reasons to pay for services.
 	- Mowing lawn, trimming outgrowth
 	- Pool cleaning
 	- Plow the driveway
-	- cost?
+	- Tree removal
 - Home repairs
 	- Get a handyman to make repairs that would take anywhere upwards or a few hours
-	- Get a painter
+	- Plumbing, electrical, fences, window cleaning, pressure washing, strip and restain wood floors, roofing, remodel, HVAC, gutter cleaning,
 - Taxes
 	- Get an accountant
 - Commute
