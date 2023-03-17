@@ -10,9 +10,14 @@ tentative title:
 	- House cleaning services $30-50/hr
 - Yardwork
 	- Mowing lawn, trimming outgrowth
+	- Pool cleaning
+	- Plow the driveway
 	- cost?
 - Home repairs
 	- Get a handyman to make repairs that would take anywhere upwards or a few hours
+	- Get a painter
+- Taxes
+	- Get an accountant
 - Commute
 	- Minimize your work commute, you might need to spend more to live closer, but to keep costs in check, you might sacrifice on the overall space you have
 	- The exception to this is if you have access to good public transportation. In that case, you can both commute and have time to read/work etc. Have the cake and eat it too.
@@ -26,4 +31,5 @@ tentative title:
 	- Setting up a home gym can be a high one time cost, but it pays back long term, minimizes inertia
 	- Buying a set of adjustable dumbells is a compact solution
 	- There are plenty of exercises that can be done in a small space
+	- Personal trainer
 - Shop almost entirely online
