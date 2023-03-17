@@ -55,7 +55,7 @@ Whenever you capture a note, ask yourself which of these areas it belongs to, an
 
 When you are creating notes for your future self, it is important to find ways to convey the idea from any given note in its most succint form to your future self who will likely not have the time to review the note in its original captured form. This is where the need to distill comes in.
 
-The method used to distill a note into its essence is called **Progressive Summarization**. You pick up any particular note and create highlights of the important parts, and you can do this at several levels:
+The method used to distill a note into its essence is called [[Progressive Summarization]]. You pick up any particular note and create highlights of the important parts, and you can do this at several levels:
 - Level 1 - Highlight all the important aspects of the note, so that you can tell the essence of the note by just reading the highlights.
 - Level 2 - Bold (or use another highlighter color) to highlight your earlier highlights so that just a few sentences can tell you what the note is about.
 - Level 3 - At the top of the note, write an executive summary of the note in your own words that you can quickly read to understand the gist of it. This level is probably not needed for all notes.
@@ -70,4 +70,25 @@ Pitfalls in the highlighting process:
 The key point here is that *every time you touch a note, you leave it a bit more discoverable for your future self*.
 
 ### EXPRESS
+
+This is the final stage of the [[notetaking]] process that you have been working towards. All of those notes mean nothing if you do not create something with them. Notes are not meant to be collected, but used to create something new and different.
+
+Break down the work that is to be done into smaller sized [[intermediate packets]].  They are individual concrete blocks that make up your work. There are 5 kinds of intermediate packets that you can use in your work.
+- Distilled notes - Books or notes you have read, that are broken down to its essence using the [[progressive summarization]] technique
+- Outtakes - ideas that didnt make it in a previous project
+- Work in process - documents created during past projects
+- Final deliverables - Completed projects that can kick off something new
+- Documents created by others -  work created by others that you can use as a starting point for your own work
+
+The main idea here is no matter what form of material you use as a starting point, you should use that as a template for your own work, while giving credit where it is due. So, always look around you for work that you have already done, or work others did that you can use as a template. 
+
+This is a powerful idea that is very applicablle in the workplace and in creative endeavors. Did an employee use a really nice  format of representing data? Ask him/her if it is okay if you reuse their method. Did you hear a good beat or riff? Use that as a starting point, and play with the tune adding your own flavor to it. 
+
+There are several advantages to using intermediate packets:
+- You are working on a small chunk of work at a time. You are less prone to interruptions, and will likely get that chunk of work done.
+- You will be ready to work at a moments notice because you know you can finish off a small chunk of work, instead of waiting for a time when you can fully concentrate.
+- You can collect feedback on smaller chunks of work, instead of going through with the whole thing and finding out it does not meet requirements.
+- You will have many such chunks collected over time that you can easily reuse them in future work.
+
+When you break up a project into intermediate packets, ask yourself: "How do I assemble each of these components without having to make them myself?"
 
