@@ -92,3 +92,10 @@ There are several advantages to using intermediate packets:
 
 When you break up a project into intermediate packets, ask yourself: "How do I assemble each of these components without having to make them myself?"
 
+Here is where I believe this entire book falls apart - the retrieval methods. Very little time is spent on how exactly notes can be retrieved while making connections that did not exist before. Here is what the books suggests as ways to extract notes and insight out of the system:
+- Search - Just blatant keyword searches in the notes app might show you what you are looking for
+- Browsing - You manually browse through the PARA folder structure looking for stuff you need
+- Tags - tagging notes allows you to traverse past rigid folder hierarchies, but as we all know, the method of tagging breaks down when you have too many tags or cant remember them
+- Serendipity - Randomly look around PARA folders to see if something else in there interests you (this is very random, how will you even know where to look? what if there is valuable insight but you just didnt look at it?)
+
+The main content of this part is that *everything is a remix*. Use your notes system to hash out something with your own personal flavor.
