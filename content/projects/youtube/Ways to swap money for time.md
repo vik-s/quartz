@@ -33,3 +33,8 @@ tentative title:
 	- There are plenty of exercises that can be done in a small space
 	- Personal trainer
 - Shop almost entirely online
+- Car care
+	- Get oil changes and tire rotations done
+- Childcare
+	- Nanny / baby sitter so that you can work on your relationship or relax.
+	- Not a big fan of recommending this, but on occasion it is required.
