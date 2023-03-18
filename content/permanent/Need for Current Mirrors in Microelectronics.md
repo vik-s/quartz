@@ -12,5 +12,5 @@ A sensible approach to the problem is to generate the golden reference voltage a
 # References
 
 - [[literature/B-Meyer-1976-Ch4]]
-- [[literature/B-razavi-microelec-2013-Ch9]]
+- [[literature/B-razavi-microelec]]
 - [[permanent/Working principle of a Current Mirror]]
