@@ -5,24 +5,25 @@ topic: #lifestyle
 tentative title:
 ---
 
-We've all been there. Those times when we have more things to do than time allows, leading us to feel overwhelmed and stressed out. Time is a continuously depleted resource. We cant store it, we can't compound it. It is a use it or lose it kind of deal.
+Money compounds when invested properly but time is a continuously depleted resource. We cant store it, we can't compound it. It's use it or lose it. What if you can spend money to protect your time? Instead, use your time to learn something new, exercise, build relationships, relax - the possibilites are endless. 
 
-Money compounds when invested properly. You can make more money by investing the time you have into developing your skills, or taking on more responsibility at work. You can use your time to relax, exercise or spend meaningful time with the people you care about - your friends and family.  When you spend time doing everything yourself, you also spend energy, and you need to spend more time to recover that energy. Precious time that you cannot spend on doing the things you want to do.
-
-In this video, we'll talk about 10 ways in which you can buy back your time with money, and here are some reasons apart from the time thing, why you should consider doing so.
+In this video, we'll talk about 10 ways in which you can buy back your time with money. Apart from time, here are 4 more reasons why you should not do everything yourself.
 - you cant youtube everything, some things need an expert to get done properly
 - it may be beyond your current physical ability
 - you just don't enjoy doing it
 - you may risk hurting yourself
 
+With this in mind, let's get started.
+
 - Housecleaning
 	- There are two options here:
 		- Get a good vacuum cleaner, something that is lightweight like a Dyson or even automatic like a EuFY or Roomba. These can be expensive, but it is a one time cost that will reduce your time to clean, or make you less tired because it won't weight a ton. Dumping your old heavy vacuum cleaner for a more modern one is just low hanging fruit. However this is just the floors, you will still have to do the kitchen countertops and bathrooms yourself.
 		- Get House cleaning services. These typically run $20-50/hr of work depending on where you live and who you ask. A house cleaner coming in will typically do a good job, and will be able to clean more than just floors, like countertops and bathrooms. You can determine the frequency of house cleaning depending on how quickly it gets dirty (it can, if you have kids or pets), and how much you want to spend on the service. You can even get just deep cleanings done once a quarter, where things like blinds and fans get cleaned out too, and this typically runs about $200-$500 depending on the size of your house.
+		- When you spend time doing everything yourself, you also spend energy, and you need to spend more time to recover that energy. Precious time that you cannot spend on doing the things you want to do.
 	- **B-ROLL**
 		- Running the vacuum cleaner around the house
 		- Wiping a countertop
-		- Dusting some surfaces
+		- Dusting some surfaces with a mask on.
 - Home maintenance
 	- Mowing lawn, trimming outgrowth
 	- Pool cleaning
