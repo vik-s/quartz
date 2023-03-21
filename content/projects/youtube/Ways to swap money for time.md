@@ -5,26 +5,25 @@ topic: #lifestyle
 tentative title:
 ---
 
-Money compounds when invested properly but time is a continuously depleted resource. We cant store it, we can't compound it. It's use it or lose it. What if you can spend money to protect your time? Instead, use your time to learn something new, exercise, build relationships, relax - the possibilites are endless. 
-
-In this video, we'll talk about 10 ways in which you can buy back your time with money. Apart from time, here are 4 more reasons why you should not do everything yourself.
-- you cant youtube everything, some things need an expert to get done properly
+Money compounds when invested properly but time is a continuously depleted resource. We cant store it, we can't compound it. It's use it or lose it. What if you can spend money to protect your time? Instead, use your time to learn something new, exercise, build relationships, relax - the possibilites are endless. Apart from time, there are more reasons why you should not do everything yourself.
+- some things need an expert to get done properly
 - it may be beyond your current physical ability
 - you just don't enjoy doing it
 - you may risk hurting yourself
 
-With this in mind, let's get started.
+In this video, we'll talk about 10 ways in which you can buy back your time with money. 
 
 - Housecleaning
-	- There are two options here:
-		- Get a good vacuum cleaner, something that is lightweight like a Dyson or even automatic like a EuFY or Roomba. These can be expensive, but it is a one time cost that will reduce your time to clean, or make you less tired because it won't weight a ton. Dumping your old heavy vacuum cleaner for a more modern one is just low hanging fruit. However this is just the floors, you will still have to do the kitchen countertops and bathrooms yourself.
-		- Get House cleaning services. These typically run $20-50/hr of work depending on where you live and who you ask. A house cleaner coming in will typically do a good job, and will be able to clean more than just floors, like countertops and bathrooms. You can determine the frequency of house cleaning depending on how quickly it gets dirty (it can, if you have kids or pets), and how much you want to spend on the service. You can even get just deep cleanings done once a quarter, where things like blinds and fans get cleaned out too, and this typically runs about $200-$500 depending on the size of your house.
-		- When you spend time doing everything yourself, you also spend energy, and you need to spend more time to recover that energy. Precious time that you cannot spend on doing the things you want to do.
+	- For the longest time, I was resisting getting help on this one and did everything myself. I told myself that I am not that busy or that entitled to clean up after myself, then I convinced myself that no cleaner can match my OCD-infused levels of ultra-cleanliness that I expect when I pay hard earned money to someone.
+	- As it turns out none of this is true. I finally came around to admitting that I needed the help given that we have children and two full time jobs, and that cleaners are super professional at what they do and generally do a good job. Additionally, not only do i not spend the time cleaning, I don't spend time recovering energy from my cleaning work. This was a double win for me.
+	- House cleaning services typically run $20-50/hr of work depending on where you live and who you ask. You can get quotes from cleaning companies in your area. If you've never got your housed professionally cleaned before, they might insist that you get a deep cleaning first -  which can run you about $300-$400. You can determine the frequency of house cleaning depending on how quickly it gets dirty and how much you want to spend on the service. Or, you can even get just deep cleanings done once in a few months, where things like blinds, fans and refridgerators get cleaned out too, and this typically runs about $200-$500 depending on the size of your house.
+	- This might be too expensive for some people, that's totally understandable. In that case, get a good vacuum cleaner, something that is lightweight like a Dyson or even automatic like a EuFY or Roomba. These can be expensive, but it is a one time cost that will reduce your time to clean, or make you less tired because it won't weight a ton. Dumping your old heavy vacuum cleaner for a more modern one is just low hanging fruit. However this is just the floors, you will still have to do the kitchen countertops and bathrooms yourself.
 	- **B-ROLL**
 		- Running the vacuum cleaner around the house
 		- Wiping a countertop
 		- Dusting some surfaces with a mask on.
 - Home maintenance
+	- If you own a home,  you already know there is a long list of pending projects you've been meaning to get to. It might make sense for you to outsource your routine maintenance work so that you can get to the projects that have a higher impact on your home.
 	- Mowing lawn, trimming outgrowth
 	- Pool cleaning
 	- Plow the driveway
@@ -36,7 +35,9 @@ With this in mind, let's get started.
 		- Enjoying short cut grass
 		- Pulling weeds, trimming hedges
 - Cooking
-	- Eat out - more expensive but you have no overhead, but health is an issue.
+	- We need to eat everyday, and what we eat matters to our health. Eating out, while making the healthiest food choices can definitely save you time, but good quality food, even if readily available around you, can be very expensive over the long term. I do have friends who argue that the overhead of buying groceries, preparing food, dealing with the ensuing kitchen clean up, etc, is simply not for them, and the expense of eating out is totally worth it.
+	- An alternative to eating out all the time is to have pre-prepared meal kits delivered at your doorstep, and all you have to do is follow the instructions to prepare your meals. There are companies such as Hello Fresh, or Fresh n Lean that ship to your door step, and you get a variety of diet choices like vegan, paleo, keto. The cost per serving is typically between $10-$20, and while this calculus might work out for some people, it is simply not an option for those with larger families.
+	- 
 	- Meal delivery services
 	- Pre-made meal kits - Have healthy meals that are easy to prepare and create minimal overhead
 	- Prep food all in one go- reuse pots and pans, and cook while the oven is hot.
@@ -87,3 +88,5 @@ With this in mind, let's get started.
 	- Mothers helper
 
 
+Food:
+https://www.cnet.com/health/nutrition/best-prepared-meal-delivery-service/
