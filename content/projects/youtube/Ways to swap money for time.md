@@ -22,64 +22,44 @@ In this video, we'll talk about 10 ways in which you can buy back your time with
 		- Running the vacuum cleaner around the house
 		- Wiping a countertop
 		- Dusting some surfaces with a mask on.
-- Home maintenance
-	- If you own a home,  you already know there is a long list of pending projects you've been meaning to get to. It might make sense for you to outsource your routine maintenance work so that you can get to the projects that have a higher impact on your home.
-	- Mowing lawn, trimming outgrowth
-	- Pool cleaning
-	- Plow the driveway
-	- Tree removal
-	- Get a handyman to make repairs that would take anywhere upwards or a few hours
-	- Plumbing, electrical, fences, window cleaning, pressure washing, strip and restain wood floors, rooing, remodel, HVAC, gutter cleaning,
-	- **B-ROLL**
-		- Walking through tall grass
-		- Enjoying short cut grass
-		- Pulling weeds, trimming hedges
 - Cooking
-	- We need to eat everyday, and what we eat matters to our health. Eating out, while making the healthiest food choices can definitely save you time, but good quality food, even if readily available around you, can be very expensive over the long term. I do have friends who argue that the overhead of buying groceries, preparing food, dealing with the ensuing kitchen clean up, etc, is simply not for them, and the expense of eating out is totally worth it.
+	- We need to eat everyday, and what we eat matters to our health. Eating out, while making the healthiest food choices can definitely save you time, good quality food, even if readily available around you, can be very expensive over the long term. I do have friends who argue that the overhead of buying groceries, preparing food, dealing with the ensuing kitchen clean up, etc, is simply not for them, and the expense of eating out is totally worth it.
 	- An alternative to eating out all the time is to have pre-prepared meal kits delivered at your doorstep, and all you have to do is follow the instructions to prepare your meals. There are companies such as Hello Fresh, or Fresh n Lean that ship to your door step, and you get a variety of diet choices like vegan, paleo, keto. The cost per serving is typically between $10-$20, and while this calculus might work out for some people, it is simply not an option for those with larger families.
-	- 
-	- Meal delivery services
-	- Pre-made meal kits - Have healthy meals that are easy to prepare and create minimal overhead
-	- Prep food all in one go- reuse pots and pans, and cook while the oven is hot.
-	- Get some one to cut stuff and clean up after?
-	- Make it a family affair to bond over
+	- Another option is to get Pre-prepared meals from places like Costco or similar grocery stores, where you get a pizza that you simply pop in the oven, or meals that you can quickly cook in the microwave in a few minutes. The preparation time is much lesser, and you can quickly put some food on the table. Cost-wise this is more affordable than all the previous options, and might be a decent option for those with families.
+	- The final option is to prepare all your meals yourself from scratch, and is the most cost effective and healthy but most time consuming. However, you can save time by setting aside a day on the weekend to food prep for the entire week. It can be a great time to bond with family. Save time by reusing pots and pans, cleaning as you go and cooking for multiple days while the oven is hot.
 	- **B-ROLL**
 		- Cutting vegetables and meat
 		- Lighting a stovetop
 		- Stirring food
 		- Cutting bread
 - Laundry Service
-	- If you dislike spending time on doing and folding laundry, there are laundry services that you can sign up for.
-	- how it works is - they send you a laundry bag that you can fill with clothes, sheets, towels and stuff. then they pick it up - wash, dry and fold it, and drop it off at your doorstep in a day or two.
+	- If you dislike spending time on doing and folding laundry, there are laundry services that you can sign up for. How it works is - they send you a laundry bag that you can fill with clothes, sheets, towels and stuff. then they pick it up - wash, dry and fold it, and drop it off at your doorstep in a day or two.
 	- The rates around me are about $1.50-$2 a pound of clothes, so you really need to evaluate the amount of laundry you generate, how much time you spend doing laundry and how much your time is worth to you. 
+	- If you have a washer and dryer at home, then you can run loads whenever it time, and couple folding with something like watching TV and make it a family effort to knock it out of the park. At home, when I get the kids involved in folding and putting away their clothes, stuff goes super quickly. So I've never had the need for a laundry service, but hey everyone's needs are different and your milage may vary!
 	- **B-ROLL**
 		- Carrying laundry basket
 		- Putting a washing soap pellet and turning dials
 		- Folding clothes, putting on hangars
-- Online Shopping
--  Commute
-	- If you have the option for remote work, this might not apply but many people still commute to their at least a few times a week.
-	- Minimize your work commute, you might need to spend more to live closer, but to keep costs in check, you might sacrifice on the overall space you have
-	- The exception to this is if you have access to good public transportation. In that case, you can both commute and have time to read/work etc. Have the cake and eat it too.
+- Commute
+	- As of 2019, Americans spend about 27.6 mins each way in their commute on average, and about 10% spend an hour or more. Minimizing commute time can make a significant improvement in your quality of life, and get you back a big portion of your day.
+	- But to Minimize your work commute, you might need to spend more to live closer to your workplace, and depending on your industry and location, this might actually end up costing you more in mortgage or rent. The cost can be controlled by choosing a smaller place to live, or a less fancy house, but the baseline is you'll be making these tradeoffs.
+	- Or, if you can live in a place that allows you to use public transportation to commute to and from work, then it is a great option because your actually have time to read or work during your commute!
+	- If you are lucky enough to have the option for remote work, then none of this applies - so let's move on to the next one.
 	- **B-ROLL**
 		- Getting in car and driving away
 		- Pulling up into driveway and getting out
 		- Fast forward video of driving through traffic
-- Car care
-	- Get oil changes and tire rotations done
+- Home and car maintenance
+	- If you own a home,  you already know there is a long list of pending projects you've been meaning to get to. It might make sense for you to outsource your routine maintenance work so that you can get to the projects that have a higher impact on your home.
+	- For routine stuff like Mowing lawn, trimming outgrowth, or Pool cleaning, you can hire people who come in and do these services for you on a regular basis.
+	- For one off, but specialty Tree removal
+	- Get a handyman to make repairs that would take anywhere upwards or a few hours
+	- Plumbing, electrical, fences, window cleaning, pressure washing, strip and restain wood floors, rooing, remodel, HVAC, gutter cleaning,
 	- **B-ROLL**
-		- Pull up old pictures of me fixing the suspension
-		- ?
-- Home exercise equipment
-	- Going to a gym introduces more inertia, has a monthly cost, and requires time to drive back and forth.
-	- Setting up a home gym can be a high one time cost, but it pays back long term, minimizes inertia
-	- Buying a set of adjustable dumbells is a compact solution
-	- There are plenty of exercises that can be done in a small space
-	- Personal trainer
-	- **B-ROLL**
-		- Video of pulling apart / putting together squat rack
-		- Rowing
-		- Lifting weights
+		- Walking through tall grass
+		- Enjoying short cut grass
+		- Pulling weeds, trimming hedges
+- Online Shopping
 - Virtual Assistant
 	- If you have a lot of administrative tasks to do, consider hiring a virtual assistant. They can help you with tasks like scheduling appointments, responding to emails, and managing your calendar.
 - Child care
