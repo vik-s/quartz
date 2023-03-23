@@ -29,3 +29,7 @@ A text consists of four different types of parts:
 - Not useful and easy to understand. 
 	- Ignore these. [⤴️](https://omnivore.app/me/the-barbell-method-of-reading-zettelkasten-method-18707935ab2#3211fad3-b3da-4791-8342-7ef6508a120e)
 
+## References
+
+[[permanent/ways to improve learning, retention and understanding while reading]]
+[[permanent/The importance of writing for learning, understanding, thinking and retention]]
