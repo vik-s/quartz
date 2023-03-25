@@ -21,7 +21,7 @@ Quoting from the book:
 
 >[!quote] Consider that (the turkey's) feeling of safety reached its maximum when the risk was at the highest...But the problem is even more general than that...Something has worked in the past, until — well, it unexpectedly no longer does, and what we have learned from the past turns out to be at best irrelevant or false, at worst viciously misleading.
 
-The lesson I glean from this story: The "truths" we have grown certain of may not always be true. When we have reached the point of maximum comfort with our reality, we may find ourselves surprised, just like the Thanksgiving Turkey.
+The lesson I glean from this story: The "truths" we have grown certain of may not always be true. When we have reached the [[point of maximum comfort]] with our reality, we may find ourselves surprised, just like the Thanksgiving Turkey.
 
 
 # References
