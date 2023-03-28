@@ -1,8 +1,8 @@
 ---
 title: "<% tp.file.title %>"
 created: "<% tp.file.creation_date() %>"
-status: #literature/thought 
-tags:
+status: #inbox/to-process 
+tags: #thought
 enableToc: false
 ---
 
