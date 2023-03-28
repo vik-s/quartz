@@ -1,25 +1,27 @@
 {
 	"nodes":[
-		{"id":"6ec5907c122466d9","x":-480,"y":-300,"width":400,"height":400,"type":"file","file":"permanent/The Parable of the Thanksgiving Turkey.md"},
-		{"id":"72841fe7042f96c0","x":-80,"y":-440,"width":320,"height":50,"type":"text","text":"Examples of surprise in tech layoffs"},
-		{"id":"632eef9345cbe9b7","x":-661,"y":520,"width":381,"height":50,"type":"text","text":"Constantly prepping for my next interview"},
-		{"id":"aa21a5c2d271647c","x":-1000,"y":760,"width":400,"height":400,"type":"file","file":"permanent/The importance of writing for learning, understanding, thinking and retention.md"},
-		{"id":"11fdadc938135dfa","x":-820,"y":-130,"width":250,"height":60,"type":"text","text":"**B-ROLL**: Turkey animation"},
-		{"id":"5752a33f3c5760ec","x":-200,"y":520,"width":309,"height":60,"type":"text","text":"Staying in touch with past colleagues on a consistent basis"},
-		{"id":"4edf4630d1c5c107","x":183,"y":519,"width":277,"height":61,"type":"text","text":"Attending conferences or networking events in your field"},
-		{"id":"b55c09929458e9c3","x":540,"y":520,"width":320,"height":60,"type":"text","text":"Be aware of trends in your industry"},
-		{"id":"f04ac82e1a223cf7","x":980,"y":508,"width":387,"height":85,"type":"text","text":"Setup \"practice interviews\" with companies you don't really want to work for"},
-		{"id":"9ca879e097bc4847","x":129,"y":280,"width":385,"height":64,"color":"5","type":"text","text":"*YT video*: How I stay employable in my career"}
+		{"type":"file","file":"permanent/The Parable of the Thanksgiving Turkey.md","id":"6ec5907c122466d9","x":-480,"y":-300,"width":400,"height":400},
+		{"type":"text","text":"Examples of surprise in tech layoffs","id":"72841fe7042f96c0","x":-80,"y":-440,"width":320,"height":50},
+		{"type":"text","text":"**B-ROLL**: Turkey animation","id":"11fdadc938135dfa","x":-820,"y":-130,"width":250,"height":60},
+		{"type":"text","text":"Attending conferences or networking events in your field","id":"4edf4630d1c5c107","x":183,"y":519,"width":277,"height":61},
+		{"type":"text","text":"Be aware of trends in your industry","id":"b55c09929458e9c3","x":540,"y":520,"width":320,"height":60},
+		{"type":"text","text":"Setup \"practice interviews\" with companies you don't really want to work for","id":"f04ac82e1a223cf7","x":980,"y":508,"width":387,"height":85},
+		{"type":"text","text":"*YT video*: How I stay employable in my career","id":"9ca879e097bc4847","x":495,"y":280,"width":411,"height":60,"color":"5"},
+		{"type":"text","text":"Constantly prepping for my next interview","id":"632eef9345cbe9b7","x":-661,"y":458,"width":381,"height":50},
+		{"type":"text","text":"Staying in touch with past colleagues on a consistent basis","id":"5752a33f3c5760ec","x":-229,"y":508,"width":309,"height":60},
+		{"id":"53404ddcb10e95fc","x":1440,"y":486,"width":287,"height":69,"type":"text","text":"Start a blog in your area of expertise"},
+		{"id":"12fc5012ce5f272f","x":1800,"y":452,"width":387,"height":62,"type":"text","text":"Contribute to FOSS projects that can impact your field / coding competitions?"}
 	],
 	"edges":[
 		{"id":"93809ea08d63b888","fromNode":"9ca879e097bc4847","fromSide":"top","toNode":"6ec5907c122466d9","toSide":"bottom"},
 		{"id":"9dfab6e97fe50af3","fromNode":"6ec5907c122466d9","fromSide":"top","toNode":"72841fe7042f96c0","toSide":"left"},
 		{"id":"8f0154e73153448f","fromNode":"9ca879e097bc4847","fromSide":"bottom","toNode":"632eef9345cbe9b7","toSide":"top"},
-		{"id":"d8f96dec5edc83d3","fromNode":"632eef9345cbe9b7","fromSide":"bottom","toNode":"aa21a5c2d271647c","toSide":"top"},
 		{"id":"2e3ef1629e46d91c","fromNode":"6ec5907c122466d9","fromSide":"left","toNode":"11fdadc938135dfa","toSide":"right"},
 		{"id":"00c9d8a2279aeb05","fromNode":"9ca879e097bc4847","fromSide":"bottom","toNode":"5752a33f3c5760ec","toSide":"top"},
 		{"id":"9654158f26117504","fromNode":"9ca879e097bc4847","fromSide":"bottom","toNode":"4edf4630d1c5c107","toSide":"top"},
 		{"id":"ac1594c750837fec","fromNode":"9ca879e097bc4847","fromSide":"bottom","toNode":"b55c09929458e9c3","toSide":"top"},
-		{"id":"a5b6b1df5eec0a22","fromNode":"9ca879e097bc4847","fromSide":"bottom","toNode":"f04ac82e1a223cf7","toSide":"top"}
+		{"id":"a5b6b1df5eec0a22","fromNode":"9ca879e097bc4847","fromSide":"bottom","toNode":"f04ac82e1a223cf7","toSide":"top"},
+		{"id":"3f6983cf3ecb4fe2","fromNode":"9ca879e097bc4847","fromSide":"bottom","toNode":"53404ddcb10e95fc","toSide":"top"},
+		{"id":"11b2e62e6bbfa8f7","fromNode":"9ca879e097bc4847","fromSide":"bottom","toNode":"12fc5012ce5f272f","toSide":"top"}
 	]
 }
