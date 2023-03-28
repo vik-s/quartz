@@ -1,16 +1,18 @@
 {
 	"nodes":[
-		{"type":"file","file":"permanent/The Parable of the Thanksgiving Turkey.md","id":"6ec5907c122466d9","x":-480,"y":-300,"width":400,"height":400},
-		{"type":"text","text":"Examples of surprise in tech layoffs","id":"72841fe7042f96c0","x":-80,"y":-440,"width":320,"height":50},
-		{"type":"text","text":"**B-ROLL**: Turkey animation","id":"11fdadc938135dfa","x":-820,"y":-130,"width":250,"height":60},
-		{"type":"text","text":"Attending conferences or networking events in your field","id":"4edf4630d1c5c107","x":183,"y":519,"width":277,"height":61},
 		{"type":"text","text":"Be aware of trends in your industry","id":"b55c09929458e9c3","x":540,"y":520,"width":320,"height":60},
-		{"type":"text","text":"Setup \"practice interviews\" with companies you don't really want to work for","id":"f04ac82e1a223cf7","x":980,"y":508,"width":387,"height":85},
 		{"type":"text","text":"*YT video*: How I stay employable in my career","id":"9ca879e097bc4847","x":495,"y":280,"width":411,"height":60,"color":"5"},
-		{"type":"text","text":"Constantly prepping for my next interview","id":"632eef9345cbe9b7","x":-661,"y":458,"width":381,"height":50},
-		{"type":"text","text":"Staying in touch with past colleagues on a consistent basis","id":"5752a33f3c5760ec","x":-229,"y":508,"width":309,"height":60},
-		{"id":"53404ddcb10e95fc","x":1440,"y":486,"width":287,"height":69,"type":"text","text":"Start a blog in your area of expertise"},
-		{"id":"12fc5012ce5f272f","x":1800,"y":452,"width":387,"height":62,"type":"text","text":"Contribute to FOSS projects that can impact your field / coding competitions?"}
+		{"type":"text","text":"Network with your colleagues on a consistant basis- personal, conferences, events etc.","id":"5752a33f3c5760ec","x":160,"y":520,"width":300,"height":100},
+		{"type":"text","text":"Constantly prepping for my next interview","id":"632eef9345cbe9b7","x":-301,"y":525,"width":381,"height":50},
+		{"id":"d9a6979d3405e680","x":-40,"y":620,"width":151,"height":50,"type":"text","text":"Taking notes "},
+		{"id":"4b794eafc94b97d7","x":-57,"y":700,"width":168,"height":50,"type":"text","text":"online courses"},
+		{"id":"830b1e0b2706cf44","x":759,"y":620,"width":147,"height":50,"type":"text","text":"Follow news"},
+		{"id":"edfabed319519d9d","x":759,"y":690,"width":221,"height":60,"type":"text","text":"Interact with recruiters"},
+		{"id":"53404ddcb10e95fc","x":1020,"y":526,"width":287,"height":69,"type":"text","text":"Build on online presence via blog or FOSS contributions"},
+		{"id":"f5babe6210ed7126","x":1400,"y":526,"width":274,"height":54,"type":"text","text":"Build a positive reputation"},
+		{"type":"file","file":"permanent/The Parable of the Thanksgiving Turkey.md","id":"6ec5907c122466d9","x":310,"y":-300,"width":400,"height":400},
+		{"type":"text","text":"**B-ROLL**: Turkey animation","id":"11fdadc938135dfa","x":-10,"y":-130,"width":250,"height":60},
+		{"type":"text","text":"Examples of surprise in tech layoffs","id":"72841fe7042f96c0","x":586,"y":-460,"width":320,"height":50}
 	],
 	"edges":[
 		{"id":"93809ea08d63b888","fromNode":"9ca879e097bc4847","fromSide":"top","toNode":"6ec5907c122466d9","toSide":"bottom"},
@@ -18,10 +20,12 @@
 		{"id":"8f0154e73153448f","fromNode":"9ca879e097bc4847","fromSide":"bottom","toNode":"632eef9345cbe9b7","toSide":"top"},
 		{"id":"2e3ef1629e46d91c","fromNode":"6ec5907c122466d9","fromSide":"left","toNode":"11fdadc938135dfa","toSide":"right"},
 		{"id":"00c9d8a2279aeb05","fromNode":"9ca879e097bc4847","fromSide":"bottom","toNode":"5752a33f3c5760ec","toSide":"top"},
-		{"id":"9654158f26117504","fromNode":"9ca879e097bc4847","fromSide":"bottom","toNode":"4edf4630d1c5c107","toSide":"top"},
 		{"id":"ac1594c750837fec","fromNode":"9ca879e097bc4847","fromSide":"bottom","toNode":"b55c09929458e9c3","toSide":"top"},
-		{"id":"a5b6b1df5eec0a22","fromNode":"9ca879e097bc4847","fromSide":"bottom","toNode":"f04ac82e1a223cf7","toSide":"top"},
 		{"id":"3f6983cf3ecb4fe2","fromNode":"9ca879e097bc4847","fromSide":"bottom","toNode":"53404ddcb10e95fc","toSide":"top"},
-		{"id":"11b2e62e6bbfa8f7","fromNode":"9ca879e097bc4847","fromSide":"bottom","toNode":"12fc5012ce5f272f","toSide":"top"}
+		{"id":"5f7222a48547fe99","fromNode":"9ca879e097bc4847","fromSide":"bottom","toNode":"f5babe6210ed7126","toSide":"top"},
+		{"id":"dc5de534226230b4","fromNode":"632eef9345cbe9b7","fromSide":"bottom","toNode":"d9a6979d3405e680","toSide":"left"},
+		{"id":"490396ff8a3477fc","fromNode":"632eef9345cbe9b7","fromSide":"bottom","toNode":"4b794eafc94b97d7","toSide":"left"},
+		{"id":"eddd4e32d08eb6a5","fromNode":"b55c09929458e9c3","fromSide":"bottom","toNode":"830b1e0b2706cf44","toSide":"left"},
+		{"id":"14db3024eb9b30ba","fromNode":"b55c09929458e9c3","fromSide":"bottom","toNode":"edfabed319519d9d","toSide":"left"}
 	]
 }
