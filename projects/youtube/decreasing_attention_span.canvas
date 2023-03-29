@@ -1,0 +1,9 @@
+{
+	"nodes":[
+		{"id":"b4af3ff47bac0785","x":-167,"y":-76,"width":347,"height":56,"type":"text","text":"Our decreasing attention span and what to do about it?"},
+		{"id":"a66b53d107cb40cf","x":-193,"y":100,"width":400,"height":400,"type":"file","file":"permanent/Attention span in the workplace.md"}
+	],
+	"edges":[
+		{"id":"82a284534872bf76","fromNode":"b4af3ff47bac0785","fromSide":"bottom","toNode":"a66b53d107cb40cf","toSide":"top"}
+	]
+}
