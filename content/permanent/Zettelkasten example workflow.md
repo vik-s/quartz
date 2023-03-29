@@ -14,5 +14,5 @@ In [[literature/B-Ahrens-2017]], Chapter 11.2, Ahrens gives a detailed example o
 ---
 # References
 
-[[fleeting/Zettelkasten examples to get started]]
+[[literature/A-Zettelkasten examples to get started]]
 [[permanent/Using the zettelkasten method to produce written work]]
