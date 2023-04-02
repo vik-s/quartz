@@ -1,5 +1,7 @@
 ---
-id: 5e172b38-7ef0-42c5-a1d9-867d17185420
+title: "A-Why City Life Makes Us Grumpy - by Robin Waldun"
+status: #blog
+tags: #lifestyle #philosophy
 ---
 
 # Why City Life Makes Us Grumpy - by Robin Waldun
