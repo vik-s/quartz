@@ -5,10 +5,15 @@ status: #moc
 tags: #ee
 ---
 
-[[III-V Device Physics]]
-	[[HEMT]]
-	[[HBT]]
+# III-V Device Physics
 
-[[III-V Device Modeling]]
-	[[HEMT]]
-	[[HBT]]
+## HEMT
+- [[permanent/typesofgaasfets.pdf|Types of GaAs FETs]]
+- [[permanent/heterostructure_junctions.pdf|Heterostructure Junctions]]
+	
+
+# III-V Device Modeling
+
+## HEMT
+- [[permanent/yanglongmethod.pdf|Yang Long Method of Source Resistance Extraction]]
+- [[permanent/extract_hemt_equivalent_circuit.pdf|Method to extract the small signal equivalent circuit for a pHEMT transistor]]
