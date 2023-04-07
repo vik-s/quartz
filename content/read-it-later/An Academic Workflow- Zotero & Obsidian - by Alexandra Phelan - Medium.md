@@ -1,5 +1,6 @@
 ---
 id: 7c8093f9-96c2-4bc6-9cd1-0b4fc6ab71a1
+tags: #inbox/to-process 
 ---
 
 # An Academic Workflow: Zotero & Obsidian | by Alexandra Phelan | Medium

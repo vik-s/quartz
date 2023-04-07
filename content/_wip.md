@@ -1,6 +1,6 @@
 ## Notes to process
 ```dataview
 LIST
-FROM "fleeting"
+FROM *
 WHERE tag = inbox/to-process
 ```

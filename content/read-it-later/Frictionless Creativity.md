@@ -1,5 +1,6 @@
 ---
 id: 96e5bd2e-2953-48bf-ba60-387ac345e6a7
+tags: #done
 ---
 
 # Frictionless Creativity
@@ -23,7 +24,7 @@ id: 96e5bd2e-2953-48bf-ba60-387ac345e6a7
  (5) Create a series of swishes on the canvas with said ponytail,
  ​
  (6) Pass out.
- ​
+ \​
  After completing these 6 steps and waking up the next morning, Zhu Da would then take a good look at the swishes he created. He would study the texture of them, and unearth the various places within the swishes where patterns may secretly reside. And once he discovered the image that emerged as a result of connecting these patterns, he filled in the gaps with intentional brushstrokes that would form the beautiful landscapes he was famous for painting. [⤴️](https://omnivore.app/me/frictionless-creativity-1872fd03af2#28609126-aa10-414b-a284-8d8bd06fce17)
 
 > I make it a point to start these essays with no outline or no pre-existing conceptions of what I want to write. I simply sit down, set a timer, and just let whatever I want to delve into come about. [⤴️](https://omnivore.app/me/frictionless-creativity-1872fd03af2#a0676757-876d-4f12-8017-4e5150533fa5)

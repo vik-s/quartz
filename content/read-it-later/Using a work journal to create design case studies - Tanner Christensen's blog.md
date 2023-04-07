@@ -4,6 +4,7 @@ title: Using a work journal to create design case studies - Tanner Christensen's
 author: Tanner Christensen
 tags:
   - Writing
+  - #inbox/to-process 
 date_saved: 2023-03-04 07:53:13
 ---
 

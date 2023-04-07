@@ -4,6 +4,7 @@ title: The Bottom’s Up Approach To Writing That 99% Guarantees A Successful Ar
 author: Ev Chapman
 tags:
   - Writing
+  - #done
 date_saved: 2023-03-04 08:09:41
 date_published: 2022-03-08 13:11:22
 ---
