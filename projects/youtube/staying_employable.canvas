@@ -10,9 +10,9 @@
 		{"type":"text","text":"Interact with recruiters","id":"edfabed319519d9d","x":759,"y":690,"width":221,"height":60},
 		{"type":"text","text":"Build on online presence via blog or FOSS contributions","id":"53404ddcb10e95fc","x":1020,"y":526,"width":287,"height":69},
 		{"type":"text","text":"Build a positive reputation","id":"f5babe6210ed7126","x":1400,"y":526,"width":274,"height":54},
-		{"type":"file","file":"permanent/The Parable of the Thanksgiving Turkey.md","id":"6ec5907c122466d9","x":310,"y":-300,"width":391,"height":400},
 		{"type":"text","text":"**B-ROLL**: Turkey animation","id":"11fdadc938135dfa","x":-10,"y":-130,"width":250,"height":60},
-		{"type":"text","text":"Examples of surprise in tech layoffs","id":"72841fe7042f96c0","x":586,"y":-460,"width":320,"height":50}
+		{"type":"text","text":"Examples of surprise in tech layoffs","id":"72841fe7042f96c0","x":586,"y":-460,"width":320,"height":50},
+		{"type":"file","file":"permanent/The Parable of the Thanksgiving Turkey.md","id":"6ec5907c122466d9","x":368,"y":-300,"width":391,"height":400}
 	],
 	"edges":[
 		{"id":"93809ea08d63b888","fromNode":"9ca879e097bc4847","fromSide":"top","toNode":"6ec5907c122466d9","toSide":"bottom"},
