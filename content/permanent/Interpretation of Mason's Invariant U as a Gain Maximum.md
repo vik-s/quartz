@@ -7,8 +7,8 @@ tags: #ee/basics
 
 [[Mason's Invariant U]] is the maximum achievable power gain of an amplifer provided that the following conditions are met:
 
-1. The [[permanent/embedding network of a two port device|embedding network]] is linear, lossless, reciprocal two-port
-2. The device + [[permanent/embedding network of a two port device|embedding network]] is unilateralized (the embedding network is chosen such that the composite is a [[permanent/unilateral device|unilateral device]])
+1. The [[Excalidraw/embedding_2port_network.excalidraw|embedding network]] is linear, lossless, reciprocal two-port
+2. The device + embedding network is unilateralized (the embedding network is chosen such that the composite is a [[permanent/unilateral device|unilateral device]])
 3. No other connection between source and load networks, except through device
 4. Source and load impedances are passive. Gain is maximized with respect to these variables.
 
