@@ -1,0 +1,16 @@
+{
+	"nodes":[
+		{"type":"file","file":"permanent/creative methods of Zhu Da.md","id":"c87d11a8c6a09159","x":-280,"y":-220,"width":400,"height":400,"color":"5"},
+		{"type":"file","file":"permanent/creativity is the purest form of self acceptance.md","id":"952ce78fe507dae3","x":200,"y":-220,"width":387,"height":400},
+		{"type":"file","file":"permanent/mindset of a creative person alternates between playful and narrow focus modes.md","id":"fb20e9154d3bb577","x":680,"y":-220,"width":400,"height":400},
+		{"type":"text","text":"Story of how Paul McCartney composed \"Let it Be\"","id":"5f018a9150d19c42","x":1165,"y":-31,"width":235,"height":91},
+		{"type":"text","text":"Buckminster Fuller and the geodesic dome","id":"8e1445c0084a4fe7","x":1429,"y":-31,"width":250,"height":91},
+		{"type":"text","text":"Kekule's Dream of a snake (uoroboros) catching its own tail, leading to the discovery of Benzene","id":"e064e745f6e22515","x":1720,"y":-31,"width":340,"height":91},
+		{"type":"text","text":"# Creativity by Epiphany","id":"b9019fd8ce215820","x":1383,"y":-265,"width":343,"height":90}
+	],
+	"edges":[
+		{"id":"0e9c4a4679016ea5","fromNode":"b9019fd8ce215820","fromSide":"bottom","toNode":"5f018a9150d19c42","toSide":"top"},
+		{"id":"9cf37ba6a8665fd3","fromNode":"b9019fd8ce215820","fromSide":"bottom","toNode":"8e1445c0084a4fe7","toSide":"top"},
+		{"id":"cc742d56d4a22abc","fromNode":"b9019fd8ce215820","fromSide":"bottom","toNode":"e064e745f6e22515","toSide":"top"}
+	]
+}
