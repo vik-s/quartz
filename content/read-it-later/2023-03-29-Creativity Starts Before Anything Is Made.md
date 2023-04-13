@@ -1,6 +1,5 @@
 ---
 id: E1D06743-E3D5-4367-8C53-952DE733A504
-tags: #inbox/to-process 
 ---
 
 # Creativity Starts Before Anything Is Made
