@@ -1,0 +1,20 @@
+{
+	"nodes":[
+		{"id":"bf68f9c776141e5a","x":-162,"y":-132,"width":182,"height":30,"type":"text","text":"RFIC Designer"},
+		{"id":"19977344bf203130","x":80,"y":-132,"width":204,"height":30,"type":"text","text":"Modeling Engineer"},
+		{"id":"5611645ef72fffae","x":-433,"y":-136,"width":213,"height":30,"type":"text","text":"Programming/CAD"},
+		{"id":"bed0cf709013016e","x":72,"y":-40,"width":220,"height":120,"color":"4","type":"text","text":"It's what I know\nIt's mostly laidback\nFun problems"},
+		{"id":"55fc495912f8099a","x":-181,"y":-40,"width":220,"height":120,"color":"4","type":"text","text":"Lots of jobs available\nFind it satisfying\nLearn new stuff\n"},
+		{"id":"c1faf96e786e4db8","x":-443,"y":-40,"width":234,"height":120,"color":"4","type":"text","text":"Leverage python skills\nGet more into software"},
+		{"id":"80e7c2c500e34180","x":320,"y":-40,"width":260,"height":120,"color":"4","type":"text","text":"Learn new stuff\nprogramming prob needed"},
+		{"id":"fc113528a1524c19","x":371,"y":-132,"width":159,"height":30,"type":"text","text":"RF Systems"},
+		{"id":"8aae4e1f680d0ba6","x":620,"y":-132,"width":137,"height":30,"type":"text","text":"Other?"},
+		{"id":"4ef3f23bc285667b","x":72,"y":-300,"width":248,"height":50,"color":"1","type":"text","text":"Low future job growth"}
+	],
+	"edges":[
+		{"id":"b2ba2268c047971a","fromNode":"19977344bf203130","fromSide":"bottom","toNode":"bed0cf709013016e","toSide":"top"},
+		{"id":"7cf2301ab0f113b1","fromNode":"bf68f9c776141e5a","fromSide":"bottom","toNode":"55fc495912f8099a","toSide":"top"},
+		{"id":"733c57c9cfc21f63","fromNode":"5611645ef72fffae","fromSide":"bottom","toNode":"c1faf96e786e4db8","toSide":"top"},
+		{"id":"ea23fca1a2acea39","fromNode":"fc113528a1524c19","fromSide":"bottom","toNode":"80e7c2c500e34180","toSide":"top"}
+	]
+}
