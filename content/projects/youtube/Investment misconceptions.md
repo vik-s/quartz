@@ -2,7 +2,7 @@
 title: "Investment misconceptions"
 date: "2023-04-27 19:56"
 topic: #finance
-tentative title: 6 money misconceptions keeping you poor
+tentative title: 4 money ideas I got wrong that kept me poor 
 ---
 
 ### Intro
@@ -16,7 +16,7 @@ https://news.gallup.com/poll/266807/percentage-americans-owns-stock.aspx
 > [!note] To not work till we die, we need money to stop working. Money that will carry us through our sunset years. Enough so that we will not have to trade our precious time on this blue marble we live in, working for money. Investing is one way to make that money, but a recent poll found that only about 60% of people in the United States reported owning any stocks at all. That leaves 133 million people in the US alone, who have never owned a single stock. 
 
 **Shot**: Talking head
-> [!note] I know I did belong to this population at one point in my life, and what held me back were my misconceptions of what investing was. Whether you're saving and investing already or not, I hope this video will motivate you to get started, or inspire you to do better than you already are.
+> [!note] I did belong to the non-saving group at one point in my life, and what held me back were the incorrect notions in my head about what saving and investing really was. Things like, I don't make enough, or I'm too young, I'll just start later. Investing itself seemed hard to me, and I thought I would lose all my money. Now I know, I WAS DEAD WRONG.
 
 ---
 ### Misconception #1: I don't make enough to save
@@ -37,14 +37,37 @@ https://news.gallup.com/poll/266807/percentage-americans-owns-stock.aspx
 ---
 ### Misconception #2: I'm too young to save for retirement
 
-> [!note] Let's talk about another 92 year old, and he has not amassed $8 million, or $80 million. His net worth as it stands today is over $80 Billion, yes with a B. The 'Oracle of Omaha', Warren Buffet bought his first stock at the age of 11, and made his first million by the age of 30. In fact over 70 Billion of his wealth came after he turned 60. That is the magic of compounding, because in his sixties, he already been in the stock market for half a century. It is no doubt that he is a gifted investor, compounding at roughly 22% annually, more than I can personally even dream of making. But this record actually goes to Jim Simons of the hedge fund Renaissance Technologies, who has compounded money at 66% since 1988 in his Medallion fund. But even at this remarkable rate, Simons' net worth is only a quarter of Buffet's. Simons found his investment stride only in his 50s and had half the time Buffet had for compound interest to work.
+**SHOT**: Talking head
+> [!note] Let's talk about another 92 year old, and he has not amassed $8 million, or $80 million. His net worth as it stands today is over $80 Billion, yes with a B. 
 
-> [!note] It is never too young to start investing. The return on investment is largely not in our control, it varies depending on the stock market and interest rates. But the one thing we can actually control is our savings rate. The sooner you start to have a higher savings rate, the more your wealth will grow. Rather than the vague savings rate target of "as high as possible" I like to use the rule of thirds to shoot for a meaningful target savings rate, and it goes like this. For every 1 dollar you earn, leave 1/3 for taxes, save 1/3 and spend 1/3, or put it another way, save 1 dollar for every 1 dollar of take home pay you spend. 
+**SHOT**: Put a chart of the growth of warren buffett's net worth over time and indicate each part as you describe various aspects of it. Show a picture of Simons and Buffett side by side and explain the differences of each persons investment style, and net worth. Use bar graphs to show the return rates and the total net worth.
+> [!note] The 'Oracle of Omaha', Warren Buffet bought his first stock at the age of 11, and made his first million by the age of 30. In fact over 70 Billion of his wealth came after he turned 60. That is the magic of compounding, because in his sixties, he already been in the stock market for half a century. It is no doubt that he is a gifted investor, with a return rate of over 20% annually, more than I can personally even dream of making. But this record actually goes to Jim Simons of the hedge fund Renaissance Technologies, who has compounded money at the rate of 66% since 1988 in his Medallion fund. Simons used mathematical models to identify profitable trades, he is what you call a Quant on Wall Street. But Buffett focuses on buying good businesses and holding them for the long term. It is likely that Buffett's approach of holding investments for the long haul has resulted in a net worth that is 5 times that of Jim Simons.
 
+**SHOT**: Get B-roll videos of setting up for baking bread. The whole loaf is your monthly income. Set up three plates. One for taxes, one for spending, and one for saving. Take away the taxes plate, you'll never see that money again. Cut one slice of bread from the spending plate, apply spread on it, and enjoy it. For the spending part of it, show how you can put tasty spreads on it, and even bite it in the shape of a car and make the kids drive it around. The last 1/3 you put away into a box for another day. 
 
+> [!note] So what did we learn from all of this? It is never too young to start investing. Rate of return on investment is largely not in our control, it varies depending on the stock market and interest rates. But the one thing we can actually control is our savings rate. The sooner you start to have a higher savings rate, the more your wealth will grow.
 
+> [!note]  So how much should be saving? There is this simple rule of thirds that's easy to remember. Let's say that this loaf of bread is your monthly income. Let's say you pay a third in taxes, medicare, social security. That's money you'll never see again, at least for a while. You now have 2/3rds left. Use another third for your expenses, nourish yourself and your family, take your vacations, and improve your skills. Try to buy experiences with your money. Memories last longer than material possessions.  And the final 1/3, you put away for another day. 
 
+**SHOT**: Talking head
+> [!note] The average savings rate in the US is about 7-8%, and saving a third of your gross income means you are saving about 4 times as much as the average saver, and would put you in the top 5% of all savers in America. 
 
-4.	Investing is gambling
-5.	finance is complicated, I need a financial advisor
-6.	Financial pundits know something I don’t
+**SHOT**: Video of putting away a single slice of bread into the box.
+> [!note] Understandably this is a hard target to reach, but even if you save 10 cents for every dollar you spend, this will make you an above average saver for whom compounding will work its magic provided you start early.
+
+**SHOT**: Talking head
+> [!note] So you've decided to start putting away money for a rainy day, but how do you invest it? This brings us to our next misconception.
+
+### Misconception #3: Investing in complicated
+
+https://www.investopedia.com/financial-literacy-resource-center-7151950
+
+>[!note] The fundamental problem with education is that we were never taught financial literacy, and that has a ripple effect throughout the course of our lives. But that is changing now, with 23 states in the US mandating that personal finance courses be offered to high school students, and investopedia has some really great resources to teach children financial literacy, which I would recommend for even adults if you need to start from the very basics. I'll leave a link in the description below. The thing about investing that scared me off the most is all the terminology that surrounds it, and the media hype that you need to be some sort of a genius with numbers to successfully invest. This couldn't be further from the truth. So let's break this down into exactly what you need to know to get started.
+
+1. A savings account: This is the first place that you should be putting away money. You need to build cash reserve that you might need for emergencies such as medical bills, repairs, or job loss. Banks give you a relatively low rate of return for a savings account, but that's okay. It's not about maximizing your returns all the time. Sometimes you need money when you need it. I'd recommend building up about 6 months of expenses before even thinking of investing.
+2. Tax sheltered account: Once you have your savings in place, you should then contribute to a 401k or IRA. Here is a video where I go in depth about investing in a 401k, so do check that out. Tax sheltering means that you will pay less in taxes, that means more money for you to use, so you should definitely be taking advantage of that.
+3. Brokerage account: Once you've got the savings and tax-sheltered account taken care of, you can then open up a brokerage account at Vanguard, Fidelity, or similar companies. Any extra money you manage to save can be put away in this account and invested for the future.
+
+In 401k, IRA and brokerage accounts, the easiest way to get started is to buy a target date fund. This means that you figure out in what year you intend to retire, for example, the year you turn 65. And you buy a fund that is tailored to meet that retirement date. This all-in-one single fund purchase will meet all your needs at the most basic level, and get you out of analysis-paralysis and started in investing. Don't worry, you can always change your mind and switch into different funds later, but this is a great place to get started. The one reason why such a fund is a great choice is due to its low expense ratio - there's a term you have to learn about. It simply indicates how much it costs you to buy and hold the fund, and anything less that 0.5% is reasonable low-cost.
+
+### Misconception #4: Investing is gambling
