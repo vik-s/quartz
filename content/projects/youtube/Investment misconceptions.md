@@ -2,7 +2,7 @@
 title: "Investment misconceptions"
 date: "2023-04-27 19:56"
 topic: #finance
-tentative title: 4 money ideas I got wrong that kept me poor 
+tentative title: 4 money misconceptions that kept me poor 
 ---
 
 ### Intro
@@ -62,14 +62,30 @@ https://news.gallup.com/poll/266807/percentage-americans-owns-stock.aspx
 
 https://www.investopedia.com/financial-literacy-resource-center-7151950
 
->[!note] The fundamental problem with education is that we were never taught financial literacy, and that has a ripple effect throughout the course of our lives. But that is changing now, with 23 states in the US mandating that personal finance courses be offered to high school students, and investopedia has some really great resources to teach children financial literacy, which I would recommend for even adults if you need to start from the very basics. I'll leave a link in the description below. The thing about investing that scared me off the most is all the terminology that surrounds it, and the media hype that you need to be some sort of a genius with numbers to successfully invest. This couldn't be further from the truth. When you are starting out, you only need to think of 3 places to park your money.
+**SHOT**: Record this as a talking head shot and see if you can put a screenshot of browsing investopedia for financial literacy, and then landing on the map showing the requirements by state for financial literacy.
+>[!note] The fundamental problem with education is that we were never taught financial literacy, and that has a ripple effect throughout the course of our lives. For me, it is something I picked up along the way as an adult mostly via internet forums. But that is changing now, with more and more states in the US mandating that personal finance courses be offered to high school students
 
+**SHOT**: Talking head
+>[!note] The thing about investing that scared me off the most is all the terminology that surrounds it, and the media hype that you need to be some sort of a genius with numbers to successfully invest. This couldn't be further from the truth. When you are starting out, you only need to think of 3 places to park your money.
+https://www.bogleheads.org/w/images/thumb/7/75/Prioritizing_investments.svg/1000px-Prioritizing_investments.svg.png
 1.  The first place that you should be putting away money is in a savings account. You need to build cash reserve that you might need for emergencies such as medical bills, repairs, or job loss. Banks give you a relatively low rate of return for a savings account, but that's okay. It's not about maximizing your returns all the time. Sometimes you need money when you need it. I'd recommend building up about 6 months of expenses before even thinking of investing.
-2. Once you have your savings in place, you should then contribute to a tax sheltered account such as a 401k. Here is a video where I go in depth about investing in a 401k, so do check that out. Tax sheltering means that you will pay less in taxes, that means more money for you to use, so you should definitely be taking advantage of that.
+2. Once you have your savings in place, you should then contribute to a tax sheltered account such as a 401k. Here is a video where I go in depth about investing in a 401k, so do check that out. I'll have a link in the video description too. Tax sheltering means that you will pay less in taxes, that means more money for you to use, so you should definitely be taking advantage of that.
 3. Once you've got the savings and tax-sheltered account taken care of, you can then open up a brokerage account at Vanguard, Fidelity, or similar companies. Any extra money you manage to save can be put away in this account and invested for the future.
 
 In 401k, IRA and brokerage accounts, the easiest way to get started is to buy a target date fund. This means that you figure out in what year you intend to retire, for example, the year you turn 65. And you buy a fund that is tailored to meet that retirement date. This all-in-one single fund purchase will meet all your needs at the most basic level, and get you out of analysis-paralysis and started in investing. Don't worry, you can always change your mind and switch into different funds later, but this is a great place to get started. The one reason why such a fund is a great choice is due to its low expense ratio - there's a term you have to learn about. It simply indicates how much it costs you to buy and hold the fund, and anything less that 0.5% is reasonably low-cost.
 
-If you can get your savings going in just these three places, you will have 90% of your investing needs met and be on the road to becoming wealthy.
+If you can get your savings going in just these three places, you will have a great start in your investing journey and you can always revisit this as you learn more. I can recommend three places online that have some great resources and a helpful community that really helped me in the past. The first one is the r/personalfinance subreddit- this is a great starting point, and you can browse through common questions on almost every conceivable topic. You can also be motivated by the 30 days challenges that are often posted, encouraging you to build better habits.  The next is the mr. money mustache forums and this is the go to forum if you really want to drive up your savings rate,and find ways to live frugally. There are plenty of tips and tricks on here to cut expenses in every which way, and the final one is the bogleheads forum which I would consider the place to ask "expert level" questions. The people on here are very knowledgable and experienced, not to mention very wealthy. They also have some excellent learning resources on their wiki that I regularly revisit.
+
+Let's move on to the last misconception.
 
 ### Misconception #4: Investing is gambling
+
+Let's just admit it. Deep down inside we have a voice that asks, "What if I lose all my money? Am I gambling by investing?" After all we regularly hear of financial scams, bank collapses and market crashes, and what if we are caught in the middle of it? The real answer is yes, the results of investing in any given time period is definitely uncertain. But there are two levers that we have in our control to maximize our chances of success. 
+
+1.  asset allocation
+2.  time in the market
+
+Asset allocation is a fancy term
+
+
+https://www.visualcapitalist.com/stock-market-returns-time-periods-1872-2018/
