@@ -80,12 +80,15 @@ Let's move on to the last misconception.
 
 ### Misconception #4: Investing is gambling
 
-Let's just admit it. Deep down inside we have a voice that asks, "What if I lose all my money? Am I gambling by investing?" After all we regularly hear of financial scams, bank collapses and market crashes, and what if we are caught in the middle of it? The real answer is yes, the results of investing in any given time period is definitely uncertain. But there are two levers that we have in our control to maximize our chances of success. 
+We all have a voice deep down that asks, "What if I lose all my money? Am I gambling by investing?" After all we regularly hear of financial scams, bank collapses and market crashes, and what if we are caught in the middle of it? In reality, the results of investing in any given time period is definitely uncertain. But there are two levers that we have in our control to maximize our chances of success. 
 
 1.  asset allocation
 2.  time in the market
 
-Asset allocation is a fancy term
+Asset allocation is a fancy term that basically describes how your money is actually invested. You could choose to distribute your money between stocks, bonds, cash, or even real estate, and depending on how you split up your money between these options, your portfolio can be calculated to have a certain risk for the return you are getting. Usually, more risk, more reward, and this is characterized by a quantity called the "Sharpe Ratio", named after economist William Sharpe who developed it in 1966. In order to choose an asset allocation, we need the second lever - "time in the market". How long can we keep our money invested? Someone in their 20s has an investment horizon of over 40 years and has a longer time frame in which they can recover from market downturns compared to someone who is retiring in 5 years. 
 
+Let's take the example of the US stock market from 1872 to 2022. Let's look at the returns in terms of rolling periods. A rolling period is a window of time within which the average return of the stock market is calculated. Assume that Subbu invested $100 in the year 1980. Let's say that year the market returned 5%, so the 1 year rolling return would be 5%. Lets then say that in the next 4 years, the market returned 6% -4% 9% and -1% respectively. So the average return over 5 years is 3% up to 1985. We can make the same calculation in the period 1981-1986, 1982 and 1987, and so on- which are different rolling 5 year windows. Now that we understand this, let's look at some real data.
+https://themeasureofaplan.com/us-stock-market-returns-1870s-to-present/
 
-https://www.visualcapitalist.com/stock-market-returns-time-periods-1872-2018/
+As a result, the younger investor can potentially own more risky assets, in expectation of a higher reward (another reason for starting investing early.) A commonly used yardstick is to have 100-your age in stocks, since it is typically a riskier asset than bonds or cash. So someone in their 20s can have 75-80% in stocks, and allocate the rest to bonds or cash. Also, be prepared to hold these stocks for decades regardless of the market ups and downs. Panic selling in market downturns will make those paper losses real, and significantly impact your return over the long run. Ask yourself, "Am I prepared to see a loss of 50% in my stock portfolio and be ready to nothing about it?". If the answer is no, dial down your exposure to stocks in your asset allocation. Pick a value that will help you sleep better at night.
+
