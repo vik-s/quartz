@@ -16,7 +16,7 @@ https://news.gallup.com/poll/266807/percentage-americans-owns-stock.aspx
 > [!note] To not work till we die, we need money to stop working. Money that will carry us through our sunset years. Enough so that we will not have to trade our precious time on this blue marble we live in, working for money. Investing is one way to make that money, but a recent poll found that only about 60% of people in the United States reported owning any stocks at all. That leaves 133 million people in the US alone, who have never owned a single stock. 
 
 **Shot**: Talking head
-> [!note] I did belong to the non-saving group at one point in my life, and what held me back were the incorrect notions in my head about what saving and investing really was. Things like, I don't make enough, or I'm too young, I'll just start later. Investing itself seemed hard to me, and I thought I would lose all my money. Now I know, I WAS DEAD WRONG.
+> [!note] I did belong to the non-saving group at one point in my life, and what held me back were the incorrect notions in my head about what saving and investing really was. Things like, I don't make enough, or I'm too young, I'll just start later. Investing itself seemed hard to me, with all its complex terminology and I thought it's a form a gambling, and a sure fire way to lose all my money. Now I know, these were misconceptions, and in this video I'm going to explain why and provide concrete steps for you to start saving today towards a secure financial future. Let's get started.
 
 ---
 ### Misconception #1: I don't make enough to save
@@ -32,12 +32,20 @@ https://news.gallup.com/poll/266807/percentage-americans-owns-stock.aspx
 > [!note] To get wealthy, it's not always what you make. It's what you don't spend. Ronald Reed's success was a result of a lifetime of living frugally and being a disciplined investor. He held a basket of about 95 well diversified stocks, and held them for several decades. But on an even more basic level, what percentage of our income do we save today? According to a recent survey, 64% of the US were living paycheck to paycheck, but 48% of them were making over a hundred thousand dollars per year. That's 210million americans who have a savings rate of 0% - and seemingly income level doesn't matter. No matter how much you make, the first step is to figure out ways to cut spending. 
 
 **Shot**: Film a close up of you writing your expenses on a piece of paper. Shot of you making aeropress coffee. Shot of you reading a book. Use an infographic to show a cartoon person move from the 64% bar graph to the 36% bar graph by just saving a few dollars every month. 
-> [!note] Each person's situation is different, so look at your spending closely, and identify at least one or two things you can cut out to start with. Use a budgeting software if you have to, or write on a napkin, it doesn't matter. Cut out that morning starbucks if you have to, and make coffee at home. Or cancel some recurring TV subscriptions that you don't use as much, there are so many others ways you could be spending your time usefully. Even if you manage to save up  $50 per month, you're already part of the 36% *not* living paycheck to paycheck. Everyone has to start somewhere.
+> [!note] Each person's situation is different, so look at your spending closely, and identify at least one or two things you can cut out to start with. Use a budgeting software if you have to, or write on a napkin, it doesn't matter. Here's a list of things you probably don't need. 
+> - A new mobile phone
+> - All those TV subscriptions
+> - Even the latest TV
+> - A fancy car
+> - An expensive vacation
+> - A gym membership you don't use
+> - Expensive clothing
+> - To eat at the latest hipster restaurant near work
+> Use these savings to pay off credit card debt first. Seriously, do not have credit card debt. I'm not kidding.  After that, even if you manage to save up  $50 per month, you're already part of the 36% *not* living paycheck to paycheck. Everyone has to start somewhere, which takes us to...
 
-*Put in more ideas of ways to cut spending*
 
 ---
-### Misconception #2: I'm too young to save for retirement
+### Misconception #2: I'm too young to start retirement savings
 
 **SHOT**: Talking head
 > [!note] Let's talk about another 92 year old, and he has not amassed $8 million, or $80 million. His net worth as it stands today is over $80 Billion, yes with a B. 
@@ -49,7 +57,7 @@ https://news.gallup.com/poll/266807/percentage-americans-owns-stock.aspx
 
 > [!note] The takeaway from all this is that it is never too young to start investing. Rate of return on investment is largely not in our control, it varies depending on the stock market and interest rates. But the one thing we can actually control is our savings rate. The sooner you start to have a higher savings rate, the more your wealth will grow.
 
-> [!note]  So how much should be saving? There is this simple rule of thirds that's easy to remember. Let's say that this loaf of bread is your monthly income. Let's say you pay a third in taxes, medicare, social security. That's money you'll never see again, at least for a while. You now have 2/3rds left. Use another third for your expenses, nourish yourself and your family, take your vacations, and improve your skills. Try to buy experiences with your money. Memories last longer than material possessions.  And the final 1/3, you put away for another day. 
+> [!note]  So how much should be saving? There is this simple rule of thirds that's easy to remember. Let's say that this loaf of bread is your monthly income. Let's say you pay a third in taxes, medicare, social security. That's money you'll never see again, at least for a while. You now have 2/3rds left. Use another third for your expenses, nourish yourself and your family, take affordable vacations, build memories instead of buying things. Memories last longer than material possessions.  And the final 1/3, you put away for another day. 
 
 **SHOT**: Talking head
 > [!note] The average savings rate in the US is about 7-8%, and saving a third of your gross income means you are saving about 4 times as much as the average saver, and would put you in the top 5% of all savers in America. 
@@ -93,7 +101,9 @@ Let's take the example of the US stock market from 1872 to 2022. Let's look at t
 
 In a one year rolling window,  you can see that there are many years where you would have lost money and the variation of how much the return rate varies is high as shown by the standard deviation of 18.2%. But looking at the 5 year rolling window, you can see that the standard deviation is lower, and there are fewer periods where you would have lost money. In the 10 year rolling window, there are even few periods of loss and lower standard deviation. In the 20 year window, there are no periods where you would have lost money in the market.
 
+show this animation in video:
 https://themeasureofaplan.com/us-stock-market-returns-1870s-to-present/
 
-The longer you stay invested, the more chances that you will not lose money investing. As a result, the younger investor can potentially own more risky assets, in expectation of a higher reward which is another reason for starting investing early. The younger you are, the more you can weather market storms. A commonly used yardstick is to have 100-your age in stocks, since it is typically a riskier asset than bonds or cash. So someone in their 20s can have 75-80% in stocks, and allocate the rest to bonds or cash. Also, be prepared to hold these stocks for decades regardless of the market ups and downs. Panic selling in market downturns will make those paper losses real, and significantly impact your return over the long run. Ask yourself, "Am I prepared to see a loss of 50% in my stock portfolio and be ready to nothing about it?". If the answer is no, dial down your exposure to stocks in your asset allocation. Pick a value that will help you sleep better at night.
+The longer you stay invested, the more chances that you will not lose money investing. As a result, the younger investor can potentially own more risky assets, in expectation of a higher reward which is another reason for starting investing early. The younger you are, the more you can weather market storms. A commonly used yardstick is to have 100-your age in stocks, since it is typically a riskier asset than bonds or cash. So someone in their 20s can have 75-80% in stocks, and allocate the rest to bonds or cash. Also, be prepared to hold these stocks for decades regardless of the market ups and downs. Panic selling in market downturns will make those paper losses real, and significantly impact your return over the long run. Ask yourself, "Am I prepared to see a loss of 50% in my stock portfolio and be ready to nothing about it?". If the answer is no, dial down your exposure to stocks in your asset allocation. Pick a value that will help you sleep better at night. Hopefully this convinces you that investing does not have to be a gamble if you can buy a diversified asset and hold it for a long time. 
 
+So there you go - I hope you found this useful. Here is quick chart showing the key takeaways from this video. If you've never started investing, I hope this video has given you a starting point. If you have any other ideas to get started, or found this video helpful, it would be great if you could leave a comment below. Catch you on the next one..
