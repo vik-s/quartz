@@ -41,7 +41,7 @@ Let's talk about another 92 year old, and he has not amassed $8 million, or $80 
 
 The 'Oracle of Omaha', Warren Buffet bought his first stock at the age of 11, and made his first million by the age of 30. In fact over 70 Billion of his wealth came after he turned 60. That is the magic of compounding, because in his sixties, he already been in the stock market for half a century. 
 
-Let's say that you have managed to find ways in your budget to save $100 per month. If you simply put that in a savings bank account paying 2%, you will have $X dollars in 10 years. Instead if you invest that $100 in an S&P 500 index fund, we'll revisit how to invest later in this video, but just stay with me for now, whose historical rate of return has been 7%, your $100 monthly investment will grow to $X in 10 years. In 20 years, it will be $Y and in 30 years it will grow to $Z.
+Let's say that you have managed to find ways in your budget to save $100 per month. If you simply put that in a savings bank account paying 2%, you will have $13,000 dollars in 10 years, of which $1000 is interest earned. Instead if you invest that $100 in an S&P 500 index fund,  whose historical rate of return has been 7%, your $100 monthly investment will grow to $16,000 in 10 years. In 20 years, it will be nearly $50,000 and in 30 years it will grow to about $110,000.
 
 The takeaway from all this is that it is never too young to start investing. Rate of return on investment is largely not in our control, it varies depending on the stock market and interest rates. But the one thing we can actually control is our savings rate. The sooner you start to have a higher savings rate, the more your wealth will grow.
 
