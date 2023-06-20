@@ -7,18 +7,20 @@ publish date:
 ## The Idea Phase
 
 ### 💡What is the video about?
-This video is about how I found that periodically slowing down my daily life increased my peace of mind and focus.
+There is an optimal number of work hours in a week to feel motivated, energetic, and avoid burnout. I want to make a video to backfill work hours after accounting for important stuff like sleep, exercise, family.
 
 ### ✅ What are some key takeaways?
-Everybody should find ways to live intentionally slow every now and then. They can do it by going out in nature on walks, hikes, or spending a few days camping. If nothing else, sit and stare into the sky and pay attention to every sensation around you. Or even the smallest chores, hear the clinks when you make tea. Be mindful and present.
+Switch from a work-first mentality to a me-first mentality. Design your work around your life instead of the other way around.
 
 ### 👾 What are some title ideas?
-- How slowing down increased my focus and creativity
+- The optimal way to design your work life
+- The most overlooked way to design your life
+- One way to avoid burnout that nobody is talking about | Design your life
+- I've prioritized work WRONGLY all my life
 
 ### 🎇 List out some thumbnail ideas
-- A picture of me closing my eyes, and text showing all the good things around my head
-- Half happy face with word SLOW and half sad face with word FAST
-- Me sitting in a relaxed pose with words "100x PRODUCTIVE"
+- I'm sitting in front of a computer pulling my hair out and screaming, and an arrow points to me saying "WRONG"
+- Picture of my face looking up at my brain. My brain is transparent and there is a cartoon overlay showing that only a small fraction of my mind is focused on work, and majority is occupied by other important things. Better if hair is messy. Outside my head are distractions floating around, like youtube, social media, news.
 
 ### 🔑 List out potential keywords
 slow-living, focus, productivity, lower stress, nature, camping, hiking, asmr
@@ -33,7 +35,8 @@ slow-living, focus, productivity, lower stress, nature, camping, hiking, asmr
 ---
 ## Script (1000 words / 5 mins)
 
-### Introduction
+### Hook / Intro
+
 Over the last few months, my life got pretty busy. I had an overflowing list of things to do, projects to finish, and deadlines to meet. I am a hardware engineer working on making communication devices, and while I do love what I do, it gets hard to balance that with my family time and personal time. Work always takes up a disproportiate part of my day, leaving me wanting more time to spend with loved ones and things I am passionate about.
 
 I tried productivity techniques to streamline my day - things like time-blocking and pomodoro, and while they do help me to some extent, I dont find myself doing it all the time. There is a burn out that comes with trying to maximize every living moment.
