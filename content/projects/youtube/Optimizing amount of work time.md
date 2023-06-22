@@ -37,6 +37,16 @@ slow-living, focus, productivity, lower stress, nature, camping, hiking, asmr
 
 ### Hook / Intro
 
+"I wish I spent more time at work" - said no tombstone ever.
+
+Yet, we make work central to our lives. We let relationships fail, neglect children and sever relations with people in the pursuit of a career. We can all argue that it is for the money. But is it really?
+
+For the many really successful people, it appears that the success comes at a cost. Steve Jobs had an estranged relationship with his daughter. Gustavo Arnal, the CFO of bed, bath and beyond took his own life when the company failed. For the rest of us, we rush from one day to another, not stopping to enjoy our children as they get older, or take the time to talk to our aging parents.
+
+In this video, I propose an alternative. Let us make our personal lives central to us, and design work around it. lmlm
+
+
+
 Over the last few months, my life got pretty busy. I had an overflowing list of things to do, projects to finish, and deadlines to meet. I am a hardware engineer working on making communication devices, and while I do love what I do, it gets hard to balance that with my family time and personal time. Work always takes up a disproportiate part of my day, leaving me wanting more time to spend with loved ones and things I am passionate about.
 
 I tried productivity techniques to streamline my day - things like time-blocking and pomodoro, and while they do help me to some extent, I dont find myself doing it all the time. There is a burn out that comes with trying to maximize every living moment.
