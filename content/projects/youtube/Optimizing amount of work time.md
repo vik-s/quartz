@@ -21,6 +21,7 @@ Switch from a work-first mentality to a me-first mentality. Design your work aro
 ### 🎇 List out some thumbnail ideas
 - I'm sitting in front of a computer pulling my hair out and screaming, and an arrow points to me saying "WRONG"
 - Picture of my face looking up at my brain. My brain is transparent and there is a cartoon overlay showing that only a small fraction of my mind is focused on work, and majority is occupied by other important things. Better if hair is messy. Outside my head are distractions floating around, like youtube, social media, news.
+- Me being excited about icons such as notion, obsidian, pomodoro and arrow pointing to me saying "I was wrong"
 
 ### 🔑 List out potential keywords
 slow-living, focus, productivity, lower stress, nature, camping, hiking, asmr
@@ -39,23 +40,23 @@ slow-living, focus, productivity, lower stress, nature, camping, hiking, asmr
 
 "I wish I spent more time at work" - said no tombstone ever.
 
-Yet, we make work central to our lives. We let relationships fail, neglect children and sever relations with people in the pursuit of a career. We can all argue that it is for the money. But is it really?
+Yet, we make work central to our lives. We let relationships fail, neglect children and sever relations with people in the pursuit of a career. We can all argue that it is for the money. But is it really? We rush from one day to another, not stopping to enjoy our children as they get older, or take the time to talk to our aging parents. We don't prioritize exercise, or cooking healthy food. It's like we're rowing as quickly as possible through the river of life only to meet with a waterfall at the end.
 
-For the many really successful people, it appears that the success comes at a cost. Steve Jobs had an estranged relationship with his daughter. Gustavo Arnal, the CFO of bed, bath and beyond took his own life when the company failed. For the rest of us, we rush from one day to another, not stopping to enjoy our children as they get older, or take the time to talk to our aging parents.
-
-In this video, I propose an alternative. Let us make our personal lives central to us, and design work around it. lmlm
-
-
-
-Over the last few months, my life got pretty busy. I had an overflowing list of things to do, projects to finish, and deadlines to meet. I am a hardware engineer working on making communication devices, and while I do love what I do, it gets hard to balance that with my family time and personal time. Work always takes up a disproportiate part of my day, leaving me wanting more time to spend with loved ones and things I am passionate about.
-
-I tried productivity techniques to streamline my day - things like time-blocking and pomodoro, and while they do help me to some extent, I dont find myself doing it all the time. There is a burn out that comes with trying to maximize every living moment.
-
-Instead, I tried something completely counter intuitive. Slowing down.
-
-In this video, I'll describe how I intentionally try to slow down, and how it has helped me become more productive while being less stressed about my day to day life. (write a bit more here)
+In this video, I propose an alternative. 
 
 ### Main Content
+
+_for the text below, I will use 24 wooden blocks with labels for each hour of the day. and group together different blocks when assigning time to work / hobbies / exercise / rest. I might line them up like dominos and knock them down when I talk about what I am doing at any given hour. show this for both the conventional approach, and the method I am proposing. i think i will also use b-roll footage of me doing stuff_
+
+The 8 billion people on earth today are from many countries, speak many languages, follow many customs and have many beliefs. The one common thing we all have is the length of a day - 24 hours. It's how we deploy that precious resource that determines how we will live our life.
+
+_2 years earlier_
+
+My typical day used to look something like this. Wake up at 7am. Get a cup of coffee and check social media, read the news and browse the web. It's 8am. Change in to work wear and get to work by 9am. Work from 9am to 5pm. Am I productive for all 9 work hours? Not at all- but we'll get back to this later. Get home at 6pm. watch some TV till 7pm to "relax", rustle up some food, watch some more TV while eating. At 9pm, open up my work laptop to check some emails, get sucked into work and spend the next hour or so answering emails and trying to work on "quick stuff". My brain now has lit up like a christmas tree, so I lie in bed with my phone looking at instagram reels and youtube videos to calm it down, and before I know it, it's midnight. If I'm lucky I'll fall asleep within the hour - leaving me only 6 hours to sleep. Downsides: no exercise, poor sleep, low quality food, no time for hobbies, no life. _maybe I can play: "everyday is exactly the same" by Nine Inch Nails during this part (license permitting)_
+
+_present day_
+
+
 
 ##### Intention and Mindfulness
 The first thing I experimented with is - being intentional with silence. Often the temptation is to listen to music, podcasts or audiobooks while doing work - whether it is knowledge work or just chores at home. I found that this was filling up what Chris Bailey calls "Attentional Space" in his book "Hyperfocus". Your attentional space is what you can pay at most attention to, at any given time. Whatever you are working on, let's say takes up 80% of your attentional space, the temptation is to fill the remaining 20% with something like music. What I have found is that leaving the 20% unfilled results in a lot less mental fatigue when you have some wiggle room in your attentional space. It's rather unsurprising that it is exhausting to run my mental CPU cores at maximum capacity all the time. By running my mental cores at moderate capacity helps me work for longer periods of time with greater focus, and I'm less tired at the end.
@@ -68,6 +69,7 @@ By slowing down and doing one thing at a time, I will not listen to all the podc
 
 ##### Reframing expectations
 My second major mindshift came when I asked my older child a question: "The floor is full of markers, paper and toys. Does it not bother you?" Then I proceeded to say - "It bothers me because the floor is where I walk, and now I'm not able to very well". His answer was - " I don't have a big enough table to work on, so this floor space is my workspace." 
+
 
 ### Ending
 
