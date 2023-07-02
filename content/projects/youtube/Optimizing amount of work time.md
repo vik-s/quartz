@@ -52,10 +52,15 @@ The 8 billion people on earth today are from many countries, speak many language
 
 _2 years earlier_
 
-My typical day used to look something like this. Wake up at 7am. Get a cup of coffee and check social media, read the news and browse the web. It's 8am. Change in to work wear and get to work by 9am. Work from 9am to 5pm. Am I productive for all 9 work hours? Not at all- but we'll get back to this later. Get home at 6pm. watch some TV till 7pm to "relax", rustle up some food, watch some more TV while eating. At 9pm, open up my work laptop to check some emails, get sucked into work and spend the next hour or so answering emails and trying to work on "quick stuff". My brain now has lit up like a christmas tree, so I lie in bed with my phone looking at instagram reels and youtube videos to calm it down, and before I know it, it's midnight. If I'm lucky I'll fall asleep within the hour - leaving me only 6 hours to sleep. Downsides: no exercise, poor sleep, low quality food, no time for hobbies, no life. _maybe I can play: "everyday is exactly the same" by Nine Inch Nails during this part (license permitting)_
+My typical day used to look something like this. Wake up at 7am. Get a cup of coffee and check social media, read the news and browse the web. It's 8am. Change in to work wear and get to work by 9am. Work from 9am to 5pm. Am I productive for all 9 work hours? Not at all- but we'll get back to this later. Get home at 6pm. watch some TV till 7pm to "relax", rustle up some food, watch some more TV while eating. At 9pm, open up my work laptop to check some emails, get sucked into work and spend the next hour or so answering emails and trying to work on "quick stuff". My brain now has lit up like a christmas tree, so I lie in bed with my phone looking at instagram reels and youtube videos to calm it down, and before I know it, it's midnight. If I'm lucky I'll fall asleep within the hour - leaving me only 6 hours to sleep. _maybe I can play: "everyday is exactly the same" by Nine Inch Nails during this part (license permitting)_
+
+What I was doing wrong was making work the central part of my life, and not being intentional with the rest of my day, which I spent on auto-pilot, letting social media, news and TV command my time, leaving me little time to exercise, read or work on any hobbies I wanted to. My engineering work at my employer was also not intentional. A lot of my day went into what Cal Newport calls "shallow work", like answering emails and IM's, and not planning exactly what I wanted to get done in the day. I was not making every hour very productive.
+
+It was time I made some changes, and this is what I did.
 
 _present day_
 
+I asked myself, what is the most important aspects of my life I want to address in my day. 
 
 
 ##### Intention and Mindfulness
