@@ -25,3 +25,5 @@ tags: #homelab, #media
 9. I then replaced all 3 of these files with my new copies
     
 10. I started overseer again and the problem was resolved.”
+
+Although I tried this procedure, it did not work. The real issue was DNS issues with tailscale not allowing DNS to resolve on my pfsense VM.
