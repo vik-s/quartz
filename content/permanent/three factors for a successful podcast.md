@@ -14,4 +14,4 @@ At least one to have a successful podcast. Two is really great. Three is very ra
 
 ## References
 
-Sam Parr from My First Million podcast
+Sam Parr from [[My First Million]] podcast
