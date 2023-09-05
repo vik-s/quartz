@@ -22,3 +22,16 @@
 	- Having a bad reputation will destroy your career prospects, and in one case of my friend, even come back to haunt you years later.
 	- Pay attentional to punctuality. Deliver results on time. Show up on time for meetings. Do what you say you will.
 	- Go out of your way to help others. In Adam Grant's book, Give and Take, he explains how people who give more than they take always end up better off in the long run, professionally and personally.
+
+**Cool quote**
+> [!quote] The door swings both ways.
+
+Referring to the fact that people have the right to walk out of the door, just as a company has the right to fire you.
+
+
+
+
+
+
+
+
