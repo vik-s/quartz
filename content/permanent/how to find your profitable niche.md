@@ -15,13 +15,13 @@ Clearly define the kind of audience you looking to attract. It is assumed that y
 
 If you are an engineer looking to build an online consulting business:
 
-Rather than targeting technology companies (broad audience), look for RF/analog companies (niche) and RF front-end design companies/groups (sub-niche).
+Rather than targeting  everyone (broad audience), look for tech workers (niche) or more specifically engineers (sub-niche).
 
 ## 2) Choose a sub-nice by product or service
 
 You can similarly narrow down your focus based on the service or product you will create.
 
-If you want to designing coaching for RF engineers: Rather than targeting RF engineering coaching (broad audience), you could focus on RF front end design coaching (niche), or specifically design flow solutions for RF front end coaching (sub-niche).
+Rather than offering general service like consultant (broad service), you could focus on data analysis consultant (niche), or more specifically data analysis consultant for engineering firms (sub-niche) 
 
 Now that you've identified your audience:
 
