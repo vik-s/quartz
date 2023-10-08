@@ -1,6 +1,5 @@
-
-- Start with the story of the Thanksgiving Turkey
-- ![[permanent/The Parable of the Thanksgiving Turkey|The Parable of the Thanksgiving Turkey]]
+Start with the story of the Thanksgiving Turkey
+- [[permanent/The Parable of the Thanksgiving Turkey|The Parable of the Thanksgiving Turkey]]
 - Establish credibility for stating your background
 	- Worked in tech for 13 years, small, medium and large companies
 	- Although what I am going to say is based on the tech world, I believe it is broad enough even if you are not in tech.
@@ -24,7 +23,7 @@
 
  The best example of conflating results and time comes from the [[permanent/the locksmiths paradox|the locksmiths paradox]]
 
-![[permanent/the locksmiths paradox|the locksmiths paradox]]
+[[permanent/the locksmiths paradox|the locksmiths paradox]]
 
 Every once in a while you complete our work task much earlier than you think for a variety of reasons -- you've solved a similar problem before, your assumptions proved right, you had timely help, etc. Whenever this happens, corporate culture is to pad the time taken to do the task so that it does not seem like we have no work to do. Or because we worry that more work may come our way if we 
 
