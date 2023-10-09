@@ -226,28 +226,8 @@ Make it a habit to read with a pen and paper in hand.
 
 # Fun Stories
 
-## Richard Feynman and writing
-“Richard Feynman once had a visitor in his office, a historian who wanted
-to interview him. When he spotted Feynman’s notebooks, he said how delighted he was to see such “wonderful records of Feynman’s thinking.” 
+[[permanent/Richard Feynman and writing]]
 
-“No, no!” Feynman protested. “They aren’t a record of my thinking process. They are my thinking process. I actually did the work on the paper.” 
+[[permanent/Survivorship bias in airplane bullet holes]]
 
-“Well,” the historian said, “the work was done in your head, but the record of it is still here.” 
-
-“No, it’s not a record, not really. It’s working. You have to work on paper, and this is the paper.”
-”
-
-## Survivorship bias in airplane bullet holes
-“we can make it a habit to always ask what is not in the picture, but could be relevant. This, too, does not come naturally to us. 
-
-One of the most famous figures to illustrate this skill is the mathematician Abraham Wald (Mangel and Samaniego 1984). During World War II, he was asked to help the Royal Air Force find the areas on their planes that were most often hit by bullets so they could cover them with more armour. But instead of counting the bullet holes on the returned planes, he recommended armouring the spots where none of the planes had taken any hits.”
-
-“The RAF forgot to take into account what was not there to see: All the planes that didn’t make it back. The RAF fell for a common error in thinking called survivorship bias (Taleb 2005). The other planes didn’t make it back because they were hit where they should have had extra protection, like the fuel tank. The returning planes could only
-show what was less relevant.”
-
-
-## Hemingway and rewriting drafts
-“Ernest Hemingway was once asked how often he rewrote his first draft. 
-His answer: “It depends. I rewrote the ending of ‘A Farewell to Arms,’ the last page of it, thirty-nine times before I was satisfied.” 
-“Was there some technical problem there? What was it that had stumped you?” the interviewer asked. 
-“Getting the words right,” Hemingway replied (Paris Review, 1956).”
+[[permanent/Hemingway and rewriting drafts]]
