@@ -1,0 +1,78 @@
+# Die With Zero
+
+![rw-book-cover](https://is3-ssl.mzstatic.com/image/thumb/Publication114/v4/b2/8b/1b/b28b1b76-5290-e6dc-7af7-3d9c244a45a3/9780358100515_marketingimage.jpg/1400x2105w.jpg)
+
+## Metadata
+- Author: [[Bill Perkins]]
+- Full Title: Die With Zero
+- Category: #books
+
+## Highlights
+- When the end is near, we suddenly start thinking, What the hell am I doing? Why did I wait this long? Until then, most of us go through life as if we had all the time in the world.
+- it makes no sense to let opportunities pass us by for fear of squandering our money. Squandering our lives should be a much greater worry.
+- our ability to enjoy different kinds of experiences changes throughout our lifetimes.
+- It’s called consumption smoothing. Our incomes might vary from one month or one year to another, but that doesn’t mean our spending should reflect those variations—we would be better off if we evened out those variations.
+- Life energy is all the hours that you’re alive to do things—and whenever you work, you spend some of that finite life energy
+- Living on a shoestring when you can afford more deprives you of those experiences and makes your world smaller than it needs to be
+- His name is Chris Renna and he works at a clinic called Life­Span that does super-comprehensive testing to catch problems early
+- Those are the people I’m writing for—people who are
+- saving too much for their own good.
+- The business of life is the acquisition of memories. In the end that’s all there is.
+- you retire on your memories
+- To fully enjoy life instead of just surviving it, you need to stop driving mindlessly and actively steer your life the way you want it to go
+- Once you’re in the habit of working for money to live, the thrill of making money exceeds the thrill of actually living.
+- So many people feel like they can never get enough, and as their net worth grows, their goalposts just keep shifting
+- If you spend hours and hours of your life acquiring money and then die without spending all of that money, then you’ve needlessly wasted too many precious hours of your life.
+- the Life-Cycle Hypothesis (LCH)—an idea about how people manage their spending and saving to try to get the most from their money across their life span
+- Even people who see work as a form of play would be better off if they spent at least some percentage of their time on experiences that don’t involve working for money.
+- Because even if you enjoyed every minute of the work that brought you that money, failing to spend that money is still a waste.
+- most people keep accumulating wealth for decades, and most don’t start spending it down until very late in life
+- the more risk you are willing to take, the less of your life energy you’re likely to waste working for money you won’t ever get to spend.
+- If you live your life with fear and
+- avoidance, my bet is you will either fritter your money away or play it so safe that you will leave many, many years of your hard-earned money behind—so you’ll be working many years as a slave to your own fears.
+- We are solving for your total life enjoyment.
+- They gave up years of their life while healthy and vibrant to buy a few extra weeks of life when they are sick and immobile. If that’s not irrational, I don’t know what is!
+- Start thinking more about how you use your limited time, your life energy, and you’ll be well on your way to living the fullest life you possibly can.
+- Putting your kids first means you give to them much earlier, and you make a deliberate plan to make sure that what you have for your children reaches them when it will make the most impact.
+- What if he’d had a particularly costly disease, like Alz­heimer’s, which typically requires expensive long-term care? Wouldn’t he have needed his savings for that? As noted earlier, if that’s the main reason you feel compelled to keep saving and saving, remember that you can buy long-term care insurance, which costs far less than self-insuring by saving massive amounts of money for a crisis that may never come. Just like any other kind of insurance.
+- many of us are too busy chasing x, y, and z for the sake of future benefits, not realizing that the time to have meaningful experiences with our children is now. But
+- Of all the experiences you are trying to bequeath to your child, one of those experiences is time with you.
+- So many people tell themselves that they are working for their kids—they just blindly assume that earning more money will benefit their kids. But until you stop to think about the numbers, you can’t know whether sacrificing your time to earn more money will result in a net benefit for your children.
+- If you plan to give, give while you’re alive, and the earlier the better. Your charity can’t wait.
+- strike the right balance between spending on the present (and only on what you value) and saving smartly for the future.
+- You want to achieve the optimal balance between enjoying the present and providing for a good future.
+- travel is the ultimate gauge of a person’s ability to extract enjoyment from money, because it takes time, money, and, above all, health.
+- Your ability to enjoy many experiences in life depends on your health—but money plays a part, too, because a lot of activities cost money. So you’d better spend the money when you still have the health.
+- The utility, or usefulness, of money declines with age.
+- It makes sense to spend more of your money at some ages than others, so it makes sense to adjust your balance of spending to saving over the years accordingly.
+- There is a time to work (and save) and a time to play, and the optimal life requires planning for both survival and thriving.
+- Think about the three basics people need to have to get the most out of life: health, free time, and money. The problem is that these things rarely all come together at once.
+- So people in these middle years—neither very young nor very old—typically have a different problem: They face a time crunch, especially if they have children at home.
+- Not that children don’t bring plenty of positive life experiences—they do—but between changing diapers, driving to various lessons and practices, and taking care of a larger household, there’s just less time for other experiences.
+- People in the middle years sometimes trade money for time—and the more money they have, the more of it they should be using to buy time
+- no amount of money can ever make up for very poor health
+- When the demanding job finally brings you financial success, do you still have the key ingredient (health) for enjoying that success?
+- What I’m really trying to get across is that improved health improves everything in your life, makes every experience more enjoyable, at every age.
+- Basically, there is a compounding effect to being in poor health.
+- People of all ages should be spending more time and money on their health
+- The other big opportunity I see for creating a more balanced life is to exchange money for free time—a tactic that usually has the most
+- impact in one’s middle years, when you have more money than time.
+- time is a lot more scarce and finite than your cash
+- Using time-saving services reduced time pressure, they found, and reduced time pressure improved the day’s mood. If done repeatedly, such daily mood lifts improve overall life satisfaction.
+- You just kind of assume that some things will last forever. But of course, they don’t. That’s sad, granted, but there’s good news: Just realizing that they don’t last forever, that everything eventually fades and dies, can make you appreciate everything more in the here and now.
+- the top regret among Ware’s male patients—was this: “I wish I had not worked so hard.”
+- Being aware that your time is limited can clearly motivate you to make the most of the time you do have.
+- We all have dreams in life, but I have found that it’s extremely helpful to actually write them all down in a list.
+- Then, once you have your list of items, start to drop each of your hoped-for pursuits into the specific buckets, based on when you’d ideally have each experience.
+- The point is, today’s the day to start actively and consciously thinking and planning for your years ahead.
+- you might begin to sense that some desired experiences conflict with other experiences. Or you might realize that some of the activities you want to do won’t happen at all unless you begin to plan for them now.
+- by dividing goals into time buckets, you are taking a much more proactive approach to your life.
+- convert your life energy to as many experience points as you can. Doing that requires figuring out the optimal allocation of your money and free time to the right ages, given the inevitability of declining health and eventual death
+- survival threshold = 0.7 × (cost to live one year) × (years left to live)
+- when you think of your net worth peak this way, the peak is not a number (a specific dollar amount) but a specific date (tied to your biological age).
+- much earlier than what is traditionally recommended. If you wait until you’re 65 or even 62 to dip into your nest egg, you will almost certainly end up working longer than necessary for money you will never get to spend. What a sad thought: to slave away at a job and never get the gold.
+- What, do you really expect me to quit a job I love just because I’ve hit some magical date?” And my answer is no. If you want to keep working, be my guest. Just be sure to ramp up your spending accordingly so that you don’t end up dying with lots of money left over. That would be a waste no matter how much you enjoyed your job.
+- the vast majority of the experiences you want to have will have to happen within about 20 years of midlife, in either direction—in other words, roughly between 20 and 60.
+- For people used to accumulating wealth, decumulation doesn’t come naturally. Old habits die hard.
+- So before you quit or scale back your job, really think through what you want to do once your work won’t be taking up much of your everyday time.
+- Remember: In the end, the business of life is the acquisition of memories.

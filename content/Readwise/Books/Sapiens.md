@@ -1,0 +1,326 @@
+# Sapiens
+
+![rw-book-cover](https://up.bookfusion.com/book/cover/002/271/682/2729163d36fdf689.jpg)
+
+## Metadata
+- Author: [[Yuval Noah Harari]]
+- Full Title: Sapiens
+- Category: #books
+
+## Highlights
+- Humans in Europe and western Asia evolved into Homo neanderthalensis (‘Man from the Neander Valley), popularly referred to simply as ‘Neanderthals
+- On another Indonesian island – the small island of Flores – archaic humans underwent a process of dwarfing. Humans first reached Flores when the sea level was exceptionally low, and the island was easily accessible from the mainland. When the seas rose again, some people were trapped on the island, which was poor in resources. Big people, who need a lot of food, died
+- first. Smaller fellows survived much better. Over the generations, the people of Flores became dwarves. This unique species, known by scientists as Homo floresiensis, reached a maximum height of only one metre and weighed no more than twenty-five kilograms.
+- The earth of a hundred millennia ago was walked by at least six different species of man
+- The fact is that a jumbo brain is a jumbo drain on the body. It’s not easy to carry around, especially when encased inside a massive skull. It’s even harder to fuel. In Homo sapiens, the brain accounts for about 2–3 per cent of total body weight, but it consumes 25 per cent of the body’s energy when the body is at rest. By comparison, the brains of other apes require only 8 per cent of rest-time energy. Archaic humans paid for their large brains in two ways. Firstly, they spent more time in search of food. Secondly, their muscles atrophied.
+- Adjusting to an upright position was quite a challenge, especially when the scaffolding had to support an extra-large cranium. Humankind paid for its lofty vision and industrious hands with backaches and stiff necks
+- Women who gave birth earlier, when the infants brain and head were still relatively small and supple, fared better and lived to have more children. Natural selection consequently favoured earlier births
+- Humans emerge from the womb like molten glass from a furnace. They can be spun, stretched and shaped with a surprising degree of freedom
+- Genus Homo’s position in the food chain was, until quite recently, solidly in the middle
+- only in the last 100,000 years – with the rise of Homo sapiens – that man jumped to the top of the food chain.
+- Sapiens by contrast is more like a banana republic dictator. Having so recently been one of the underdogs of the savannah, we are full of fears and anxieties over our position, which makes us doubly cruel and dangerous
+- It turned out that 1–4 per cent of the unique human DNA of modern populations in the Middle East and Europe is Neanderthal DNA. That’s not a huge amount, but it’s significant. A second shock came several months later, when DNA extracted from the fossilised finger from Denisova was mapped. The results proved that up to 6 per cent of the unique human DNA of modern Melanesians and Aboriginal Australians is Denisovan DNA.
+- Since Neanderthals and Denisovans contributed only a small amount of DNA to our present-day genome, it is impossible to speak of a ‘merger’ between Sapiens and other human species.
+- So the populations did not merge, but a few lucky Neanderthal genes did hitch a ride on the Sapiens Express
+- It may well be that when Sapiens encountered Neanderthals, the result was the first and most significant ethnic-cleansing campaign in history.
+- Our lack of brothers and sisters makes it easier to imagine that we are the epitome of creation, and that a chasm separates us from the rest of the animal kingdom
+- What was the Sapiens’ secret of success? How did we manage to settle so rapidly in so many distant and ecologically different habitats? How did we push all other human species into oblivion? Why couldn’t
+- even the strong, brainy, cold-proof Neanderthals survive our onslaught? The debate continues to rage. The most likely answer is the very thing that makes the debate possible: Homo sapiens conquered the world thanks above all to its unique language.
+- accidental genetic mutations changed the inner wiring of the brains of Sapiens, enabling them to think in unprecedented ways and to communicate using an altogether new type of language. We might call it the Tree of Knowledge mutation.
+- We can connect a limited number of sounds and signs to produce an infinite number of sentences, each with a distinct meaning
+- What was so special about the new Sapiens language that it enabled us to conquer the world?*
+- Our language evolved as a way of gossiping
+- It is not enough for individual men and women to know the whereabouts of lions and bison. It’s much more important for them to know who in their band hates whom, who is sleeping with whom, who is honest, and who is a cheat
+- The gossip theory might sound like a joke, but numerous studies support it
+- As far as we know, only Sapiens can talk about entire kinds of entities that they have never seen, touched or smelled
+- myths give Sapiens the unprecedented ability to cooperate flexibly in large numbers
+- Sociological research has shown that the maximum ‘natural’ size of a group bonded by gossip is about 150 individuals
+- Any large-scale human cooperation – whether a modern state, a medieval church, an ancient city or an archaic tribe – is rooted in common myths that exist only in peoples collective imagination
+- Ever since the Cognitive Revolution, Sapiens has thus been living in a dual reality. On the one hand, the objective reality of rivers, trees and lions; and on the other hand, the imagined reality of gods, nations and corporations
+- ever since the Cognitive Revolution Homo sapiens has been able to revise its behaviour rapidly in accordance with changing needs. This opened a fast lane of cultural evolution, bypassing the traffic jams of genetic evolution. Speeding down this fast lane, Homo sapiens soon far outstripped all other human and animal species in its ability to cooperate.
+- Two million years ago, genetic mutations resulted in the appearance of a new human species called Homo erectus
+- As long as Homo erectus did not undergo further genetic alterations, its stone tools remained roughly the same – for close to 2 million years!
+- The immense diversity of imagined realities that Sapiens invented, and the resulting diversity of behaviour patterns, are the main components of what we call ‘cultures’.
+- The real difference between us and chimpanzees is the mythical glue that binds together large numbers of individuals, families and groups. This glue has made us the masters of creation.
+- The flourishing field of evolutionary psychology argues that many of our present-day social and psychological characteristics were shaped during this long pre-agricultural era
+- The instinct to gorge on high-calorie food was hard-wired into our genes. Today we may be living in high-rise apartments with over-stuffed refrigerators, but our DNA still thinks we are in the savannah.
+- But we are largely at a loss in trying to comprehend the beliefs and rituals of ancient hunter-gatherer
+- The Sapiens population was thinly spread over vast territories. Before the Agricultural Revolution, the human population of the entire planet was smaller than that of today’s Cairo
+- The human collective knows far more today than did the ancient bands. But at the individual level, ancient foragers were the most knowledgeable and skilful people in history.
+  There is some evidence that the size of the average Sapiens brain has actually decreased since the age of foraging.5 Survival in that era required superb mental abilities from everyone. When agriculture and industry came along people could increasingly rely on the skills of others for survival, and new ‘niches for imbeciles’ were opened up. You could survive and pass your unremarkable genes to the next generation by working as a water carrier or an assembly-line worker.
+- on the whole foragers seem to have enjoyed a more comfortable and rewarding lifestyle than most of the peasants, shepherds, labourers and office clerks who followed in their footsteps.
+- In most places and at most times, foraging provided ideal nutrition. That is hardly surprising – this had been the human diet for hundreds of thousands of years, and the human body was well adapted to it.
+- Evidence from fossilised skeletons indicates that ancient foragers were less likely to suffer from starvation or malnutrition, and were generally taller and healthier than their peasant descendants. Average life expectancy was apparently just thirty to forty years, but this was due largely to the high incidence of child mortality. Children who made it through the perilous first years had a good chance of reaching the age of sixty, and some even made it to their eighties.
+- The foragers’ secret of success, which protected them from starvation and malnutrition, was their varied diet.
+- This variety ensured that the ancient foragers received all the necessary nutrients.
+- Ancient foragers also suffered less from infectious diseases. Most of the infectious diseases that have plagued agricultural and industrial societies (such as smallpox, measles and tuberculosis) originated in domesticated animals and were transferred to humans only after the Agricultural Revolution. Ancient foragers, who had domesticated only dogs, were free of these scourges. Moreover, most people in agricultural and industrial societies lived in dense, unhygienic permanent settlements – ideal hotbeds for disease. Foragers roamed the land in small bands that could not sustain epidemics.
+- The wholesome and varied diet, the relatively short working week, and the rarity of infectious diseases have led many experts to define pre-agricultural forager societies as ‘the original affluent societies’.
+- Animism (from ‘anima’, ‘soul’ or ‘spirit’ in Latin) is the belief that almost every place, every animal, every plant and every natural phenomenon has awareness and feelings, and can communicate directly with humans.
+- In the animist world, objects and living things are not the only animated beings. There are also immaterial entities – the spirits of the dead, and friendly and malevolent beings, the kind that we today call demons, fairies and angels.
+- Theism (from ‘theos’, ‘god’ in Greek) is the view that the universal order is based on a hierarchical relationship between humans and a small group of ethereal entities called gods.
+- Instead of erecting mountains of theory over a molehill of tomb relics, cave paintings and bone statuettes, it is better to be frank and admit that we have only the haziest notions about the religions of ancient foragers.
+- Most importantly, we don’t know what stories they told. It’s one of the biggest holes in our understanding of human history.
+- Just as foragers exhibited a wide array of religions and social structures, so, too, did they probably demonstrate a variety of violence rates. While some areas and some periods of time may have enjoyed peace and tranquillity, others were riven by ferocious conflicts.10
+- Planet Earth was separated into several distinct ecosystems, each made up of a unique assembly of animals and plants. Homo sapiens was about to put an end to this biological exuberance
+- The journey of the first humans to Australia is one of the most important events in history, at least as important as Columbus’ journey to America or the Apollo 11 expedition to the moon
+- The moment the first hunter-gatherer set foot on an Australian beach was the moment that Homo sapiens climbed to the top rung in the food chain on a particular landmass and thereafter became the deadliest species in the annals of planet Earth
+- As they pushed on, they encountered a strange universe of unknown creatures that included a 200-kilogram, two-metre kangaroo, and a marsupial lion, as massive as a modern tiger, that was the continent’s largest predator. Koalas far too big to be cuddly and cute rustled in the trees and flightless birds twice the size of ostriches sprinted on the plains. Dragon-like lizards and snakes five metres long slithered through the undergrowth. The giant diprotodon, a two-and-a-half-ton wombat, roamed the
+- forests. Except for the birds and reptiles, all these animals were marsupials – like kangaroos, they gave birth to tiny, helpless, fetus-like young which they then nurtured with milk in abdominal pouches. Marsupial mammals were almost unknown in Africa and Asia, but in Australia they reigned supreme.
+    - Note: The Australian mega fauna was pretty amazing and completely eliminated by the arrival of homo sapiens.
+- Within a few thousand years, virtually all of these giants vanished.
+- Was it all the fault of Homo sapiens?
+- During the last million years, there has been an ice age on average every 100,000 years
+- ago. The giant diprotodon appeared in Australia more than 1.5 million years ago and successfully weathered at least ten previous ice ages
+- Why, then, did it disappear 45,000 years ago?
+- Human involvement can easily explain why the wave of extinction obliterated the terrestrial megafauna of Australia while sparing that of the nearby oceans
+- the historical record makes Homo sapiens look like an ecological serial killer
+- All the settlers of Australia had at their disposal was Stone Age technology. How could they cause an ecological disaster?
+- Large animals – the primary victims of the Australian extinction – breed slowly
+- The second explanation is that by the time Sapiens reached Australia, they had already mastered fire agriculture
+- A third explanation agrees that hunting and fire agriculture played a significant role in the extinction, but emphasises that we can’t completely ignore the role of climate. The climate changes that beset Australia about 45,000 years ago destabilised the ecosystem and made it particularly vulnerable
+- Homo sapiens was the first and only human species to reach the western hemisphere landmass, arriving about 16,000 years ago, that is in or around 14,000 BC. The first Americans arrived on foot, which they could do because, at the time, sea levels were low enough that a land bridge connected north-eastern Siberia with north-western Alaska
+- The human blitzkrieg across America testifies to the incomparable ingenuity and the unsurpassed adaptability of Homo sapiens
+- Within 2,000 years of the Sapiens arrival, most of these unique species were gone
+- Homo sapiens drove to extinction about half of the planet’s big beasts long before humans invented the wheel, writing, or iron tools.
+- The elephant birds and the giant lemurs, along with most of the other large animals of Madagascar, suddenly vanished about 1,500 years ago – precisely when the first humans set foot on the island.
+- The Galapagos Islands, to give one famous example, remained uninhabited by humans until the nineteenth century, thus preserving their unique menagerie, including their giant tortoises, which, like the ancient diprotodons, show no fear of humans.
+- The First Wave Extinction, which accompanied the spread of the foragers, was followed by the Second Wave Extinction, which accompanied the spread of the farmers, and gives us an important perspective on the Third Wave Extinction, which industrial activity is causing today. Don’t believe tree-huggers who claim that our ancestors lived in harmony with nature. Long before the Industrial Revolution, Homo sapiens held the record among all organisms for driving the most plant and animal species to their extinctions. We have the dubious distinction of being the deadliest species in the annals of biology
+- Unlike their terrestrial counterparts, the large sea animals suffered relatively little from the Cognitive and Agricultural Revolutions. But many of them are on the brink of extinction now as a result of industrial pollution and human overuse of oceanic resources. If things continue at the present pace, it is likely that whales, sharks, tuna and dolphins will follow the diprotodons, ground sloths and mammoths to oblivion. Among all the world’s large creatures, the only survivors of the human flood will be humans themselves, and the farmyard animals that serve as galley slaves in Noah’s Ark.
+- All this changed about 10,000 years ago, when Sapiens began to devote almost
+- all their time and effort to manipulating the lives of a few animal and plant species
+- It was a revolution in the way humans lived – the Agricultural Revolution.
+- Even today, with all our advanced technologies, more than 90 per cent of the calories that feed humanity come from the handful of plants that our ancestors domesticated between 9500 and 3500 BC – wheat, rice, maize (called ‘corn’ in the US), potatoes, millet and barley
+- Today, scholars agree that agriculture sprang up in other parts of the world not by the action of Middle Eastern farmers exporting their revolution but entirely independently.
+- Why did agricultural revolutions erupt in the Middle East, China and Central America but not in Australia, Alaska or South Africa
+- Of the thousands of species that our ancestors hunted and gathered, only a few were suitable candidates for farming and herding. Those few species lived in particular places, and those are the places where agricultural revolutions occurred
+- Rather than heralding a new era of easy living, the Agricultural Revolution left farmers with lives generally more difficult and less satisfying than those of foragers
+- The Agricultural Revolution certainly enlarged the sum total of food at the disposal of humankind, but the extra food did not translate into a better diet or more leisure. Rather, it translated into population explosions and pampered elites. The average farmer worked harder than the average forager, and got a worse diet in return. The Agricultural Revolution was history’s biggest fraud.2
+- The culprits were a handful of plant species, including wheat, rice and potatoes. These plants domesticated Homo sapiens, rather than vice versa
+- According to the basic evolutionary criteria of survival and reproduction, wheat has become one of the most successful plants in the history of the earth.
+- How did this grass turn from insignificant to ubiquitous?
+- Wheat did it by manipulating Homo sapiens to its advantage.
+- Within a couple of millennia, humans in many parts of the world were doing little from dawn to dusk other than taking care of wheat plants.
+- The body of Homo sapiens had not evolved for such tasks
+- Studies of ancient skeletons indicate that the transition to agriculture brought about a plethora of ailments
+- This completely changed their way of life. We did not domesticate wheat. It domesticated us.
+- Wheat did not give people economic security.
+- Nor could wheat offer security against human violence
+- we assume that the Agricultural Revolution was a wonderful improvement
+- Cultivating wheat provided much more food per unit of territory, and thereby enabled Homo sapiens to multiply exponentially.
+- The currency of evolution is neither hunger nor pain, but rather copies of DNA helixes
+- This is the essence of the Agricultural Revolution: the ability to keep more people alive under worse conditions.
+- With the move to permanent villages and the increase in food supply, the population began to grow. Giving up the nomadic lifestyle enabled women to have a child every year
+- Babies were weaned at an earlier age
+- people began living in disease-ridden settlements
+- child mortality soared
+- humans kept having larger numbers of children.
+- the ‘wheat bargain’ became more and more burdensome
+- Why did people make such a fateful miscalculation?
+- It made sense. If you worked harder, you would have a better life. That was the plan.
+- Then why didn’t humans abandon farming when the plan backfired? Partly because it took generations for the small changes to accumulate and transform society and, by then, nobody remembered that they had ever lived differently.
+- And partly because population growth burned humanity’s boats
+- There was no going back
+- One of history’s few iron laws is that luxuries tend to become necessities and to spawn new obligations.
+- The story of the luxury trap carries with it an important lesson. Humanity’s search for an easier life released immense forces of change that transformed the world in ways nobody envisioned or wanted.
+- Yet from the viewpoint of the herd, rather than that of the shepherd, it’s hard to avoid the impression that for the vast majority of domesticated animals, the Agricultural Revolution
+- This discrepancy between evolutionary success and individual suffering is
+- perhaps the most important lesson we can draw from the Agricultural Revolution
+- Unfortunately, the evolutionary perspective is an incomplete measure of success. It judges everything by the criteria of survival and reproduction, with no regard for individual suffering and happiness
+- From a narrow evolutionary perspective, which measures success by the number of DNA copies, the Agricultural Revolution was a wonderful boon for chickens, cattle, pigs and sheep.
+- THE AGRICULTURAL REVOLUTION IS ONE of the most controversial events in history.
+- This was the turning point, they say, where Sapiens cast off its intimate symbiosis with nature and sprinted towards greed and alienation.
+- Settling down caused most peoples turf to shrink dramatically
+- attachment to ‘my house’ and separation from the neighbours became the psychological hallmark of a much more self-centred creature.
+- The domestication of animals was founded on a series of brutal practices that only became crueller with the passing of the centuries.
+- The stress of farming had far-reaching consequences. It was the foundation of large-scale political and social systems. Sadly, the diligent peasants almost never achieved the future economic security they so craved through their hard work in the present. Everywhere, rulers and elites sprang up, living off the peasants’ surplus food and leaving them with only a bare subsistence.
+- These forfeited food surpluses fuelled politics, wars, art and philosophy. They built palaces, forts, monuments and temples. Until the late modern era, more than 90 per cent of humans were peasants who rose each morning to till the land by the sweat of their brows. The extra they produced fed the tiny minority of elites – kings, government officials, soldiers, priests, artists and thinkers – who fill the history books. History is something that very few people have been doing while everyone else was ploughing fields and carrying water buckets.
+- The Agricultural Revolution made the future far more important than it had ever been before.
+- Farmers must always keep the future in mind and must work in its service.
+- The mere fact that one can feed a thousand people in the same town or a million people in the same kingdom does not guarantee that they can agree how to divide the land and water, how to settle disputes and conflicts, and how to act in times of drought or war.
+- It
+- was not food shortages that caused most of history’s wars and revolutions
+- The problem at the root of such calamities is that humans evolved for millions of years in small bands of a few dozen individuals
+- The handful of millennia separating the Agricultural Revolution from the appearance of cities, kingdoms and empires was not enough time to allow an instinct for mass cooperation to evolve
+- While human evolution was crawling at its usual snail’s pace, the human imagination was building astounding networks of mass cooperation, unlike any other ever seen on earth.
+- In 3100 BC the entire lower Nile Valley was united into the first Egyptian kingdom
+- Around 2250 BC Sargon the Great forged the first empire
+- Between 1000 BC and 500 BC, the first mega-empires appeared in the Middle East
+- In 221 BC the Qin dynasty united China,
+- afterwards Rome united the Mediterranean basin
+- Cooperation’ sounds very altruistic, but is not always voluntary and seldom egalitarian. Most human cooperation networks have been geared towards oppression and exploitation
+- All these cooperation networks – from the cities of ancient Mesopotamia to the Qin and Roman empires – were ‘imagined orders’
+- the Code of Hammurabi. This was a collection of laws and judicial decisions whose aim was to present Hammurabi as a role model of a just king, serve as a basis for a more uniform legal system across the Babylonian Empire, and teach future generations what justice is and how a just king acts.
+- Hammurabi’s Code asserts that Babylonian social order is rooted in universal and eternal principles of justice
+- According to the code, people are divided into two genders and three classes: superior people, commoners and slaves
+- dilemma. Both the Code of Hammurabi and the American Declaration of Independence claim to outline universal and eternal principles of justice, but according to the Americans all people are equal, whereas according to the Babylonians people are decidedly unequal.
+- Yet the only place where such universal principles exist is in the fertile imagination of Sapiens, and in the myths they invent and tell one another. These principles have no objective validity.
+- created equal
+- Creator
+- unalienable rights
+- liberty
+- happiness
+- people were not created
+- They have evolved
+- certainly did not evolve to be ‘equal
+- The idea of equality is inextricably intertwined with the idea of creation
+- Evolution is based on difference, not on equality
+- there are no such things as rights in biology
+- Birds fly not because they have a right to fly, but because they have wings
+- And it’s not true that these organs, abilities and characteristics are ‘unalienable
+- But ‘liberty’? There is no such thing in biology
+- liberty is something that people invented
+- So here is that line from the American Declaration of Independence translated into biological terms:
+- We hold these truths to be self-evident, that all men evolved differently, that they are born with certain mutable characteristics, and that among these are life and the pursuit of pleasure.
+    - Tags: [[pink]] 
+- We believe in a particular order not because it is objectively true, but because believing in it enables us to cooperate effectively and forge a better society
+- The Babylonian king most famous today was Hammurabi
+- Homo sapiens has no natural rights
+- If people realise that human rights exist only in the imagination, isn’t there a danger that our society will collapse
+- an imagined order cannot be sustained by violence alone. It requires some true believers as well
+- Christianity would not have lasted 2,000 years if the majority of bishops and priests failed to believe in Christ. American democracy would not have lasted 250 years if the majority of presidents and congressmen failed to believe in human rights. The modern economic system would not have lasted a single day if the majority of investors and bankers failed to believe in capitalism.
+- How do you cause people to believe in an imagined order such as Christianity, democracy or capitalism? First, you never admit that the order is imagined
+- Three main factors prevent people from realising that the order organising their lives exists only in their imagination:
+- The imagined order is embedded in the material world
+- Most Westerners today believe in individualism. They believe that every human is an individual, whose worth does not depend on what other people think of him or her
+- Medieval noblemen did not believe in individualism. Someone’s worth was determined by their place in the social hierarchy, and by what other people said about them.
+- The imagined order shapes our desires. Most people do not wish to accept that the order governing their lives is imaginary, but in fact every person is born into a pre-existing imagined order, and his or her desires are shaped from birth by its dominant myths.
+- Our personal desires thereby become the imagined order’s most important defences.
+- Even what people take to be their most personal desires are usually programmed by the imagined order
+- Let’s consider, for example, the popular desire to take a holiday abroad.
+- Romanticism tells us that in order to make the most of our human potential we must have as many different experiences as we can
+- Consumerism tells us that in order to be happy we must consume as many products and services as possible.
+- Romanticism, which encourages variety, meshes perfectly with consumerism. Their marriage has given birth to the infinite ‘market of experiences
+- People today spend a great deal of money on holidays abroad because they are true believers in the myths of romantic consumerism
+    - Tags: [[pink]] 
+- The imagined order is inter-subjective
+- An objective phenomenon exists independently of human consciousness and human beliefs
+- The subjective is something that exists depending on the consciousness and beliefs of a single individual
+- The inter-subjective is something that exists within the communication network linking the subjective consciousness of many individuals
+- There is no way out of the imagined order. When we break down our prison walls and run towards freedom, we are in fact running into the more spacious exercise yard of a bigger prison.
+- Empires generate huge amounts of information
+- For millions of years people stored information in a single place – their brains. Unfortunately, the human brain is not a good storage device for empire-sized databases, for three main reasons.
+- First, its capacity is limited
+- Secondly, humans die, and their brains die with them
+- Thirdly and most importantly, the human brain has been adapted to store and process only particular types of information.
+    - Note: Those related to survival only
+- But when particularly complex societies began to appear in the wake of the Agricultural Revolution, a completely new type of information became vital – numbers
+- The data-processing system invented by the Sumerians is called ‘writing’.
+- The Sumerians used a combination of base-6 and base-10 numeral systems. Their base-6 system bestowed on us several important legacies, such as the division of the day into twenty-four hours and of the circle into 360 degrees.
+- The earliest Sumerian writing was a partial rather than a full script. Full script is a system of material signs that can represent spoken language more or less completely. It can therefore express everything people can say, including poetry. Partial script, on the other hand, is a system of material signs that can represent only particular types of information, belonging to a limited field of activity.
+- Between 3000 BC and 2500 BC more and more signs were added to the Sumerian system, gradually transforming it into a full script that we today call cuneiform
+- What set apart Sumer, as well as pharaonic Egypt, ancient China and the Inca Empire, is that these cultures
+- developed good techniques of archiving, cataloguing and retrieving written records. They also invested in schools for scribes, clerks, librarians and accountants.
+- The most important impact of script on human history is precisely this: it has gradually changed the way humans think and view the world
+- Free association and holistic thought have given way to compartmentalisation and bureaucracy
+- A critical step was made sometime before the ninth century AD, when a new partial script was invented, one that could store and process mathematical data with unprecedented efficiency. This partial script was composed of ten signs, representing the numbers from 0 to 9. Confusingly, these signs are known as Arabic numerals even though they were first invented by the Hindus (even more confusingly, modern Arabs use a set of digits that look quite different from Western ones). But the Arabs get the credit because when they invaded India they encountered the system, understood its usefulness, refined it, and spread it through the Middle East and then to Europe. When several other signs were later added to the Arab numerals (such as the signs for addition, subtraction and multiplication), the basis of modern mathematical notation came into being.
+- Writing was born as the maidservant of human consciousness, but is increasingly becoming its master.
+- how did humans organise themselves in mass-cooperation networks, when they lacked the biological instincts necessary to sustain such networks? The short answer is that humans created imagined orders and devised scripts. These two inventions filled the gaps left by our biological inheritance.
+- The imagined orders sustaining these networks were neither neutral nor fair. They divided people into make-believe groups, arranged in a hierarchy
+- Yet it is an iron rule of history that every imagined hierarchy disavows its fictional origins and claims to be natural and inevitable.
+- Hierarchies serve an important function. They enable complete strangers to know how to treat one another without wasting the time and energy needed to become personally acquainted
+- others.
+- and foremost, most abilities have to be nurtured and developed. Even if somebody is born with a particular talent, that talent will usually remain latent if it is not fostered, honed and exercised. Not all people get the same chance to cultivate and refine their abilities.
+- Whether or not they have such an opportunity will usually depend on their place within their society’s imagined hierarchy
+- Second, even if people belonging to different classes develop exactly the same abilities, they are unlikely to enjoy equal success because they will have to play the game by different rules
+- Clennon King, a black student who applied to the University of Mississippi in 1958, was forcefully committed to a mental asylum. The presiding judge ruled that a black person must surely be insane to think that he could be admitted to the University of Mississippi
+- Since the biological distinctions between different groups of Homo sapiens are, in fact, negligible, biology can’t explain the intricacies of Indian society or American racial dynamics.
+- Most sociopolitical hierarchies lack a logical or biological basis – they are nothing but the perpetuation of chance events supported by myths.
+- People everywhere have divided themselves into men and women. And almost everywhere men have got the better deal, at least since the Agricultural Revolution.
+- The Bible decrees that ‘If a man meets a virgin who is not betrothed, and seizes her and lies with her, and they are found, then the man who lay with her shall give to the father of the young woman fifty shekels of silver, and she shall be his wife’ (Deuteronomy 22:28–9). The ancient Hebrews considered this a reasonable arrangement.
+- To say that a husband ‘raped’ his wife was as illogical as saying that a man stole his own wallet. Such thinking was not confined to the ancient Middle East. As of 2006, there were still fifty-three countries where a husband could not be prosecuted for the rape of his wife. Even in Germany, rape laws were amended only in 1997 to create a legal category of marital rape.5
+- significant number of human cultures have viewed homosexual relations as not only legitimate but even socially constructive, ancient Greece being the most notable example. The Iliad does not mention that Thetis had any objection to her son Achilles’ relations with Patroclus. Queen Olympias of Macedon was one of the most temperamental and forceful women of the ancient world, and even had her own husband, King Philip, assassinated. Yet she didn’t have a fit when her son, Alexander the Great, brought his lover Hephaestion home for dinner.
+- Culture tends to argue that it forbids only that which is unnatural. But from a biological perspective, nothing is unnatural. Whatever is possible is by definition also natural. A truly unnatural behaviour, one that goes against the laws of nature, simply cannot exist, so it would need no prohibition.
+- In truth, our concepts ‘natural’ and unnatural’ are taken not from biology, but from Christian theology
+- There is not a single organ in the human body that only does the job its prototype did when it first appeared hundreds of millions of years ago. Organs evolve to perform a particular function, but once they exist, they can be adapted for other usages as well.
+- another.
+- Patriarchy has been the norm in almost all agricultural and industrial societies. It has tenaciously weathered political upheavals, social revolutions and economic transformations
+- The most common theory points to the fact that men are stronger than women, and that they have used their greater physical power to force women into submission. A more subtle version of this claim argues that their strength allows men to monopolise tasks that demand hard manual labour, such as ploughing and harvesting. This gives them control of food production, which in turn translates into political clout.
+- there simply is no direct relation between physical strength and social power among humans
+- In fact, human history shows that there is often an inverse relation between physical prowess and social power
+- It is therefore only natural that the chain of power within the species will also be determined by mental and social abilities more than by brute force.
+- Another theory explains that masculine dominance results not from strength but from aggression. Millions of years of evolution have made men far more violent than women. Women can match men as far as hatred, greed and abuse are concerned, but when push comes to shove, the theory goes, men are more willing to engage in raw physical violence. This is why throughout history warfare has been a masculine prerogative.
+- the greater the number of wars, the greater men’s control of society. This feedback loop explains both the ubiquity of war and the ubiquity of patriarchy.
+- A third type of biological explanation gives less importance to brute force and violence, and suggests that through millions of years of evolution, men and women evolved different survival and reproduction strategies
+- The result of these different survival strategies – so the theory goes – is that men have been programmed to be ambitious and competitive, and to excel in politics and business, whereas women have tended to move out of the way and dedicate their lives to raising children
+- and King
+- In most cases the hierarchy originated as the result of a set of accidental historical circumstances and was then perpetuated and refined over many generations as different groups developed vested interests in it
+- In 1865 the Thirteenth Amendment to the US Constitution outlawed slavery and the Fourteenth Amendment mandated that citizenship and the equal protection of the law could not be denied on the basis of race. However, two centuries of slavery meant that most black families were far poorer and far less educated than most white families. A black person born in Alabama in 1865 thus had much less chance of getting a good education and a well-paid job than did his white neighbours.
+- Since all the best jobs were held by whites, it became easier to believe that blacks really are inferior.
+- On crusade, knights could demonstrate their military prowess and their religious devotion at one stroke. The same contradiction produced military orders such as the Templars and Hospitallers, who tried to mesh Christian and chivalric ideals even more tightly.
+- Just as medieval culture did not manage to square chivalry with Christianity, so the modern world fails to square liberty with equality. But this is no defect. Such contradictions are an inseparable part of every human culture. In fact, they are culture’s engines, responsible for the creativity and dynamism of our species
+- It’s such an essential feature of any culture that it even has a name: cognitive dissonance.
+- We would do better to adopt instead the viewpoint of a cosmic spy satellite, which scans millennia rather than centuries. From such a vantage point it becomes crystal clear that history is moving relentlessly towards unity.
+- Homo sapiens evolved to think of people as divided into us and them. ‘Us’ was the group immediately around you, whoever you were, and ‘them’ was everyone else. In fact, no social animal is ever guided by the interests of the entire species to which it belongs.
+- The first millennium BC witnessed the appearance of three potentially universal orders, whose devotees could for the first time imagine the entire world and the entire human race as a single unit governed by a single set of laws. Everyone was ‘us’, at least potentially. There was no longer ‘them’. The first universal order to appear was economic: the monetary order. The second universal order was political: the imperial order. The third universal order was religious: the order of universal religions such as Buddhism, Christianity and Islam.
+- money is the most universal and most efficient system of mutual trust ever devised.
+- History’s first known money Sumerian barley money – is a good example. It appeared in Sumer around 3000 BC,
+- Barley money was simply barley – fixed amounts of barley grains used as a universal measure for evaluating and exchanging all other goods and services. The most common measurement was the sila, equivalent to roughly one litre
+- it was somewhat easier to build trust in barley as the first type of money, because barley has an inherent biological value. Humans can eat it.
+- The real breakthrough in monetary history occurred when people gained trust in money that lacked inherent value, but was easier to store and transport. Such money appeared in ancient Mesopotamia in the middle of the third millennium BC. This was the silver shekel.
+- The silver shekel was not a coin, but rather 8.33 grams of silver.
+- the silver shekel had no inherent value
+- When they are used for anything, silver and gold are made into jewellery, crowns and other status symbols – luxury goods that members of a particular culture identify with high social status. Their value is purely cultural.
+- Counterfeiting is not just cheating – it’s a breach of sovereignty, an act of subversion against the power, privileges and person of the king. The legal term is lese-majesty (violating majesty), and was typically punished by torture and death.
+- The trust in Rome’s coins was so strong that even outside the empire’s borders, people were happy to receive payment in denarii.
+- The name ‘denarius’ became a generic name for coins. Muslim caliphs Arabicised this name and issued ‘dinars’. The dinar is still the official name of the currency in Jordan, Iraq, Serbia, Macedonia, Tunisia and several other countries.
+- Once trade connects two areas, the forces of supply and demand tend to equalise the prices of transportable goods.
+- may, money is also the apogee of human tolerance. Money is more open-minded than language, state laws, cultural codes, religious beliefs and social habits. Money is the only trust system created by humans that can bridge almost any cultural gap, and that does not discriminate on the basis of religion, gender, race, age or sexual orientation. Thanks to money, even people who don’t know each other and don’t trust each
+- other can nevertheless cooperate effectively.
+- Money is based on two universal principles:
+  a. Universal convertibility: with money as an alchemist, you can turn land into loyalty, justice into health, and violence into knowledge.
+  b. Universal trust: with money as a go-between, any two people can cooperate on any project.
+- Money has an even darker side. For although money builds universal trust between strangers, this trust is invested not in humans, communities or sacred values, but in money itself and in the impersonal systems that back it.
+- It is common nowadays to believe that the market always prevails, and that the dams erected by kings, priests and communities cannot long hold back the tides of money. This is naïve. Brutal warriors, religious fanatics and concerned citizens have repeatedly managed to trounce calculating merchants, and even to reshape the economy. It is therefore impossible to understand the unification of humankind as a purely economic process.
+- The ancient Numantians are to this day Spain’s paragons of heroism and patriotism, cast as role models for the country’s young people
+- An empire is a political order with two important characteristics. First, to qualify for that designation you have to rule over a significant number of distinct peoples, each possessing a different cultural identity and a separate territory. How many peoples exactly? Two or three is not sufficient. Twenty or thirty is plenty.
+- Second, empires are characterised by flexible borders and a potentially unlimited appetite. They can swallow and digest more and more nations and territories without altering their basic structure or identity.
+- Empires were one of the main reasons for the drastic reduction in human diversity.
+- Religion can thus be defined as a system of human norms and values that is founded on a belief in a superhuman order.
+- Religions hold that there is a superhuman order, which is not the product of human whims or agreements
+- Based on this superhuman order, religion establishes norms and values that it considers binding.
+- In order to unite under its aegis a large expanse of territory inhabited by disparate groups of human beings, a religion must possess two further qualities. First, it must espouse a universal superhuman order that is true always and everywhere. Second, it must insist on spreading this belief to everyone. In other words, it must be universal and missionary.
+- Much of ancient mythology is in fact a legal contract in which humans promise everlasting devotion to the gods in exchange for mastery over plants and animals – the first chapters of the book of Genesis are a prime example.
+- Two thousand years of monotheistic brainwashing have caused most Westerners to see polytheism as ignorant and childish idolatry. This is an unjust stereotype
+- The fundamental insight of polytheism, which distinguishes it from monotheism, is that the supreme power governing the world is devoid of interests and biases, and therefore it is unconcerned with the mundane desires, cares and worries of humans
+- The only reason to approach the supreme power of the universe would be to renounce all desires and embrace the bad along with the good – to embrace even defeat, poverty, sickness and death.
+- The insight of polytheism is conducive to far-reaching religious tolerance
+- Polytheism is inherently open-minded, and rarely persecutes ‘heretics’ and ‘infidels’
+- The only god that the Romans long refused to tolerate was the monotheistic and evangelising god of the Christians.
+- if we combine all the victims of all these persecutions, it turns out that in these three centuries, the polytheistic Romans killed no more than a few thousand Christians.1 In contrast, over the course of the next 1,500 years, Christians slaughtered Christians by the millions to defend slightly different interpretations of the religion of love and compassion.
+- The religious wars between Catholics and Protestants that swept Europe in the sixteenth and seventeenth centuries are particularly notorious
+- Protestants believed that the divine love is so great that God was incarnated in flesh and allowed Himself to be tortured and crucified, thereby redeeming the original sin and opening the gates of heaven to all those who professed faith in Him. Catholics maintained that faith, while essential, was not enough. To enter heaven, believers had to participate in church rituals and do good deeds. Protestants refused to accept this, arguing that this quid pro quo belittles God’s greatness and love. Whoever thinks that entry to heaven depends upon his or her own good deeds magnifies his own importance, and implies that Christ’s suffering on the cross and God’s love for humankind are not enough.
+  These
+- On 23 August 1572, French Catholics who stressed the importance of good deeds attacked communities of French Protestants who highlighted God’s love for humankind. In this attack, the St Bartholomew’s Day Massacre, between 5,000 and 10,000 Protestants were slaughtered in less than twenty-four hours. When the pope in Rome heard the news from France, he was so overcome by joy that he organised festive prayers to celebrate the occasion and commissioned Giorgio Vasari to decorate one of the Vatican’s rooms with a fresco of the massacre (the room is currently off-limits to visitors).2 More Christians were killed by fellow Christians in those twenty-four hours than by the polytheistic Roman Empire throughout its entire existence.
+- The big breakthrough came with Christianity. This faith began as an esoteric Jewish sect that sought to convince Jews that Jesus of Nazareth was their long-awaited messiah. However, one of the sect’s first leaders, Paul of Tarsus, reasoned that if the supreme power of the universe has interests and biases, and if He had
+- bothered to incarnate Himself in the flesh and to die on the cross for the salvation of humankind, then this is something everyone should hear about, not just Jews. It was thus necessary to spread the good word – the gospel – about Jesus throughout the world.
+- In one of history’s strangest twists, this esoteric Jewish sect took over the mighty Roman Empire.
+- Like Christianity, Islam, too, began as a small sect in a remote corner of the world, but in an even stranger and swifter historical surprise it managed to break out of the deserts of Arabia and conquer an immense empire stretching from the Atlantic Ocean to India. Henceforth, the monotheist idea played a central role in world history
+- At the beginning of the first century AD, there were hardly any monotheists in the world. Around AD 500, one of the world’s largest empires – the Roman Empire – was a Christian polity, and missionaries were busy spreading Christianity to other parts of Europe, Asia and Africa
+- The monotheist religions expelled the gods through the front door with a lot of fanfare, only to take them back in through the side window. Christianity, for example, developed its own pantheon of saints, whose cults differed little from those of the polytheistic gods.
+- Dualistic religions espouse the existence of two opposing powers: good and evil.
+- Dualism explains that the entire universe is a battleground between these two forces, and that everything that happens in the world is part of the struggle.
+- So, monotheism explains order, but is mystified by evil. Dualism explains evil, but is puzzled by order. There is one logical way of solving the riddle: to argue that there is a single omnipotent God who created the entire universe – and He’s evil. But nobody in history has had the stomach for such a belief.
+- Sometime between 1500 BC and 1000 BC a prophet named Zoroaster (Zarathustra) was active somewhere in Central Asia
+- His creed passed from generation to generation until it became the most important of dualistic religions – Zoroastrianism. Zoroastrians saw the world as a cosmic battle between the good god Ahura Mazda and the evil god Angra Mainyu. Humans had to help the good god in this battle
+- The average Christian believes in the monotheist God, but also in the dualist Devil, in polytheist saints, and in animist ghosts. Scholars of religion have a name for this simultaneous avowal of different and even contradictory ideas and the combination of rituals and practices taken from different sources. It’s called syncretism. Syncretism might, in fact, be the single great world religion.
+- The central figure of Buddhism is not a god but a human being, Siddhartha Gautama.
+- Life is a pointless rat race. But how to escape it?
+- In the end he came to the realisation that suffering is not caused by ill fortune, by social injustice, or by divine whims. Rather, suffering is caused by the behaviour patterns of one’s own mind.
+- If, when the mind experiences something pleasant or unpleasant, it simply understands things as they are, then there is no suffering.
+- But how do you get the mind to accept things as they are, without craving?
+- Gautama developed a set of meditation techniques that train the mind to experience reality as it is, without craving. These practices train the mind to focus all its attention on the question, ‘What am I experiencing now?’ rather than on ‘What would I rather be
+- experiencing?’ It is difficult to achieve this state of mind, but not impossible
+- When the flames are completely extinguished, craving is replaced by a state of perfect contentment and serenity, known as nirvana
+- Those who have attained nirvana are fully liberated from all suffering.
+- A person who does not crave cannot suffer.
+- Buddha spent the rest of his life explaining his discoveries to others so that everyone could be freed from suffering. He encapsulated his teachings in a single law: suffering arises from craving; the only way to be fully liberated from suffering is to be fully liberated from craving; and the only way to be liberated from craving is to train the mind to experience reality as it is.
+- This law, known as dharma or dhamma, is seen by Buddhists as a universal law of nature
+- Homo sapiens has a unique and sacred nature that is fundamentally different from the nature of all other beings and phenomena. The supreme good is the good of humanity.
+- In 1507, convinced by these arguments, a respected mapmaker named Martin Waldseemüller published an updated world map, the first to show the place where Europe’s westward-sailing fleets had landed as a separate continent. Having drawn it, Waldseemüller had to give it a name. Erroneously believing that Amerigo Vespucci had been the person who discovered it, Waldseemüller named the continent in his honour – America.
+- There is poetic justice in the fact that a quarter of the world, and two of
+- its seven continents, are named after a little-known Italian whose sole claim to fame is that he had the courage to say, ‘We don’t know.’
+- the most important finding of all is that happiness does not really depend on objective conditions of either wealth, health or even community. Rather, it depends on the correlation between objective conditions and subjective expectations.
+- So perhaps happiness is synchronising one’s personal delusions of meaning with the prevailing collective delusions
+- dwarfs
+- Since we might soon be able to engineer our desires too, perhaps the real question facing us is not ‘What do we want to become?’, but ‘What do we want to want?’ Those who are not spooked by this question probably haven’t given it enough thought.
+- Is there anything more dangerous than dissatisfied and irresponsible gods who don’t know what they want?

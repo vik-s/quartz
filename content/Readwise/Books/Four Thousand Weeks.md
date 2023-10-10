@@ -1,0 +1,160 @@
+# Four Thousand Weeks
+
+![rw-book-cover](https://readwise-assets.s3.amazonaws.com/static/images/default-book-icon-6.71d9a01814f7.png)
+
+## Metadata
+- Author: [[Burkeman, Oliver]]
+- Full Title: Four Thousand Weeks
+- Category: #books
+
+## Highlights
+- the modern discipline known as time management—like its hipper cousin, productivity—is a depressingly narrow-minded affair, focused on how to crank through as many work tasks as possible
+- Assuming you live to be eighty, you’ll have had about four thousand weeks.
+- this book is an attempt to help redress the balance—to see if we can’t discover, or recover, some ways of thinking about time that do justice to our real situation: to the outrageous brevity and shimmering possibilities of our four thousand weeks.
+- busyness has been rebranded as “hustle
+- the pressure to fit ever-increasing quantities of activity into a stubbornly nonincreasing quantity of daily time.
+- obstreperous
+    - Tags: [[blue]] 
+- busyness becomes an emblem of prestige
+- Which is clearly completely absurd: for almost the whole of history, the entire point of being rich was not having to work so much
+- We sense that there are important and fulfilling ways we could be spending our time, even if we can’t say exactly what they are
+- This yearning for more meaning can take many forms
+- instance, in the desire to devote yourself to some larger cause
+- feeling of frustration at having to work a day job in order to buy slivers of time for the work you love
+- spend more of your brief time on earth with your kids, in nature
+- And this feeling of wrongness is only exacerbated by our attempts to become more productive, which seem to have the effect of pushing the genuinely important stuff ever further over the horizon
+- news.
+- The real problem—or so I hope to convince you—is that we’ve unwittingly inherited, and feel pressured to live by, a troublesome set of ideas about how to use our limited time, all of which are pretty much guaranteed to make things worse
+- Each hour or week or year is like a container being carried on the belt, which we must fill as it passes, if we’re to feel that we’re making good use of our time
+- Historians call this way of living “task orientation,” because the rhythms of life emerge organically from the tasks themselves, rather than from being lined up against an abstract timeline
+- The medieval farmer simply had no reason to adopt such a bizarre idea in the first place
+- Living this way, one can imagine that experience would have felt expansive and fluid, suffused with something it might not be an exaggeration to call a kind of magic.
+- the feeling of timelessness that Richard Rohr, a contemporary Franciscan priest and author, calls “living in deep time.
+- From thinking about time in the abstract, it’s natural to start treating it as a resource
+- Once time is a resource to be used, you start to feel pressure, whether from external forces or from yourself, to use it
+- well, and to berate yourself when you feel you’ve wasted it
+- When you’re faced with too many demands, it’s easy to assume that the only answer must be to make better use of time, by becoming more efficient, driving yourself harder, or working for longer—as if you were a machine in the Industrial Revolution—instead of asking whether the demands themselves might be unreasonable.
+- The fundamental problem is that this attitude toward time sets up a rigged game in which it’s impossible ever to feel as though you’re doing well enough
+- The trouble with attempting to master your time, it turns out, is that time ends up mastering you
+- Haste is universal because everyone is in flight from himself
+- You’ll do what you can, you won’t do what you can’t, and the tyrannical inner voice insisting that you must do everything is simply mistaken.
+- We would be forced to acknowledge that there are hard choices to be made: which balls to let drop, which people to disappoint, which cherished ambitions to abandon, which roles to fail at. Maybe you can’t keep your current job while also seeing enough of your children; maybe making sufficient time in the week for your creative calling means you’ll never have an especially tidy home, or get quite as much exercise as you should, and so on
+- The general principle in operation is one you might call the “efficiency trap.” Rendering yourself more efficient—either by implementing various productivity techniques or by driving yourself harder—won’t generally result in the feeling of having “enough time,” because, all else being equal, the demands will increase to offset any benefits. Far from getting things done, you’ll be creating new things to do.
+- the only route to psychological freedom is to let go of the limit-denying fantasy of getting it all done and instead to focus on doing a few things that count.
+- Think of it as “existential overwhelm”: the modern world provides an inexhaustible supply of things that seem worth doing, and so there arises an inevitable and unbridgeable gap between what you’d ideally like to do and what you actually can do.
+- the world has an effectively infinite number of experiences to offer, so getting a handful of them under your belt brings you no closer to a sense of having feasted on life’s possibilities.
+- The more wonderful experiences you succeed in having, the more additional wonderful experiences you start to feel you could have, or ought to have, on top of all those you’ve already had, with the result that the feeling of existential overwhelm gets worse.
+- The harder you struggle to fit everything in, the more of your time you’ll find yourself spending on the least meaningful things
+    - Tags: [[pink]] 
+- resist the urge to consume more and more experiences, since that strategy can only lead to the feeling of having even more experiences left to consume.
+- focus on fully enjoying the tiny slice of experiences you actually do have time for
+- instead of clearing the decks, declining to clear the decks, focusing instead on what’s truly of greatest consequence while tolerating the discomfort of knowing that, as you do
+- so, the decks will be filling up further, with emails and errands and other to-dos, many of which you may never get around to at all
+- Convenience culture seduces us into imagining that we might find room for everything important by eliminating only life’s tedious tasks. But it’s a lie. You have to choose a few things, sacrifice everything else, and deal with the inevitable sense of loss that results
+- The real measure of any time management technique is whether or not it helps you neglect the right things.
+- Principle number one is to pay yourself first when it comes to time
+- if a certain activity really matters to you—a creative project, say, though it could just as easily be nurturing a relationship, or activism in the service of some cause—the only way to be sure it will happen is to do some of it today, no matter how little, and no matter how many other genuinely big rocks may be begging for your attention
+- protect your time by scheduling “meetings” with yourself
+- The second principle is to limit your work in progress
+- fix a hard upper limit on the number of things that you allow yourself to work on at any given time
+- three items
+- It’s also permissible to free up a slot by abandoning a project altogether if it isn’t working out. The point isn’t to force yourself to finish absolutely everything you start, but rather to banish the bad habit of keeping an ever-proliferating number of half-finished projects on the back burner.
+- I found myself effortlessly breaking down my projects into manageable chunks
+- of my three tasks in progress, it would clog up the system for months, so I was naturally motivated to figure out the next achievable step in each case instead.
+- The third principle is to resist the allure of middling priorities
+- You need to learn how to start saying no to things you do want to do, with the recognition that you have only one life.”
+- We invariably prefer indecision over committing ourselves to a single path
+- it’s easy for me to fantasize about, say, a life spent achieving stellar professional success, while also excelling as a parent and partner, while also dedicating myself to training for marathons or lengthy meditation retreats or volunteering in my community—because so long as I’m only fantasizing, I get to imagine all of them unfolding simultaneously and flawlessly. As soon as I start trying to live any of those lives, though, I’ll be forced to make trade-offs—to put less time than I’d like into one of those domains, so as to make space for another—and to accept that nothing I do will go perfectly anyway, with the result that my actual life will inevitably prove disappointing by comparison with the fantasy.
+- settling is unavoidable but also because living life to the fullest requires settling. “You must settle, in a relatively enduring way, upon something that will be the object of your striving, in order for that striving to count as striving,”
+- there’s no possibility of a romantic relationship being truly fulfilling unless you’re willing, at least for a while, to settle for that specific relationship, with all its imperfections
+- And not only should you settle; ideally, you should settle in a way that makes it harder to back out, such as moving in together, or getting married, or having a child
+    - Tags: [[pink]] 
+- When you can no longer turn back, anxiety falls away, because now there’s only one direction to travel: forward into the consequences of your choice
+- what you pay attention to will define, for you, what reality is.
+- Hofstadter’s law,” which states that any task you’re planning to tackle will always take longer than you expect, “even when you take into account Hofstadter’s Law
+- The trouble with being so emotionally invested in planning for the future, though, is that while it may occasionally prevent a catastrophe, the rest of the time it tends to exacerbate the very anxiety it was supposed to allay.
+- the struggle for control over the future is a stark example of our refusal to acknowledge our built-in limitations when it comes to time
+- a surprisingly effective antidote to anxiety can be to simply realize that this demand for reassurance from the future is one that will definitely never be satisfied
+- despite our total lack of control over any of these occurrences, each of us made it through to this point in our lives—so it might at least be worth entertaining the possibility that when the uncontrollable future arrives, we’ll have what it takes to weather that as well.
+- Then Krishnamurti “said in a soft, almost shy voice, ‘You see, I don’t mind what happens.’”
+- We treat everything we’re doing—life itself, in other words—as valuable only insofar as it lays the groundwork for something else.
+- So intently were they focused on using their time for a future benefit—for the ability to revisit or share the experience later on—that they were barely experiencing the exhibition itself at all
+- The writer Adam Gopnik calls the trap into which I had fallen the “causal catastrophe,” which he defines as the belief “that the proof of the rightness or wrongness of some way of bringing up children is the kind of adults it produces.
+- we should therefore try to treat every such experience with the reverence we’d show if it were the final instance of it
+- One way of understanding capitalism, in fact, is as a giant machine for instrumentalizing everything it encounters—the earth’s resources, your time and abilities (or “human resources”)—in the service of future profit
+- But in focusing so hard on instrumentalizing their time, they end up treating their lives in the present moment as nothing but a vehicle in which to travel toward a future state of happiness. And so their days are sapped of meaning, even as their bank balances increase.
+- Our obsession with extracting the greatest future value out of our time blinds us to the reality that, in fact, the moment of truth is always now—that life is nothing but a succession of present moments, culminating in death, and that you’ll probably never get to a point where you feel you have things in perfect working order. And that therefore you had better stop postponing the “real meaning” of your existence into the future, and throw yourself into life now.
+- By trying too hard to make the most of his time, he misses his life.
+- A more fruitful approach to the challenge of living more fully in the moment starts from noticing that you are, in fact, always already
+- living in the moment anyway, whether you like it or not
+- Aristotle argued that true leisure—by which he meant self-reflection and philosophical contemplation—was among the very highest of virtues because it was worth choosing for its own sake,
+- leisure no longer feels very leisurely
+- workers were offered a deal: you could do whatever you liked with your time off, so long as it didn’t damage—and preferably enhanced—your usefulness on the job
+- maverick Marxist Paul Lafargue would later call, in the title of his best-known pamphlet, The Right To Be Lazy.
+- In order to most fully inhabit the only life you ever get, you have to refrain from using every spare hour for personal growth
+- To rest for the sake of rest—to enjoy a lazy hour for its own sake—entails first accepting the fact that this is it: that your days aren’t progressing toward a future state of perfectly invulnerable happiness, and that to approach them with such an assumption is systematically to drain our four thousand weeks of their value
+- digital sabbath
+- The other important thing we can do as individuals, in order to enter the experience of genuine rest, is simply to stop expecting it to feel good, at least in the first instance
+- is initially going to provoke some serious feelings of discomfort, rather than of delight. That discomfort isn’t a sign that you shouldn’t be doing it, though. It’s a sign that you definitely should.
+- Taking a walk in the countryside, like listening to a favorite song or meeting friends for an evening of conversation, is thus a good example of what the philosopher Kieran Setiya calls an “atelic activity,” meaning that its value isn’t derived from its telos, or ultimate aim
+- when your relationship with time is almost entirely instrumental, the present moment starts to lose its meaning. And it makes sense that this feeling might strike in the form of a midlife crisis, because midlife is when many of us first become consciously aware that mortality is approaching—and mortality makes it impossible to ignore the absurdity of living solely for the future.
+- delightful experience in the present moment, and that has to be weighed in the balance; it can’t be the case that concerns for the future must always automatically take precedence
+- Because children grow up, we think a child’s purpose is to grow up,” Herzen says. “But a child’s purpose is to be a child. Nature doesn’t disdain what only lives for a day. It pours the whole of itself into each moment … Life’s bounty is in its flow. Later is too late.”
+- nineteenth-century Russian philosopher Alexander Herzen
+- our lives, thanks to their finitude, are inevitably full of activities that we’re doing for the very last time
+- To treat all these moments solely as stepping-stones to some future moment is to demonstrate a level of obliviousness to our real situation that would be jaw-dropping if it weren’t for the fact that we all do it, all the time.
+- We might seek to incorporate into our daily lives more things we do for their own sake alone—to spend some of our time, that is, on activities in which the only thing we’re trying to get from them is the doing itself
+- the more you focus on using time well, the more each day begins to feel like something you have to get through, en route to some calmer, better, more fulfilling point in the future, which never actually arrives. The problem is one of instrumentalization
+- As the world gets faster and faster, we come to believe that our happiness, or our financial survival, depends on our being able to work and move and make things happen at superhuman speed
+- We grow anxious about not keeping up—so to quell the anxiety, to try to achieve the feeling that our lives are under control, we move faster. But this only generates an addictive spiral. We push ourselves harder to get rid of anxiety, but the result is actually more anxiety, because the faster we go, the clearer it becomes that we’ll never succeed in getting ourselves or the rest of the world to move as fast as we feel is necessary
+- speed addiction tends to be socially celebrated. Your friends are more likely to praise you for being “driven.
+- You surrender to the reality that things just take the time they take, and that you can’t quiet your anxieties by working faster, because it isn’t within your power to force reality’s pace as much as you feel you need to, and because the faster you go, the faster you’ll feel you need to go
+- second-order change,” meaning that it’s not an incremental improvement but a change in perspective that reframes everything
+- When you finally face the truth that you can’t dictate how fast things go, you stop trying to outrun your anxiety, and your anxiety is transformed. Digging in to a challenging work project that can’t be hurried becomes not a trigger for stressful emotions but a bracing act of choice; giving a difficult novel the time it demands becomes a source of relish
+- you begin to acquire what has become the least fashionable but perhaps most consequential of superpowers: patience.
+- In a world geared for hurry, the capacity to resist the urge to hurry—to allow things to take the time they take—is a way to gain purchase on the world, to do the work that counts, and to derive satisfaction from the doing itself, instead of deferring all your fulfillment to the future.
+- snap at our partners, rather than hearing them out, because waiting and listening would make us feel—correctly—as though we weren’t in control of the situation. Or we abandon difficult creative projects, or nascent romantic relationships, because there’s less uncertainty in just calling things off than in waiting to see how they might develop
+- The first is to develop a taste for having problems
+- The second principle is to embrace radical incrementalism
+- the most productive and successful among them generally made writing a smaller part of their daily routine than the others, so that it was much more feasible to keep going with it day after day
+- They cultivated the patience to tolerate the fact that they probably wouldn’t be producing very much on any individual day, with the result that they produced much more over the long term. They wrote in brief daily sessions—sometimes as short as ten minutes, and never longer
+- than four hours—and they religiously took weekends off
+- One critical aspect of the radical incrementalist approach, which runs counter to much mainstream advice on productivity, is thus to be willing to stop when your daily time is up, even when you’re bursting with energy and feel as though you could get much more done. If you’ve decided to work on a given project for fifty minutes, then once fifty minutes have elapsed, get up and walk away from it
+- Stopping helps strengthen the muscle of patience that will permit you to return to the project again and again, and thus to sustain your productivity over an entire career
+- The final principle is that, more often than not, originality lies on the far side of unoriginality
+- time is also a “network good,” one that derives its value from how many other people have access to it, too, and how well their portion is coordinated with yours
+- having all the time in the world isn’t much use if you’re forced to experience it all on your own.
+- Rest is permissible, but only for the purposes of recuperation for work, or perhaps for some other form of self-improvement. It becomes difficult to enjoy a moment of rest for itself alone, without regard for any potential future benefits, because rest that has no instrumental value feels wasteful.
+- In order to most fully inhabit the only life you ever get, you have to refrain from using every spare hour for personal growth
+- What would it mean to spend the only time you ever get in a way that truly feels as though you are making it count?
+- the number of lives you’d need in order to span the whole of civilization, sixty, was “the number of friends I squeeze into my living room when I have a drinks party.” From this perspective, human history hasn’t unfolded glacially but in the blink of an eye. And it follows, of course, that your own life will have been a minuscule little flicker of near-nothingness in the scheme of things
+    - Tags: [[pink]] 
+    - Note: This makes no sense. If 60 lifetimes is the whole of civiliation, then each lifetime really counts
+- what you do with your life doesn’t matter all that much—and when it comes to how you’re using your finite time, the universe absolutely could not care less.
+    - Note: While true, this is in contrast to Frankl’s Mans search for meaning. Finding meaning in your life does matter however cosmically insignificant.
+- If you had a more realistic sense of your own sheer irrelevance, considered on the timescale of the universe, you’d probably be less motivated to struggle to survive, and thereby to propagate your genes
+- But what actually happens is that this overvaluing of your existence gives rise to an unrealistic definition of what it would mean to use your finite time well. It sets the bar much too high
+- No wonder it comes as a relief to be reminded of your insignificance: it’s the feeling of realizing that you’d been holding yourself, all this time, to standards you couldn’t reasonably
+- be expected to meet. And this realization isn’t merely calming but liberating, because once you’re no longer burdened by such an unrealistic definition of a “life well spent,” you’re freed to consider the possibility that a far wider variety of things might qualify as meaningful ways to use your finite time. You’re freed, too, to consider the possibility that many of the things you’re already doing with it are more meaningful than you’d supposed—and that until now, you’d subconsciously been devaluing them, on the grounds that they weren’t “significant” enough.
+- Truly doing justice to the astonishing gift of a few thousand weeks isn’t a matter of resolving to “do something remarkable” with them. In fact, it entails precisely the opposite: refusing to hold them to an abstract and overdemanding standard of
+- remarkableness, against which they can only ever be found wanting, and taking them instead on their own terms, dropping back down from godlike fantasies of cosmic significance into the experience of life as it concretely, finitely—and often enough, marvelously—really is.
+- And we chase the ultimate fantasy of time mastery—the desire, by the time we die, to have truly mattered in the cosmic scheme of things, as opposed to being instantly trampled underfoot by the advancing eons.
+- your quantity of time is so limited, you’ll never reach the commanding position of being able to handle every demand that might be thrown at you or pursue every ambition that feels important; you’ll be obliged to make tough choices instead
+- Time is a river that sweeps me along, but I am the river; it is a tiger which destroys me, but I am the tiger; it is a fire which consumes me, but I am the fire
+- Entering space and time completely
+- There is a sort of cruelty, Iddo Landau points out, in holding yourself to standards nobody could ever reach (and which many of us would never dream of demanding of other people). The more humane approach is to drop such efforts as completely as you can. Let your impossible standards crash to the ground. Then pick a few meaningful tasks from the rubble and get started on them today.
+- By contrast, the individual path “is the way you make for yourself, which is never prescribed, which you do not know in advance, and which simply comes into being itself when you put one foot in front of the other.” His sole advice for walking such a path was to “quietly do the next and most necessary thing. So long as you think you don’t yet know what that is, you still have too much money to spend in useless speculation.
+- Do the next right thing,
+- Any strategy for limiting your work in progress will help here (here), but perhaps the simplest is to keep two to-do lists, one “open” and one “closed.” The open list is for everything that’s on your plate and will doubtless be nightmarishly long. Fortunately, it’s not your job to tackle it: instead, feed tasks from the open list to the closed one—that is, a list with a fixed number of entries, ten at most. The rule is that you can’t add a new task until one’s completed. (You may also require a third list, for tasks that are “on hold” until someone else gets back to you.) You’ll never get through all the tasks on the open list—but you were never going to in any case, and at least this way you’ll complete plenty of things you genuinely care about.
+- A complementary strategy is to establish predetermined time boundaries for your daily work
+- focus on one big project at a time
+- strategic underachievement—that is, nominating in advance whole areas of life in which you won’t expect excellence of yourself
+- there’s scope to fail on a cyclical basis: to aim to do the bare minimum at work for the next two months
+- As a counterstrategy, keep a “done list,” which starts empty first thing in the morning, and which you then gradually fill with whatever you accomplish through the day.
+- consciously pick your battles in charity, activism, and politics: to decide that your spare time
+- choose devices with only one purpose
+- pay more attention to every moment, however mundane: to find novelty not by doing radically different things but by plunging more deeply into the life you already have. Experience life with twice the usual intensity, and “your experience of life would be twice as full as it currently is”—and any period of life would be remembered as having lasted twice as long. Meditation helps here. But so does going on unplanned walks to see where they lead you, using a different route to get to work, taking up photography or birdwatching or nature drawing or journaling, playing “I Spy” with a child: anything that draws your attention more fully into what you’re doing in the present.
+- deliberately adopting an attitude of curiosity, in which your goal isn’t to achieve any particular outcome, or successfully explain your position, but, as Hobson puts it, “to figure out who this human being is that we’re with
+- money, check in on a friend, send an email praising someone’s work—act on the impulse right away, rather than putting it off until later
+- So training yourself to “do nothing” really means training yourself to resist the urge to manipulate your experience or the people and things in the world around you—to let things be as they are
+- Do Nothing” meditation, for which the instructions are to simply set a timer, probably only for five or ten minutes at first; sit down in a chair; and then stop trying to do anything

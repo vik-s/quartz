@@ -1,0 +1,200 @@
+# How Will You Measure Your Life?
+
+![rw-book-cover](https://readwise-assets.s3.amazonaws.com/static/images/default-book-icon-6.71d9a01814f7.png)
+
+## Metadata
+- Author: [[Christensen, Clayton M.]]
+- Full Title: How Will You Measure Your Life?
+- Category: #books
+
+## Highlights
+- there is a second school of thought—often called two-factor theory, or motivation theory—or motivation theory—that turns the incentive theory on its head
+- This theory distinguishes between two different types of factors: hygiene factors and motivation factors
+- the elements of work that, if not done right, will cause us to be dissatisfied. These are called hygiene factors
+- Hygiene factors are things like status, compensation, job security, work conditions, company policies, and
+- supervisory practices
+- compensation is a hygiene factor, not a motivator
+- if you instantly improve the hygiene factors of your job, you’re not going to suddenly love it. At best, you just won’t hate it anymore.
+- Motivation factors include challenging work, recognition, responsibility, and personal growth.
+- Feelings that you are making a meaningful contribution to work arise from intrinsic conditions of the work itself.
+- Many of my peers had chosen careers using hygiene factors as the primary criteria; income was often the most important of these.
+- Many people view their education as an investment
+- It wasn’t too long, however, before some of them privately admitted that they had actually begun to resent the jobs they’d taken—for what they now realized were the wrong reasons.
+- They’d managed to expand their lifestyle to fit the salaries they were bringing in, and it was really difficult to wind that back
+- They’d made choices early on because of the hygiene factors, not true motivators, and they couldn’t find their way out of that trap.
+- But after it was finished, I rarely saw the children in it. The truth was that having the house wasn’t what really motivated them. It was the building of it, and how they felt about their own contribution, that they found satisfying. I had thought the destination was what was important, but it turned out it was the journey.
+- if you want to help other people, be a manager. If done well, management is among the
+- most noble of professions
+- You have the opportunity to frame each person’s work so that, at the end of every day, your employees will go home feeling like Diana felt on her good day: living a life filled with motivators
+- In order to really find happiness, you need to continue looking for opportunities that you believe are meaningful, in which you will be able to learn new things, to succeed, and be given more and more responsibility to shoulder.
+- it is frightfully easy for us to lose our sense of the difference between what brings money and what causes happiness.
+- The theory of motivation suggests you need to ask yourself a different set of questions than most of us are used to asking. Is this work meaningful to me? Is this job going to give me a chance to develop? Am I going to learn new things? Will I have an opportunity for recognition and achievement? Am I going to be given responsibility? These are the things that will truly motivate you.
+- The first source is anticipated opportunities—the opportunities that you can see and choose to pursue
+- The second source of options is unanticipated—usually a cocktail of problems and opportunities that emerges while you are trying to implement the deliberate plan or strategy that you have decided upon
+- The unanticipated problems and opportunities then essentially fight the deliberate strategy for the attention, capital, and hearts of the management and employees
+- The decision sometimes is an explicit decision; often, however, a modified strategy coalesces from myriad day-to-day decisions to pursue unanticipated opportunities and resolve unanticipated problems. When
+- strategy forms in this way, it is known as emergent strategy.
+- When the company’s leaders made a clear decision to pursue the new direction, the emergent strategy became the new deliberate strategy.
+- But it doesn’t stop there. The process of strategy then reiterates through these steps over and over again, constantly evolving. In other words, strategy is not a discrete analytical event—something decided, say, in a meeting of top managers based on the best numbers and analysis available at the time. Rather, it is a continuous, diverse, and unruly process
+- In our lives and in our careers, whether we are aware of it or not, we are constantly navigating a path by deciding between our deliberate strategies and the unanticipated alternatives that emerge
+- which you should choose depends on where you are on the journey
+- you have found an outlet in your career that provides both the requisite hygiene factors and motivators, then a deliberate approach makes sense
+- But if you haven’t reached the point of finding a career that does this for you, then, like a new company finding its way, you need to be emergent.
+- Strategy almost always emerges from a combination of deliberate and unanticipated opportunities.
+- Is the current deliberate strategy the best course to continue on, or is it time to adopt a different strategy that is emerging
+- if one of them requires a substantial investment on your part just to find out whether it’s something that you’re going to enjoy? Ideally, you don’t want to have to go through medical school to figure out you don’t want to be a doctor. So what can you do to figure
+- discovery-driven planning,
+- what assumptions need to be proved true in order for the strategy to succeed.
+- expecting to have a clear vision of where your life will take you is just wasting time
+- it may actually close your mind to unexpected opportunities
+- you should be prepared to experiment with different opportunities, ready to pivot, and continue to adjust your strategy until you find what it is that both satisfies the hygiene factors and gives you all the motivators. Only then does a deliberate strategy make sense.
+- you’ve got to be honest with yourself about this whole process
+- Change can often be difficult, and it will probably seem easier to just stick with what you are already doing
+- That thinking can be dangerous. You’re only kicking the can down the road, and you risk waking up one day, years later, looking into the mirror, asking yourself: “What am I doing with my life?”
+- Real strategy—in companies and in our lives—is created through hundreds of everyday decisions about where we spend our resources
+- Here is a way to frame the investments that we make in the strategy that becomes our lives: we have resources—which include personal time, energy, talent, and wealth—and we are using them to try to grow several “businesses” in our personal lives. These include having a rewarding relationship with our spouse or significant other; raising great children; succeeding in our careers; contributing to our church or community; and so on. Unfortunately, however, our resources are limited and these businesses are competing for them. It’s exactly the same problem that a corporation has. How should we devote our resources to each of these pursuits?
+- The danger for high-achieving people is that they’ll unconsciously allocate their resources to activities that yield the most immediate, tangible accomplishments.
+- This is often in their careers, as this domain of their life provides the most concrete evidence that they are moving forward
+- how you allocate your own resources can make your life turn out to be exactly as you hope or very different from what you intend.
+- The problem is, lifestyle demands can quickly lock in place the personal resource allocation process.
+- Intending to build a satisfying personal life alongside their professional life, making choices specifically to provide a better life for their family, they unwittingly overlook their spouse and children.
+- Investing time and energy in these relationships doesn’t offer them that same immediate sense of achievement that a fast-track career does
+- day-today basis, it doesn’t seem as if things are deteriorating. Your spouse is still there when you get home every night. And kids find new ways to misbehave all the time. It’s really not until twenty years down the road that you can put your hands on your hips and say, “We raised good kids.”
+- In fact, you’ll often see the same sobering pattern when looking at the personal lives of many ambitious people.
+- But there is much more to life than your career.
+- The person you are at work and the amount of time you spend there will impact the person you are outside of work with your family and close friends.
+- You will be constantly pressured, both at home and at work, to give people and projects your attention.
+- You have to make sure that you allocate your resources in a way that is consistent with your priorities.
+- You have to make sure that your own measures of success are aligned with your most important concern.
+- And you have to make sure that you’re thinking about all these in the right time frame
+- I’ve had to force myself to stay aligned with what matters most to me by setting hard stops
+- If I didn’t do this, I know I would be tempted to measure my success that day by having solved a problem rather than getting
+- The hot water that softens a carrot will harden an egg
+- As a parent, you will try many things with your child that simply won’t work.
+- successful companies don’t succeed because they have the right strategy at the beginning; but rather, because they have money left over after the original strategy fails, so that they can pivot and try another approach
+- When the winning strategy is not yet clear in the initial stages of a new business, good money from investors needs to be patient for growth but impatient for profit.
+- Given that 93 percent of companies that ended up being successful had to change their initial strategy, any capital that demands that the early company become very big, very fast, will almost always drive the business off a cliff instead.
+- That is why capital that seeks growth before profits is bad capital.
+- once a viable strategy has been found, investors need to change what they seek—they should become impatient for growth and patient for profit
+- Many of us thrive on the intensity of a demanding job—one that we believe in and enjoy. We like proving what we can do under pressure
+- Many of us thrive on the intensity of a demanding job—one that we believe in and enjoy. We like proving what we can do under pressure
+- we start to think of our jobs as requiring all our attention—and that’s exactly what we give them
+- Many of us thrive on the intensity of a demanding job—one that we believe in and enjoy. We like proving what we can do under pressure.
+- start
+- Many of us thrive on the intensity of a demanding job—one that we believe in and enjoy. We like proving what we can do under pressure.
+- we start to think of our jobs as requiring all our attention—and that’s exactly what we give them
+- we believe in and enjoy. We like proving what we can do under pressure.
+- we start to think of our jobs as requiring all our attention—and that’s exactly what we give them
+- We call in to work from remote vacation spots
+- we may never take all the vacation days we’re allowed
+- Work becomes how we identify ourselves
+- We find ourselves forgetting to return e-mails and phone calls from our friends and our families; neglecting birthdays and other celebrations that used to be important to us.
+- in reality we invest in a strategy for our lives that we would never have aspired to: having shallow friendships with many but deep friendships with none; becoming divorced, sometimes repeatedly; and having children who feel alienated from us within our own homes, or who are raised by a stepparent sometimes thousands of miles away.
+- strong enough to endure such neglect, but that’s seldom the case. Even the most committed friends will attempt to stay the course for only so long before they choose to invest their own time, energy, and friendship somewhere else. If they do, the loss will be yours.
+- The consequences of letting that happen, however, can be enormous.
+- One of the most common versions of this mistake that high-potential young professionals make is believing that investments in life
+- can be sequenced. The logic is, for example, “I can invest in my career during the early years when our children are small and parenting isn’t as critical. When our children are a bit older and begin to be interested in things that adults are interested in, then I can lift my foot off my career accelerator. That’s when I’ll focus on my family.” Guess what. By that time the game is already over.
+- over the first thirty months, the child of “talkative” parents heard an estimated 48 million words spoken, compared to the disadvantaged child, who heard only 13 million. The most important time for the children to hear the words, the research suggests, is the first year of life.
+- when parents engaged in face-to-face conversation with the child—speaking in fully adult, sophisticated language as if the child could be part of a chatty, grown-up conversation—the impact on cognitive development was enormous.
+- These richer interactions they called “language dancing.” Language dancing is being chatty, thinking aloud, and commenting on what the child is doing and what the parent is doing or planning to do.
+- The effect on brain cells is exponential.
+- That means children who have been exposed to extra talk have an almost incalculable cognitive advantage.
+- as you are getting your career off the ground, you will be tempted to do exactly that: assume you can defer investing in your personal relationships. You cannot.
+- If you work to understand what job you are being hired to do, both professionally and in your personal life, the payoff will be enormous.
+- the path to happiness is about finding someone who you want to make happy, someone whose happiness is worth devoting yourself to
+- the factors that determine what a company can and cannot do—its capabilities—fall into one of three buckets: resources, processes, and priorities
+- no company starts out with its capabilities fully developed
+- The most tangible of the three factors is resources, which include people, equipment, technology, product designs, brands, information, cash, and relationships with suppliers, distributors, and customers
+- The ways in
+- which those employees interact, coordinate, communicate, and make decisions are known as processes.
+- These enable the resources to solve more and more complicated problems.
+- made, and the methods by which market research, budgeting, employee development
+- The third—and perhaps most significant—capability is an organization’s priorities. This set of factors defines how a company makes decisions
+- it can give clear guidance about what a company is likely to invest in, and what it will not
+- successful senior executives need to spend a lot of time articulating clear, consistent priorities that are broadly understood throughout the organization
+- suppliers in Taiwan, Korea, Singapore, and China have become capable of making products and components that their American customers, who outsourced to these suppliers in the first place, could no longer hope to ever make.
+- The theory of capabilities gives companies the framework to determine when outsourcing makes sense, and when it does not
+- rather, focus on what they are striving to be able to do in the future.
+- Second, and most critical of all: figure out what capabilities you will need to succeed in the future.
+- It may seem funny to think of ourselves as a composite of resources, processes, and priorities, just like a business. But it’s an insightful way to assess what we are able to accomplish in our own lives—and what might be out of our reach. I’ll
+- The idea that one might hire someone else to mow the lawn and shovel the snow at your home—it just never happened. There was so much work going on that children essentially worked for their parents.
+- Now the only work being done in many of our homes is a periodic cleanup of the mess that we make. In the absence of work, we’ve created a generation of parents who selflessly devote themselves to providing their children with enriching experiences
+- parents, often with their heart in the right place, project their own hopes and dreams onto their children.
+  When these other intentions start creeping in, and parents seem to be carting their children around to an endless array of activities in which the kids are not truly engaged, it should start to raise red flags
+- Many parents are making the same mistake, flooding their children with resources—knowledge, skills, and experiences
+- But the nature of these activities—experiences in which they’re not deeply engaged and that don’t really challenge them to do hard things—denies our children the opportunity to develop the processes they’ll need to succeed in the future.
+- Self-esteem—the sense that “I’m not afraid to confront this problem and I think I can solve it”—doesn’t
+- come from abundant resources. Rather, self-esteem comes from achieving something important when it’s hard to do.
+- By sheltering children from the problems that arise in life, we have inadvertently denied this generation the ability to develop the processes and priorities it needs to succeed.
+- children will learn when they are ready to learn, not when we’re ready to teach them
+- first, when children are ready to learn, we need to be there
+- second, we need to
+- want our children to learn.
+- even if you’re doing it with the best of intentions, if you find yourself heading
+- and more of the precious opportunities to help your kids develop their values—which may be the most important capability of all.
+- The idea that some people have innate talents that just need to be identified has proved to be an unreliable predictor of success in business.
+- Of all of the people that you hired or promoted into positions of (defined) responsibility
+- what percentage of them turned out to be a superb choice?
+- a third were superb choices; 40 percent were adequate choices; and about 25 percent turned out to be mistakes.
+- Morgan McCall, a professor at the University of Southern California, in a book called High Flyers
+- McCall has a very different view of the “right stuff.”
+- Instead, it was because they had honed them along the way, by having experiences that taught them how to deal with setbacks or extreme stress in high-stakes situations.
+- Unlike the “right stuff” model, McCall’s thinking is not based on the idea that great leaders are born ready to go. Rather, their abilities are developed and shaped by experiences in life.
+- Had we looked for the past-tense verbs on their résumés, however, Candidate B would have won hands-down—because the résumé would have shown that he had taken the right courses in the schools of experience
+- that was in a steady state. He had never started and built anything before—and as a consequence, he knew nothing of the problems that one encounters when starting up a new factory and scaling production of a new process
+- What are all the experiences and problems that I have to learn about and master so that what comes out at the other end is somebody who is ready and capable of becoming a successful CEO?”
+- Archibald had a clear goal in mind when he graduated from college
+- Nolan Archibald
+- the youngest-ever CEO of a Fortune 500 company—Black & Decker.
+- it would be risky to draft someone with no experience to do the job—because in the absence of processes that can guide people, experienced people need to lead
+- you can find small opportunities for your child to take important courses early on
+- the right lesson: that when you aim to achieve great things, it is inevitable that sometimes you’re not going to make it
+- you should also celebrate failure if it’s as a result of a child striving for an out-of-reach goal.
+- I always wanted the kids to take responsibility for organizing their own camping trips rather than letting the parents step in to do it
+- It sure would have been easier to allow the parents to work
+- But we would have been denying them important courses—leadership, organization, and accountability
+- child announces that he has a big report or project due the next day and he hasn’t started it
+- What should a parent do?
+- many parents stay up late to help their child complete the project, some parents might even finish it for him
+- you’ve taken him through the experience of learning how to take shortcuts.
+- Allow the child to see the consequences of neglecting an important assignment
+- Either he will have to stay up late on his own to pull it off, or he will see what happens when he fails to complete it
+- if our children don’t face difficult challenges, and sometimes fail along the way, they will not build the resilience they will need throughout their lives.
+- You should consciously think about what abilities you want your child to develop, and then what experiences will likely help him get them.
+- Creating experiences for your children doesn’t guarantee that they’ll learn what they need to learn
+- If that doesn’t happen, you have to figure out why that experience didn’t achieve it
+- right
+- The important thing for a parent is, as always, to never give up; never stop trying to help your children get the right experiences to prepare them for life.
+- Coping with a difficult teacher, failing at a sport, learning to navigate the complex social structure of cliques in school—all those things become “courses” in the school of experience.
+- The natural tendency of many parents is to focus entirely on building your child’s résumé: good grades, sports successes, and so on. It would be a mistake, however, to neglect the courses your children need to equip them for the future. Once you have that figured out, work backward: find the right experiences to help them build the skills they’ll need to succeed. It’s one of the greatest gifts you can give them.
+- One of the most powerful tools to enable us to close the gap between the family we want and the family we get is culture. We
+- Their priorities need to be set correctly
+- Culture is a way of working together toward common goals that have been followed so frequently and so successfully that people don’t even think about trying to do things another
+- way. If a culture has formed, people will autonomously do what they need to do to be successful.
+- they are the result of shared learning—of employees working together to solve problems and figuring out what works.
+- In the language of capabilities from the previous chapters, they are creating an understanding of the priorities in the business, and how to execute them—the processes. A culture is the unique combination of processes and priorities within an organization.
+- If these paradigms of how to work together, and of what things should be given priority
+- over other things, are used successfully over and over again, ultimately employees won’t stop and ask each other how they should work together. They will just assume that the way they have been doing it is the way of doing it. The advantage of this is that it effectively causes an organization to become self-managing
+- Culture in any organization is formed through repetition
+- The more often they solve the problem successfully, the more instinctive it becomes to do it in the way that they designed.
+- The parallels between a business and a family should be clear. Just like a manager who wants to count on employees using the right priorities to solve problems, parents want to set those priorities, too, so that family members will solve problems and confront dilemmas instinctively, whether or not the parents are there guiding or observing.
+- If you want your family to have a culture with a clear set of priorities for everyone to follow, then those priorities need to be proactively designed into the culture
+- Make no mistake: a culture happens, whether you want it to or not. The only question is how hard you are going to try to influence it. Forming a culture is not an instant loop; it’s not something you can decide on, communicate, and then expect it to suddenly work on its own
+- Children might feel “success” in the short term by getting what they want in beating up a sibling, or talking back to a parent who finally relents to an unreasonable demand. Parents who let such behavior slide are essentially building a family culture—teaching
+- that
+- The safest road to Hell is the gradual one—the gentle slope, soft underfoot, without sudden turnings, without milestones, without signposts.
+- in evaluating alternative investments, we should ignore sunk and fixed costs (costs that have already been incurred), and instead base decisions on the marginal costs and marginal revenues (the new costs and revenues) that each alternative entails.
+- Every time an executive in an established company needs to make an investment decision, there are two alternatives on the menu. The first is the full cost of making something completely new. The second is to leverage what already exists, so that you only need to incur the marginal cost and revenue.
+- For the entrant, in contrast, there is no marginal-cost item on the menu. If it makes sense, then you do the full-cost alternative.
+- As Henry Ford once put it, “If you need a machine and don’t buy it, then you will ultimately find that you have paid for it and
+- don’t have it.”
+- to maximize the value of the advice in this book, you must have a purpose in your life
+- A useful statement of purpose for a company needs three parts. The first is what I will call a likeness.
+- oils. A likeness of a company is what the key leaders and employees want the enterprise to have become at the end of the path that they are on
+- Second, for a purpose to be useful, employees and executives need to have a deep commitment—almost a conversion—to the likeness that they are trying to create.
+- employees without this deep conversion will find that the world will compromise the likeness by wave after wave of extenuating circumstances.
+- The third part of a company’s purpose is one or a few metrics by which managers and employees can measure their progress. These metrics enable everyone associated with the enterprise to calibrate their work, keeping them moving together in a coherent way.
+- These three parts—likeness, commitment, and metrics—comprise a company’s purpose
+- Purpose must be deliberately conceived and chosen, and then pursued
+- When that is in place, however, then how the company gets there is typically emergent—as opportunities and challenges emerge and are pursued.
+- The type of person you want to become—what the purpose of your life is—is too important to leave to chance. It needs to be deliberately conceived, chosen, and managed. The opportunities and challenges in your life that allow you to become that person will, by their very nature, be emergent.
