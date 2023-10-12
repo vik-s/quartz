@@ -1,0 +1,61 @@
+# Tweets From Matt McGarry
+
+![rw-book-cover](https://pbs.twimg.com/profile_images/1372970972123381772/bOnuyg5t.jpg)
+
+## Metadata
+- Author: [[@JMatthewMcGarry on Twitter]]
+- Full Title: Tweets From Matt McGarry
+- Category: #tweets
+- URL: https://twitter.com/JMatthewMcGarry
+
+## Highlights
+- I grew my newsletter from 0 to 10,000+ subscribers with a 59% open rate and 23% CTR… in 6 months.
+  Here’s how I did it.
+  Plus what worked, what okay worked, and what failed:
+  **The First 100 Subscribers**
+  I got the first 100 by:
+  - Twitter and LinkedIn posts to my ~800 followers (drove 75 subscribers)
+  - Added a CTA for my newsletter in my email signature (drove ~10 subscribers)
+  - Asked close friends and clients to subscribe (drove ~15 subscribers)
+  After that, I needed to hone in on acquisition channels….
+  **What Worked Great**
+  ***Twitter - 4,219 subscribers, 65% open rate, 26% CTR***
+  Writing 1 thread per week and posting every day has had the largest impact on my newsletter growth.
+  Also, optimizing my profile was key in converting views into subscribers.
+  Think of your profile as an ad for people to follow you and join your newsletter.
+  Work on improving every element of that “ad” — Your profile picture, header, description, location, etc.
+  Next, I turned to paid…
+  ***Twitter Ads - 2,314 subscribers, 60% open rate, 13% CTR***
+  I’ve spent $6,231 on Twitter ads to acquire 2,314 subscribers at a $2.69 CPA (cost per subscriber)
+  I offset my ad investment with Sparkloop Upscribe and beehiiv boosts.
+  With these tools I’m able to earn ~$1 per subscriber, making my net CPA $1.69.
+  **What Kinda Worked**
+  ***Referral program - 339 subscribers, 49% open rate, 20% CTR***
+  Users unlock a reward after referring 1 subscriber. 
+  These can be great for more popular niches, but can be tough for niches with smaller overall interest.
+  ***Cross-promotions - 250 subscribers, 70% open rate, 30% CTR***
+  These were hit or miss. 
+  Some of mine generated 100+ subscribers, some generated under 10.
+  However, cross-promos have generated some of my highest-quality subscribers.
+  ***beehiiv boosts - 411 subscribers, 44% open rate, 8% CTR***
+  Boosts are a great way to grow with paid ads if you don't have the time or skill for FB or Twitter ads.
+  They're mostly automated.
+  **What Didn’t Work**
+  ***Newsletter ads - ~150 subscribers, ~65% open rate***
+  I bought 4 ads in other newsletters. 3 flopped, 1 worked well. 
+  Small sample size, but not great results. 
+  I'll test this again later using CPC deals and beehiiv's ad network.
+  ***Facebook ads - 100 subscribers, 25% open rate***
+  I spent $589 on FB ads to acquire 100 subscribers at a $5.89 CPA (cost per subscriber).
+  FB ads are amazing but they didn’t work out well for me (yet).
+  My content is niche and I didn’t do much creative testing. 
+  **Here’s a breakdown of where all subscribers are from:**
+  - Twitter organic: 4,219
+  - Twitter ads: 2,921
+  - Website direct: 1,333
+  - Google organic: 548
+  - Beehiiv boosts: 367
+  - Referral: 346
+  - Other: 2,617
+  Hope this helps!
+  I'll report back at 20k subscribers. ([View Tweet](https://twitter.com/JMatthewMcGarry/status/1712090772424511835))
