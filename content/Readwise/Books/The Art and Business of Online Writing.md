@@ -1,4 +1,3 @@
-# The Art and Business of Online Writing
 
 ![rw-book-cover](https://readwise-assets.s3.amazonaws.com/static/images/default-book-icon-8.18caceaece2b.png)
 
@@ -7,79 +6,50 @@
 - Full Title: The Art and Business of Online Writing
 - Category: #books
 
-## Highlights
-- At first, I tried to make my blog the go-to resource for high-level gameplay information, breaking down team compositions, winning strategies, and little tricks to give gamers a competitive edge. But over time, I started to realize it wasn’t the informative stuff that made the front page—it was drama.
-- More importantly, they wanted to know what some of the best players were like in real life.
-- Watching Ming execute this strategy perfectly, I began to mirror my writing style off his. Every one of his posts was a blend between informative content and controversy-inducing tangents.
-- Everything changed for me when I started incorporating more of my real life into my writing.
-- it was missing the most important piece of the puzzle: there was no social component, no way for readers to explore and discover new, interesting writers. And without this discovery feature, the likelihood of someone coming across my blog was slim to none.
-- The most popular answers, the ones with the most views, upvotes, and comments, weren’t “answers,” as much as they were stories
-- I didn’t need to be an “expert” to answer those types of questions.
-  I just needed to share my story.
-- Every single question on Quora was a creative writing prompt.
-- For an entire year straight, I challenged myself to write one Quora answer, every single day.
-    - Note: The key to everything awesome is consistency
-- My first Quora answer received a whopping 37 views.
-- Now, this is where most people would have given up
-- Unphased by my first answer’s performance, I pressed on.
-- I had learned that day at work and using it as inspiration for my writing on Quora.
-- I tried to think about exactly when I had learned the answer to each question, what had happened, what was said to me, when it had “clicked,” and then shared that.
-- The more answers I wrote, the more I learned what topics were resonating with the most people, and the more I started to realize what people really enjoyed about my writing.
-- when I wrote about niche topics, viewership was mediocre
-- But when I wrote about universal life lessons, my writing went viral.
-- January, 2015, I landed on the front page of Reddit.
-- That’s when I launched www.nicolascole.com
-- Knowing I had a limited window of time to capitalize, I spent that entire weekend putting together a personal website.
-  Not because I wanted to start writing there—but because I now had a product to sell.
-- wrote two eBooks: one with all my favorite workout routines, and another with my exact meal plan
-- I stuck with my habit of writing an answer per day, every day—and even though I never wrote another answer quite as viral as that one, consistency is what kept me growing, growing, growing.
-- My writing career was about to take off.
-  “We expect our paid columnists to write at least four articles per month,” the editor said.
-  Feeling like I’d been playing in the minor leagues and was being offered a contract to play in the NHL, I said, “Can I write thirty?”
-- Now, most people in my position would have stopped writing on Quora, graduating to writing for a major publication. I didn’t.
-- I had built a massive following on Quora, and was averaging more than 1.5 million organic views per month, every month, while still having at least one of my answers republished by a major publication every single week. I was on fire, and wasn’t about to throw all my hard work to the wayside.
-- Instead, I doubled-down on my daily writing habit, and committed to writing one answer on Quora, and one article for Inc Magazine, every single day.
-- I needed to play a more profitable game.
-  On accident, I discovered the world of executive ghostwriting.
-- I’d “beaten the game” of online writing.
-  Now, I needed to figure out how I was going to turn all that attention into a full-time income. 
-  It was humbling for me to have spent four years on a book, only to release it into the world and sell a couple hundred copies (I couldn’t exactly “live” off $82.76 per month in royalties).
-- By writing online, you elevate yourself. And when you elevate yourself, you open new doors of opportunity.
-  It took me a long time to realize that writing online isn’t just for writers.
-- 1. The definition of a blog.
-- The entire purpose of starting a blog, and having people come to your own site, is for two reasons and two reasons only—and both are inspired by money. First, you either plan on monetizing your website via ads (which is why it’s so crucial that people read your material on your site, which you own), or second, you plan on using your blog to attract a certain type of customer to your website in order to capture their email address and/or sell them a product, service, etc.
-- But making money from your writing is not the same thing as 1) starting a website monetized through ads (which is a media business) or 2) starting a website that sells a product or service (which could be anything from a physical product to an information product like an online course), which are all different variations of an e-commerce business.
-- Either way, when you start a “blog,” you aren’t really in the business of writing.
-  You’re in the business of ads, products, or services.
-- For the vast majority of people, the primary purpose of having a website is to quickly communicate who you are, what you do, and what you have done in the past.
-- In short, it’s a business card.
-- you’re
-- 3. The definition of Online Writing.
-- The way I define Online Writing is based on one variable and one variable only:
-  Sharing thoughts, stories, opinions, and insights on a platform that already has an active audience.
-- If you are writing on your own platform hoping an audience will come to you, that’s Blogging.
-- And if you are bringing your voice to a platform where an audience already exists, that’s Online Writing.
-- The reason I am so wholeheartedly against blogging as a writing strategy is because starting a blog means starting a new website, and starting a new website means starting with zero traffic.
-- And how do you get traffic to your blog?
+## Online writing journey
+
+[[Nicholas Cole]] was a professional World of Warcraft player in his high school days. He started a blog to write about gameplay but he quickly noticed a few important things:
+- People didn't care about the informative stuff like game strategy; what made the front page was almost always drama.
+- People wanted to know what gamers were like in real life. Personal stories went a long way.
+- There was no social component to blogging. As a result the blog was not discoverable.
+- There was no reason to be an "expert" to start writing. Just start sharing stories.
+
+He began writing every day on Quora, and every question was a creative writing prompt. His first responses almost got no views, and this is where most people would have given up but he pressed on. The key to success he realized was consistency.
+He used a mixture of his experience at work and life to find answers to Quora questions and simply wrote it from his point of view. Sharing universal life lessons make his content go viral.
+
+The moment he went viral, he immediately put together a personal website and sold eBooks about health and fitness to the traffic that was visiting his site. But he didn't stop writing on Quora even after he got invited to write for Inc magazine. He doubled down on Quora and answered one question, while writing one article for the magazine, every single day.
+
+By now, he was a successful online writer with a paid publishing gig. Then he realized that he can use his writing skill to become a ghostwriter for executives.
+
+"It took me a long time to realize that writing online isn’t just for writers," he says.
+
+##### Why should you even have a blog (or not)?
+
+You should have a blog for two reasons only:
+1. For monetizing website via ads, aka, the media business.
+2. For selling products like online courses, aka, product business.
+	1. Your main purpose is not to build an audience, but drive traffic based on specific keywords so that people can buy your product. A great example of this is Hubspot.
+	2. The other reason is if you are a solopreneur where you can sell your coaching services. Your purpose is to capture specific kind of traffic. A good example is Kindleprenuer - a website dedicated to teaching you how to write and self-publish ebooks on Amazon.
+
+If you don't fit into these categories then blogging is not the right answer. For most people, a website is an online business card. This is different from the business of online writing.
+
+There is an exception to this rule - Mark Manson who wrote "The Subtle Art of Not Giving a Fck". He started off by writing a blog which then got him famous. He is an outlier who started blogging very early. This is not the recommended path anymore.
+
+Simply starting off with a blog is a wrong way to do it because you are starting with zero traffic and the only way to get traffic is:
 - Spend money on ads
-- Optimize your blog posts for Search Engine Optimization
-- Build a social media following on another platform
-- But here’s the thing: none of the above have anything to do with sharing your thoughts, stories, opinions, and insights at scale
-- So
-- There are two scenarios where starting with a blog is actually the right decision.
-- The first scenario is if you are a business selling some sort of product or service, and revenue is the primary outcome you are looking to drive.
-- Your blog should become an industry publication, where the purpose of that publication is to tap into search traffic around specific keywords and increase the likelihood of a reader becoming a customer looking to buy your product or service.
-- The second scenario for starting a blog is the solopreneur, the digital marketer, the fitness coach, the individual who is less concerned with sharing his or her own individual insights and perspectives, and instead wants to use writing as a marketing mechanism for their internet business
-- Hubspot, for example
-- One of the best examples I’ve ever seen is a website called Kindlepreneur.
-- Kindlepreneur with Dave Chesson
-- In this sense, Dave’s blog has almost nothing to do with sharing and scaling his own thoughts, stories, opinions, and insights, and is more centered around building a brand and “ultimate encyclopedia” of knowledge for anything related to one singular topic: self-publishing
-- If you are a company with the resources to build and scale your website into an industry publication, you should start a
-- blog. And if you are a solopreneur who wants to “own” a category or niche by creating a directory of knowledge, you should start a blog. But if you don’t fit within either of these two categories, then blogging is not your best path forward.
-- Now, there is a third scenario where you can be a successful “blogger.” However, it is an outlier scenario, and not one I would recommend. Maybe five or ten years ago. But not anymore.
-  The example that comes to mind here is Mark Manson.
-- The reason I say Manson’s approach is outdated is because newer, better tools have been created in the past ten years that make the process of building your name, audience, and credibility as a writer exponentially faster.
-- Do you want to build a company and brand, making money selling ads, products, and/or services? Then a website and “blog” makes sense. But if you enjoy writing and want to build a personal brand, position yourself as an authentic voice in your industry, and share your thoughts, stories, opinions, and insights at scale, then do not start a blog.
+- Optimize for SEO
+- Build a following on another platform
+
+But none of these methods help you share your insights and ideas at scale.
+##### What is online writing?
+
+The definition of online writing is:
+>[!important] Sharing thoughts, stories, opinions, and insights on a platform that already has an active audience
+
+If you are on a platform where an audience already exists, that's online writing. If you are writing on your own platform hoping an audience will come to you, that's blogging.
+
+*Still processing 👇🏼*
+
 - Data is the single greatest indicator of what’s working (and what isn’t working) about your writing.
 - There are 2 types of writers today: those who use data to inform and improve their writing, and those who fail.
 - why would a writer wait until the moment they were ready to publish their product to start building their audience? The more logical path forward would be to start writing online, build an audience, learn what people actually wanted from you, and THEN launch your product.
