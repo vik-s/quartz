@@ -59,3 +59,39 @@
   - Other: 2,617
   Hope this helps!
   I'll report back at 20k subscribers. ([View Tweet](https://twitter.com/JMatthewMcGarry/status/1712090772424511835))
+## New highlights added October 23, 2023 at 7:12 PM
+- A successful newsletter starts with engagement.
+  When people are reading they're more likely to stick around (retention) and to share it (acquisition).
+  How do you measure and improve engagement?
+  Unfortunately, open rates are no longer the answer.
+  **Here's what to use instead...**
+  The engagement metrics you should track and prioritize (in order):
+  1. CTR
+  2. Poll responses
+  3. Reply rate
+  4. Open rate
+  (Always use unique clicks, CTR, replies, and opens).
+  **Why is open rate not #1?**
+  Apple Mail Privacy Protection (MPP) killed open rate. 
+  To oversimplify it - MPP "opens" emails even if they're not opened. This makes open rate metrics unreliable.
+  And MMP is impacting **55%+ of opens**.
+  You should still track and consider open rates, but clicks are king now.
+  Think about it:
+  The only reliable way subscribers add value to your newsletter is by clicking a:
+  - Sponsors link
+  - Product link
+  - Or any link (which improves your deliverability)
+  You have no idea if a person who opened actually read the newsletter...
+  Or if that open was automated by MPP.
+  So what should you do now?
+  **Use more links and ask people to click them.**
+  Here’s how:
+  - Add more contextual links to other content/products (ideally your content).
+  - Add more call-to-actions for your products/sponsors.
+  - Include a curated link section in your newsletter.
+  - Ask people to click a link to stay subscribed
+  - Use polls 
+  **Use a poll in every newsletter send**
+  I like this "5 star, 3 star, 1 star" format:
+  Aim for 80%+ 5-star reviews and more poll responses each send.
+  Hope this helps! ([View Tweet](https://twitter.com/JMatthewMcGarry/status/1716518573604995097))
