@@ -115,3 +115,5 @@
   - $125 newsletter sponsors x 52 = $6.5k
   Could probably build this with ~10,000 interested followers and ~5,000 newsletter subs.
   Why not you? ([View Tweet](https://twitter.com/thejustinwelsh/status/1710630310579187731))
+## New highlights added October 26, 2023 at 6:24 AM
+- Why you should consider quitting your job in 2024: ([View Tweet](https://twitter.com/thejustinwelsh/status/1717173173362233411))

@@ -30,4 +30,4 @@ What would it be like to have someone like Blum in your life, or in the workplac
 
 ### Other facts
 
-In 1999, Carnegie Mellon University succeeded in recruiting Manuel Blum and his wife Lenore Blum, both computer scientists, to join their son, Avrim Blum. They moved into offices next to each other and collaborated on research projects.
+	In 1999, Carnegie Mellon University succeeded in recruiting Manuel Blum and his wife Lenore Blum, both computer scientists, to join their son, Avrim Blum. They moved into offices next to each other and collaborated on research projects.
