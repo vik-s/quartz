@@ -117,3 +117,23 @@
   Why not you? ([View Tweet](https://twitter.com/thejustinwelsh/status/1710630310579187731))
 ## New highlights added October 26, 2023 at 6:24 AM
 - Why you should consider quitting your job in 2024: ([View Tweet](https://twitter.com/thejustinwelsh/status/1717173173362233411))
+## New highlights added October 26, 2023 at 8:12 PM
+- One of the most interesting realizations I've had recently:
+  People who want to build a business online struggle with 2 things pretty badly:
+  1. They are way too future-focused.
+  2. They overcomplicate everything.
+  Re: Future focus — When you're building an online business, you cannot predict where you're going to be in 5 years or 10 years.
+  Goals are great. Trying to plan out everything perfectly is not.
+  Especially if you're building an audience. When you build an audience, there are hundreds of opportunities that come your way that you were never expecting.
+  That's why I write so much about **action.**
+  The more action you take, the more opportunities you uncover. It's up to you to put each opportunity through a decision framework to understand whether it's worth pursuing.
+  Just start writing and helping people. See what resonates. See what doesn't. Stop doing what doesn't, and do more of what does.
+  "What if nothing's resonating?"
+  Then have some patience and keep trying. I was on Twitter for 12 years before hit 4,000 followers. 
+  Re: Overcomplication — Two of my friends just launched a creator community and made $27,000 in their first month.
+  Simple little Carrd website, good copywriting, and social media posts.
+  No email automation, no lead magnet, no Zapier zaps, no crazy design or branding. 
+  They just started. They'll get way more polished over time and the money they are making NOW will fund that.
+  You can start a business with a small following, good content and a Notion Doc as a landing page.
+  Been wanting to write this for a few weeks as I think it's helpful information for most people trying to get started.
+  Have an awesome Thursday evening. ([View Tweet](https://twitter.com/thejustinwelsh/status/1717636805338492951))
