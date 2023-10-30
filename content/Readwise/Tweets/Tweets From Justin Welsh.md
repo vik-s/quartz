@@ -137,3 +137,14 @@
   You can start a business with a small following, good content and a Notion Doc as a landing page.
   Been wanting to write this for a few weeks as I think it's helpful information for most people trying to get started.
   Have an awesome Thursday evening. ([View Tweet](https://twitter.com/thejustinwelsh/status/1717636805338492951))
+## New highlights added October 29, 2023 at 10:39 PM
+- A simple way to find customers:
+  - Write an article for your website
+  - Share it on LinkedIn
+  - Tweet about it
+  - Put it on Quora
+  - Share it on IndieHackers
+  - Etc.
+  Set up UTM tracking.
+  Look for which channel brings in high-quality prospects.
+  Then go hard on that channel daily. ([View Tweet](https://twitter.com/thejustinwelsh/status/1718602839809720655))
