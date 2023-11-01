@@ -302,3 +302,103 @@ If you are on a platform where an audience already exists, that's online writing
 - the third question you need to ask yourself is, “Can I make this more specific? Am I trying to cram too much into one article?”
 - You aren’t aiming for a word count. What you’re aiming for is the most value you can possibly deliver WITHOUT 1) confusing the reader, or 2) wasting their time.
 - The usual mistake writers make here is they try to fit too many ideas into one single piece of content.
+## New highlights added October 31, 2023 at 4:54 AM
+- Actionable Guide
+- Again, the goal of writing an Actionable Guide of any kind is to get someone to bookmark it.
+- Better” Quality: If everyone else writes short guides that don’t go into very much detail, you can be the one to write long, insightful, walkthrough-style guides
+- Better” Voice: If everyone else’s How To guides are dense and overwhelming, you can show up to the party and be fast, full of personality, and overly casual
+- Better” Organization
+- you can win simply by organizing your writing more visually and “appearing” easier to read and understand.
+- Better” Positioned
+- Better” For The Audience
+- Better” Experience: If everyone else writes as if they are trying to hard-sell readers into buying a product or course
+- Opinion
+  Opinion pieces are, without question, the most popular type of written content on the internet.
+- Better” Data: If everyone else’s opinions are shot from the hip and aren’t backed by anything substantial, this is your opportunity to show up to the party with a satchel full of facts
+- Better” Quotes
+- to amplify your opinions by curating credible, insightful quotes
+- Better” Insight
+- Better” Stories
+- telling a unique story that underscores the point you’re trying to make
+- Better” Clarity
+- What really matters here? Why? And how can you say it in a way where a single sentence rings louder than an entire essay on the topic
+- In order for your list to not be clickbait, but actually be meaningful and valuable to a reader, you need two things: Specificity and Speed.
+- Curated List
+- Specificity is how relevant the examples you’re choosing in your list are to the target reader
+- Speed is then how quickly you are revealing new, important information to the reader
+- What makes a list “work” is the fact that it has the potential to pack a ton of valuable information into a very short period of time.
+- Writers go wrong by trying to have one without the other. They optimize for speed, but sacrifice substance—or they optimize for substance, but sacrifice speed.
+- Better” Examples
+- In addition to Specificity and Speed, techniques for making your Curated Lists “better” than the competition (in addition to the techniques we’ve covered above) are:
+- Better” Structure
+- Better” Subheads
+- Better” Introduction
+- Story
+- Stories are one of the most powerful ways to “hook” a reader into your piece of writing
+- The answers with the most engagement almost always begin at the absolute height of the story: “The first time I became a millionaire, I was living in my parents’ basement.
+- Writer and marketer, Josh Fechter, took this strategy and applied it to writing on LinkedIn—and in 2018 actually “broke” LinkedIn’s algorithm, accumulating hundreds of millions of views on his long-form status updates
+- Techniques for making your Stories “better” than the competition (in addition to all the other techniques described above) are:
+- Better” Openers: If everyone else is taking their sweet time getting to the point, blow right past them and start writing at the moment of conflict or achievement.
+- Better” Transitions
+- Better” Characters
+- what’s expected is boring. What’s unexpected is exciting, new, and different.
+- Better” Language
+- Better” Category
+- Credible Talking Head
+- Your goal as a writer is to always be looking for the topics, subject matters, and categories you are most qualified to write within
+- Write what you know,” as the adage goes
+- Better” Association
+- Name-dropping is one of the fastest ways to tell a reader, “I know what I’m talking about.”
+- Better” Context
+- Better” Arguments
+- Better” Perception
+- What makes a great headline is getting someone to understand three things at the exact same time:
+  What this piece of writing is about
+  Who this piece of writing is for
+  The PROMISE: the problem that will be solved, and/or the solution being offered
+  This is what’s known as The Curiosity Gap.
+  The Curiosity Gap is what tells the reader what this piece of writing is about, who it’s for, and what it’s promising—all without revealing the answer.
+- Before you start writing anything, the very first thing you should do is think deeply about the headline, the frame, and the focal point you are presenting to your reader.
+- Even if you’re writing a 100-character Tweet, I encourage you to question, “What would be the headline of this Tweet?”
+- The size of your audience is a direct reflection of the size of the question you’re answering.
+- The first question I encourage you to ask yourself is, “Who is this piece of writing for?”
+- Biotechnology is a niche. Which means, if you’re writing about what’s happening within the world of biotechnology, your Audience will only be as big as the number of people actively asking themselves about biotechnology
+- However, a lot more people wake up in the morning and ask themselves, “How can I be happier in life? How do I know if I’m in a healthy relationship? How can I make more money?”These broader, more universal questions have much larger Audiences—which means, by choosing Happiness, Relationships, or Money as your Subject Matter, you will inherently reach a wider Audience.
+- Now, there is a way for you to get the best of both worlds, and that’s by using niche topics to answer universal questions.
+- This technique of tying niche topics to universal questions is a powerful way of tapping into new audiences and expanding your
+- reach outside of your particular industry or category
+- When people are scrolling through titles, they really only look at the beginning and the end
+- Pieces Of A Perfect Headline
+- The 1 Question *That Gets* Every Single Millennial {In Trouble}
+- The 1.
+- There are two reasons this technique of using a number at the beginning of a headline is so effective. First, it conveys conviction, which readers trust. It’s declarative, and anything that is declarative implies a strong stance or opinion (which people love)
+- This part of the sentence is the what.
+- It’s the carrot you dangle in front of the reader letting them know what they’re about to read
+- The real key to choosing the right word for this part of the headline is to think about what will stir up the most curiosity in your audience.
+  This is the beginning of your Curiosity Gap.
+- That Gets*
+- This is the part of the headline that connects the beginning to the end.
+  Connecting pieces should be used sparingly.
+- Now, based on your genre, category, or topic, you might not even need these connecting pieces. If you do, make sure to pick strong, descriptive words
+- Every Single Millennial
+- This is the WHO.
+  WHO is this article for?
+- This is the part of the sentence that caters most to your target audience
+- In Trouble
+- And finally, the ending—also known as THE PROMISE
+- The key to writing a great PROMISE is to use language that elicits an
+- emotional response
+- The best way to come up with a compelling PROMISE is to think deeply about 1) outcomes your readers want to receive, or 2) outcomes your readers want to avoid
+- Your Content Roadmap: Constructing A “Sticky Web” For Your Writing
+- Content Buckets
+- To get the most “return on investment” from your writing, it’s important to have a roadmap for success
+- gathering
+- The three types of “content buckets” I recommend are:
+- General Audience: You should have one bucket that is aimed at universal topics. Things like positive habits, life lessons, productivity topics, etc., are big, broad categories that resonate with the widest number of people. How you make them relevant to you is by approaching them through your own specific lens
+- Audience: Your second content bucket should be hyper-relevant to your expertise
+- continuing to leverage universal topics to broaden your reach, or intentionally excluding general audiences by speaking directly to the intimate pain points your target reader is experiencing. My recommendation is to do both.
+- Company/Industry Audience: Your third content bucket is the environment and industry you exist within
+- Now, it’s important to remember that your content buckets can, and most likely will change over time
+- I experimented with a ton of different Niche Audiences before data told me what people really wanted to hear about from me most
+- Endless Idea Generator
+- Writing anything on the internet follows a very simple 3-step process.
