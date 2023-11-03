@@ -2,7 +2,6 @@
 title: A-How This Turing Award–winning Researcher Became a Legendary Academic Advisor
 status: literature
 tags: []
-URL: https://www.technologyreview.com/2023/10/24/1081478/manuel-blum-theoretical-computer-science-turing-award-academic-advisor/
 author: Sheon Han
 ---
 
@@ -30,4 +29,6 @@ What would it be like to have someone like Blum in your life, or in the workplac
 
 ### Other facts
 
-	In 1999, Carnegie Mellon University succeeded in recruiting Manuel Blum and his wife Lenore Blum, both computer scientists, to join their son, Avrim Blum. They moved into offices next to each other and collaborated on research projects.
+In 1999, Carnegie Mellon University succeeded in recruiting Manuel Blum and his wife Lenore Blum, both computer scientists, to join their son, Avrim Blum. They moved into offices next to each other and collaborated on research projects.
+
+https://www.technologyreview.com/2023/10/24/1081478/manuel-blum-theoretical-computer-science-turing-award-academic-advisor/
