@@ -1,7 +1,7 @@
 ---
 title: What is Envelope Tracking in a Power Amplifier?
 tags:
-  - amplifier/power
+  - circuit
 project: substack
 date_published: 
 status: wip

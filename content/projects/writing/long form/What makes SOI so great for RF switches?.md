@@ -1,7 +1,7 @@
 ---
 title: What makes SOI so great for RF switches?
 tags:
-  - switch
+  - technology
 project: substack
 date_published: 
 status: 

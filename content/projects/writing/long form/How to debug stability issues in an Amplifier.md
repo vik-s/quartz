@@ -1,5 +1,5 @@
 ---
-title: 3 common ways to improve amplifier linearity
+title: How to debug stability issues in an Amplifier
 tags:
   - circuit
 project: substack

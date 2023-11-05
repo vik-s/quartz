@@ -1,7 +1,7 @@
 ---
 title: Understanding Classes of Amplifier Operation
 tags:
-  - amplifier
+  - circuit
 project: substack
 date_published: 
 status: 

@@ -1,7 +1,7 @@
 ---
-title: 3 common ways to improve amplifier linearity
+title: Overview of Common On-wafer Calibration Methods
 tags:
-  - circuit
+  - metrology
 project: substack
 date_published: 
 status: 

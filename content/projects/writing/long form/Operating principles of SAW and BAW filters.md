@@ -1,7 +1,7 @@
 ---
-title: 3 common ways to improve amplifier linearity
+title: Operating principles of SAW and BAW filters
 tags:
-  - circuit
+  - passive
 project: substack
 date_published: 
 status: 

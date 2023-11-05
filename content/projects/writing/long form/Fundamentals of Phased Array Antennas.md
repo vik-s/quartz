@@ -1,5 +1,5 @@
 ---
-title: 3 common ways to improve amplifier linearity
+title: Fundamentals of Phased Array Antennas
 tags:
   - circuit
 project: substack

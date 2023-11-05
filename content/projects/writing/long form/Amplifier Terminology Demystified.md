@@ -1,7 +1,7 @@
 ---
 title: Amplifier Terminology Demystified
 tags:
-  - amplifier
+  - circuit
 project: substack
 date_published: 
 status: 

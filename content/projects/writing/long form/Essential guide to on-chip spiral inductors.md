@@ -1,7 +1,7 @@
 ---
-title: 3 common ways to improve amplifier linearity
+title: Essential guide to on-chip spiral inductors
 tags:
-  - circuit
+  - passive
 project: substack
 date_published: 
 status: 

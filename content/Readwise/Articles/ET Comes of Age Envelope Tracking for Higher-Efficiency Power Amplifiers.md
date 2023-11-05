@@ -4,7 +4,6 @@ title: "ET Comes of Age: Envelope Tracking for Higher-Efficiency Power Amplifier
 tags:
   - articles
   - amplifier
-URL: https://www.colorado.edu/faculty/popovic-zoya/sites/default/files/attached-files/Asbeck2016.pdf
 ---
 In typical class A, B, and AB amplifiers, the efficiency degrades when the amplifier is not operating in compression. When the power is in "back-off", the efficiency drops. This happens because energy not used to amplify a signal is still being used by the power supply, and dissipated as heat.
 
@@ -39,3 +38,7 @@ To ensure time alignment, you can implement a closed loop system that samples th
 ![](https://readwise-assets.s3.amazonaws.com/media/reader/pub/64b541454955ffda64404c3e4f56e925.png?t=1698846319542)
 
 As technology scales, the power burden of having a DPD system is becoming less significant, and the cost of DPD is also dropping.
+
+## References
+
+https://www.colorado.edu/faculty/popovic-zoya/sites/default/files/attached-files/Asbeck2016.pdf
