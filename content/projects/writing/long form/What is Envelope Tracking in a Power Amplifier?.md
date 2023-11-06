@@ -15,6 +15,8 @@ A key performance metric of a PA is it's efficiency. It is a measure of how much
 
 Consider a signal which is only phase modulated. Such signals were common in early communication systems such as GSM. Let's say such a signal input to the PA is within the limits of its power supply voltage. Now imagine you throw a tablecloth over this waveform. The shape of the tablecloth on the top is the envelope of the signal. In this case, the envelope is flat.
 
+
+
 The advantage of the envelope not touching the power supply voltage is that the amplification will be linear. If the envelope touches the power supply voltage limit, the output waveform will appear squished at the top and bottom, and the result will be nonlinear. The person you are speaking to on the phone may start to sound like the Terminator.
 
 The disadvantage of the extra room between the envelope and power supply voltage is that the excess is wasted power not being used for amplification and being dissipated as heat.
