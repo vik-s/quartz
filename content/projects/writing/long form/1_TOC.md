@@ -23,3 +23,8 @@ FROM "projects/writing" AND #passive
 LIST
 FROM "projects/writing" AND #metrology
 ```
+### Pop-Science
+```dataview
+LIST
+FROM "projects/writing" AND #popsci
+```

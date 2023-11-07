@@ -2254,8 +2254,8 @@ c174677db08ab7a9cbe6678a2a22c9434ef80158: [[Excalidraw/Pasted Image 202311061058
 		},
 		{
 			"type": "arrow",
-			"version": 119,
-			"versionNonce": 1221911632,
+			"version": 129,
+			"versionNonce": 1828748976,
 			"isDeleted": false,
 			"id": "QF7GK2hq39sBBV1ogpNae",
 			"fillStyle": "cross-hatch",
@@ -2279,7 +2279,7 @@ c174677db08ab7a9cbe6678a2a22c9434ef80158: [[Excalidraw/Pasted Image 202311061058
 				"type": 2
 			},
 			"boundElements": [],
-			"updated": 1699314864349,
+			"updated": 1699328663404,
 			"link": null,
 			"locked": false,
 			"startBinding": {
@@ -33623,8 +33623,8 @@ c174677db08ab7a9cbe6678a2a22c9434ef80158: [[Excalidraw/Pasted Image 202311061058
 		},
 		{
 			"type": "arrow",
-			"version": 100,
-			"versionNonce": 1973400656,
+			"version": 105,
+			"versionNonce": 803023024,
 			"isDeleted": false,
 			"id": "0jtJlTDARAysuiG804k_Q",
 			"fillStyle": "hachure",
@@ -33648,12 +33648,12 @@ c174677db08ab7a9cbe6678a2a22c9434ef80158: [[Excalidraw/Pasted Image 202311061058
 				"type": 2
 			},
 			"boundElements": [],
-			"updated": 1699314864351,
+			"updated": 1699328663404,
 			"link": null,
 			"locked": false,
 			"startBinding": {
 				"elementId": "nKDxLGcI",
-				"focus": 0.12434962919779421,
+				"focus": 0.12434962919779438,
 				"gap": 8.55211892601416
 			},
 			"endBinding": null,
@@ -33756,8 +33756,8 @@ c174677db08ab7a9cbe6678a2a22c9434ef80158: [[Excalidraw/Pasted Image 202311061058
 		},
 		{
 			"type": "arrow",
-			"version": 2338,
-			"versionNonce": 2104353456,
+			"version": 2343,
+			"versionNonce": 93622960,
 			"isDeleted": false,
 			"id": "c_G4jxrcK16i8pl9hk11i",
 			"fillStyle": "hachure",
@@ -33779,7 +33779,7 @@ c174677db08ab7a9cbe6678a2a22c9434ef80158: [[Excalidraw/Pasted Image 202311061058
 			"frameId": null,
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1699314864351,
+			"updated": 1699328663404,
 			"link": null,
 			"locked": false,
 			"startBinding": {
@@ -33897,7 +33897,7 @@ c174677db08ab7a9cbe6678a2a22c9434ef80158: [[Excalidraw/Pasted Image 202311061058
 		"currentItemStartArrowhead": null,
 		"currentItemEndArrowhead": "triangle",
 		"scrollX": 1065.3108975389432,
-		"scrollY": 709.1868392042131,
+		"scrollY": 353.6879306564191,
 		"zoom": {
 			"value": 0.8500000000000001
 		},
