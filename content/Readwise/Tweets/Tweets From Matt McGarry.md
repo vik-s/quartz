@@ -95,3 +95,105 @@
   I like this "5 star, 3 star, 1 star" format:
   Aim for 80%+ 5-star reviews and more poll responses each send.
   Hope this helps! ([View Tweet](https://twitter.com/JMatthewMcGarry/status/1716518573604995097))
+## New highlights added November 7, 2023 at 7:56 AM
+- **10 newsletters doing $1,000,000+ per year with 1-person or small teams.**
+  Newsletters can scale to millions in sales with small teams.
+  Here are some examples:
+  **1) TLDR Newsletter**
+  Estimated annual revenue: ~$5-$10M
+  Newsletter subscribers: 1,250,000
+  Monetization type: Sponsors
+  Growth method: Paid ads
+  Team size: ~4 full-time
+  Their Q1 2023 rate card said their primary sponsor slot was $18,000. 
+  Assuming they sell all of those ad units but no others, they’re doing $4,680,000 in yearly ad revenue.
+  Real revenue is likely much higher though (they now have 300k+ more subscribers).
+  LinkedIn says their team is just 4 employees, most of them joining recently.
+  **2) Lenny’s Newsletter**
+  Estimated annual revenue: ~$2-$3M
+  Newsletter subscribers: 540,000+
+  Monetization type: Paid Subscription
+  Growth method: Twitter and Substack Recommendations
+  Team size: 1
+  Lenny’s newsletter primarily makes money with paid subscriptions. 
+  Over 18,000 people pay to get every issue of the newsletter plus access to his private community.
+  Lenny is the go-to expert on product-led growth, and thousands of tech companies are happy to pay for his insights which can’t be found anywhere else.
+  **3) Justin Welsh**
+  Estimated annual revenue: ~$1.5M-$2.5M
+  Newsletter subscribers: 180,000+
+  Monetization type: Courses, Sponsorships
+  Growth method: LinkedIn, Twitter
+  Team size: 1
+  Justin is a master of social growth. He uses his social following to grow his free newsletter and drive customers to his course.
+  Justin also sells newsletter sponsorships and previously offered paid consulting calls.
+  Over 23,000 people have bought his courses — which cost $150 each — translating to $3,450,000 in course sales alone.
+  **4) The Van Trump Report**
+  Estimated annual revenue: ~$20M
+  Newsletter subscribers: 30,000-40,000 (paid)
+  Monetization type: Paid Subscription
+  Growth method: Direct traffic, network, word of mouth
+  Team size: 1
+  This is the go-to newsletter for the agricultural industry. It’s a daily newsletter agricultural professionals and investors use to make more informed decisions.
+  **5) Stratechery**
+  Estimated annual revenue: ~$3-5M
+  Newsletter subscribers: 26,000+ (paid)
+  Monetization type: Paid Subscription
+  Growth method: Direct traffic, SEO, word of mouth
+  Team size: 1
+  Stratechery is a daily newsletter and podcast analyzing the tech industry.
+  It’s estimated to have over 26,000 paid subscribers at $12/month or $120/year — translating to >$3M in annual revenue.
+  That estimate is 2+ years old, so that figure is likely much higher now.
+  **6) Superhuman AI**
+  Estimated annual revenue: ~$1M-$2M
+  Newsletter subscribers: 500,000+
+  Monetization type: Sponsorships
+  Growth method: Twitter, LinkedIn, SparkLoop, Paid Social
+  Team size: 2
+  This newsletter skyrocketed to 500,000+ subscribers this year.
+  It’s monetized through sponsorships. If they sell all of their sponsor slots, they’d make $5,997 per send — over $1.5M per year.
+  **7) The Generalist**
+  Estimated annual revenue: ~$1.5M-$3M
+  Newsletter subscribers: 100,000
+  Monetization type: Paid newsletter and community, Sponsorships
+  Growth method: Twitter, collaborations, Substack Recommendations
+  Team size: 2
+  The Generalist is a newsletter that analyzes tech and VC.
+  The 100,000+ subscribers are monetized with a paid subscription and newsletter sponsorships.
+  If 5% of subscribers convert to the $220/year subscription, that’s $1.1M in ARR.
+  Sponsorship revenue is harder to estimate. But it’s lucrative. The Generalist has a huge audience of founders and VCs with high net worths.
+  **8) Marketing Examined**
+  Estimated annual revenue: ~$1-$2M
+  Newsletter subscribers: 100,000+
+  Monetization type: Sponsorships
+  Growth method: Twitter, Meta ads
+  Team size: 1
+  This marketing newsletter did $100k in ad sales back in February of 2023.
+  They announced they plan to hit $2M ARR this year.
+  **9) Marketing Examples**
+  Estimated annual revenue: ~$600k-$1M
+  Newsletter subscribers: 120,000+
+  Monetization type: Sponsorships, coaching, courses
+  Growth method: Content distribution, Twitter, word of mouth
+  Team size: 1
+  Marketing Examples is a marketing and copywriting newsletter founded by Harry Dry.
+  He sells ads in his newsletter and website. If all inventory is sold these placements will result in $450k per year in ad sales.
+  Harry also offers 1on1 coaching for $900 — if he sells 3 calls per week, that’s an extra $140K in annual revenue.
+  Plus, Harry has a course he’s sold in the past. Course revenue can likely surpass ad and coaching revenue when it is live.
+  **10) UI Dev**
+  Estimated annual revenue: ~$2M-$4M
+  Newsletter subscribers: 225,000+
+  Monetization type: Courses, Sponsorships
+  Growth method: Word of mouth, SEO, YouTube, Paid ads
+  Team size: 4
+  UI Dev is a media and education company for front-end developers.
+  They have 225k newsletter subscribers and 80k course customers.
+  They have 8 courses that are $149 each. Customers can buy those or get access to all courses plus more content for $495 per year.
+  For sponsorships, we can assume a $50 CPM on opens.
+  At 170k subscribers, 2 sends per week, and a 45% open rate, that’s $397,800 in sponsorships revenue.
+  Then if 2% of newsletter subscribers buy their annual course subscription at $499/year, that’s $1,696,600 in ARR.
+  ---
+  That’s it!
+  These revenue breakdowns are educated guesses based on publicly available information.
+  Before you go:
+  - Follow <a href="https://twitter.com/JMatthewMcGarry">@JMatthewMcGarry</a> I teach you how to start and grow a newsletter business.
+  - Let me know your questions below! ([View Tweet](https://twitter.com/JMatthewMcGarry/status/1721892481170829678))
