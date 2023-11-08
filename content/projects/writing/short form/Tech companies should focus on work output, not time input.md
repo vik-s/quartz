@@ -4,3 +4,4 @@ tags:
   - atomic
 style: contrarian
 ---
+![[permanent/the locksmiths paradox|the locksmiths paradox]]
