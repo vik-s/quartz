@@ -1,11 +1,8 @@
 ---
-title: loudest voice in the room
+title: Don't be the loudest voice in the room
 tags:
-  - workplace
-project: socialmedia
-date_published: 
-status: 
-final title:
+  - atomic
+style: contrarian
 ---
 You're not doing yourself a favor by being the loudest voice in the room.
 
