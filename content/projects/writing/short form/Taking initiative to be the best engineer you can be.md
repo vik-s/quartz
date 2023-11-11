@@ -4,4 +4,4 @@ tags:
   - atomic
 style: motivational
 ---
-[[permanent/The Parable of the Thanksgiving Turkey|The Parable of the Thanksgiving Turkey]]
+![[permanent/The Parable of the Thanksgiving Turkey|The Parable of the Thanksgiving Turkey]]

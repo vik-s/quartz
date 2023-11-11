@@ -1,16 +1,16 @@
 ---
-title: 5 ways you can help co-workers as an engineer
+title: 4 ways you can help co-workers as an engineer
 tags:
   - atomic
 style: actionable
-written: 
+written: ✅
 published:
 ---
 There are always people who are smarter, faster and better than you. 
 
 Stand out as an engineer by being the most helpful one.
 
-Here are 5 ways how: 👇🏼
+Here are 4 ways how: 👇🏼
 
 **Document effectively:** 
 Most people run into the same issues at work. You need to redo something you figured out last time. Document effectively so that you don't have to rediscover it every time. Share it with others to save them time.
@@ -28,10 +28,8 @@ If you are a mid or senior level engineer, offer provide guidance to junior cowo
 Pay it forward and your mentees will do the same when they get to where you are.
     
 **Communicate well:** 
-Good intentions that are not communicated are of no use. Ask how you can help, follow up on how your coworkers' projects are progressing,
-    
-**Promote good work hygiene:** 
+Good intentions and ideas that are not communicated are of no use. Ask how you can help and follow up on how your coworkers' projects are progressing. Work on your public speaking skills and learn how to be engaging. Learn you organize your thoughts and make thorough presentations. Plan your work well and post regular status updates.
 
-    
+Soft skills are just as important as technical ones.
 
 In a tech world full of noise, be the signal that guides your team to success.
