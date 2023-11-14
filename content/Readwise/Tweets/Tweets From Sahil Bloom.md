@@ -81,3 +81,16 @@
   2. Focus on the important.
   3. Embrace boredom.
   If you enjoyed this or learned something, share the post and follow me @SahilBloom for more in future. ([View Tweet](https://twitter.com/SahilBloom/status/1717160276519473613))
+## New highlights added November 14, 2023 at 5:36 AM
+- One of the most significant lies we tell ourselves:
+  "If I get [X], then I'll be happy."
+  It's easy to convince yourself that your happiness is contingent upon some external milestone:
+  • Money
+  • Promotion
+  • Fancy stuff
+  • Recognitions
+  But these "if, then" traps are a dangerous mirage:
+  You climb to the top of that mountain, only to see the happiness you thought you'd find melt away and reappear in the distance.
+  If you convince yourself that your satisfaction is contingent upon the next achievement or milestone, you'll never find it.
+  Real satisfaction and happiness is an inside job:
+  Find it on the journey—or you won't find it at all.<img src='https://pbs.twimg.com/media/F-0SXGDXMAELoLZ.jpg'/> ([View Tweet](https://twitter.com/SahilBloom/status/1724054714856206543))
