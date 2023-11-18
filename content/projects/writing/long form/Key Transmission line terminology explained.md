@@ -51,7 +51,7 @@ $$
 $$
 \frac{dI(z)}{dz} = -(G+j\omega C)V(z)
 $$
-If the RLGC parameters are known for the transmission line being used through analytical calculations based on their physical structure, then several key properties can be calculated.
+If the $RLGC$ parameters are known for the transmission line being used through analytical calculations based on their physical structure, then several key properties can be calculated.
 #### Characteristic Impedance
 
 Let's say you are holding one end of a transmission line which is infinitely long. You use a special meter (because a Radioshack (RIP) ohmmeter just won't do) to measure the impedance of the end of the line you are holding. The reading you see is called the Characteristic Impedance, represented by $Z_0$ and the value depends on the physical construction of the transmission line. This is what makes it a fundamental property for any given type of transmission line.
@@ -61,6 +61,31 @@ To keep it simple, assume that the line has no losses so that $R=G=0$. The formu
 $$
 Z_0 = \sqrt\frac{L}{C}
 $$
+This simple formula gives us an intuitive way to understand how to design the characteristic impedance of the transmission line. 
+
+- Higher inductance per unit length, higher the $Z_0$
+	- On a planar transmission line, make the signal line thinner, you will increase $L$ and $Z_0$
+- Higher capacitance per unit length, lower the $Z_0$
+	- On a planar transmission line, move the ground closer to the signal, you will increase $C$ and lower $Z_0$.
+
+If there are losses in the line, it does affect the characteristic impedance, but more importantly the signal will attenuate as it travels along the line due to dissipative losses.
+
+#### Propagation constant
+
+Its interesting that telegrapher equations mentioned above can be wrangled into a wave propagation equation which we won't get into here (calculus is scary). Traveling electromagnetic waves in any medium have a quantity called *propagation constant* that describes how the wave travels in any given direction. It describes how fast the wave is and how it's amplitude varies as it travels.
+
+Fortunately for us, the propagation constant represented by $\gamma$ is easily calculated from $RLGC$ parameters as follows,
+
+$$
+\gamma = \alpha + j\beta = \sqrt{(R+j\omega L)(G+j\omega C)}
+$$
+A few things of note:
+
+1. Propagation constant is a function of frequency since $\omega = 2\pi f$, where $f$ is the frequency.
+2. Propagation constant is a complex quantity where $\alpha$ is called the attenuation constant and $\beta$ is called the phase constant.
+
+
+
 
 
 
