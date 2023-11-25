@@ -73,3 +73,6 @@
   Congratulations! That’s it.
   This is the only way I can create big outcomes despite my never-ending impulse to procrastinate, nap, and otherwise fritter away my days with bullshit. 
   If I have 10 important things to do in a day, it’s 100% certain nothing important will get done that day. On the other hand, I can usually handle 1 must-do item and block out my lesser behaviors for 2-3 hours a day. ([View Tweet](https://twitter.com/tferriss/status/1716836684661453094))
+## New highlights added November 25, 2023 at 2:02 PM
+- I have read this book many times. It’s a wonderful and short reboot for possibility, excellent for all students of life and those who want to overcome self-imposed limitations. 
+  ![](https://pbs.twimg.com/media/F_zizWCWIAAxx3x.jpg) ([View Tweet](https://twitter.com/tferriss/status/1728505779601219911))
