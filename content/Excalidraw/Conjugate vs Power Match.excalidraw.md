@@ -93,8 +93,8 @@ Load pull example ^iGRvRZbF
 		},
 		{
 			"type": "arrow",
-			"version": 265,
-			"versionNonce": 35602608,
+			"version": 266,
+			"versionNonce": 2114904240,
 			"isDeleted": false,
 			"id": "iJTby-Die9lw2v9FFkihi",
 			"fillStyle": "hachure",
@@ -116,15 +116,11 @@ Load pull example ^iGRvRZbF
 				"type": 2
 			},
 			"boundElements": [],
-			"updated": 1701154268490,
+			"updated": 1701193762693,
 			"link": null,
 			"locked": false,
 			"startBinding": null,
-			"endBinding": {
-				"elementId": "pec7TvIW",
-				"focus": 1.7065064493563022,
-				"gap": 8.831330616953778
-			},
+			"endBinding": null,
 			"lastCommittedPoint": null,
 			"startArrowhead": null,
 			"endArrowhead": "arrow",
@@ -361,8 +357,8 @@ Load pull example ^iGRvRZbF
 		},
 		{
 			"type": "arrow",
-			"version": 517,
-			"versionNonce": 1049411248,
+			"version": 519,
+			"versionNonce": 1240611504,
 			"isDeleted": false,
 			"id": "JJDz2enVUn2enhfFB4Pap",
 			"fillStyle": "hachure",
@@ -384,14 +380,14 @@ Load pull example ^iGRvRZbF
 				"type": 2
 			},
 			"boundElements": [],
-			"updated": 1701154268490,
+			"updated": 1701193769348,
 			"link": null,
 			"locked": false,
 			"startBinding": null,
 			"endBinding": {
-				"elementId": "Wc5Uscli",
-				"focus": 1.9028859875088528,
-				"gap": 11.28607484386066
+				"elementId": "Y8vJe9zsceO2vkwM6Xjl5",
+				"focus": -0.9271459541121975,
+				"gap": 15.896754373626209
 			},
 			"lastCommittedPoint": null,
 			"startArrowhead": null,
@@ -886,8 +882,8 @@ Load pull example ^iGRvRZbF
 		},
 		{
 			"type": "text",
-			"version": 89,
-			"versionNonce": 171722832,
+			"version": 90,
+			"versionNonce": 349129392,
 			"isDeleted": false,
 			"id": "pec7TvIW",
 			"fillStyle": "hachure",
@@ -906,13 +902,8 @@ Load pull example ^iGRvRZbF
 			"groupIds": [],
 			"frameId": null,
 			"roundness": null,
-			"boundElements": [
-				{
-					"id": "iJTby-Die9lw2v9FFkihi",
-					"type": "arrow"
-				}
-			],
-			"updated": 1701154268490,
+			"boundElements": [],
+			"updated": 1701193762693,
 			"link": null,
 			"locked": false,
 			"fontSize": 20,
@@ -945,11 +936,16 @@ Load pull example ^iGRvRZbF
 			"frameId": null,
 			"roundness": null,
 			"seed": 154880176,
-			"version": 219,
-			"versionNonce": 1308136624,
+			"version": 220,
+			"versionNonce": 1226858160,
 			"isDeleted": false,
-			"boundElements": null,
-			"updated": 1701154381023,
+			"boundElements": [
+				{
+					"id": "JJDz2enVUn2enhfFB4Pap",
+					"type": "arrow"
+				}
+			],
+			"updated": 1701193762694,
 			"link": null,
 			"locked": false,
 			"status": "pending",
@@ -1101,11 +1097,11 @@ Load pull example ^iGRvRZbF
 				"type": 2
 			},
 			"seed": 549438032,
-			"version": 1017,
-			"versionNonce": 931389520,
+			"version": 1021,
+			"versionNonce": 1715949232,
 			"isDeleted": false,
 			"boundElements": [],
-			"updated": 1701154381024,
+			"updated": 1701193769349,
 			"link": null,
 			"locked": false,
 			"points": [
