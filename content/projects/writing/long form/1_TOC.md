@@ -38,3 +38,8 @@ FROM "projects/writing" AND #coding
 LIST
 FROM "projects/writing" AND #communication 
 ```
+### Systems
+```dataview
+LIST
+FROM "projects/writing" AND #systems 
+```
