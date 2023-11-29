@@ -3,6 +3,8 @@ title: William Shockley
 tags:
   - atomic
 style: educational
+written: ✅
+published: ✅
 ---
 He was silicon valley's first entrepreneur and also the worst engineering manager ever. These famous people worked for him:
 

@@ -3,6 +3,8 @@ title: Conjugate vs Power match
 tags:
   - atomic
 style: XvsY
+written: ✅
+published: ✅
 ---
 An RF transistor is like a child. It needs the right environment to perform well.
 

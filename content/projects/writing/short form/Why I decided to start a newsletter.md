@@ -3,6 +3,8 @@ title: Why I decided to start a newsletter
 tags:
   - atomic
 style: motivational
+written: ✅
+published: ✅
 ---
 Thank you to everyone for their overwhelming positive support for my upcoming newsletter! No better day in the year to say it!
 
