@@ -197,3 +197,24 @@
   Before you go:
   - Follow <a href="https://twitter.com/JMatthewMcGarry">@JMatthewMcGarry</a> I teach you how to start and grow a newsletter business.
   - Let me know your questions below! ([View Tweet](https://twitter.com/JMatthewMcGarry/status/1721892481170829678))
+## New highlights added November 29, 2023 at 12:30 PM
+- Here are revenue streams you can create from a newsletter:
+  • Events
+  • Agency
+  • Courses
+  • Affiliates
+  • Speaking
+  • Coaching
+  • Job board
+  • Consulting
+  • Mastermind
+  • Sponsorships 
+  • Paid newsletter
+  • Lead generation
+  • Paid community
+  • Data subscription
+  There's more. 
+  But these are generally the best fit for media founders. 
+  If you only use sponsors and affiliates you need to start selling a product/service asap. 
+  If you're starting a newsletter, think about your product/service offer from day 1.
+  The best newsletters are distribution channels for a high LTV product -- not just a place to sell ads. ([View Tweet](https://twitter.com/JMatthewMcGarry/status/1729878340100911302))
