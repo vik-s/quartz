@@ -3,6 +3,8 @@ title: How amazing you can tell wave properties from circuit elements
 tags:
   - atomic
 style: motivational
+written: ✅
+published: ✅
 ---
 You tell me what the dimensions of the line are, I'll tell you how fast the signal travels. I'm amazed this can even be calculated.
 

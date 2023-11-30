@@ -31,7 +31,7 @@ final title:
 - What is Wifi-7?
 	- Next gen wifi standard
 	- List phones and routers already having wifi7
-	- List some chipsets from companies doing Wifi7
+	- List some chipsets from companies doing Wifi7 - Qualcomm, Broadcom, MSI
 - What is new about it?
 	- List all it's features with one line explanation
 	- Use the truck analogy from Intel (use pictures)
@@ -41,7 +41,22 @@ final title:
 	- Need in AR/VR, 8k wireless video, etc
 - Include a fun trivia piece
 
-## What is Wifi 7 and why should I care?
+What about OFDM? Is it recently introduced or something?
+https://www.tp-link.com/en/wifi7/#products
+
+Beamforming is essential to make 4K QAM possible
+
+Multilink mesh video -- its meh
+https://players.brightcove.net/1414329538001/BJv5wEFt_default/index.html?videoId=6321581441112
+embed code
+```
+<iframe src='//players.brightcove.net/1414329538001/BJv5wEFt_default/index.html?videoId=6321581441112' allowfullscreen frameborder=0></iframe>
+```
+
+
+whitepaper https://d86o2zu8ugzlg.cloudfront.net/mediatek-craft/documents/Key-Advantages-of-Wi-Fi-7_MediaTek-White-Paper-WF70222.pdf
+
+
 
 
 
