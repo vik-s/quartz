@@ -148,3 +148,29 @@
   Set up UTM tracking.
   Look for which channel brings in high-quality prospects.
   Then go hard on that channel daily. ([View Tweet](https://twitter.com/thejustinwelsh/status/1718602839809720655))
+## New highlights added December 2, 2023 at 8:10 AM
+- How to get started as a solopreneur:
+  (even if you have less than 5k followers)
+  1. Take the thing you do at work.
+  2. Build a simple landing page.
+  3. Write copy that describes that thing.
+  4. Add a button to "book" a discovery call.
+  5. Write content about it for 90 days.
+  6. Answer questions on your content.
+  7. If people have more, ask them to book.
+  8. Ask 5 levels of discovery questions:
+  - What's the problem?
+  - What have you tried? How did it work?
+  - What is that costing you?
+  - How big of a priority is it to fix?
+  - When are you hoping to have it fixed?
+  9. Send a recap email about what you learned.
+  10. Describe how you would fix the problem.
+  11. Explain how much it will cost.
+  12. Explain how long it will take.
+  13. Back into the date they need it fixed by.
+  14. Ask them if they would like to get started.
+  15. If they say "no", try again tomorrow.
+  16. If they say "yes", send them a payment link.
+  Congrats. You're running a business.
+  P.S. Yes, I understand employment agreements and non-competes. Check them both (obviously). ([View Tweet](https://twitter.com/thejustinwelsh/status/1730936365351596530))
