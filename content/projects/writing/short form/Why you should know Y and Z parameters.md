@@ -3,8 +3,8 @@ title: Why you should know Y and Z parameters
 tags:
   - atomic
 style: educational
-written: 
-published:
+written: ✅
+published: ✅
 ---
 Learning to use Y and Z parameter networks makes you look like a math genius.
 

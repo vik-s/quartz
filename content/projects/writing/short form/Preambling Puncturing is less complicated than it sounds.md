@@ -3,8 +3,8 @@ title: Preambling Puncturing is more complicated than it sounds
 tags:
   - atomic
 style: educational
-written: 
-published:
+written: ✅
+published: ✅
 ---
 Wifi 7 implements something called preamble puncturing. Fancy name but the idea is simple. 👇🏼
 
