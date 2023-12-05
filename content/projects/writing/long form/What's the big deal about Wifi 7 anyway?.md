@@ -56,6 +56,8 @@ embed code
 
 whitepaper https://d86o2zu8ugzlg.cloudfront.net/mediatek-craft/documents/Key-Advantages-of-Wi-Fi-7_MediaTek-White-Paper-WF70222.pdf
 
+From linkedin
+> Unrelated to PP, the 802.11n made Dynamic Frequency Selection (DFS) mandatory in the 5 GHz bands in various countries where some of the spectrum had other higher priority use. There are specific requirements from FCC and ETSI on how soon the AP’s should vacate the spectrum in favor of higher priority usage.  Static PP replaces DFS in Wi-Fi 7, and is the reasons it was made mandatory.
 
 ----------------
 
