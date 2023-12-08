@@ -67,7 +67,7 @@ Well, here's the thing. It is not sufficient to have a Wifi 7 enabled router. Al
 
 For most applications, Wifi 4 or 5 is probably sufficient. We have access to both 2.4GHz and 5GHz bands and sufficient bandwidth to perform most day to day tasks in a home environment. 
 
-When the network gets more dense with more wireless devices occupying the wifi spectrum which is often the case in enterprise situations, the need for more performant Wifi starts to emerge. The features of Wifi 7 will provide improvements in lower latency, improved reliability and faster speeds.
+The need for performant Wifi emerges in dense enterprise networks when a large number of clients are present. The features of Wifi 7 will provide improvements in lower latency, improved reliability and faster speeds.
 
 There are some specific cases in which this will be useful.
 
