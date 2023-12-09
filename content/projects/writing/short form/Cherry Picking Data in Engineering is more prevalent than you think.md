@@ -3,8 +3,8 @@ title: Cherry Picking Data in Engineering is more prevalent than you think
 tags:
   - atomic
 style: contrarian
-written: 
-published:
+written: ✅
+published: ✅
 ---
 I've always enjoyed taking measurements in a lab, and still do. There's something oddly satisfying about interacting with the physical world of electronics.
 
