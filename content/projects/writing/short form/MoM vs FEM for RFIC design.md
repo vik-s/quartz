@@ -3,8 +3,8 @@ title: MoM vs FEM for RFIC design
 tags:
   - atomic
 style: XvsY
-written: 
-published:
+written: ✅
+published: ✅
 ---
 Method of Moments vs Finite Element Method for RFIC design. When to use what? And why?
 

@@ -1,11 +1,11 @@
 ---
-title: "Interpretation of Mason's Invariant U as a Gain Maximum"
+title: Masons Unilateral Gain
 created: 2023-04-10 10:56
-status: #permanent
-tags: #ee/basics
+status: 
+tags:
 ---
 
-[[Mason's Invariant U]] is the maximum achievable power gain of an amplifer provided that the following conditions are met:
+[[Mason's Invariant U]] is the maximum achievable power gain of an amplifier provided that the following conditions are met:
 
 1. The [[Excalidraw/embedding_2port_network.excalidraw|embedding network]] is linear, lossless, reciprocal two-port
 2. The device + embedding network is unilateralized (the embedding network is chosen such that the composite is a [[permanent/unilateral device|unilateral device]])
@@ -17,7 +17,7 @@ The important point here is that _the embedding network should unilateralize the
 > [!important] U is not max power gain
 > U is not the highest power gain that can be obtained from the device in an arbitrary circuit. In an active device (U>1), maximum power gain is infinite as in the case of an oscillator circuit.
 
-The beauty of U is that it is defined for passive and active devices, or absolutely stable or potentially unstable devices. It's interpretion as a gain metric depends on certain conditions being met.
+The beauty of U is that it is defined for passive and active devices, or absolutely stable or potentially unstable devices. It's interpretation as a gain metric depends on certain conditions being met.
 
 ## References
 
