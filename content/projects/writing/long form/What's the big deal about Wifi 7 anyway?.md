@@ -116,19 +116,16 @@ Due greater spectrum utilization in WiFi 7, faster data rates can be expected.
 *add a picture of preamble puncturing*
 
 **Increased spatial streams and MIMO**
-1. **Multiple Input Multiple Output (MIMO)**: MIMO is a method for multiplying the capacity of a radio link using multiple transmit and receive antennas. It exploits multipath propagation, where radio waves reflect off surfaces and arrive at the receiver at different times, to increase the capacity of a wireless connection.
-    
-2. **Spatial Streams**: A spatial stream is an individual path of data that is transmitted simultaneously alongside other streams in a MIMO system. Each spatial stream uses a separate antenna on the transmitter and receiver. In essence, more spatial streams mean more data can be transmitted at the same time, increasing the overall throughput.
-    
-3. **How Spatial Streams Work**: In a MIMO system, data is divided into several streams that are transmitted simultaneously through different antennas. At the receiver end, the separate antennas pick up these streams. Advanced signal processing algorithms are used to separate these overlapping signals and recombine them into the original data.
-    
-4. **Benefits of Multiple Spatial Streams**: The primary benefit of using multiple spatial streams is increased data throughput. With each additional spatial stream, the theoretical maximum speed of the Wi-Fi connection increases. This is crucial for bandwidth-intensive applications like streaming high-definition video, gaming, and large file transfers.
-    
-5. **Wi-Fi Standards and Spatial Streams**: Different Wi-Fi standards support different numbers of spatial streams. For example, early MIMO systems like in 802.11n might support 2 or 4 streams, while newer standards like 802.11ac (Wi-Fi 5) and 802.11ax (Wi-Fi 6) can support 8 or more spatial streams.
-    
-6. **Device Capabilities**: The actual increase in speed and capacity depends on both the router and the client device (like a smartphone or laptop). Both need to support the same number of spatial streams to fully utilize this capability. If a device only supports two streams, it won't fully benefit from a router that offers eight streams.
-    
-7. **Environmental Factors**: The effectiveness of multiple spatial streams can be influenced by the physical environment. Factors like the layout of a space, building materials, and other wireless signals can affect how well MIMO and spatial streams perform.
+
+Multiple Input Multiple Output (MIMO) refers to the use of multiple transmit and receive antennas to increase the throughput of a wireless connection. Different antennas receive signals at different times depending on how the transmitted signal bounces around its environment. The final received signal is reconstructed from the inputs of each receive antenna using signal processing algorithms.
+
+The multi-antenna system is also used to transmit data in parallel using a combination of transmit and receive antennas. The higher the data transmission in parallel, the more the data rate over the wireless link. Each parallel data stream is called a spatial stream.
+
+Early WiFi generations only supported 2 or 4 spatial streams, while WiFi 6 supported 8 spatial streams. In WiFi 7, this limit has been increased to 16 spatial streams resulting in a doubling of data rate over WiFi 6. To realize the full benefit of 16 spatial streams, the client devices need to let the access point know what the state of the wireless channel is, at any given point in time because the state of the channel is always continuously varying. To do this, the client performs "Channel Sounding" which evaluates the state of the channel and provides the access point with Channel State Information (CSI). The overhead to do this is pretty high especially given the large channel bandwidths used in WiFi 7. The 802.11be standard however implements some fairly sophisticated channel sounding mechanisms to reduce this overhead which is too detailed to get into here.
+
+**Current Challenges and WiFi 8**
+
+1. Co-existence in the 6 GHz band: 
 
 
 I _have_ to draw the multilane highway analogy from intel
@@ -142,3 +139,8 @@ Wifi strikes back --- tells you about the SNR requirement of 38 dBm https://ieee
 What is MLO? https://www.tp-link.com/us/blog/1067/what-is-wifi-7-s-multi-link-operation-mlo-/
 
 MediaTek MLO whitepaper : https://d86o2zu8ugzlg.cloudfront.net/mediatek-craft/documents/Wi-Fi-7-MLO-White-Paper-WF7MLOWP0622.pdf
+
+Toms guide - a consumer explanation of wifi 7 https://www.tomsguide.com/reference/wi-fi-7-explained
+
+Detailed PPT about transition from Wifi 6- 7 https://www.intel.com/content/dam/www/central-libraries/us/en/documents/2022-06/wi-fi-tutorial-long.pdf
+
