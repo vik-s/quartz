@@ -82,3 +82,53 @@
   It’s an integral part of building anything remarkable, whether a business, a relationship, or a life. **Expanding your sphere of comfort and abilities comes with a cost: repeated self-doubt.**
   Meditate on all of the things you’ve done that you once considered impossible. The odds you’ve overcome, the critics you’ve proven wrong, and the small defeats that — through making you stronger and smarter — made huge victories possible later.
   Get back up. Bigger and better things are waiting for you. ([View Tweet](https://twitter.com/tferriss/status/1742542697800368332))
+## New highlights added January 4, 2024 at 9:22 AM
+- Happy New Year, all! 
+  **A close friend of mine asked me for a cheat sheet for getting into better shape in 2024.** He specifically asked about supplements and abs several times. 
+  He’s looking for a rapid reboot.
+  The below is what I sent him, along with a copy of *The 4-Hour Body*.
+  This post is minimally edited. I’m not trying to be Tolstoy; rather, I wanted to share a quick and dirty email of tactical advice to a friend who has limited time, a bunch of kids, etc.  
+  I’m also simplifying a lot to get my point across quickly, so read it with that in mind. Needless to say, I’m not a doctor and none of this is medical advice. Chat with your MD and do your homework on supplements before consuming anything new.
+  My friend is also a roughly 200-pound male, so adjust kettlebell weights accordingly. Pavel Tsatsouline has excellent further resources.
+  Enjoy…
+  ###
+  Ahoy, Santiago!
+  If you follow the directions in the below links for four weeks, you should see some significant changes.
+  First, just a few basics:
+  – Weight training will help with fat loss and appearance more than cardio, as it helps to build muscle, which then changes your metabolism.
+  – As they say, “Abs are made in the kitchen.” We all have abs, and it’s diet that will make them visible or invisible, so diet is 90%-plus of seeing abs.
+  – Supplements can be helpful, but they are called “supplements” for a reason. They should supplement other more important changes to diet and exercise.
+  OK, here are my suggestions for the next 4–6 weeks, listed from most important to least important:
+  DIET
+  Focus on the Slow-Carb Diet. You get one “cheat day” per week to go crazy and eat whatever you want, so you’re not giving up your favorite foods for more than 6 days at a time. It really, really works.
+  These two articles are good starting points:
+  How to Lose 100 Pounds on the Slow-Carb Diet – Real Pics and Stories (https://t.co/KWKK9Eiy3r)
+  Everything You Need to Know About the Slow-Carb Diet™ (https://t.co/Zz3GZxNM61) 
+  Also feel free to print this Slow-Carb diet one-pager from The 4-Hour Chef, which encapsulates nearly all the main points. (https://t.co/kn47vddV3U) 
+  EXERCISE
+  Focus on kettlebell swings. Do these 2x per week and see these, in this order:
+  1. https://t.co/LFe547BPmL
+  2. The Perfect Posterior: Kettlebell Swings and Cheap Alternatives (https://t.co/7qlx0MRQnA) 
+  Here’s an excerpt from the above blog post:
+  *In 2005, my interest in kettlebells reinvigorated, I returned to the United States from Argentina and purchased one 53-pound kettlebell. I did nothing more than one set of 75 swings one hour after a light, protein-rich breakfast, twice a week on Mondays and Fridays. In the beginning, I couldn’t complete 75 consecutive repetitions, so I did multiple sets with 60 seconds between until I totaled 75. Total swing time for the entire week was 10–20 minutes.*
+  *I wasn’t trying to balance tequila shots on my butt cheeks. I wanted clear six-pack abs. In six weeks, I was at my lowest bodyfat percentage since 1999, and l’d reached my goal. I’ve since worked up to 50+ reps with the 106-lb. “beast,” which has directly transferred to 100-lb.+ gains in the deadlift.*
+  *The king of exercises—the two-handed kettlebell swing—is all you need for dramatic changes.*
+  BASICS
+  Get a 35-lb kettlebell and a ~53-lb kettlebell to start. Do one week of the lighter then move up to the 53. After the 4–6 week experiment, you might buy one that is heavier. Good idea to use chalk on your hands.
+  SUPPLEMENTS
+  – Eat 30 grams (30g) of protein within 30 minutes of waking up. I know this isn’t a supplement, but it’s important, so I’m putting it here, since I think you might skip to this section. 🙂
+  – Consider 1000mg of cissus quadrangularis before lunch.
+  – Take 100–300mg of alpha-lipoic acid 30 min before dinner.
+  – Take 3,000–5,000iu of vitamin D before bed.
+  For now, that’s PLENTY!
+  The 4-Hour Body will have much more to explore, if you like. Hardcover will be on its way to you.
+  Un abrazo!
+  Tim
+  ###
+  P.S. To bring some optimism into 2024, I’d like to quote from an email I received at the end of 2008 from a mentor of more than two decades:
+  W*hile many are wringing their hands, I recall the 1970s when we were suffering from an oil shock causing long lines at gas stations, rationing, and 55 MPH speed limits on Federal highways, a recession, very little venture capital ($50 million per year into VC firms), and, what President Jimmy Carter (wearing a sweater while addressing the Nation on TV because he had turned down the heat in the White House) called a “malaise.” It was during those times that two kids without any real college education, Bill Gates and Steve Jobs, started companies that did pretty well. Opportunities abound in bad times as well as good times. In fact, the opportunities are often greater when the conventional wisdom is that everything is going into the toilet.
+  *
+  W*ell…we’re nearing the end of another great year, and, despite what we read about the outlook for 2009, we can look forward to a New Year filled with opportunities as well as stimulating challenges.
+  *
+  —
+  Once again, Happy New Year, everyone! ([View Tweet](https://twitter.com/tferriss/status/1742759020182597943))
