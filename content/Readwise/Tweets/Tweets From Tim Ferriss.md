@@ -76,3 +76,9 @@
 ## New highlights added November 25, 2023 at 2:02 PM
 - I have read this book many times. It’s a wonderful and short reboot for possibility, excellent for all students of life and those who want to overcome self-imposed limitations. 
   ![](https://pbs.twimg.com/media/F_zizWCWIAAxx3x.jpg) ([View Tweet](https://twitter.com/tferriss/status/1728505779601219911))
+## New highlights added January 4, 2024 at 5:35 AM
+- There are moments when you feel the world is too much. Days and even weeks when you want to (or perhaps do) pull up the covers and half-sleep in bed until nightfall, avoiding a feeling of hopelessness that seems insurmountable. Long-awaited deals fall through without warning, haters attack you without reason or fact, circumstances turn good decisions into awful realities—sometimes it just feels like the deck is stacked against you and there is nothing you can do about it.
+  I’ve felt the same on more than a few occasions. 
+  It’s an integral part of building anything remarkable, whether a business, a relationship, or a life. **Expanding your sphere of comfort and abilities comes with a cost: repeated self-doubt.**
+  Meditate on all of the things you’ve done that you once considered impossible. The odds you’ve overcome, the critics you’ve proven wrong, and the small defeats that — through making you stronger and smarter — made huge victories possible later.
+  Get back up. Bigger and better things are waiting for you. ([View Tweet](https://twitter.com/tferriss/status/1742542697800368332))

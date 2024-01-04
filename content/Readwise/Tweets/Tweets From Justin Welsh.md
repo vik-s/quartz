@@ -174,3 +174,24 @@
   16. If they say "yes", send them a payment link.
   Congrats. You're running a business.
   P.S. Yes, I understand employment agreements and non-competes. Check them both (obviously). ([View Tweet](https://twitter.com/thejustinwelsh/status/1730936365351596530))
+## New highlights added January 4, 2024 at 5:35 AM
+- Time is money.
+  But what happens when the money we're paid isn't worth the time we put in?
+  Then, I’d argue it's time to aggressively capture your value in the market.
+  Platforms like X have made this possible.
+  Anyone can skip the grueling, slow career ladder and move at a pace equal to how fast they can figure shit out.
+  It's not easy. It's hard.
+  But the recipe itself is simple:
+  - You need traffic
+  - You need a product or service
+  - You need the skill to back up what you offer
+  That's 90% of it.
+  And if you want to generate traffic, here's the easiest way:
+  - Improve yourself
+  - Take notes
+  - Share
+  This isn't some "Not everyone can do it" stuff.
+  You need a device, an internet connection, and enough curiosity and persistence to make it past the 12-month mark.
+  If you have those things, then try starting.
+  Or don't.
+  But you need to get comfortable with the possibility that you get a raise that simply matches inflation. ([View Tweet](https://twitter.com/thejustinwelsh/status/1742530749608190080))
