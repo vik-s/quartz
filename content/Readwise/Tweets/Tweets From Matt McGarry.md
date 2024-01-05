@@ -218,3 +218,127 @@
   If you only use sponsors and affiliates you need to start selling a product/service asap. 
   If you're starting a newsletter, think about your product/service offer from day 1.
   The best newsletters are distribution channels for a high LTV product -- not just a place to sell ads. ([View Tweet](https://twitter.com/JMatthewMcGarry/status/1729878340100911302))
+## New highlights added January 5, 2024 at 6:22 AM
+- **How To Pick Your Newsletter Niche**
+  If you want to start a newsletter but don’t know what to write about – this is for you.
+  It's hard to pick a niche. 
+  Most advice is dead wrong:
+  *“Write about what you’re passionate about.”*
+  Unfortunately, it’s not that simple…
+  You still need the ability and skill to monetize that passion.
+  And some niches are MUCH more lucrative than others:
+  **The Formula For Picking a Niche**
+  When picking a niche, ask these 4 questions:
+  1) What are your passions and interests?
+  2) What unique experiences and skills do you have?
+  3) How can you monetize?
+  4) How lucrative is this niche/topic?
+  You want to pick a niche that:
+  – You’re genuinely interested in (so you can stick to it)
+  – You have experience in (so you can create insightful content)
+  – Has lucrative monetization opportunities (so you can build a successful business)
+  **Which Niches Can Be Monetized Best?**
+  Some newsletter niches can make much more money than others.
+  To understand why, you need to know how newsletters make money.
+  **There are 2 primary ways newsletters scale to 7 figures:**
+  1) Sponsorships/ads - Promote a product - get paid for that promotion
+  2) Owned Products - Promote and sell your content, product, or service
+  Let’s break down sponsorships:
+  To build a newsletter that will be mostly monetized with sponsorships, you need to know WHO sponsors newsletters.
+  The **biggest newsletter sponsors** are almost all in these categories:
+  1) SaaS
+  2) B2B software
+  3) Personal finance/investing
+  (According to Who Sponsors Stuff, SponsorGap, and 40+ newsletters I’ve worked with).
+  If you want to build a sponsorship business, you need to build an audience these advertisers want to get in front of.
+  - B2B software and SaaS companies want to reach decision-makers at companies.
+  - Personal finance and investing companies want to reach high-net-worth investors.
+  Now, let’s talk about **owned products**…
+  How do you sell your own product or service to subscribers?
+  The most successful newsletters I’ve seen sell products that help people:
+  1) Make more money
+  2) Save more money
+  This could mean:
+  - A subscription that gives stock tips and investment insights
+  (Examples: Motley Fool, Agora, Bankless)
+  - Course or membership that helps you start and grow a business
+  (Examples: Justin Welsh, Ship 30 for 30, StarterStory, Trends)
+  - Course or membership that helps you be better at your job and start/advance your career
+  (Examples: Lenny's Newsletter, The Pragmatic Engineer, Byte Byte Go, Reforge)
+  **The 10+ Best Newsletter Niches**
+  Here are the newsletter niches I would pick if starting today:
+  1) **Finance and investing** 
+  (Stocks, crypto, real estate, VC, PE, angel investing, personal finance)
+  This is a massive category with dozens of lucrative niches inside.
+  I would pick a hyper-niche within finance and investing to start with.
+  Like:
+  - Small-cap stock investing and trading
+  - Self-storage real estate investing
+  - Investing in single-family homes
+  - Personal finance for founders
+  2) **Luxury** 
+  (Watches, cars, fashion, drinks, jewelry, etc)
+  Another massive niche with many great niches to pick from.
+  I would start a newsletter based on one item or category:
+  Wine
+  Yachts
+  Cigars
+  Bourbon
+  Watches
+  Sneakers
+  Sports cars
+  Every day carry
+  Women’s or men’s fashion
+  3) **B2B **
+  (HR, marketing, IT, healthcare, media, banking, etc.)
+  Industry Dive (a B2B media company with millions of newsletter subscribers) sold for $525 million in 2022.
+  This is one of the biggest acquisitions in media ever.
+  B2B newsletters are lucrative because if you build an audience of business owners and operators that have huge purchasing power, the sponsorship opportunities are massive.
+  B2B newsletters have the highest ad rates I’ve seen.
+  CPMs can be $100-$500 while most B2C newsletters sell ads in the $25-$40 CPM range.
+  Pick a B2B niche where the professionals working in that industry and job function buy stuff.
+  And the more stuff they buy, the better.
+  For example:
+  Marketers have big budgets to spend (part of their job is buying things to help their company grow).
+  On the other hand, customer support employees don’t have much buying power or decision-making ability on what they buy.
+  This is why there are dozens of marketing newsletters and very few newsletters about customer support.
+  **Which B2B niche should you pick?**
+  There are so many possibilities.
+  Industry Dive has 30+ publications ranging from agriculture to legal, to manufacturing, to cybersecurity, and many more.
+  WorkWeek covers marketing, media, healthcare, sales, and more.
+  All of MorningBrew’s new newsletter offerings have been B2B:
+  RetailBrew, MarketingBrew, HR Brew, IT Brew, CFO Brew, and Healthcare Brew.
+  If you want to start a B2B newsletter you should pick a niche that:
+  – You have deep experience in
+  – Has buying power and decision-making ability
+  4) **Sports betting and fantasy sports**
+  I love this niche for 3 reasons:
+  1) The readers are super passionate
+  2) The opportunity to sell sponsorships to sportsbooks is huge
+  3) Readers are willing to pay for information to help them win more
+  There are already a few super successful newsletters in this niche:
+  - FootballGuys has 600k+ free subscribers and tens of thousands of customers who pay for their subscriptions.
+  - FasntasyLife has 400k+ free subscribers and recently raised $2M from investors.
+  5) **Local news**
+  Local newsletters are awesome.
+  Here’s why:
+  Most local news companies are old and outdated.
+  There’s room in the market for a new way to get local news.
+  And there are already people who have built 7-figure businesses with local newsletters:
+  - OverStory Media Group has 14 local newsletters.
+  - 6AM City has 26 local newsletters.
+  Local newsletters are simple to write and grow.
+  They can scale to 6 figures in one town - and 7 and 8 figures when expanded into multiple towns.
+  6) **Hyper-niche, hyper-passionate audiences**
+  Here are 7 more niche ideas:
+  – “Rush Media” — Newsletter about fraternity/sorority news, culture, and events. There are 750k+ members and 9M+ alumni.
+  – Newsletter about religion (or a topic from a religious perspective). The Pour Over has 500k+ subscribers and covers daily news from a Christian perspective. This could be done from the perspective of another religion or on other topics.
+  – Newsletter for a fan base: Star Wars, Warhammer 40k, Star Trek, Soap Operas, Marvel, Dungeons and Dragons, Magic the Gathering, etc.
+  – Newsletter about expensive hobbies: Reef keeping, motorcycling, fishing, hunting, camping, crochet, quilting, etc.
+  – Newsletter about collectibles: Sneakers, coins, trading cards, stamps, comics, dolls, antiques, vinyl records, etc.
+  – A newsletter about being a better dad or mom
+  —
+  Hope this helps!
+  If you found it helpful:
+  - Follow me <a href="https://twitter.com/JMatthewMcGarry">@JMatthewMcGarry</a> for more content like this.
+  - Join my newsletter below to get access to all my best content. ([View Tweet](https://twitter.com/JMatthewMcGarry/status/1743263919907524791))
