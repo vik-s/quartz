@@ -195,3 +195,6 @@
   If you have those things, then try starting.
   Or don't.
   But you need to get comfortable with the possibility that you get a raise that simply matches inflation. ([View Tweet](https://twitter.com/thejustinwelsh/status/1742530749608190080))
+## New highlights added January 5, 2024 at 5:22 AM
+- You should consider quitting your job in 2024.
+  Here are 10 reasons why: ([View Tweet](https://twitter.com/thejustinwelsh/status/1742896342421152080))
