@@ -1,5 +1,5 @@
 ---
-title: Transducer Gain vs Power Gain Explained
+title: Understanding Amplifier Gains
 tags:
   - fundamentals
 project: substack

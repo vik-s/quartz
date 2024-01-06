@@ -1,7 +1,7 @@
 ---
 title: Device physics terms for RF engineers
 tags:
-  - fundamentals
+  - device
 project: substack
 date_published: 
 status: 
