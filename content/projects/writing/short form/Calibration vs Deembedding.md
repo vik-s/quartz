@@ -23,5 +23,8 @@ But...
 
 Instead, an equivalent circuit for parasitics to be removed is assumed, like a transmission line, PI or Tee network. Dummy structures are then measured and the parasitics are accordingly removed from the device measurement.  Due to the nature of assumptions made and design of dummy structures, de-embedding can be error prone if not done right.
 
+
+
+
 Follow me (🔔) for posts on RF engineering.
 Subscribe to my newsletter: https://www.viksnewsletter.com
