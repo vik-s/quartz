@@ -94,3 +94,33 @@
   If you convince yourself that your satisfaction is contingent upon the next achievement or milestone, you'll never find it.
   Real satisfaction and happiness is an inside job:
   Find it on the journey—or you won't find it at all.<img src='https://pbs.twimg.com/media/F-0SXGDXMAELoLZ.jpg'/> ([View Tweet](https://twitter.com/SahilBloom/status/1724054714856206543))
+## New highlights added January 7, 2024 at 6:35 AM
+- I recently read a short story that I love: The Farmer and the Horse.
+  It has two deep lessons everyone needs to hear...
+  *There was a farmer in a small village with a single horse who helped him earn a living for his family.*
+  *The other villagers constantly told the farmer how lucky he was to have such a great horse.*
+  *"Maybe," he would reply.*
+  *One day, the horse ran away. The villagers came to the farmer to express their sympathies.*
+  *"Your horse ran away. How unfortunate!" the villagers exclaimed.*
+  *"Maybe," the farmer replied.*
+  *A few days later, the horse returned home, with ten strong wild horses in tow.*
+  *"What good fortune. What incredible luck," the villagers crowed.*
+  *"Maybe," the farmer again replied.*
+  *The following week, the farmer’s son was riding one of the wild horses in the fields, when it kicked him off and broke his leg.*
+  *The villagers arrived to express their dismay. "What dismal luck," they said.*
+  *"Maybe," the farmer replied.*
+  *The next month, a military officer marched into the village, recruiting able-bodied young men for the war. The farmer’s son, with his broken leg, was left behind.*
+  *The villagers were joyful, "Your son has been spared. What beautiful luck!"*
+  *The farmer simply smiled.*
+  *"Maybe."*
+  **Two Lessons from the Short Story**
+  1. Everything is Cyclical
+  Seeds of destruction are sown during creation. Seeds of creation are sown during destruction.
+  When times are bright, enjoy, but know the dark will come.
+  When times are dark, adjust your eyes, and remember the seeds of light are being sown.
+  2. Dispel the Narratives
+  The farmer separates story from reality. He allows space for the events to just exist, to be neither good nor bad—to just be.
+  Events of your life needn't be judged.
+  The wisest among us allow events to exist without applying a narrative layer.
+  Remember these two lessons as you navigate uncharted waters in the days, weeks, and months ahead.
+  Enjoy this? Share it with your network and follow me <a href="https://twitter.com/SahilBloom">@SahilBloom</a> for more in future.<img src='https://pbs.twimg.com/media/GDPfwEhXUAA2vIT.jpg'/> ([View Tweet](https://twitter.com/SahilBloom/status/1743985967101280270))
