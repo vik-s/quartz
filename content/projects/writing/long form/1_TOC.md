@@ -1,45 +1,45 @@
 ### Fundamentals
 ```dataview
-LIST
+TABLE status, date_published AS "published"
 FROM "projects/writing" AND #fundamentals
 ```
 ### Circuits
 ```dataview
-LIST
+TABLE status, date_published AS "Published"
 FROM "projects/writing" AND #circuit 
 ```
 ### Device Tech and Modeling
 ```dataview
-LIST
+TABLE status, date_published AS "published"
 FROM "projects/writing" AND #device
 ```
 ### Passives
 ```dataview
-LIST
+TABLE status, date_published AS "published"
 FROM "projects/writing" AND #passive
 ```
 ### Metrology
 ```dataview
-LIST
+TABLE status, date_published AS "published"
 FROM "projects/writing" AND #metrology
 ```
 ### Pop-Science
 ```dataview
-LIST
+TABLE status, date_published AS "published"
 FROM "projects/writing" AND #popsci
 ```
 ### Coding
 ```dataview
-LIST
+TABLE status, date_published AS "published"
 FROM "projects/writing" AND #coding
 ```
 ### Communication
 ```dataview
-LIST
+TABLE status, date_published AS "published"
 FROM "projects/writing" AND #communication 
 ```
 ### Systems
 ```dataview
-LIST
+TABLE status, date_published AS "published"
 FROM "projects/writing" AND #systems 
 ```

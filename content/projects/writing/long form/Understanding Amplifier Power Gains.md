@@ -4,8 +4,8 @@ tags:
   - fundamentals
 project: substack
 date_published: 
-status: 
-final title: No more pain with amplifier gain
+status: 🚧
+final title:
 ---
 1. ﻿﻿﻿What is the most important point?
 	1. To understand the various kinds of gain, when and where to use them.
@@ -75,6 +75,7 @@ Before we get to that, we need to clearly define the terminology we will use.
 **Impedance definitions**
 Fig 2 shows all the impedance definitions in the two port amplifier.  We will address each one in detail.
 *add fig2*
+
 *Source and Load impedance*
 The use of an input matching network transforms the reference impedance Z0 of the system into a different impedance we can represent as ZS looking into the output of the matching network towards the signal source. The act of matching the input of an amplifier is choosing the proper value of ZS to meet the design specifications. Usually, ZS affects the gain and noise performance of the amplifier and appropriate trade-offs are usually made. The source reflection coefficient can be written as
 *put eqn for GammaS*
@@ -102,25 +103,53 @@ When amplifiers have an arbitrary source/load impedance, there will be different
 *add fig3*
 
 **Transducer power gain
-- Show reference planes of input and output power measurement
-- Explain what transducer power gain is
-- Present the most general formula for arbitrary loads
 
-**Unilateral Transducer power gain**
-- Set S12=0 and show how the formula changes to a simpler form. Say that this is the lowest gain from the transistor.
-- Set zero reflection coefficients and show how Gt=S21^2
-- Break this up into source gain, load gain and show how conjugate matching helps boost the gain.
+Transducer power gain is defined as
+> The ratio of the power delivered to the load to the power available from the source.
+
+This is the most general and highly used definition of power gain in a two port amplifier. It makes no assumptions on the source and load impedances, or the behavior of the active device.
+
+Fig 4 shows the reference planes and the formula to calculate the transducer power gain in a two port amplifier.
+
+*add fig4*
+
+Even though there is no explicit dependence of the gain on S12, remember that it is included in the calculation of Gamma_in from equation (3). The makes it a general definition of gain under all circumstances.
+
+In the absence of matching networks, ZS = ZL = 50 ohms, or GammaS = GammaL = 0 (from equations (1) and (2)). In this case, the transducer power gain reduces to 
+
+*add eqn*
+
+This is the lowest possible gain you can obtain from the amplifier. Addition of any matching circuits will increase the power delivered to the active device and the load, hence increasing the gain.
+
+Another useful approximation is to assume that S12=0. This is a reasonable assumption for many transistor devices whose reverse transmission is negligibly low. Under this condition, Gamma_in = S11 (from equation 3), which gives us a way to calculate the transducer power gain of an amplifier from only the s-parameters of the transistor and source/load reflection coefficients of the matching networks. 
+
+Additionally, you can rather conveniently view the overall gain as a cascade of the gains of the source match, intrinsic device and load match.
+
+*add eqn*
 
 **Power Gain**
-- Show a block diagram with reference planes of input and output power measurement
-- Explain that the input is conjugate matched.
-- Explain how it depends little on source impedance usually, but amplifiers tend to respond quite a lot in terms of gain when source impedance is changed.
-- Explain that the formula is general even when s12 is not 0, but if it is, how Tau_in collapses to S11.
+Power gain is defined as
+> The ratio of the power delivered to the load to the power delivered to the input of the active device.
 
-**Available gain**
-- Show a block diagram with reference planes of input and output power measurement
-- Explain that the output is conjugate matched.
-- Explain that formula is general but collapses to S22 if S12=0
+The gain definition will vary depending on the load matching network, but is independent of the source matching network because any reflections back into the source are already accounted for. In reality, the behavior of the active device depends on the source impedance presented to it, but we won't worry about it for now.
+
+Fig 5 shows the reference planes used for calculation of power gain and the formula to do so.
+
+*add fig and eqn*
+
+Notice that this expression does not contain Gamma_S, making it independent of the source matching network. If you need to calculate power gain with the source conjugately matched to the input, then it is as simple as setting Gamma_in = conj(S11). And just like that you get the expression for power gain purely in terms of the device s-parameters and load reflection coefficient.
+
+**Available Gain**
+Available gain is defined as
+> The ratio between power available from network to the power available from the source.
+
+Fig 6 shows the reference planes used in the calculation of available gain and the formula used to do so.
+
+From equation (9) you can immediately see that available gain only depends on the source matching network, and is independent of the load matching network.
+
+
+
+
 
 *Can you make a chart summarizing all the gains? Use that as key takeaway*
 

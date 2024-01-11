@@ -3,9 +3,9 @@ title: What is Envelope Tracking in a Power Amplifier?
 tags:
   - circuit
 project: substack
-date_published: 
-status: wip
-final title:
+date_published: 2023-12-31
+status: 🟢
+final title: Envelope tracking for efficient power amplifiers
 ---
 Envelope Tracking is a rather recent technology that has made our phones run cooler and batteries last longer. In this article, you will learn the basics of Envelope Tracking: how it works and what the challenges are.
 

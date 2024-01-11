@@ -3,9 +3,9 @@ title: What's the big deal about Wifi 7 anyway?
 tags:
   - communication
 project: substack
-date_published: 
-status: wip
-final title:
+date_published: 2024-01-14
+status: 🟢
+final title: What's cool about WiFi 7
 ---
 ## Preview
 
