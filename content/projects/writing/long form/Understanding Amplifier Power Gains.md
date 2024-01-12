@@ -66,7 +66,7 @@ You will learn the following:
 Let's dive in!
 
 **The two port amplifier network**
-The simplest two port amplifier is shown in Fig. 1. It consists of an active device that is capable of amplification and matching networks at the input and output. The purpose of the matching networks is to present a specific impedance at the device terminals for optimal operation. To do this, matching networks are usually implemented with passive elements such as inductors, resistors, capacitors and transformers. 
+The simplest two port amplifier is shown in Fig. 1. It consists of an active device that is capable of amplification and matching networks at the input and output. The purpose of the matching networks is to present a specific impedance at the device terminals for optimal operation. To do this, matching networks are usually implemented with passive elements such as inductors, resistors, capacitors and transformers. In this article, we will consider these matching networks to be lossless.
 
 The purpose of this network is to amplify any RF signal at the input so that the output signal has a higher voltage swing or absolute power compared to the input signal. The ratio of output power to the input power is called gain. Depending on which point in this diagram you define as input and output, you can have different definitions of gain.
 *add fig1*
@@ -127,6 +127,10 @@ Additionally, you can rather conveniently view the overall gain as a cascade of 
 
 *add eqn*
 
+To find the maximum unilateral transducer gain (GTUmax), the input and output needs to be conjugately matched, and by setting Gamma_in = S11* and Gamma_2 = S22*, we get
+
+*add eqn*
+
 **Power Gain**
 Power gain is defined as
 > The ratio of the power delivered to the load to the power delivered to the input of the active device.
@@ -137,16 +141,41 @@ Fig 5 shows the reference planes used for calculation of power gain and the form
 
 *add fig and eqn*
 
-Notice that this expression does not contain Gamma_S, making it independent of the source matching network. If you need to calculate power gain with the source conjugately matched to the input, then it is as simple as setting Gamma_in = conj(S11). And just like that you get the expression for power gain purely in terms of the device s-parameters and load reflection coefficient.
+Notice that this expression does not contain Gamma_S, making it independent of the source matching network. Power gain tells you how much power will be present at the load in the presence of a matching network when you provide a given power across the input terminals of the device.
+
+If you need to calculate power gain with the source conjugately matched to the input, then it is as simple as setting Gamma_in = S11*. 
 
 **Available Gain**
 Available gain is defined as
 > The ratio between power available from network to the power available from the source.
 
-Fig 6 shows the reference planes used in the calculation of available gain and the formula used to do so.
+Fig 6 shows the reference planes used in the calculation of available gain and the formula used to do so. 
 
-From equation (9) you can immediately see that available gain only depends on the source matching network, and is independent of the load matching network.
+In contrast to power gain which was independent of the source matching network, available gain is independent of the load matching network, as shown in equation (9). Available gain tells you the maximum output power you can get from the device, when you provide all the power from the source to it.
 
+If you need to calculate available gain with the load conjugately matched to the output, then set Gamma_out = S22*. 
+
+**Putting it together**
+
+All these gain definitions are tools to help you estimate if a given active device is suitable to meet the required gain specification from the amplifier and to gauge how hard it is to get that performance.
+
+The first metric to look at while choosing an active device is maximum unilateral transducer gain (GTU,max) which makes the simplistic assumption that S12=0 and conjugate matching at both input and output. It gives you a sense of the power gain that is readily available from the device.
+
+Designers rarely design for unilateral gain because the resulting amplifier is usually narrow band, sensitive to transistor s-parameters (especially S12) and it is hard to achieve stable performance at all frequencies.
+
+By no means is GTU,max the absolute maximum gain possible from the device. With the proper kind of feedback, gain can even be infinite. When a device is pushed into oscillation, it produces output power with only noise power as its input. This results in gain values can exceed GTU,max.
+
+Power gain can help estimate the designed gain while isolating only the load network, while being independent of the source network. Available gain allows you to do the same with the source network, while isolating the load network. They serve as intermediate gain estimates during the design process.
+
+Transducer gain is the only gain that ultimately matters and represents the actual performance that is available from the amplifier in the presence of the actual, optimized source and load networks. This is the value that should ultimately be reported on data sheets.
+
+**Key Takeaways**
+
+There are several definitions of gain for a two port amplifier and understanding them is essential to RF amplifier design.
+
+- Transducer gain: This is the most realistic gain that can be reported for an amplifier that represents its actual performance in an RF system.
+- Maximum unilateral transducer gain: This is useful to understand what kind of gain is readily available from a device that has little feedback from output to input, and is conjugately matched.
+- Power and Available gain: These are useful to understand the amplifier gain by isolating the source and load networks, and are good for intermediate estimates during the amplifier design process.
 
 
 
