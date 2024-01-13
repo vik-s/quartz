@@ -1,0 +1,49 @@
+# 🧵How to Pattern Copper?...
+
+![rw-book-cover](https://pbs.twimg.com/profile_images/1715849837403320320/XVqeeEOm.png)
+
+## Metadata
+- Author: [[@lithos_graphein on Twitter]]
+- Full Title: 🧵How to Pattern Copper?...
+- Category: #tweets
+- URL: https://twitter.com/lithos_graphein/status/1745512268240949477
+
+## Highlights
+- 🧵How to pattern Copper?
+  I've not seen anyone put together a comparison like this, so let's do a thread to discuss each of these copper patterning methods and what the pros, cons, and general capabilities are. Copper is the most widely used metal in semiconductors due to its attractive electrical properties; however, it's one of the few semiconductor materials that cannot be dry (plasma) etched. For this reason, a number of novel patterning methods have been developed to pattern it. Let's take a deeper look at each of these today. Then we can look to the future and see what exotic metals are on the horizon for semiconductor interconnects and how these will be imaged.<img src='https://pbs.twimg.com/media/GDlN-N1W8AAHqaz.jpg'/> ([View Tweet](https://twitter.com/lithos_graphein/status/1745512268240949477))
+    - Note: Save
+- First, in any patterning process, the two key parameters you need to figure out right off the bat are the required resolution and film thickness.
+  Copper patterning is no different. For example, if you only need a thin copper film relative to the 2D geometry size, then a simple wet etch may be a suitable processing method. Thus, the film thickness is directly related to the resolution, which is why I indicate the relationship this way in the table.<img src='https://pbs.twimg.com/media/GDlPuEeXgAANE3V.png'/> ([View Tweet](https://twitter.com/lithos_graphein/status/1745515393974776083))
+- Wet etching vs. dry (plasma) etching.
+  You'll see the words isotropic and anisotropic thrown around a lot when discussing etch processes in general. Isotropic just means "all directions," and obviously anisotropic means "one direction." Wet etch acts in all directions, as depicted here, so this ultimately restricts the geometry size (or film thickness) you can use this process for.
+  Applications: Most PCBs have used this for ages, and any chip that needs large metal lines (on the order of many microns) can use this process. The only exception is if the film thickness is vastly smaller than the 2D geometry size; in some of those cases, it may be acceptable to use wet etch. However, you will never get a truly vertical side-wall profile like you can achieve with dry etching (anisotropic). In the eeTimes article on HDI PCBs, the author mentions a new "additive" copper patterning method. Etching being a removal process is not that, so HDI PCBs are now using one of the center two methods in my table.
+  Lithography: This has almost always used either broad-band or i-line lithography to pattern the photoresist, which in turn selectively masks the etch chemistry. However, if the thickness were sufficiently thin, anything could be used, even immersion lithography (but I never heard of it being done).
+  Chemistry: Copper is etched by diluted nitric acid, or a saturated 30% FeCl3 solution. Mixtures of NH4OH and H2O2 etch copper as well.<img src='https://pbs.twimg.com/media/GDlWbbYWEAApv3G.png'/> ([View Tweet](https://twitter.com/lithos_graphein/status/1745525481494008234))
+- Copper electroplating with a thick film photoresist.
+  This is very popular across all of semiconductor packaging. Being an additive process, I'm assuming the new HDI PCBs have shifted to this method, and I'll talk about why I don't think the other additive process (lift-off) suits PCBs next.
+  Here's how the process works: To electroplate a thick film of copper, a thin seed layer is needed, so this is deposited first by sputter. Then a thick-film photoresist is imaged atop this seed layer. The main requirement here is a perfect vertical profile. This is the main challenge, as thick-film resists tend to taper due to the absorbance across the film. I-line photoresists are the most suitable for this type of lithography process because of their ability to control the profile with both the exposure dose and the developer time. Then you simply electroplate the copper, and the photoresist will block the reaction in some areas. Strip the photoresist with a solvent blend, and you are left with a vertical profile of thick-film copper.
+  It's an impressive alternative to those ugly wet etch profiles that are limited in their ability to pattern thicker films. This is the big advantage here.
+  Limitations: Because it's a thick film of i-line photoresist, you're generally limited to >1 micron geometries and the thicker the film, the worse the resolution.<img src='https://pbs.twimg.com/media/GDlbLpsXAAA_poP.png'/> ([View Tweet](https://twitter.com/lithos_graphein/status/1745529798644936844))
+- Photoresist Strippers.
+  Wow, what a hook. Did I get your attention? 🥰Before we can discuss the sexiest semiconductor metal patterning method out there, lift-off lithography, we need to understand how photoresist stripping works.
+  Photoresist is an organic film, so to remove it, ahem, "strip the photoresist," you can do one of two things: dissolve it away or delaminate the film.
+  How does this work? Well, first, you need a formulated solvent that has matched dissolution properties to the organic photoresist. Then, in its simplest form, you can just submerge the wafer with this film on it in a bath of said solvent to strip it off.
+  Introducing Veeco's stripper tool, the WaferStormy Daniels 3300 platform. This tool combines a submersion bath with a single-wafer spinning module that directs a pressured spray at the wafer to make things a little more physical (no pun intended).
+  Why is that needed? Well, in the event you can't dissolve the film and need to delaminate it instead, this proves to be the best processing method. By submerging the film in a bath, the goal is simply to swell the film and disrupt the bond it has to the substrate. Then the pressurized spray will power wash the film off the wafer.
+  Lift-off lithography relies heavily on this type of photoresist stripping process. Let's talk about that next.<img src='https://pbs.twimg.com/media/GDlhcytW8AEcIjg.png'/><img src='https://pbs.twimg.com/media/GDlhjflWcAA5cgu.png'/> ([View Tweet](https://twitter.com/lithos_graphein/status/1745537601774211341))
+- Metal lift-off lithography.
+  With all that naughty stripper talk out of the way, we can now appreciate how a metal lift-off process works. First of all, this is rarely used to pattern copper; rather, it's a well-established way to image exotic metals. I'll explain more about why this is so useful in a bit.
+  Here's how it works: First, you image the photoresist on your substrate, but in a rather unusual way. The profile needs to be re-entrant, unlike all other resist processing. This ultimately enables a nice, clean edge for the final metal pattern by preventing the metal from being deposited on the resist sidewalls.
+  The metal film can then be deposited with a PVD process; the most common here is sputtering.
+  Then you simply "lift" the photoresist along with some of the metal pattern off the wafer with wet chemistry. Delamination has proven to be a cleaner way to strip the pattern than dissolving the photoresist. It keeps the bulk of the pattern intact and generally makes it less likely that a loose piece of the pattern will rebond somewhere else on the wafer.
+  Applications: This is most commonly used for the antenna layers in RF devices. These need exotic metals, and often this is the only way to pattern them.
+  Resolution: I-line photoresists are the most commonly used; however, KrF resists do exist, giving this method the best metal resolution aside from the most costly dual damascene type of copper patterning.
+  Limitations: This can only be used with a thin metal film relative to the geometry size.
+  Advantages: The biggest win here is that the exact same lithography process can be applied to almost any metal film. This means the same photoresist imaging process and stripping process are setup, and any metal can be sputtered on top of it. Why is that useful? You don't need to figure out how to etch an exotic metal, which takes a lot of R&D work. Once your lithography process is established, you have a large amount of flexibility in terms of the metals you can use in your chip design. Another advantage is that this is a fairly cheap process compared to some of the others.<img src='https://pbs.twimg.com/media/GDluez4XoAAMfLA.png'/> ([View Tweet](https://twitter.com/lithos_graphein/status/1745553469849665869))
+- Dual Damascene.
+  The below SEM image is from IBM (back in the day), which pioneered this technology to pattern copper. It was created by taking a microchip and etching away the glass insulator with hydrofluoric acid to reveal an intricate web of copper patterning. It's suspended like an MC Escher painting, which is impressive.
+  Before this time, copper was not used for leading-edge logic devices because the other methods in the table weren't able to continue to scale the metal geometry. So aluminum was used; it could be dry-etched, unlike copper, yet its electrical properties were inferior.
+  Before I get into how a dual damascene integration process works, let's talk some insider baseball on what was needed to launch this type of technology.
+  To do this, a way to physically remove copper was needed, as opposed to a chemical way. Enter Chemical Mechanical Polishing (CMP). This is now a multi-billion-dollar business on its own.
+  Let's talk about CMP next and all the drama that played out in this revolutionary semiconductor processing technology. 
+  Stay tuned, patterning friends!<img src='https://pbs.twimg.com/media/GDrmKilWoAAPFok.png'/> ([View Tweet](https://twitter.com/lithos_graphein/status/1745964743448310047))
