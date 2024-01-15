@@ -1,11 +1,11 @@
 ---
-title: Understanding Amplifier Gains
+title: Understanding Amplifier Power Gains
 tags:
   - fundamentals
 project: substack
-date_published: 
-status: 🚧
-final title:
+date_published: 2024-01-21
+status: 🟢
+final title: Understanding Two-Port Amplifier Gains
 ---
 1. ﻿﻿﻿What is the most important point?
 	1. To understand the various kinds of gain, when and where to use them.

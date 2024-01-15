@@ -4,6 +4,11 @@ tags:
   - circuit
 project: substack
 date_published: 
-status: 
+status: 🚧
 final title:
 ---
+What is a phased array antenna and how does it work?
+
+Design considerations
+
+Applications
