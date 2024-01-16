@@ -23,3 +23,11 @@
   This is what 99% of jobs in the USA are like. 
   Being an employee is the correct path for almost all humans.
   Entrepreneurs are underpaid for the stress they endure and the value they create for so many of their employees. ([View Tweet](https://twitter.com/sweatystartup/status/1725483301660455305))
+## New highlights added January 15, 2024 at 8:34 PM
+- I'm hosting a free online workshop next week on the most important aspect of business:
+  Hiring and delegation.
+  A cold hard fact:
+  If you can hire and manage other humans you can get very wealthy in this world.
+  If you can do your job well you can make good money. If you can set up other people to do their jobs well, you can get rich.
+  Signup free, here:
+  https://t.co/YAIt7qvgpz ([View Tweet](https://twitter.com/sweatystartup/status/1747071292556148748))
