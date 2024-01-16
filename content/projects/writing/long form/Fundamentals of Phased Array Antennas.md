@@ -7,8 +7,8 @@ date_published:
 status: 🚧
 final title:
 ---
-What is a phased array antenna and how does it work?
 
-Design considerations
 
-Applications
+References
+- https://youtube.com/playlist?list=PLn8PRpmsu08q9U0y7_63Dfz5cawEnicxi&si=c_Dh9PPoI8xrqs3O
+- 
