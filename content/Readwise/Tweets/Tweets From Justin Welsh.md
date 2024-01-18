@@ -198,3 +198,16 @@
 ## New highlights added January 5, 2024 at 5:22 AM
 - You should consider quitting your job in 2024.
   Here are 10 reasons why: ([View Tweet](https://twitter.com/thejustinwelsh/status/1742896342421152080))
+## New highlights added January 17, 2024 at 2:25 PM
+- I feel like really good content does 3 things:
+  **1. Shows off expertise:**
+  With each piece of content you write, your audience should become more confident in your core skill.
+  **2. Builds authority:**
+  Authority is a little different than expertise. 
+  Authority is when someone mentions your area of expertise, and your name is the most likely one to come up.
+  Authority is the result of showing off expertise (#1) over a long period of time.
+  **3. Creates trust:**
+  Every time you write, record, comment, or publish you either create a stronger or weaker case for trust.
+  That's why thoughtful, supportive content goes a long way. It's why rooting for others will always be "the way". It's why being honest wins long-term.
+  Thinking about writing a newsletter on this.
+  Yes?/No? ([View Tweet](https://twitter.com/thejustinwelsh/status/1747659460254880181))

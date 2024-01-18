@@ -64,6 +64,22 @@ One adaptive algorithm is called MVDR. Minimum Variance Distortionless Response 
 
 Minimize total received power, but power in direction of signal is maintained. This is a constrained optimization problem. This can be done with prepaackaged code from Matlab. 
 
+---
+### Intro
+
+
+Isotropic antennas are radiating elements that transmit or receive in all directions. Such antennas are not preferred because they transmit energy where its not always required, or receive interference from all directions.
+
+We would much rather have a directional beam that transmits energy only in the preferred direction while not picking up interference from any other direction. The traditional approach to doing this is to use a parabolic dish with an isotropic antenna placed at its focal length. The isotropic antenna usally has a backplane reflector so that it transmits only towards the parabolic dish. The resulting  radiation pattern is a parallel beam that is highly directional. Such antennas are commonly used in ?, ? and ?.
+
+To steer the beam in different directions, the whole antenna system is mounted on a motorized system that moves around both in azimuth and elevation. Since this method usually involves moving mass around, beam steering is usually slow.
+
+Phased array antennas can produce electronically steerable beams that change directions in milliseconds. Let's first see how antenna arrays work.
+
+### Antenna Arrays
+
+Consider
+
 
 
 
