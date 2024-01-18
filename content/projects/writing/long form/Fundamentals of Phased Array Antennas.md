@@ -66,20 +66,31 @@ Minimize total received power, but power in direction of signal is maintained. T
 
 ---
 ### Intro
+- Where are phased array antennas used and why?
+- How was it implemented in the past?
+- Why is it relevant today in 5G?
 
+### Old school beam steering
 
 Isotropic antennas are radiating elements that transmit or receive in all directions. Such antennas are not preferred because they transmit energy where its not always required, or receive interference from all directions.
 
-We would much rather have a directional beam that transmits energy only in the preferred direction while not picking up interference from any other direction. The traditional approach to doing this is to use a parabolic dish with an isotropic antenna placed at its focal length. The isotropic antenna usally has a backplane reflector so that it transmits only towards the parabolic dish. The resulting  radiation pattern is a parallel beam that is highly directional. Such antennas are commonly used in ?, ? and ?.
+We would much rather have a directional beam that transmits energy only in the preferred direction while not picking up interference from any other direction. The traditional approach to doing this is to use a parabolic dish with a dipole or horn antenna placed at its focal length. Parabolic antennas produce some of the narrowest antenna beams and can cover a wide range of frequencies by even having several antennas operating at different frequencies mounted at the focal point.
 
-To steer the beam in different directions, the whole antenna system is mounted on a motorized system that moves around both in azimuth and elevation. Since this method usually involves moving mass around, beam steering is usually slow.
+By increasing the size of the parabolic dish, more energy can be collected from a distant source and reflected into the receiving antenna at the focal point. This is why some radio telescopes use gigantic parabolic dishes (https://theconversation.com/china-completes-worlds-largest-radio-telescope-raising-hopes-of-finding-new-worlds-and-alien-life-62237) to capture weak signals from the distant universe.
+
+To steer the beam in different directions, the whole antenna system is mounted on a motorized system that moves around a circle (azimuth) and up/down (elevation). Since this method usually involves moving mass around, beam steering is usually slow.
 
 Phased array antennas can produce electronically steerable beams that change directions in milliseconds. Let's first see how antenna arrays work.
 
-### Antenna Arrays
+### How Antenna Arrays work
 
-Consider
+Let's say we have an antenna radiating a sine wave in space at a given frequency. The red circles represent peaks of the sine waves, and blue circles represent troughs. Place another similar antenna exactly half a wavelength away from the original one. Then observe how the radiation patterns from these two antennas interfere in space.
 
+You notice that the red circles intersect in front of the antenna resulting in "constructive interference." This means the signals from each antennas add up to create a stronger signal.
+
+At points to left and right of the two antennas, you notice that the red and blue circles intersect resulting in "destructive interference." The signals from each antenna cancel each other out, resulting in low radiation in that direction.
+
+Simply by putting two identical antennas a fixed distance apart, you now have a narrower antenna beam that a single antenna alone.
 
 
 
