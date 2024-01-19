@@ -123,3 +123,72 @@
   But this is a flawed approach in both business and life.
   I’ve come to learn (through my own relationship) that having someone to share the journey with, to emotionally support you along the way, isn’t going to hold you back. 
   If anything, a life partner will make you better — which means it’s your responsibility to help nurture that relationship along the way. ([View Tweet](https://twitter.com/Nicolascole77/status/1715020488286539981))
+## New highlights added January 18, 2024 at 2:03 PM
+- **7 tips to help you write 10,000 words per day (from someone who’s done it for years):**
+  On any given day, I write somewhere in the ballpark of 10,000 words—and the genres are all over the board.
+  • I write here on X
+  • I write newsletters
+  • I work on my fiction project
+  • I write new assets for <a href="https://twitter.com/ship30for30">@ship30for30</a>, PGA, PGM, & <a href="https://twitter.com/typeshare_co">@typeshare_co</a> 
+  • I spend hours working on my next non-fiction book
+  • And I have a journal for poetry and quick ideas that I keep with me at all times
+  **When I tell people how much I write, they can’t comprehend it.**
+  Most struggle to write a single blog post in a week—for me, that’s a warm-up with my morning breakfast.
+  However, as a writer, I have learned that the art of being able to consistently write well is not just about the output. Writing well has far more to do with input, and what information you are feeding yourself.
+  So, if you ever find yourself stuck, unsure of what to write about—whether it’s a personal project, a company blog, or even a social media post—then I encourage you to ask yourself these seven questions:
+  **1. What do I really want to say?**
+  This is where it all begins.
+  Oftentimes, people make writing far more complicated than it needs to be. Step away from your computer for a moment, go stand in your kitchen, and ask yourself aloud, “Okay, what do I really want to say?”
+  Chances are, you’ll be able to say it in a single sentence.
+  Start there.
+  **2. Who is sitting in the audience?**
+  When you know who you’re speaking to, it becomes infinitely easier to write with purpose and conviction.
+  This is something I learned through writing on Quora, where you are literally writing directly to the person who asked a question. By reading the question, you have an idea of who would be asking that in the first place — which gives you an audience.
+  Don’t write to the open air. Ask yourself who is sitting in the audience.
+  **3. What part of you is speaking?**
+  There is a writing proverb I love that says, “A novel is only as good as the novelist who knows himself.”
+  Most people lack direction in their writing because they aren’t sure which “part” of them is speaking. This is the art of voice and tone, and it really does come down to knowing the emotion you want to write from.
+  If you’re stuck, chances are it’s because you don’t know which part of you wants to tell the story or voice the information.
+  So ask yourself: “Who is talking right now?”
+  **4. What emotion do you want the reader to feel?**
+  Writing is about being aware of two opposite forces at the same time: how you feel, and how you want your audience to feel.
+  It’s this second part that a lot of writers (and even, more generally, content creators) forget. They ramble, or they rant, or they write and write without thinking about whether what they’re producing is actually achieving the goal they want—to make their audience feel a certain way.
+  Imagine if you were in the audience for a second.
+  What would you want to hear?
+  **5. What’s the intention?**
+  Anything that is created from scratch has an intention.
+  The question is whether you, as the creator, are aware of that intention.
+  The truth is, you should be. The more you can get clear, not necessarily on what you want to create, but why you’re creating it, the more easily the work will unfold on its own.
+  Without a clear intention, however, the work will remain aimless. So ask yourself why you’re doing what you’re doing, and then create from there.
+  **6. Is it timely and timeless?**
+  I give a mentor of mine credit for this one, always urging me to create things that are both timely and relevant, but also timeless.
+  As often as possible, you want to ask yourself what would make an impact now, in the world we live in today, and what would still be considered worthwhile 50 years from now.
+  By asking yourself if what you’re creating is both timely and timeless, you will inherently start to weed out a lot of the bad ideas — or, you will push yourself to turn a decent idea into a great one.
+  Play both the long and the short game.
+  **7. Who thinks this is a bad idea?**
+  Whenever I hesitate to write something, I try to ask myself why I am hesitating. What is that fear, and why is it there?
+  Most of the time, the fear stems from a type of person (archetypal or someone specific in our lives) who we feel would not respond well to whatever it is we are feeling urged to write.
+  So, who is that person? And why do you think they would disapprove of whatever it is you are creating?
+  In a sense, by being able to clearly imagine that person, you can now see them in your audience. And by having them in your audience, you now have the conscious choice of how you want to speak to them.
+  All this goes back to the other questions above. The more aware you are of the different variables, the easier it is to acknowledge them and then deliberately create.<img src='https://pbs.twimg.com/media/GEIva6qXwAAbF9I.jpg'/> ([View Tweet](https://twitter.com/Nicolascole77/status/1748011750182600837))
+## New highlights added January 18, 2024 at 5:12 PM
+- To generate endless ideas, use this list of Proven Approaches:
+  • Tips
+  • Skills
+  • Tools
+  • Traits
+  • Steps
+  • Goals
+  • Books
+  • Habits
+  • Stories
+  • Quotes
+  • Secrets
+  • Insights
+  • Benefits
+  • Lessons
+  • Reasons
+  • Creators
+  • Routines
+  • Mistakes
+  • Podcasts ([View Tweet](https://twitter.com/Nicolascole77/status/1748133390123938058))
