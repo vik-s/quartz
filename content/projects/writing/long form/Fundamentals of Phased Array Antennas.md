@@ -81,7 +81,6 @@ By increasing the size of the parabolic dish, more energy can be collected from 
 To steer the beam in different directions, the whole antenna system is mounted on a motorized system that moves around a circle (azimuth) and up/down (elevation). Since this method usually involves moving mass around, beam steering is usually slow.
 
 Phased array antennas can produce electronically steerable beams that change directions in milliseconds. Let's first see how antenna arrays work.
-
 ### How Antenna Arrays work
 
 Let's say we have an antenna radiating a sine wave in space at a given frequency. The red circles represent peaks of the sine waves, and blue circles represent troughs. Place another similar antenna exactly half a wavelength away from the original one. Then observe how the radiation patterns from these two antennas interfere in space.
@@ -91,6 +90,42 @@ You notice that the red circles intersect in front of the antenna resulting in "
 At points to left and right of the two antennas, you notice that the red and blue circles intersect resulting in "destructive interference." The signals from each antenna cancel each other out, resulting in low radiation in that direction.
 
 Simply by putting two identical antennas a fixed distance apart, you now have a narrower antenna beam that a single antenna alone.
+
+What if you put the antennas further away? When the spacing between the array elements approaches a wavelength, the side lobes of the radiation pattern (also called grating lobes) become as strong as the main antenna beam. For this reason, half wavelength spacing is the most common choice in array design.
+
+Adding antenna elements to a linear array will further narrow the beam. However, creating a one-dimensional antenna array only results in beam narrowing along one plane. The beam is still omnidirectional in the plane perpendicular to it. When viewed in three dimensions, the radiation pattern from the 8 element array looks more like a donut cut in half, rather than the narrow torchlight beam we were intending to get.
+
+To narrow the radiated antenna beam in both directions, we need a two dimensional antenna array. The same principles we encountered in the constructive and destructive interference patterns resulting in narrowing of a beam, now occurs along two perpendicular planes. This gives us the narrow torchlight beam we are envisioning.
+
+We have been considering only isotropic antennas as antenna array elements so far. In reality, we could have more directional antennas in the array. When an antenna with a sharper beam is used in an antenna array, the resulting beam is even sharper.
+
+### Steering the beam
+
+So far we have assumed that each element in the antenna array is fed at the same time. What happens when they're not?
+
+Lets go back to the two element linear array case, and delay the signal to one antenna by half a wavelength or 180 degrees. Observe where the red and blue circles now intersect. Destructive interference causes the radiation to cancel out right in front of the antenna. Instead, constructive interference causes the radiation to double up on the left and right sides.
+
+By delaying the signal to one antenna, we have effectively steered the beam away from the front of the antenna, to the sides.
+
+This is a bit of an extreme example as you notice that there are two beams formed on either side. Usually, the steering angle is limited to 60 degrees on either side for a total steering angle of 180 degrees. Unwanted effects occur if the beam is steered too far out.
+
+We already know that the beam will be sharper if we extend this to an 8 element linear array. To steer this beam, the signal fed to each antenna is equally and progressively delayed from the one next to it. An 8 element array will have seven equal phase shifts. For example, if you have a total phase shift of 70 degrees from the first to eighth antenna, each antenna in the array is delayed by 10 degrees.
+
+To steer a beam in both around in azimuth and up/down in elevation, we need to phase shift the signal to all antenna elements in a two dimensional planar array. Depending on the phase shift applied to each linear dimension of the 2-D antenna array, the beam can be made to point to any desired direction.
+
+### Adaptive Beamforming
+
+So far we have only considered applying delays or phase shifts to the signal being fed to the antennas in the array. In theory, we could control amplitude of the signal to each antenna too. 
+
+When early phased array researchers were working on stealth radar for aircraft, they quickly realized that they cannot afford to transmit energy in the side lobes of the radiation pattern. This unwanted energy transmission could be detected by enemy radar. 
+
+They found that by reducing the signal amplitude to the peripheral elements of the antenna array, the gain of the side lobes decreased. This technique is called Gain Tapering. An unwanted side effect is that the main antenna beam got wider. The design trade-off was to balance radar resolution with lower side lobes. The overall signal-to-noise ratio of the array still improved.
+
+In the modern age, with the advent of semiconductor technology, both the amplifier and phase shifter can be implemented right next to the antenna element and controlled digitally to provide any amplitude and phase required.
+
+For each antenna element, the required amplitude and phase can be represented as a complex number. For the whole array, we can represent the required amplitude and phase values for each antenna in terms of a complex weight vector.
+
+
 
 
 
