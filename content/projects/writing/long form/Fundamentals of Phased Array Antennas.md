@@ -7,80 +7,33 @@ date_published:
 status: 🚧
 final title:
 ---
- Assume that there is an isotropic antenna - one that radiates in all directions. Its not an ideal pattern for antenna radiation because energy is lost in many directions. The solution to this is to place the in a radar dish.
+Phased array antennas and beamforming have become rapidly popular since the adoption of 5G new radio (NR) technology, especially for communication systems that involve millimeter wave frequencies. Millimeter waves when radiated out into free space don't travel very far due to high propagation path loss in the atmosphere. To overcome the loss, the antenna must transmit all its energy towards the receiver using a phased array antenna that can form an antenna beam pointed at the receiver.
 
-If the beam needs to rotate, you have to move mass around with motors and this is quite slow. You cannot steer the antenna beam in fractions of a second.
+While a lot goes into how this works and the applications are much more diverse, in this article, we will cover the absolute basics of phased array antennas and beamforming. 
 
-Phased arrays are a method of creating an electronically steerable antenna pattern using an array of antennas in which each antenna is fed a phase shifted version of the orginal signal.
+You will learn:
 
-Assume antenna is radiating a sine wave. Place another antenna 1/2 wavelength away from the original one. *draw a diagram here* You will notice that there are several places where the signal from the first antenna cancels the signal from the second. Where the signal is inphase, they constructivevly add.  Even with 2 antennas, the resulting beam is more directional.
+1. The need for phased array antennas
+2. How antenna arrays create narrow beams
+3. How to electronically steer the narrow beams
+4. What is beamforming and why its useful
 
-To make it even more directional, you can increase the number of elements in the antenna array, and with each additional antenna, the resulting interference pattern results in a more directional antenna beam
+Let's dive in!
+### The Need for Phased Antenna Arrays
 
-*overlay the gain azimuth plot over an interference pattern to tell people how to read an antenna gain plot*
+Isotropic antennas are radiating elements that transmit and receive in all directions. Such antennas are not preferred because they transmit energy where its not always required, or receive interference from all directions.
 
-But if you see this plot in 3D, it will look something like a snail shell that is not very sharp beam at all.
+We would much rather have a directional beam that transmits energy only in the preferred direction while not picking up interference from any other direction. The traditional approach to doing this is to use a parabolic dish with a dipole or horn antenna placed at its focal length. The antenna is pointed towards the dish, so that the resulting beam is a collection of parallel rays reflected from the parabolic dish.
 
-To make a conical directed beam, you will need a 2-dimensional array of antennas. 
-*add a picture*
+Parabolic antennas produce some really directed radiation beams can cover a wide range of frequencies by even having several antennas operating at different frequencies mounted at the focal point.
 
-Array Factor:
-- how many elements
-- what is their spacing
-- orientation of elements
-- element pattern (isotropic or sinc)
+When receiving energy from faint sources such as stars and far away galaxies, the size of the parabolic dish can be increased to collect more energy and direct it towards the receiving antenna mounted at its focal point. For example, the FAST radio telescope in China boasts an antenna diameter of 500 meters, making it the largest radio telescope in existence today. (https://theconversation.com/china-completes-worlds-largest-radio-telescope-raising-hopes-of-finding-new-worlds-and-alien-life-62237)
 
-Using sinc and an 8x8 elemetn array really gives a sharp beam
+To steer the antenna beam in different directions, any antenna system must be mounted on a motorized system that moves around a circle (azimuth) and up/down (elevation). Since this method usually involves moving mass around, beam steering is usually slow and the mechanical components needed are bulky.
 
-How do we steer the antenna beam now?
+While this is acceptable for some applications, it is hard to implement in communication systems like the ones mounted on aircraft. For these use cases, we would prefer that the beam is electronically steered thereby eliminating the need for servos that physically move antennas around.
 
-Consider two isotropic antenna spaced half wavelgnth apart  but delay the signal to the second antenna by 1/2 wavelength of 180 degrees. The resulting interference pattern shows that there is no energy in the boresight (or 0 degree azimuth) of the antenna array. Instead, the energy is directed entirely to the -90 and +90 directions.
-
-The beam has been electronically steered by changing the relative phase between the two antenna elements. Instead of 180 degrees, the phase shift between the antenna elements can be any value, allowing us to steer the antenna beam smoothly along the azimuth.
-
-In an multi element array, the phase shift is equally spaced between all the array elements. In a linear 8 element array for example, there are 7 phase shifts between the first and last element.
-
-So, arraying the antennas forms the directed beam, and applying phase shifts to each antenna allows us to steer the direction of the beam.
-
-The video has a nice animation to show this, but as you steer the antenna beam away from the boresight, the beam gets less sharp. Because of this there is only about 120 degree of usable range in both elevation and azimuth. To overcome this, you will need to use either multiple phased arrays or conformal antenna arrays.
-
-What is beamforming?
-
-In reality there is even more control you can have over antenna elements in the phased array. You can control both the gain and the phase of the signal being fed to elements in the array. In addition, with fast A-D converters availalbe, you can digitally control each element in the array resulting in adaptive beamforming.
-
-Why do we need to control the shape of the beam? Its not always about having the narrowest main beam. We care about the overall signal to noise ratio of the system. The presence of side lobes in the antenna pattern means that interfering signals coming from directions other than where the main beam is pointing will decrease the SNR of the system.
-
-So we need to reduce the amount of side lobes in the antenna beam. This is done with something called Gain Tapering. By providing the peripheral antenna elements with lesser gain, and the antennas in the center of the array with more gain, you can reduce the amount of side lobes. The downside of this is that you will end up with widening of the main beam, but the overall SNR of the system is still improved due to reduction of the side lobes. So you trade off radar resolution for lower side lobe gain.
-
-Older radar systems used a fixed attenuator in series with the antenna elements and used a predetermined tapering pattern. Then changed the phase of the signals to steer the beam.  This is conventional beam forming.
-
-With full digital control, we can pick any gain and any phase shift to any elements. Most combinations produce undesired patterns so you have to be careful.
-
-To represent what kind of gain and phase needs to be applied to each element of the antenna array, you specify a weight vector. Adaptive beamforming involves finding these actual weights. With full digital control, we can find the optimal weights *depending on the environment that the antenna is in*.
-
-One adaptive algorithm is called MVDR. Minimum Variance Distortionless Response adaptive beamformer. This algo needs 2 inputs:
-- total Received signal at the array
-- Give it angle of arrival of the main signal.
-
-Minimize total received power, but power in direction of signal is maintained. This is a constrained optimization problem. This can be done with prepaackaged code from Matlab. 
-
----
-### Intro
-- Where are phased array antennas used and why?
-- How was it implemented in the past?
-- Why is it relevant today in 5G?
-
-### Old school beam steering
-
-Isotropic antennas are radiating elements that transmit or receive in all directions. Such antennas are not preferred because they transmit energy where its not always required, or receive interference from all directions.
-
-We would much rather have a directional beam that transmits energy only in the preferred direction while not picking up interference from any other direction. The traditional approach to doing this is to use a parabolic dish with a dipole or horn antenna placed at its focal length. Parabolic antennas produce some of the narrowest antenna beams and can cover a wide range of frequencies by even having several antennas operating at different frequencies mounted at the focal point.
-
-By increasing the size of the parabolic dish, more energy can be collected from a distant source and reflected into the receiving antenna at the focal point. This is why some radio telescopes use gigantic parabolic dishes (https://theconversation.com/china-completes-worlds-largest-radio-telescope-raising-hopes-of-finding-new-worlds-and-alien-life-62237) to capture weak signals from the distant universe.
-
-To steer the beam in different directions, the whole antenna system is mounted on a motorized system that moves around a circle (azimuth) and up/down (elevation). Since this method usually involves moving mass around, beam steering is usually slow.
-
-Phased array antennas can produce electronically steerable beams that change directions in milliseconds. Let's first see how antenna arrays work.
+Phased antenna arrays are the answer to electronic beam steering, and in the following section, we will look at how it works.
 ### How Antenna Arrays work
 
 Let's say we have an antenna radiating a sine wave in space at a given frequency. The red circles represent peaks of the sine waves, and blue circles represent troughs. Place another similar antenna exactly half a wavelength away from the original one. Then observe how the radiation patterns from these two antennas interfere in space.
@@ -93,21 +46,21 @@ Simply by putting two identical antennas a fixed distance apart, you now have a 
 
 What if you put the antennas further away? When the spacing between the array elements approaches a wavelength, the side lobes of the radiation pattern (also called grating lobes) become as strong as the main antenna beam. For this reason, half wavelength spacing is the most common choice in array design.
 
-Adding antenna elements to a linear array will further narrow the beam. However, creating a one-dimensional antenna array only results in beam narrowing along one plane. The beam is still omnidirectional in the plane perpendicular to it. When viewed in three dimensions, the radiation pattern from the 8 element array looks more like a donut cut in half, rather than the narrow torchlight beam we were intending to get.
+Adding antenna elements to a linear array will further narrow the beam. However, creating a one-dimensional antenna array only results in beam narrowing along one plane. The beam is still omnidirectional in the plane perpendicular to it. When viewed in three dimensions, the radiation pattern from the 8 element linear array looks more like a donut cut in half, rather than the narrow conical beam we were intending to get.
 
-To narrow the radiated antenna beam in both directions, we need a two dimensional antenna array. The same principles we encountered in the constructive and destructive interference patterns resulting in narrowing of a beam, now occurs along two perpendicular planes. This gives us the narrow torchlight beam we are envisioning.
+To narrow the radiated antenna beam in both directions, we need a two dimensional antenna array. The same principles we encountered in the constructive and destructive interference patterns resulting in narrowing of a beam, now occurs along two perpendicular planes. This gives us the narrow conical beam we are envisioning.
 
 We have been considering only isotropic antennas as antenna array elements so far. In reality, we could have more directional antennas in the array. When an antenna with a sharper beam is used in an antenna array, the resulting beam is even sharper.
 
 ### Steering the beam
 
-So far we have assumed that each element in the antenna array is fed at the same time. What happens when they're not?
+We have assumed that each element in the antenna array is fed at the same time. What happens when they're not?
 
 Lets go back to the two element linear array case, and delay the signal to one antenna by half a wavelength or 180 degrees. Observe where the red and blue circles now intersect. Destructive interference causes the radiation to cancel out right in front of the antenna. Instead, constructive interference causes the radiation to double up on the left and right sides.
 
 By delaying the signal to one antenna, we have effectively steered the beam away from the front of the antenna, to the sides.
 
-This is a bit of an extreme example as you notice that there are two beams formed on either side. Usually, the steering angle is limited to 60 degrees on either side for a total steering angle of 180 degrees. Unwanted effects occur if the beam is steered too far out.
+This is a bit of an extreme example as you notice that there are two beams formed on either side. Usually, the steering angle is limited to 60 degrees on either side for a total steering angle of 120 degrees. Unwanted effects occur if the beam is steered too far out beyond that.
 
 We already know that the beam will be sharper if we extend this to an 8 element linear array. To steer this beam, the signal fed to each antenna is equally and progressively delayed from the one next to it. An 8 element array will have seven equal phase shifts. For example, if you have a total phase shift of 70 degrees from the first to eighth antenna, each antenna in the array is delayed by 10 degrees.
 
@@ -115,19 +68,27 @@ To steer a beam in both around in azimuth and up/down in elevation, we need to p
 
 ### Adaptive Beamforming
 
-So far we have only considered applying delays or phase shifts to the signal being fed to the antennas in the array. In theory, we could control amplitude of the signal to each antenna too. 
+We have only considered applying delays or phase shifts to the signal being fed to the antennas in the array. In theory, we could control amplitude of the signal to each antenna too. 
 
 When early phased array researchers were working on stealth radar for aircraft, they quickly realized that they cannot afford to transmit energy in the side lobes of the radiation pattern. This unwanted energy transmission could be detected by enemy radar. 
 
-They found that by reducing the signal amplitude to the peripheral elements of the antenna array, the gain of the side lobes decreased. This technique is called Gain Tapering. An unwanted side effect is that the main antenna beam got wider. The design trade-off was to balance radar resolution with lower side lobes. The overall signal-to-noise ratio of the array still improved.
+They found that by reducing the signal amplitude to the peripheral elements of the antenna array, the gain of the side lobes decreased. This technique is called Gain Tapering. An unwanted side effect is that the main antenna beam got wider. The design trade-off was to balance radar resolution with lower side lobes so that the overall signal-to-noise ratio of the array can be improved.
 
-In the modern age, with the advent of semiconductor technology, both the amplifier and phase shifter can be implemented right next to the antenna element and controlled digitally to provide any amplitude and phase required.
+In the modern age, with the advent of semiconductor technology, both the amplifier and phase shifter can be implemented right next to the antenna element and controlled digitally to provide desired amplitude and phase.
 
-For each antenna element, the required amplitude and phase can be represented as a complex number. For the whole array, we can represent the required amplitude and phase values for each antenna in terms of a complex weight vector.
+Conveniently, this makes it possible to represent the amplitude and phase shift for each element in the antenna array by a complex number, also called a weight. For the whole antenna array, we can represent the required amplitude and phase values in terms of a complex weight vector.
 
+By providing the correct weight vector to the antenna array, the direction of the beam and extent of the side lobes can be controlled digitally. This is called beamforming.
 
+The choice of weight vector need not be static. Depending on the environment the antenna is in, the direction of signal source, and the locations of interference, the antenna beam can be adaptively formed to maximize the signal to noise ratio.
 
+This is usually done with the help of sophisticated algorithms that determine the weight vector to ensure that the main beam is pointed at the information signal, while creating nulls in the side lobes in directions where interference is present.
 
+In the age of artificial intelligence and machine learning, everything from a simple multi-layer perceptron network to a deep convolution neural network has been utilized to rapidly predict the antenna array weights required to optimally adapt to any given radio interference environment with minimal computation.
+
+The area of phased arrays and beamforming has many different aspects from pure electromagnetics to complex digital signal processing. Architectural choices among analog, digital and hybrid beamforming each have their pros and cons and then there is the actual implementation of variable gain amplifiers and phase shifters at RF, mm-wave and terahertz frequencies, all of which are greatly interesting!
+
+For now, we'll leave it here for an introductory article on phased array antennas.
 
 References
 - https://youtube.com/playlist?list=PLn8PRpmsu08q9U0y7_63Dfz5cawEnicxi&si=c_Dh9PPoI8xrqs3O
