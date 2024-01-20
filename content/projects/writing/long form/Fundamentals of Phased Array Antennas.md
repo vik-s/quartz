@@ -36,7 +36,9 @@ While this is acceptable for some applications, it is hard to implement in commu
 Phased antenna arrays are the answer to electronic beam steering, and in the following section, we will look at how it works.
 ### How Antenna Arrays work
 
-Let's say we have an antenna radiating a sine wave in space at a given frequency. The red circles represent peaks of the sine waves, and blue circles represent troughs. Place another similar antenna exactly half a wavelength away from the original one. Then observe how the radiation patterns from these two antennas interfere in space.
+Let's say we have an antenna radiating a sine wave in space at a given frequency. The red circles represent peaks of the sine waves, and blue circles represent troughs as shown in Fig 1.
+
+Place another similar antenna exactly half a wavelength away from the original one. Then observe how the radiation patterns from these two antennas interfere in space.
 
 You notice that the red circles intersect in front of the antenna resulting in "constructive interference." This means the signals from each antennas add up to create a stronger signal.
 

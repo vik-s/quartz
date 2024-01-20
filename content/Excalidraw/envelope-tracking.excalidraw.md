@@ -93,7 +93,7 @@ Energy ^r7NRXxhg
 
 # Embedded files
 7cc915a5f169ea2299917ce518f2536a3d1fcf78: [[Excalidraw/Pasted Image 20231106060134_313.svg]]
-c174677db08ab7a9cbe6678a2a22c9434ef80158: [[Excalidraw/Pasted Image 20231106105855_264.svg]]
+c174677db08ab7a9cbe6678a2a22c9434ef80158: [[Excalidraw/Sinewave1.svg]]
 
 %%
 # Drawing
