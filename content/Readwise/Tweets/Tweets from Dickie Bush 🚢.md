@@ -18,3 +18,11 @@
   6. **Make a note in your phone called "airplane journal." **Write a quick entry any time you're in the air. Talk about life, where you're going, who you're seeing, how you're feeling. You'll look back in 10 years thrilled you logged all your travels.
   7. **TSA Pre is a laughably underpriced service. **$100 to save you dozens of hours every year for 5 years. I actually cannot believe some people don’t have this. If you still take your shoes off at the airport… nvm.
   8. **Download your favorite albums & most impactful podcasts to Spotify.** Listen to the albums in order as the artist intended. Relisten to the podcasts and you’ll pick up on some ideas you missed the first time around.<img src='https://pbs.twimg.com/media/GDFQTWcX0AABZUl.jpg'/> ([View Tweet](https://twitter.com/dickiebush/status/1743263416817471934))
+## New highlights added January 21, 2024 at 5:31 PM
+- The solution is to find something you love doing, wake up far before you have to go to your 9-5, and work on it.
+  Most people hate to hear that as the answer, but it’s the truth.
+  When I was working on Wall Street I woke up at 4:30 AM damn near every day for 2 years to write for 2 hours before getting to my desk at 7 AM.
+  It’s a fallacy to think “once I quit my job, then I’ll find something to look forward to working on.”
+  You have to find that thing, pursue it with intensity that others would find unreasonable, and keep doing that every day until it no longer makes financial sense for you to keep your full-time job. 
+  This is what worked for me brother. 
+  Hope it helps ✊ ([View Tweet](https://twitter.com/dickiebush/status/1749218065454092421))
