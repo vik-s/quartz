@@ -192,3 +192,16 @@
   • Routines
   • Mistakes
   • Podcasts ([View Tweet](https://twitter.com/Nicolascole77/status/1748133390123938058))
+## New highlights added January 22, 2024 at 7:31 AM
+- Books every writer should have on their desk to master the craft:
+  • Positioning
+  • On Writing
+  • Bird By Bird
+  • Save The Cat
+  • Snow Leopard
+  • The Artist's Way
+  • The Boron Letters
+  • Ogilvy On Advertising
+  • The Art & Business of Online Writing
+  Anything else? 
+  ![](https://pbs.twimg.com/media/GEc0mvwWgAAhjX-.jpg) ([View Tweet](https://twitter.com/Nicolascole77/status/1749424825947296195))
