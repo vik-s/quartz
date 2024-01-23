@@ -9,7 +9,8 @@ published:
 How can you create self sustaining work?
 Where is most of your time being spent?
 
-
+- IP blocks for design reuse
+- Reuse test sequences by building infrastructure
 
 [[fleeting/Hey Creator Summit|Hey Creator Summit]]
 
