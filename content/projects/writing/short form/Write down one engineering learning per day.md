@@ -4,13 +4,13 @@ tags:
   - atomic
 style: motivational
 written: ✅
-published:
+published: ✅
 ---
 Here's a simple way to supercharge your engineering learning.
 
 Write down one thing you have learned everyday.
 
-You would have learned 30 concepts in a month. 180 in 6 months.
+You would have learned 30 concepts in a month. 180+ in 6 months.
 
 - Focus on only ONE idea
 - Write it in YOUR OWN WORDS

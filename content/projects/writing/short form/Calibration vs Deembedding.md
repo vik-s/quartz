@@ -4,7 +4,7 @@ tags:
   - atomic
 style: XvsY
 written: ✅
-published:
+published: ✅
 ---
 In my very first job interview, I was asked what the difference is between calibration and de-embedding in s-parameter measurements. 
 

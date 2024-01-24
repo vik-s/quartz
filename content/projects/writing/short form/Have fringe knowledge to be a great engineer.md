@@ -4,7 +4,7 @@ tags:
   - atomic
 style: actionable
 written: ✅
-published:
+published: ✅
 ---
 A truly innovative engineer is not one who knows the topic in depth.
 
