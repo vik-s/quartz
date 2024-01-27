@@ -43,3 +43,8 @@ FROM "projects/writing" AND #communication
 TABLE status, date_published AS "published"
 FROM "projects/writing" AND #systems 
 ```
+### Insights
+```dataview
+TABLE status, date_published AS "published"
+FROM "projects/writing" AND #insights 
+```

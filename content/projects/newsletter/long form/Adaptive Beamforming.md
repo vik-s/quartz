@@ -1,46 +1,12 @@
 ---
-title: How Phased Array Antennas Work
+title: Adaptive Beamforming
 tags:
-  - circuit
+  - systems
 project: substack
 date_published: 
 status: 🚧
 final title:
 ---
-In a previous article, we discussed how arraying antennas causes the radiated pattern to narrow due to wave interference. I'd recommend you check it out if you haven't already. In this article, we will build on that concept to understand how to steer the radiated beam to any desired direction using phase shifts to the antennas in an array. The phased array antenna is widely used in radar and most recently in 5G cellular technology and modern WiFi to improve the signal to noise ratio.
-
-In this article, you will learn:
-
-- Why antenna beams need to be steered
-- How phase shifts cause antenna beam directions to change
-- Phased Array Architectures
-- The concept of adaptive beamforming
-
-Let's dive in!
-
-### Why Steer Antenna Beams?
-
-It's quite simple. Unlike an omnidirectional 
-
-- Radar in aircraft
-- LEO satellites
-- Automotive radar
-- 5G mm-wave applications
-- Beamforming in Wifi7
-
-### Steering the Beam
-
-We have assumed that each element in the antenna array is fed at the same time. What happens when they're not?
-
-Lets go back to the two element linear array case, and delay the signal to one antenna by half a wavelength or 180 degrees. Observe where the red and blue circles now intersect. Destructive interference causes the radiation to cancel out right in front of the antenna. Instead, constructive interference causes the radiation to double up on the left and right sides.
-
-By delaying the signal to one antenna, we have effectively steered the beam away from the front of the antenna, to the sides.
-
-This is a bit of an extreme example as you notice that there are two beams formed on either side. Usually, the steering angle is limited to 60 degrees on either side for a total steering angle of 120 degrees. Unwanted effects occur if the beam is steered too far out beyond that.
-
-We already know that the beam will be sharper if we extend this to an 8 element linear array. To steer this beam, the signal fed to each antenna is equally and progressively delayed from the one next to it. An 8 element array will have seven equal phase shifts. For example, if you have a total phase shift of 70 degrees from the first to eighth antenna, each antenna in the array is delayed by 10 degrees.
-
-To steer a beam in both around in azimuth and up/down in elevation, we need to phase shift the signal to all antenna elements in a two dimensional planar array. Depending on the phase shift applied to each linear dimension of the 2-D antenna array, the beam can be made to point to any desired direction.
 
 ### Adaptive Beamforming
 
@@ -63,12 +29,3 @@ This is usually done with the help of sophisticated algorithms that determine th
 In the age of artificial intelligence and machine learning, everything from a simple multi-layer perceptron network to a deep convolution neural network has been utilized to rapidly predict the antenna array weights required to optimally adapt to any given radio interference environment with minimal computation.
 
 The area of phased arrays and beamforming has many different aspects from pure electromagnetics to complex digital signal processing. Architectural choices among analog, digital and hybrid beamforming each have their pros and cons and then there is the actual implementation of variable gain amplifiers and phase shifters at RF, mm-wave and terahertz frequencies, all of which are greatly interesting!
-
-For now, we'll leave it here for an introductory article on phased array antennas.
-
-
-
-### References
-
-https://archive.ll.mit.edu/publications/journal/pdf/vol12_no2/12_2devphasedarray.pdf
-
