@@ -27,11 +27,11 @@ For a lot of applications, such approaches are heavy, cumbersome and slow. Not t
 The solution to rapidly steer beams with electronic control involves the use of phased array antennas. The fundamental operating principle is that you can steer the beam in any direction by precisely feeding each antenna in the array with a progressively delayed version of the signal (or a phase shift).
 
 Let us see how this happens.
-### Steering the Beam
+### Applying Phase Shifts to Antennas
 
 In the article on (antenna arrays), we looked at how constructive interference sharpens the radiated beam when two antennas spaced half a wavelength apart are fed with signals of equal amplitude and phase.
 
-What happens if the phase of the signal fed to one of the antennas is shifted (by delaying it) compared to the other one? Figure 1 shows two radiated patterns from an omnidirectional antenna, one with no phase shift and the other with a 180 degree phase shift. The wave peaks emitted by one antenna coincides with the troughs of the phase shifted antenna at any point in time.
+What happens if the phase of the signal fed to one of the antennas is shifted (by delaying it) compared to the other one? Figure 1 shows two radiated patterns from an omnidirectional antenna; one with no phase shift and the other with a 180 degree phase shift. The wave peaks emitted by one antenna coincides with the troughs of the phase shifted antenna at any point in time.
 
 > Fig1
 
@@ -43,18 +43,23 @@ When there are no phase shifts present, constructive interference in the top and
 
 With 180 degree phase shift between the two antennas, constructive interference occurs to the side instead, while destructive interference produces nulls in the top and bottom. Such an array is called an *endfire antenna array*.
 
-Simply by introducing a phase shift in the signals fed to the antenna, we were able to steer the beam from the vertical to the horizontal direction. We converted a broadside antenna to an endfire antenna.
+Simply by introducing a phase shift in the signals fed to the antenna, we were able to steer the beam from the vertical to the horizontal direction. We have converted a broadside antenna to an endfire antenna.
 
-Using a phase shift between 0 and 180 degrees between the signals will result in the antenna beam pointing somewhere between the broadside and endfire directions. Usually, the steering angle is limited to 60 degrees on either side for a total steering angle of 120 degrees. Unwanted effects occur if the beam is steered too far out beyond that.
+Using a phase shift between 0 and 180 degrees between the signals will result in the antenna beam pointing somewhere between the broadside and endfire directions. In a practical phased array, the antenna beam is only steered on either side of the broadside direction, and never really all the way to endfire, to avoid distortions to the radiated beam.
 
-In both of these cases, the beam can be made narrower using more antenna elements in the array. The question then arises: what phase shifts should be provided to each antenna element in the array? To answer that, we will look at three configurations: 1) the broadside array, 2) the endfire array and 3) the phased array. Each of these configurations are shown in Figure 3 for a 6-element linear antenna array.
+In both of these cases, the beam can be made narrower using more antenna elements in the array. The question then arises: what phase shifts should be provided to each antenna element in the array? Let's look at this closely.
+
+### Beam Steering in a Phased Array
+
+Figure 3 shows a 6-element linear antenna array. The squares represent radiating antenna elements color coded to show various phase shifts to the applied signal. Depending on the phase shift applied to each antenna, the following radiation patterns can be achieved.
 
 - Broadside: Each element in the array is fed with a signal with same amplitude and phase. The resulting radiation pattern has its maximum radiation in the +/- 90 degree direction in the azimuth plane.
 - Endfire: Each alternate antenna is fed with either 0 degree or 180 degree phase shift. The resulting radiation pattern has its peaks in the 0 and 180 degree directions in the azimuth plane.
-- Phased: Each consecutive element in the array is fed with a *progressive* delay of 50 or 100 degrees. It is clear that the main beam of the antenna can be steered accordingly
-
+- Phased: Each consecutive element in the array is fed with a *progressive* delay of +50 or -50 degrees. The main beam can be steered on either side of the broadside direction. Increasing the phase shift to each antenna element will further stee
 
 To steer a beam in both around in azimuth and up/down in elevation, we need to phase shift the signal to all antenna elements in a two dimensional planar array. Depending on the phase shift applied to each linear dimension of the 2-D antenna array, the beam can be made to point to any desired direction.
+
+>Fig 3
 
 ### Case Study: Dishy McFlatface
 
@@ -77,5 +82,8 @@ https://archive.ll.mit.edu/publications/journal/pdf/vol12_no2/12_2devphasedarray
 - Kuiper phased array antenna - https://www.aboutamazon.com/news/innovation-at-amazon/amazon-marks-breakthrough-in-project-kuiper-development?ots=1&tag=arstech20-20&linkCode=w50
 - https://youtu.be/h6MfM8EFkGg?si=dBO341izpGSJck7t The Signal path's detailed discussion on Starlinks Phased Array design.
 - Supreme video about dishy mcflatface https://youtu.be/qs2QcycggWU?si=PIbktv3ZYGikdO5C
+- https://www.mwrf.com/technologies/embedded/systems/whitepaper/21139652/analog-devices-phased-array-antenna-patterns
+- https://www.mwrf.com/technologies/components/article/21849977/analysis-of-a-24-to-30-ghz-phased-array-for-5g-applications-part-1
+- https://www.mwrf.com/technologies/components/article/21850061/analysis-of-a-24-to-30-ghz-phased-array-for-5g-applications-part-2
 
 [[Excalidraw/PhasedArrayFundamentals.excalidraw|PhasedArrayFundamentals.excalidraw]]
