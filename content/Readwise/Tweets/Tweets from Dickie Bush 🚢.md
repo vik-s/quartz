@@ -76,3 +76,61 @@
   Best case, someone finds it valuable, tries it in their own life, and shares it with their friends in the future.
   And since you my dear reader are reading this sentence right now, you are that someone.
   And on and on my writing flywheel spins.<img src='https://pbs.twimg.com/media/GEdDClvXAAARvYL.jpg'/> ([View Tweet](https://twitter.com/dickiebush/status/1749440720492957915))
+## New highlights added February 1, 2024 at 9:21 AM
+- I'm writing every day in 2024. 
+  9 reasons why:
+  **1. Every piece of writing I publish is a lottery ticket**
+  The world’s most interesting, wealthy, and successful people all use the same social media algorithm.
+  And this means you never know on whose timeline your writing might end up.
+  If I’m putting out consistent, quality ideas, there’s a good chance someone I look up to stumbles upon it.
+  To me, this is the modern-day version of “networking.”
+  Rather than wasting time thinking about how I can reach out to the people I look up to, I’m investing time in publishing ideas that make them want to reach out to me.
+  **2. Writing every day helps me think clearly**
+  I use my morning writing time as a “container” to process whatever is going on in my life.
+  Business, health, relationships, everything—I can only fully understand what’s going on once I’ve distilled it into writing.
+  So my goal is to do some kind of distillation every morning—whether it’s journaling, writing up plans for me & my team, or talking about ideas I’m interested in (that readers would find interesting as well).
+  **3. Writing every day helps me speak clearly**
+  The people who sound sharp in speeches and on podcasts have a secret.
+  They’re not “riffing off the cuff” — they simply answer questions by repeating ideas they’ve written about hundreds of times.
+  And since they’ve written about them, they’ve taken the time to think through them (which is why they sound clear).
+  **4. Writing every day helps me learn rapidly**
+  The fastest way to learn something is to:
+  • Have a project in which you can apply the learning
+  • Share those learnings in public
+  Why?
+  This creates a “lens” through which you will consume that information.
+  Rather than just consume information for the sake of it, you’re going to think about how you could distill and clarify it for yourself and the reader.
+  And that extra time of thinking through the idea is where the “leaps” of learning happen.
+  **5. Every single person I look up to writes consistently**
+  There are millions of successful investors and entrepreneurs.
+  But the ones who I admire the most all have one thing in common:
+  They publish their ideas for their customers, shareholders, and partners to read.
+  Howard Marks, Warren Buffet, Naval Ravikant, Tim Ferriss, Jeff Bezos: the list goes on and on.
+  **6. Writing helps me attract new opportunities passively**
+  At this point, 90% of the people I talk to on a regular basis I met through my writing.
+  Team members, business partners, collaborators, friends, and even my girlfriend I met at a coffee shop while I was writing.
+  Why?
+  Every piece of writing I publish gives someone a “jumping off point” to reach out to me.
+  If the piece resonates with them, they can shoot me a DM with context to start a conversation. And chances are, if someone is interested in similar ideas to me (like the ones I’m writing about), we’re going to get along.
+  **7. Writing is my “keystone” morning habit**
+  I have a block on my calendar every morning from 6 AM to 7:30 AM that says “Writing.”
+  Every morning, no matter how I’m feeling or what is going on in my life, I sit down to process ideas.
+  And with each day I log my writing time, I’m reinforcing a personal identity of consistency.
+  This identity then spreads to every other area of my life. I’m more dialed in on the fitness front, my sleep is better, my diet is better, and I’m more present in conversation.
+  The reverse also holds true—any time these other areas feel out of whack, it’s because I’ve fallen off my daily writing habit.
+  **8. Writing has zero downside and infinite upside**
+  In the world of investing, winning comes from taking “convex bets” — where there’s a little bit of downside but a massive upside.
+  Writing is one of those convex bets—except I’ve yet to find any downside.
+  Worst case, you spend hours writing something that no one reads. But you’re still winning because you better understand the idea and you've improved your writing skill.
+  Best case, that piece of writing changes your life. It attracts a job opportunity, or sparks a business idea, or leads to a lifelong friendship.
+  (And this is exactly what happened to me.)
+  **9. Writing is the best way to document the journey**
+  I know when I’m 85 years old, I will wish I had a paper trail of the entire journey.
+  The highs & lows.
+  The moments of despair & the moments of euphoria.
+  The painful days trying to make something work, followed shortly by the breakthrough idea.
+  And my writing is the best way to freeze those moments in time.
+  —
+  Aaand that’s it. Feeling in absolute flow so far in 2024, and it’s all because of my daily writing habit.
+  Highly recommend giving it a try ✊
+  If you enjoyed this, follow me <a href="https://twitter.com/dickiebush">@dickiebush</a> and bookmark the tweet so it’s easy to find later.<img src='https://pbs.twimg.com/media/GFQXnzkXwAALoMi.jpg'/> ([View Tweet](https://twitter.com/dickiebush/status/1753052244319052153))
