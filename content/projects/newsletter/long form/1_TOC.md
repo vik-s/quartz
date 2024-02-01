@@ -1,50 +1,55 @@
 ### Fundamentals
 ```dataview
 TABLE status, date_published AS "published"
-FROM "projects/writing" AND #fundamentals
+FROM "projects/newsletter" AND #fundamentals
 ```
 ### Circuits
 ```dataview
 TABLE status, date_published AS "Published"
-FROM "projects/writing" AND #circuit 
+FROM "projects/newsletter" AND #circuit 
 ```
 ### Device Tech and Modeling
 ```dataview
 TABLE status, date_published AS "published"
-FROM "projects/writing" AND #device
+FROM "projects/newsletter" AND #device
 ```
 ### Passives
 ```dataview
 TABLE status, date_published AS "published"
-FROM "projects/writing" AND #passive
+FROM "projects/newsletter" AND #passive
 ```
 ### Metrology
 ```dataview
 TABLE status, date_published AS "published"
-FROM "projects/writing" AND #metrology
+FROM "projects/newsletter" AND #metrology
 ```
 ### Pop-Science
 ```dataview
 TABLE status, date_published AS "published"
-FROM "projects/writing" AND #popsci
+FROM "projects/newsletter" AND #popsci
 ```
 ### Coding
 ```dataview
 TABLE status, date_published AS "published"
-FROM "projects/writing" AND #coding
+FROM "projects/newsletter" AND #coding
 ```
 ### Communication
 ```dataview
 TABLE status, date_published AS "published"
-FROM "projects/writing" AND #communication 
+FROM "projects/newsletter" AND #communication 
 ```
 ### Systems
 ```dataview
 TABLE status, date_published AS "published"
-FROM "projects/writing" AND #systems 
+FROM "projects/newsletter" AND #systems 
 ```
 ### Insights
 ```dataview
 TABLE status, date_published AS "published"
-FROM "projects/writing" AND #insights 
+FROM "projects/newsletter" AND #insights 
+```
+### Misc
+```dataview
+TABLE status, date_published AS "published"
+FROM "projects/newsletter" AND #misc_letters  
 ```

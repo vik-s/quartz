@@ -3,9 +3,9 @@ title: How Phased Array Antennas Work
 tags:
   - circuit
 project: substack
-date_published: 
-status: 🚧
-final title:
+date_published: 2024-02-11
+status: 🟢
+final title: Phased Array Antennas and Architectures
 ---
 In a previous article, we discussed how arraying antennas causes the radiated pattern to narrow due to wave interference. Consider reading that before getting into this one. In this article, we will build on that concept to understand how to steer the narrow beam using phase shifts.
 
