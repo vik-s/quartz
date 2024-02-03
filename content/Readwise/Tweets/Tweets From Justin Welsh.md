@@ -211,3 +211,30 @@
   That's why thoughtful, supportive content goes a long way. It's why rooting for others will always be "the way". It's why being honest wins long-term.
   Thinking about writing a newsletter on this.
   Yes?/No? ([View Tweet](https://twitter.com/thejustinwelsh/status/1747659460254880181))
+## New highlights added February 3, 2024 at 8:17 AM
+- How to start your first online business:
+  (even if you have less than 5k followers)
+  1. Take the thing you do at work.
+  2. Build a simple landing page.
+  3. Write copy that describes that thing.
+  4. Add a button to "book" a discovery call.
+  5. Write content about it for 90 days.
+  6. Answer questions on your content.
+  7. If people have more, ask them to book.
+  8. Ask 5 levels of discovery questions:
+  - What's the problem?
+  - What have you tried? How did it work?
+  - What is that costing you?
+  - How big of a priority is it to fix?
+  - When are you hoping to have it fixed?
+  9. Send a recap email about what you learned.
+  10. Describe how you would fix the problem.
+  11. Explain how much it will cost.
+  12. Explain how long it will take.
+  13. Back into the date they need it fixed by.
+  14. Ask them if they would like to get started.
+  15. If they say "no", try again tomorrow.
+  16. If they say "yes", send them a payment link.
+  Congrats. 
+  You're running a business.
+  P.S. Yes, I understand employment agreements and non-competes. Check them both (obviously). ([View Tweet](https://twitter.com/thejustinwelsh/status/1753766282170618117))
