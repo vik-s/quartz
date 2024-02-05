@@ -134,3 +134,27 @@
   Aaand that’s it. Feeling in absolute flow so far in 2024, and it’s all because of my daily writing habit.
   Highly recommend giving it a try ✊
   If you enjoyed this, follow me <a href="https://twitter.com/dickiebush">@dickiebush</a> and bookmark the tweet so it’s easy to find later.<img src='https://pbs.twimg.com/media/GFQXnzkXwAALoMi.jpg'/> ([View Tweet](https://twitter.com/dickiebush/status/1753052244319052153))
+## New highlights added February 5, 2024 at 6:23 AM
+- Here’s the simple lens I use for relationships: 
+  “Operate in a surplus”
+  I see a lot of people say relationships shouldn’t be *transactional*
+  I disagree.
+  Every relationship is transactional.
+  Thinking otherwise goes against human nature.
+  And this lens has improved all of my relationships.
+  Here’s why:
+  Every person I come across, I think about ways to give without asking.
+  And this puts me in a surplus.
+  **• Random service worker?** Let’s make their day better with a nice conversation and complimenting their outfit
+  **• Hotel concierge?** Let’s genuinely thank them and tip them well from the beginning
+  **• Best friends? **Constantly send them valuable content. Hype up & support their products
+  **• Significant other?** Find ways to make things easier for them. Proactively make them feel valued, heard, and loved
+  **• Parents?** You’re likely in a massive deficit to them, so better start calling them more, supporting them, and chipping away at it
+  **• Employees?** Invest in their development, proactively coach them, find ways to praise them when doing the little things right
+  **• Your audience?** Give them valuable information without asking them to buy or do anything in return
+  **• Someone you look up to?** Don’t ask them a question or “pick their brain” — find a way to create something worth their time to engage with
+  Day-to-day interactions, customers, readers, viewers, friends, family, and significant others—you can use this simple idea for everyone.
+  And the reason this works in strengthening relationships is through a simple human bias called “reciprocity.”
+  Basically, we like to give to people who give to us first.
+  In fact, we almost feel “obliged” to do so.
+  And this mutual “giving” creates a powerful flywheel—you give to someone, which makes them want to give back to you, which makes you want to give back to them, and on and on and on.<img src='https://pbs.twimg.com/media/GFk7rIsW4AARcJC.png'/> ([View Tweet](https://twitter.com/dickiebush/status/1754499147858686366))
