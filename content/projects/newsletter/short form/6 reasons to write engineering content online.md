@@ -15,5 +15,6 @@ published:
 5. Your peers point out things you didn't know you didn't know
 6. Help you stay excited, motivated and constantly learning new things.
 
+[[Excalidraw/6-reasons-to-write-online.excalidraw|6-reasons-to-write-online.excalidraw]]
 Follow me (🔔) for posts on RF engineering.
 Subscribe to my newsletter: https://www.viksnewsletter.com
