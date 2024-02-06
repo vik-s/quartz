@@ -205,3 +205,11 @@
   • The Art & Business of Online Writing
   Anything else? 
   ![](https://pbs.twimg.com/media/GEc0mvwWgAAhjX-.jpg) ([View Tweet](https://twitter.com/Nicolascole77/status/1749424825947296195))
+## New highlights added February 5, 2024 at 7:23 AM
+- Every Digital Writer should have 4 revenue streams:
+  1. Digital Products
+  2. Premium Services
+  3. Strategy/Advising
+  4. Newsletter (Free or Paid)
+  If you have 1 of these, you are likely on the path to financial freedom.
+  If you have all 4, you are recession-proof. ([View Tweet](https://twitter.com/Nicolascole77/status/1754498285593669769))
