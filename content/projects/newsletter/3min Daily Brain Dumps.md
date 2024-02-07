@@ -11,7 +11,6 @@
 8. 5 reasons Einstein couldn't find a job and what we can learn not to do from him
 
 ## Feb 5 2024
-
 1. Basic design considerations in a superheterodyne radio receiver
 2. More about superhet: dual IF conversion, sliding IF architectures
 3. Fundamentals of a direct conversion receiver
@@ -19,4 +18,11 @@
 5. Popular adaptive beamforming algorithms
 6. Image reject receiver architectures
 7. Writing python code for measurement automation
-8. 
+
+## Feb 6 2024
+
+1. How I overcame the scarcity mindset
+2. Why obsession based learning can work
+3. What companies get wrong about weekly reports
+4. Career lessons I learned from [MFM podcast](https://youtu.be/pjUZH0uqeHw?si=WF5BrwKJy6_tfsIz) - can I distill it for engineers?
+5. How NOT to DM someone on social media
