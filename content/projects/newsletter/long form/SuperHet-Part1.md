@@ -11,12 +11,14 @@ Last week, I asked readers on Substack chat about what topics I should write abo
 
 In this article, you will learn:
 
-1. What is Superheterodyne Architecture
+1. Block Diagram of Superheterodyne Architecture
 2. A brief, but sad story about it
-3. Band selection and filtering
+3. Antenna Tuning
+4. Front End Filtering
+5. RF Switching
 ### Superheterodyne Architecture
 
-Fig ? shows the overall block diagram of a superheterodyne (superhet) receiver. Here is a top-level overview of what each block does. We will get into details in due time.
+Fig ? shows a simplistic block diagram of a superheterodyne (superhet) receiver and the function of each block.
 - Band select filter: Filters received antenna signal for a frequency band of interest
 - Low-noise amplifier: Increases the received signal level while adding minimal noise
 - Image reject filter: Rejects "image" frequencies that can corrupt the signal during the mixing stage that will follow (more on this later)
@@ -24,11 +26,9 @@ Fig ? shows the overall block diagram of a superheterodyne (superhet) receiver. 
 - Channel select filter: Selects the particular channel within the IF range
 - IF amplifier: The communication channel of interest is amplified for digital conversion.
 
-The magic of this system essentially lies in the conversion of RF signals to IF. Some textbooks explain that this was necessary because good channel selection filters cannot be implemented at RF frequencies, and hence the need to convert to IF. Well, this is true, but history shows that conversion to IF is the very reason the system even works. Amplification at IF is much easier, and the filtering being simpler to IF is just an added bonus.
+Instead of trying to explain how the system works all at once, our approach will be to go through it a little bit at a time. There are many considerations in the design of such a system such as noise, linearity, choice of frequencies, and implementation choices. 
 
-We also won't differentiate between heterodyne and superheterodyne here. The distinction does not add much value to the system's operation itself.
-
-Instead of trying to explain how the system works all at once, our approach will be to go through it a little bit at a time. There are many considerations in the design of such a system such as noise, linearity, choice of frequencies, and implementation choices. Where possible, I will provide approximate ranges of numbers for gain, loss, noise and linearity of various blocks in the system so that you can get an "engineering-sense" of what is involved.
+The actual implementation of the system is much more complex due to the number of communication standards crammed into modern systems. The discussion of superheterodyne receivers here will be more involved and representative of actual implementation compared to textbook discussions of the topic.
 
 But first...
 ### A Quick Story
@@ -52,36 +52,60 @@ Armstrong sold his superheterodyne patent to communications giant RCA, led by hi
 His wife eventually won all his lawsuits against RCA. The lawsuit he fought the hardest for, was his original one on regeneration which is no longer in use.  The superheterodyne receiver on the other hand has survived a century and shows no signs of being replaced.
 
 Armstrong's invention makes modern communication possible, but humanity got it at a great price. With that appreciation, we can start looking at the system itself.
-### RF Band Selection Filtering
+### Antenna Tuning
 
-Modern 5G technology has enormous RF complexity with multiple frequency bands, complex modulation schemes, and high number of antennas. Fig ? shows the increasing complexity of the system for different communication standards. For all of this to work together, RF filtering is of utmost importance to minimize interference. 
+Early radio systems had a single antenna operating at a fixed frequency. A 5G smartphone operates over 50 bands ranging from 500 MHz to 6 GHz. While multiple antennas are required for dramatically different frequencies, it is only practical to reuse antennas for different frequencies by slightly tuning the existing antenna so that it works better. This is called Antenna tuning.
 
-For simplicity, let's consider an antenna receiving signals in a certain frequency band, say 2.4 GHz, a wireless LAN frequency. Depending on the standard, the frequency band is split into separate channels say 20 MHz in bandwidth. Our purpose is to extract the information present in the particular channel.
+Antenna tuning involves the use of a bank of capacitors with switches that can be turned on or off with digital control. The digitally tunable capacitor bank is placed at the antenna input to provide a loading capacitance that can alter the performance of the antenna to make it more optimal.
 
-Ideally, we would like to filter out only the specific channel from the received signal. This would require a filter that has exceptional rejection to select only a few MHz around a center frequency of several GHz. Even if the construction of such filters were possible, high selectivity often comes at the price of high insertion loss. Higher rejection levels in a filter can only come from increasing the filter order, which increases filter loss.
+By tuning the bank of capacitors, they usually perform two functions:
 
-This is an unacceptable system penalty to pay. The signal received by the antenna is already weak due to path loss, and excessive losses from filtering will degrade the signal further. The generally accepted solution is to just filter the entire frequency band, and not a specific channel, in order to remove unwanted interference.
+1. Antenna aperture tuning: the natural resonance of the antenna is shifted to the required band of operation. 
+2. Antenna impedance tuning: optimizes the signal transmission to the antenna by providing the correct impedance environment between the antenna and the rest of the system.
 
-We need to make in important distinction in terminology about interference. They can be of two kinds:
+Antenna tuners need to be low loss since they are directly connected to the antenna, and can drastically impact signal to noise ratio in the receive path, or overall system efficiency in the transmit path. 
 
+The RF switches also need to have low capacitance so that the capacitance tuning range is only set by the discrete capacitors being switched. Otherwise, the tuning range (represented by C-max / C-min) becomes limited.
+
+Since the antenna tuners appear after the power amplifier in the signal chain, they need to be able to handle high power while producing minimum distortion through nonlinearities.
+
+A lot of such antenna tuner switches are implemented with Silicon-on-Insulator technology become of the low-loss and low-capacitance switches that can be implemented on it.
+### Front End Filtering
+
+Within each GHz frequency band in a communication standard, there are 20-320 MHz channels containing information that needs to be extracted. Ideally, we would like to filter out only the specific channel from the received signal. 
+
+However, this would require a filter that has exceptional rejection to select only a few MHz around a center frequency of several GHz. Higher rejection levels in a filter can only come from increasing the filter order, which increases filter loss.
+
+This is an unacceptable system penalty to pay especially for components that come between the antenna and LNA/PA. The generally accepted solution is to just filter the entire frequency band and not a specific channel, in order to remove unwanted interference. The bandwidth of the filter relative to its center frequency will be 5-10% which is much more reasonable to implement in practice.
+
+Interference can be of two kinds:
 1. Out-of-band interference: These are unwanted signals present in the radio spectrum that do not belong to the communication standard of interest. For example: A GPS signal around 1.5 GHz would be out of band interference to a WLAN signal at 2.4 GHz.
 2. In-band interference: These are unwanted signals present *within* the frequency band of interest and usually present due to communication signals in neighboring closely spaced channels.
 
-The band select filter is filtering applied directly after the antenna, is usually implemented with acoustic wave filters. They work by converting an electrical signal to an acoustic signal, which then travels across the filter, and converted into an electrical signal again. These filters are several orders of magnitude smaller than electromagnetic wave filters and are ideal candidates for portable communication devices. They have low loss and exceptional rejection.
+Only out-of-band interference can be rejected by filtering in the front end. The in-band interference will remain and it will be rejected after downconversion by the channel select filter.
+
+Filtering in the front-end of the radio system is usually implemented with acoustic wave filters. They work by converting an electrical signal to an acoustic signal, which then travels across the filter, and is converted into an electrical signal again. These filters are several orders of magnitude smaller than electromagnetic wave filters and are ideal candidates for portable communication devices. They have low loss and exceptional rejection.
 
 They are of two types: 
 1. Surface Acoustic Wave (SAW) filters: Cheaper to implement and less complex but limited to about 2.5 GHz in center frequency.
-2.  Bulk Acoustic Wave (BAW) filters: More complex 3D structure, costlier but can be implemented to even 10 GHz and beyond. They offer better performance metrics than SAW filters for applications below 2.5 GHz. 
+2.  Bulk Acoustic Wave (BAW) filters: More complex 3D structure and costlier but can be implemented to even 10 GHz and beyond. They offer better performance metrics than SAW filters for applications below 2.5 GHz. 
 
-Fig ? shows a comparison between SAW and BAW filters. The typical loss of these filters is 1-2 dB, and loss improvements of even tenths of a dB are significant for such filters. 
+Fig ? shows a comparison of insertion loss between SAW and BAW filters. The typical loss of these filters is 1-2 dB, and loss improvements of even tenths of a dB are significant for such filters. Such filters are used extensively in the RF front-end system to isolate various frequencies of operation and allow coexistence between the various communication standards.
+### RF Switches
 
-After the band select filter is usually a band select switch as shown in the block diagram of a 5G smartphone below. For example, in 5G, the n77 band spans 3300-4200 MHz while the n79 band spans 4400-5000 MHz. The purpose of this switch is to deliver the signal to the correct LNA depending on the frequency band of operation. 
+There are a various of RF switches used in a practical radio front end, that perform various functions. They are:
 
-Since band-select switches are before the LNA, they are designed to have low loss (<1 dB). When used in the transmit path of the system, these switches also need to have high linearity (IIP3 > 80 dBm) and high power handling (>40 dBm) so that they can support high power levels while not producing unwanted spectral components.
+1. TR Switch: Switches between the transmit and receive paths in a time-domain-duplexed (TDD) system.
+2. Antenna diversity or cross Switch: Used to switch between antennas so that the best one is selected for operation.
+3. Band select switch: These are single-pole multi-throw switches that connect the signal to different narrowband amplifiers.
 
-### Low Noise Amplifier
+Depending on the use case and system design, there are a variety of switch designs that either emphasize on low loss, high isolation, high linearity and high power. Regardless of how it is optimized, they are still low loss components in the RF system because they are between the antenna and the amplifiers.
 
+These switches are designed by stacking large sized silicon-on-insulator MOSFETs in series due to the low loss and high isolation capabilities of SOI technology. The number of transistors used in the stack determines the loss, isolation and power handling capabilities. 
 
+As simple as the circuit topology sounds, the design of these switches are challenging and delicate. Multi-hundred million dollar companies are built on the back of components mentioned in this article alone!
+
+In a future newsletter, we will continue down the superheterodyne chain!
 
 https://www.qorvo.com/resources/d/qorvo-a-new-generation-of-5g-filter-technology-baw-white-paper (for picture of RF complexity in filtering)
 
