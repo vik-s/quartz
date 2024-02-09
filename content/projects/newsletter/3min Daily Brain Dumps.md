@@ -26,3 +26,12 @@
 3. What companies get wrong about weekly reports
 4. Career lessons I learned from [MFM podcast](https://youtu.be/pjUZH0uqeHw?si=WF5BrwKJy6_tfsIz) - can I distill it for engineers?
 5. How NOT to DM someone on social media
+
+## Feb 9 2024
+
+1. How to use chatGPT for RF Engineering
+2. Why I don't attend allhands meetings anymore
+3. [[projects/thoughts/How to be a diversified engineer]]
+4. The problem with having extremely niche job functions
+5. Why application specific device models are here to stay
+6. 
