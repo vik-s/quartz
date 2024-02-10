@@ -113,6 +113,10 @@ https://www.qorvo.com/design-hub/blog/baw-vs-saw-rf-filters
 
 [Front End Components and Limitations](https://transition.fcc.gov/bureaus/oet/tac/tacdocs/meeting71612/FilterDesignTutorial.pdf)
 
+https://www.infineon.com/dgdl/Infineon-Wireless_Communication_AG_2023-ApplicationBrochure-v01_00-EN.pdf?fileId=5546d46277921c320177af53b9de548a
 
+
+
+[[Excalidraw/superhet.excalidraw|superhet.excalidraw]]
 
 
