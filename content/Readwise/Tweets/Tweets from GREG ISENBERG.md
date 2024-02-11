@@ -56,3 +56,26 @@
   What do you think?
   Is it time to shake up the newsletter space?
   I think so... ([View Tweet](https://twitter.com/gregisenberg/status/1750155311044788359))
+## New highlights added February 11, 2024 at 1:54 PM
+- I heard something **Sam Altman** say a few years ago that's on my mind: 
+  "Adjusted for the subjective increase in how fast time passes, life is **half over** by 23 or 24". 
+  The older you get, the faster time seems to pass by.
+  I've been thinking about more and more ways to slow it down and enjoy every moment. Life moves quick. 
+  When you're a kid, life's full of new stuff, making time feel slow. 
+  As you grow up, fresh experiences get scarce, and time zips by. 
+  It's a bittersweet truth - less novelty, less time to enjoy it. 
+  So my point is, embrace new experiences to savor the passage of time 
+  And related to this is... I've learned that startup life ages you. 
+  So, if you're thinking about doing something new... 
+  Honestly, do it. Go wild. 
+  **Isn't now the time?**
+  This is the best time to start a company in 30 years. 
+  Think about it...
+  Between buying distressed VC-assets, partnering with creators, owning internet audiences, AI, VR finally becoming useful, GPT store is the new app store, productized services, paid communities, tiktok stores, multipreneurship, solopreneurship etc etc 
+  This a darn good time to get started to build a company, start a social account, do whatever it is that's on your mind. 
+  Maybe Sam Altman was right or wrong on the life is half over by 24, but it gets you thinking...
+  Every second counts. Make it count.
+  And feeling like a kid, makes everyday feel new and interesting. An adventure.
+  Shoot your shot.
+  -- 
+  You can follow me <a href="https://twitter.com/gregisenberg">@gregisenberg</a> if this struck a chord. Did it? Do you feel young or old?<img src='https://pbs.twimg.com/media/GGFHTVUXcAAkz_q.png'/> ([View Tweet](https://twitter.com/gregisenberg/status/1756764587884425452))
