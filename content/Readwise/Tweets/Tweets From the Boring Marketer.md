@@ -72,3 +72,7 @@
   And those were some of my top SEO tips for creators.
   As I mentioned above, SEO is low-hanging fruit for most creators who already have newsletter content, social media following, and brand awareness – and want to be diversified!
   So, try these tips out and you’ll soon start seeing good results.<img src='https://pbs.twimg.com/media/GFL5mPQXUAAjEMV.png'/><img src='https://pbs.twimg.com/media/GFL5xAYXgAAFam4.png'/><img src='https://pbs.twimg.com/media/GFL6lSJWgAAC57N.jpg'/><img src='https://pbs.twimg.com/media/GFL6ru9WQAEtyH3.jpg'/> ([View Tweet](https://twitter.com/boringmarketer/status/1752739820344881441))
+## New highlights added February 13, 2024 at 5:05 AM
+- Copy and paste my simple 5-step research process to nail your next SEO blog post
+  (Based on analyzing 1000’s of pieces we wrote for clients in the last 12 months) 
+  ![](https://pbs.twimg.com/media/GGJ3MXbasAAaAf4.jpg) ([View Tweet](https://twitter.com/boringmarketer/status/1757099188285042860))
