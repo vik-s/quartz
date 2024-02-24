@@ -76,3 +76,10 @@
 - Copy and paste my simple 5-step research process to nail your next SEO blog post
   (Based on analyzing 1000’s of pieces we wrote for clients in the last 12 months) 
   ![](https://pbs.twimg.com/media/GGJ3MXbasAAaAf4.jpg) ([View Tweet](https://twitter.com/boringmarketer/status/1757099188285042860))
+## New highlights added February 23, 2024 at 6:30 PM
+- A: “Subscribe to my newsletter”
+  B: “Download free employee onboarding checklist” under a post on employee onboarding.
+  A or B?
+  Which one do you think is the best way to grow an email list?
+  B is an example of a “Content upgrade”
+  Here’s how you can build upgrades in your content in 9 ways (+ examples): ([View Tweet](https://twitter.com/boringmarketer/status/1761104573299634658))
