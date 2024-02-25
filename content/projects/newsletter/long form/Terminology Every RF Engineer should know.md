@@ -11,6 +11,7 @@ final title:
 	- Types of gain
 	- Compression point
 - Noise Factor/Figure
+- Phase Noise
 - Linearity
 	- Intercept points
 	- Adjacent Channel Leakage Ratio
@@ -22,4 +23,5 @@ final title:
 - Matching
 	- For gain, max power, noise etc
 - Stability
-- 
+- Calibration
+- De-embedding
