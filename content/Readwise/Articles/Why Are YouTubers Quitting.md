@@ -1,0 +1,32 @@
+# Why Are YouTubers Quitting?
+
+![rw-book-cover](https://readwise-assets.s3.amazonaws.com/static/images/article0.00998d930354.png)
+
+## Metadata
+- Author: [[Trung Phan]]
+- Full Title: Why Are YouTubers Quitting?
+- Category: #articles
+- Summary: “Not sure if you have been following the YouTube universe but a number of major creators have quit or paused their channels (e. g.
+
+## Highlights
+- Václav Havel. Havel was a legendary Czech playwright turned imprisoned anti-Communist dissident turned President of Czechoslovakia (he served as the country's last President from 1989 to 1992 and then became the first President of the Czech Republic after its split with Slovakia in 1993). ([View Highlight](https://read.readwise.io/read/01hqf8662pxbwfze08bhwjvps7))
+- When people say the “pen is mightier than the sword”, Havel is a great example. His writing played a significant part in puncturing the image of the Soviet Union. My dad kept a lot of his writing in our house growing up and I encourage everyone to read [“The Power of the Powerless”](https://link.workweek.com/click/34460325.43008/aHR0cHM6Ly9lbi53aWtpcGVkaWEub3JnL3dpa2kvVGhlX1Bvd2VyX29mX3RoZV9Qb3dlcmxlc3M_aGFzaGVkX3VzZXI9NGRiMDUzMGRjMmI2MzdkZGZhZGY4ZTlkYTViZGU2YTU/653c811216aa445dc5f8b6fcB9f552b48).
+  I give you that pre-amble because Havel has a beautiful musing on the life of an artist. In his essay “Second Wind” — found in a compilation of his writings called *[Open Letters: Selected Writings, 1965-1990](https://link.workweek.com/click/34460325.43008/aHR0cHM6Ly93d3cuYW1hem9uLmNhL09wZW4tTGV0dGVycy1TZWxlY3RlZC1Xcml0aW5ncy0xOTY1LTE5OTAvZHAvMDY3OTczODExOD9oYXNoZWRfdXNlcj00ZGIwNTMwZGMyYjYzN2RkZmFkZjhlOWRhNWJkZTZhNQ/653c811216aa445dc5f8b6fcBb88e4b0c) —* Havel contemplates the three choices an artist faces after achieving success: ([View Highlight](https://read.readwise.io/read/01hqf86q7pyqgktxdv3sdpvry7))
+- *Sooner or later, however, a writer (or at least a writer of my type) finds himself at a crossroads: he has exhausted his initial experience of the world and the ways of expressing it and he must decide how to proceed from there.*
+  *He can, of course, seek ever more brilliant ways of saying the things he has already said; that is, he can essentially repeat himself.*
+  *Or he can rest in the position he achieved in his first burst of creativity, subordinate everything he learned to the interests of consolidating that position, and thus assure himself a place on Parnassus.*
+  *But he has a third option: he can abandon everything proven, step beyond his initial experience of the world, with which he is by now all too familiar, liberate himself from what binds him to his own tradition, to public expectation and to his own established position, and try for a new and more mature self-definition, one that corresponds to his present and authentic experience of the world.*
+  *In short, he can find his "second wind." Anyone who chooses this route—the only one (if one wishes to go on writing) that genuinely makes sense—will not, as a rule, have an easy time of it. At this stage in his life, a writer is no longer a blank sheet of paper, and some things are hard to part with. His original elan, self-confidence, and spontaneous openness have gone, but genuine maturity is not yet in sight; he must, in fact, start over again, but in essentially more difficult conditions.”*
+  To summarize the options: 1) repeat the exact same thing as past successes; 2) build on top of past successes but remain in the same creative lane; or 3) find a “second wind” by trying something completely new.
+  In a way, I think all of these super-successful YouTubers are trying to find their “second winds”. ([View Highlight](https://read.readwise.io/read/01hqf8783xcvysv7raak4xvkh8))
+- Everyone called it quits after around ten years.
+  This next statement is pure vibes — and can probably be falsified with countless examples — but a “decade” seems like enough time to achieve a certain level of mastery of the craft and grow a loyal audience. It’s also a nice round number to start considering a “next chapter”. ([View Highlight](https://read.readwise.io/read/01hqf87m54te8hpt5j39fr75yy))
+- First is MKBDH, who started his channel in 2008 and has 18m subscribers. He begins [his video](https://link.workweek.com/click/34460325.43008/aHR0cHM6Ly93d3cueW91dHViZS5jb20vd2F0Y2g_dj1HUUF2Y2UzTUE0NCZoYXNoZWRfdXNlcj00ZGIwNTMwZGMyYjYzN2RkZmFkZjhlOWRhNWJkZTZhNQ/653c811216aa445dc5f8b6fcD09f6ac4b) by saying that YouTube is his dream job and highlights the high percentage of young people who aspire to be YouTubers. Then, he discusses the trade-offs that most of these young people do not anticipate. ([View Highlight](https://read.readwise.io/read/01hqf8bj6e2jgqpq2x1sxm6fe9))
+- Creative Jobs Scale Differently vs. Regular Jobs ([View Highlight](https://read.readwise.io/read/01hqf8bpb3nqrkdwx3j0j0pqb4))
+- you're spending time on scaling up and less time on being creative.” ([View Highlight](https://read.readwise.io/read/01hqf8c8m005wh2h1s6vjw9gr7))
+- **A Creator is Like an Octopus:** A YouTuber has 5-10 jobs ([View Highlight](https://read.readwise.io/read/01hqf8bvy0jh9drv9jgj9x9gn8))
+- MKBHD also mentions that he enjoys the business aspect of the job (in contrast with Tom Scott, who said he didn't want to scale up and manage people ([View Highlight](https://read.readwise.io/read/01hqf8cr6b6rjh7aqwn85eaqre))
+- This dovetails with the fact that MKBHD is a leading product reviewer and he must get the wildest opportunities. He has already collaborated on shoes with Atomic and recently became the Chief Creative Partner at accessory-maker Ridge.
+  These entrepreneurial ventures are “second winds”. They fit snugly into his existing content, which reduces the likelihood of burnout. ([View Highlight](https://read.readwise.io/read/01hqf8d6aqq4g6dwbv9g3ayqzb))
+- Similarly, MrBeast — the world’s top individual YouTuber (who uploaded his first video in 2012 at the age of 13) — is still pushing on the platform. But he has also found an entrepreneurial outlet (Feastables chocolate bars) and is in negotiations to expand into streaming (a $100m deal to host a game show on Amazon Prime Video). ([View Highlight](https://read.readwise.io/read/01hqf8dt9aect6rwk6xqtv3v1r))
+- Rick is doing the career of a popular YouTubers in reverse. He came from a different era and joined the platform as his "second wind" (or his "fifth wind" if we include the prior professions). ([View Highlight](https://read.readwise.io/read/01hqf8fd39bckc7s7kas6emyfw))
