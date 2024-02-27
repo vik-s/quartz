@@ -4,7 +4,7 @@ tags:
   - misc_letters
 project: substack
 date_published: 2024-02-04
-status: 🚧
+status: 🟢
 final title:
 ---
 We did it! This newsletter has reached 1000 subscribers in the first month. I am more excited than words can describe and I express my deepest gratitude for joining me on this journey 🙏. 
