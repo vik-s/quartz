@@ -103,6 +103,31 @@ Here's the big question : -- **Why you?**  and how you solve the problem
 
 - Build your value statement
 	- You help [who] do [what] that lets them [outcome]
-	- I help 
+	- I help??
 
+Convert your value proposition into pain points:
+- RF engineering is black magic, I dont understand how it works
+- There is too much math in RF, I'm not smart enough to do it
+- I need to prepare for an RF interview and I dont have time
+- Books and lectures are hard to read and takes time
+- How do I prepare so I can find my dream job
 
+Aspirations after alleviating pain points:
+- I really understand RF and its not as hard as I thought
+- I find this interesting and want to take it up as a career
+- I did so much better in my interview
+- I was able to get my dream job in RF
+
+What is my secret sauce? Why me?
+- Get specific about the who?
+	- Who exactly needs your RF expertise?
+- What demographic do you solve?
+	- Students? at what level? bachelors? masters?
+	- Young professionals with income to spend on bettering their careers
+- What interests, values and attitudes do you want to align with?
+	- ?
+- Does geography matter?
+	- No. RF engineering is everywhere.
+- What kind of solution are you providing?
+	- Affordable? Courses priced at what level at what demographic or income level.
+Rank the above 5 based on importance, and choose the top 3.
