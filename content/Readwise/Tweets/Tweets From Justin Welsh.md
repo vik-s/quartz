@@ -238,3 +238,34 @@
   Congrats. 
   You're running a business.
   P.S. Yes, I understand employment agreements and non-competes. Check them both (obviously). ([View Tweet](https://twitter.com/thejustinwelsh/status/1753766282170618117))
+## New highlights added February 28, 2024 at 2:02 PM
+- My career has 3 weird, distinct phases:
+  **Phase I**
+  2003: Hired in pharma
+  2004: Fired
+  2004: Hired in pharma
+  2007: Fired
+  2007: Hired in med device
+  2009: Fired 
+  **Phase II**
+  2009: Hired in Tech
+  2010: Promoted to manager
+  2011: Promoted to Director
+  2013: Promoted to work for CEO
+  2015: Hired as VP of Sales
+  2018; Become CRO
+  2019: Quit
+  **Phase III**
+  2019: Started a business
+  2019: $534k in revenue
+  2020: $413k in revenue
+  2021: $635k in revenue
+  2022: $1.73M in revenue
+  2023: $2.22M in revenue
+  2024: $3.88M in revenue (proj.)
+  Phase I was an utter failure. 
+  Then, everything just flipped on a dime in Phase II.
+  It started when I found the right job, the right product, the right city, and the right people to work with.
+  Phase III started by using what I learned in Phase II.
+  So, if you're lost, consider focusing an inordinate amount of time on finding that perfect job.
+  It's often a springboard in your career and life. ([View Tweet](https://twitter.com/thejustinwelsh/status/1762826847962702252))

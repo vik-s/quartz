@@ -1,0 +1,13 @@
+
+| Name            | email                         | Topic                                                                                                                                                           |
+| --------------- | ----------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Suraj Ravikumar | surajnikhil.nikhil7@gmail.com | RF measurement fundamentals and practices, different RF modules (like frequency converters, splitters and combiners, LNB and BUC etc, but not limited to these. |
+| Behnam          |                               | 5G physical layer radio                                                                                                                                         |
+| Muneeb          |                               | resources such as articles, publications, etc. which new RF/Microwave Engineers could rely on to keep knowledge in this field up-to-date                        |
+| Sheifali Gupta  |                               | modern RF transceivers architecture and impairments affecting their performance                                                                                 |
+| Vijay Negi      |                               | programming examples to do automation for RF measurement                                                                                                        |
+| Ram             |                               | OFDMA pros and cons                                                                                                                                             |
+| Kanaka Mahesh   |                               | cascade performance of RF key parameters for a RX and TX front end chain? How each block impacts the RF performance?                                            |
+| Aram Akhavan    |                               | pHEMT                                                                                                                                                           |
+| Aparna Gautham  |                               | RF engg for space applications ( antennas and payloads)                                                                                                         |
+| Anonymous       |                               | calibration for Nrtwork analayzer                                                                                                                                                                |
