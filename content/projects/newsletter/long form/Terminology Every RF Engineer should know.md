@@ -7,107 +7,127 @@ date_published:
 status: 🚧
 final title: 5 Key Concepts Every RF Engineer should know
 ---
-_Hey, I’m Vikram 👋 and thanks for reading!_ 
 
-_Reply to this email and let me know about questions you have, topics you’d like to see or challenges you are facing. The feedback will help me improve the content quality. Even a few sentences will do! I reply to every email. 📝_
 
-_You can also reach me on [LinkedIn](https://www.linkedin.com/in/vikramsekar/)/[X](https://twitter.com/vikramskr). I highly recommend joining the community on the Substack chat.
+Most of RF engineering revolves around gain, noise, nonlinearity and efficiency. 
 
-_If you like these articles, please let others know. Word of mouth helps grow this newsletter! 🙏_
+In a [previous article](https://www.viksnewsletter.com/p/understanding-two-port-amplifier?r=222kot&utm_campaign=post&utm_medium=web), we discussed the various definitions of gain in detail. And noise in electrical systems is so fascinating, it deserves its own future article. 
 
-This article explains a list of terminology or key metrics you will use in the design of most RF systems. Knowing their definitions is key to system design, or even understanding the data sheets of various RF components. This list is by no means exhaustive. It is often the most used in microwave engineering, but there are a lot of terms you will come across.
+In this post, we will focus on nonlinearity and efficiency definitions commonly used in RF systems, and look at some underlying mechanisms and subtleties.
 
-### 1. Gain
+**Here are the concepts you will learn:**
 
-As opposed to voltage gain that you often see defined in operational amplifiers, in microwave engineering, we commonly deal with power gain. It is simply defined as
+1. What is compression and why it occurs
+    
+2. Two-tone intermodulation, intercept points and their measurement
+    
+3. Two different definitions of amplifier efficiency and how they differ
+    
 
-> the ratio of the power at the output to the power at the input
+Let’s begin!
 
-It is commonly expressed in decibels or dB. There are various definitions of power gain depending on what you consider the input and output in a system, especially when talking about amplifiers. Check out my earlier [detailed post] on that topic.
+---
 
-When gain is above 0 dB (or 1), there is signal amplification which is often the case when working with active devices such as amplifiers and mixers. If gain is below 0 dB (or between 0 and 1), there is insertion loss which is characteristic of passive devices like filters or attenuators. 
+### Compression
 
-### 2. Compression Point
+A linear amplifier will faithfully increase the level of the input signal without modifying the shape of the waveform. In practice, this is rarely the case. 
 
-A linear amplifier will faithfully increase the level of the input signal without modifying the output waveform. However, components that use active devices for amplification or mixing are inherently nonlinear. 
+Amplifiers use field effect transistors (FETs) or bipolar junction transistors (BJTs) for amplification. Such transistors are inherently nonlinear. For example, one source of nonlinearity is the voltage-dependent capacitance arising from a transistor’s semiconductor junctions, which often resemble a nonlinear diode during operation. Depending on the input signal level, these nonlinearities cause distortion of the output signal.
 
-One source of nonlinearity is the voltage-dependent capacitors arising from semiconductor junctions in a transistor which cause distortions of the output signal depending on the level of the input signal.
+#### The Frequency Domain Perspective
 
 Let's think of this in the frequency domain. If you inject an amplifier with a pure signal at only one frequency, you would expect a higher output power at the same frequency and nothing else. This is almost true at a low input signal level, and we refer to this value as linear gain.
 
-As you raise the level of the input signal, distortions in the active device start to increase the level of harmonics at the output and power is transferred from the fundamental tone to the harmonic frequencies. The output power level at the fundamental frequency starts to drop, giving lower gain at fundamental. 
+As you raise the level of the input signal, larger voltage swings in the transistor distort the signal to the point that it is no longer purely a single frequency signal. With some Fourier analysis (which we won’t do), we know that any deviations from a pure sinusoidal signal results in other harmonic frequency components whose weighted sum accurately represents the time-domain signal in the frequency domain.
 
-> The power level at the input or output at which the gain of the active device reaches 1 dB below linear gain is called compression point.
+As the level of input signal is further increased, the level of harmonics at the output increases till it is no longer negligible in magnitude compared to the fundamental signal. But where did these harmonic frequencies get their power from? 
 
-The choice of 1 dB is fairly arbitrary. Engineers use 0.1 dB or even 4 dB on occasion.
-### 3. Linearity
+Simple. It is transferred from the fundamental tone to the harmonic frequencies. As a result, the output power at the fundamental drops and the gain reduces. It is important to note that power is not actually “lost” during compression. It is merely redistributed from the fundamental to the harmonics.
 
-Instead of characterizing an RF component with a single frequency tone, linearity is measured by injecting two closely spaced frequencies into an RF component. 
+If we pick an amount of gain drop, say 1 dB, we can define a metric that describes how much power an amplifier can handle before it stops behaving like a linear amplifier.
 
-The reason for this is to evaluate the response of a component to an in-band interference closely spaced to the desired channel. In-band interference, as we discussed in a [previous post], cannot be easily filtered by the RF front end due to limited filter selectivity. The RF component needs to tolerate the neighboring interference without irrecoverably destroying the desired signal.
+> The power level (at input or output) at which the gain of the amplifier is lower by 1 dB below linear gain is called compression point.
 
-At the output, both fundamental tones are amplified to a higher level depending on the gain. In addition, power is generated in new frequency components due to the nonlinearity of the circuit. These new components are called intermodulation (IM) products.
+The choice of 1 dB is fairly arbitrary. Engineers use 0.1 dB or even 4 dB on occasion. The choice of linear gain as reference is also arbitrary. Some amplifiers have their gain increase before starting to enter compression. In such cases, peak gain is also a reasonable choice for reference gain.
+
+#### The Supply Rails Perspective
+
+Another popular way to look at amplifier compression is understanding the limitations of the power supply driving a circuit. If the output swing is so large that it is limited by the supply rails (voltage or current) the output power is also constrained and the overall gain drops. 
+
+In any case, this ties in with the distortion perspective we looked at in the frequency domain. When swing is sufficiently large to “clip” the output waveform, the signal gets distorted, harmonics rise, power is taken away from the fundamental and gain drops.
+
+If you have ever dealt with power amplifier design, then you’ll immediately recognize that this also depends on where the quiescent bias point for the amplifier is chosen. This takes us down a path of conduction angles and amplifier classes which is best left for a future article (we will run into this again when talking about efficiency.)
+
+Subscribe and help support this newsletter! Get weekly RF articles via email.
+
+### Nonlinearity
+
+The easiest measure of linearity is the harmonic content generated by a component when injected with a single frequency tone. In fact, this is how RF front-end switches are often evaluated for linearity, and is rather intuitive to understand. Lower the harmonics a component generates, the more linear it is.
+
+An alternative method is to use **two closely spaced tones as input** to an RF component, and is far more interesting to discuss.
+
+#### Two-Tone Intermodulation, Intercept Points
+
+In a [previous post](https://www.viksnewsletter.com/i/141523572/front-end-filtering), we discussed how in-band interference cannot be easily filtered by the RF front end due to limited filter selectivity. The RF component (like an amplifier) needs to tolerate the interference from a neighboring channel without irrecoverably destroying the desired signal. Characterizing nonlinearity using two tones emulates this scenario.
+
+When an RF amplifier is fed with two closely spaced sinusoidal signals, they are both amplified at the output. In addition to the intended tones, power is generated at unintended frequencies due to the nonlinearity of the circuit. These newly generated frequency components are called **intermodulation (IM) products**.
 
 IM products are a result of the mixing of two signals in a nonlinear system. With some trigonometry, it is possible to show that each of these IM products occur at a combination of the frequencies of the input tones. For simplicity, Fig? lists out the frequencies of the first five IM tones generated from a nonlinear mixing process.
 
-As the input power is increased, the level of IM products also increase at a rate that depends on the order of nonlinearity. The 2nd order IM product will increase twice as fast as the fundamental, the 3rd order thrice as fast and so on. 
+As the input power is increased, the level of IM products also increase at a rate that depends on the order of nonlinearity. The 2nd order IM product will increase twice as fast as the fundamental, the 3rd order thrice as fast and so on. 
 
-Now we can define the most common linearity metric, intercept point (IP), as:
+Now we can define a common linearity metric, **intercept point (IP)**, as:
 
 > The input or output power level at which the Nth order IM product has the same power level as the fundamental tone is called the N-th order intercept point (IPN)
 
 When referred to the input or output power, the linearity is called Input Intercept Point (IIP), or Output Intercept Point (OIP). It is quite common to look at the 2nd and 3rd IM products for amplifiers and mixers, and their corresponding linearity metrics will be listed as IIP2, OIP2, IIP3, and OIP3. The output and input referred intercept points only differ by the gain of the circuit.
 
-To measure intercept point, the input level cannot be increased to the point where the IM product has the same power as the fundamental tone. This is often too much power for the component to handle, and it would reach compression much before all this or get irreparably damaged.
+#### Measuring Intercept Point
+
+To measure intercept point, the input power cannot be increased to the point where the IM product has the same power as the fundamental tone. This is often too much power for the component to handle, and it would reach compression much before all this or get irreparably damaged.
 
 Intercept points are always extracted from extrapolating a few measurements at low input power, fitting a line through the measurements and finding where these lines intersect. For convenience, many measurements in industry as made at a single input power, and intercept points are calculated assuming a 2:1 or 3:1 slope for 2nd and 3rd order components respectively. This is a matter of simple algebra, and the several handy equations are listed in Fig? should you need to use them.
 
-Interestingly, the 1-dB compression point and IIP3 points are related on a first order basis. The 1-dB compression usually occurs about 10 dB before the IIP3. This can be 12-13 dB at times, but it serves as a good sanity check in practice to verify either measurement. If you are interested in why there is a 10 dB difference, check this out.
-### 4. Noise Factor or Figure
+Interestingly, the 1-dB compression point and IIP3 points are related on a first order basis. The 1-dB compression usually occurs about 10 dB before the IIP3. This can be 8-12 dB in practice, but it serves as a good sanity check to verify either measurement. If you are interested in why there is a 10 dB difference, check this out.
 
-While there is noise received by the antenna in a communication system, each component in the receiver adds its own noise. The noise could be from various sources such as thermal noise, 1/f noise, phase noise or shot noise. Regardless of what the underlying source is, noise factor is a metric that defines the noise added by any circuit in the system based on signal-to-noise ratio (SNR):
+### Efficiency
 
-> Noise factor is defined as the ratio of the SNR at the input to the SNR at the output of a circuit. When expressed in decibels, it is called noise figure.
-
-For reasons we will see in a future article, it is critical that the noise figure of any circuit that comes before the low-noise amplifier be as low as possible. Once the signal is amplified, the noise figure of subsequent blocks in the system becomes less important.
-
-In fact, a passive component like a filter can be assigned a noise figure equal to its insertion loss because the SNR degrades due to signal loss even if minimal noise is being added. As a result, it is important that any system components before the amplifier also has low loss. 
-
-This is the main reason that RF switches are implemented with silicon-on-insulator technology and low loss SAW/BAW filters are used in the RF front end. We discussed this in a [previous article].
-
-### 5. Efficiency
-
-While the term efficiency can be used in many contexts in an RF system, we will talk about two common ones: (1) Antenna (2) Power amplifier.
-
-> The antenna or radiation efficiency of an antenna refers to the ratio of the radiated power from the antenna to the power applied at its input terminals. 
-
-It can be expressed in percent (like 50%) or in decibels (-3 dB). Conductor and dielectric losses in an antenna contribute to loss of efficiency in an antenna.
-
-Radiation efficiency assumes that the antenna is perfectly matched, but in practice, there are always mismatch losses at the input. When the radiation efficiency is multiplied by the mismatch (a number between 0 and 1), it is called total efficiency of the antenna. In practice, total efficiency is always less than radiation efficiency.
+While the term efficiency can be used in many contexts in an RF system, we will discuss power amplifier related efficiencies here.
 
 In a power amplifier, efficiency refers to the ratio of the RF power delivered at the output to the DC power used to do it. Any loss of efficiency is due to energy dissipation due to heat.
 
 You will commonly encounter two different efficiency definitions:
 
-##### Drain/Collector Efficiency 
+#### Drain/Collector Efficiency 
 
 This efficiency definition stems from the calculation of power at the output terminal of an amplifying device and is a commonly used figure of merit in power transistors. The drain and collector are the output terminals of FET and Bipolar transistors.
 
 > Drain/Collector efficiency is the ratio of the RF power at the output terminal to the DC power supplied to it.
 
-In general, this definition of efficiency does not take input power into account. Depending on the gain of the amplifying device, this definition is misleading because the power transistor can have zero gain but high drain efficiency. This only means that all the input power is simply transferred to the output without amplification. You will still end up with a high efficiency number. 
+In general, this definition of efficiency does not take input power into account. Depending on the gain of the amplifying device, this definition is misleading because the power transistor can have zero gain but high drain efficiency. This only means that all the input power is simply transferred to the output without amplification. You will still end up with a high efficiency number. 
 
-If the amplifying device has a sufficiently high gain (> 30dB or 1000 times), then the input power is negligible compared to the output power and drain/collector efficiency is a useful and reasonable efficiency metric. 
+If the amplifying device has a sufficiently high gain (> 30dB or 1000 times), then the input power is negligible compared to the output power and drain/collector efficiency is a useful and reasonable efficiency metric. 
 
 There are other practical uses to this definition. In a multi-stage power amplifier, it is usually the output stage that has the highest efficiency. But it is difficult to measure how much input power is fed into it because it is integrated with other amplifying stages. In such a case, it is only reasonable to calculate efficiency from the output power alone. It is quite likely that gain is sufficiently high in a multi-stage amplifier anyway.
-##### Power Added Efficiency (PAE)
+
+#### Power Added Efficiency (PAE)
 
 Power added efficiency or PAE is a much better definition for lower gain amplifiers, and is defined as:
 
 > Power added efficiency is the ratio of the amount of excess power generated by the amplifier relative to the input power, to its DC power consumption.
 
-By accounting for the input power in the calculation, we take into account the gain of the device as well. A low gain device cannot have a great efficiency, since after all, not much amplification is happening. for the DC power being consumed. 
+By accounting for the input power in the calculation, we take into account the gain of the device as well. A low gain device cannot have a great efficiency, since after all, not much amplification is happening for the DC power being consumed. 
 
 Again for sufficiently high gain (>30 dB), the drain/collector efficiency and PAE should be quite close. PAE can also be calculated from drain efficiency if the gain G is known according to (formula).
 
+#### Improving efficiency
 
+Efficiency improvement in power amplifiers is a vast topic of research interest. And rightly so, because it is a key contributor to maintaining your phone’s battery life while making a call. From a high level, we can look at what affects efficiency in three different ways:
+
+1. **Class of amplifier operation**: Depending on where the amplifier is biased, and for what percentage of the sinusoidal waveform the device is actually conducting, the efficiency greatly differs, varying from 30% all the way to 90% and above. In addition, there are various sophisticated switching techniques and output waveform shaping techniques all geared towards increasing efficiency.
+    
+2. **Load impedance:** For a given class of operation, there is an optimum load when presented to the amplifying devices, delivers maximum efficiency. “Load-pull” measurements are utilized to find this optimum point, where the PAE is continuously measured for various load impedances to find the maximum point.
+    
+3. **Circuit techniques**: There are also ways to dynamically change the supply voltage using [envelope tracking to minimize wasted power](https://www.viksnewsletter.com/p/envelope-tracking-for-efficient-power?r=222kot&utm_campaign=post&utm_medium=web). Doherty amplifiers drive efficiency gains by using a parallel “peaking” amplifier, and other techniques like outphasing are also used to drive efficiencies higher.
+
+[[Excalidraw/Compression_Nonlinearity_Efficiency.excalidraw|Compression_Nonlinearity_Efficiency.excalidraw]]
