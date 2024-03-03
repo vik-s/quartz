@@ -3,8 +3,8 @@ title: How to treat Engineering as an infinite game
 tags:
   - atomic
 style: motivational
-written: 🚧
-published:
+written: ✅
+published: ✅
 ---
 You don't need SMART goals. You need a way to play the game for several decades. 👇🏼
 

@@ -3,8 +3,8 @@ title: What happens to an amplifier in compression?
 tags:
   - atomic
 style: 
-written: 
-published:
+written: ✅
+published: ✅
 ---
 When input signal to an amplifier is high, the output power and gain drops. The amplifier is in compression. But where does this power go?
 
