@@ -7,6 +7,15 @@ date_published:
 status: 🚧
 final title:
 ---
+Outline
+- Sources of a noise in electrical circuits
+- Definiton on noise figure
+- Noise figure in a cascaded system
+- Measuring noise figure
+	- Y-factor method
+	- Vector noise analysis
+
+
 ### 4. Noise Factor or Figure
 
 While there is noise received by the antenna in a communication system, each component in the receiver adds its own noise. The noise could be from various sources such as thermal noise, 1/f noise, phase noise or shot noise. Regardless of what the underlying source is, noise factor is a metric that defines the noise added by any circuit in the system based on signal-to-noise ratio (SNR):
