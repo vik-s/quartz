@@ -35,12 +35,25 @@ If we were to calculate the area under the white noise to find total noise energ
 
 To avoid this confusion, we will just talk about noise in a 1 Hz bandwidth. This means that 4kTR is the noise power in a resistor when a 1 Hz bandpass filter is applied at any frequency below a terahertz. To make it even easier for electrical engineers, we can take a square root of the average noise power and represent it as a root-mean-square (RMS) noise voltage expressed in V/sqrt(Hz). 
 
-Sqrt(Hz) is a strange unit, but we live with it because the numerator is in volts, and lends itself to circuit analysis nicely. Given any circuit with a noisy resistor R, you can immediately replace it by a noiseless resistor with a noise voltage or noise current. The Thevenin and Norton representations shown below prove quite useful in circuit analysis.
+Sqrt(Hz) is a strange unit, but we live with it because the numerator is in volts, and lends itself to circuit analysis nicely. Given any circuit with a noisy resistor R, you can immediately replace it by a noiseless resistor with a noise voltage or noise current. The Thevenin and Norton representations shown below prove quite useful in circuit analysis. If noise voltage is expressed in V/sqrt(Hz), noise current is A/sqrt(Hz).
 
 An immediate application of these concepts is in the received noise of an antenna which is often characterized by its radiation resistance. In the calculation of noise in a system, the antenna produces a noise voltage of sqrt(4kTR_rad).
 
 Fig2
-## Noise in Transistors
+## Noise in MOSFETs
+
+This gets complicated really fast. So we will stick to understanding the dominant noise sources in a MOSFET, why they occur and how to analyze noise in a circuit.
+
+Noise in a MOSFET arises from a variety of sources, but the majority of it comes from its intrinsic thermal noise. With good design practices, the contribution of the other sources can be minimized. Thermal noise in a MOSFET is approximated with a noise current between source and drain whose PSD is 4kT\gamma.gm, or as a noise voltage whose PSD is 4kT\gamma/gm. 
+
+gm is the "transconductance" of the transistor, which is a measure of how much current it generates for how much input voltage. \\gamma is the "white noise gamma factor" or "excess noise coefficient" with a value of 2/3 for transistors whose gate length is sufficiently large (>1 micron). As the gate length of the transistor shrinks below 1 micron, the value of \gamma goes up to even 2 due to noise contributions from parasitic resistances in the small transistor and other effects such as velocity saturation and channel length modulation.
+
+The figure below shows the thermal noise 
+
+
+
+
+
 
 MOSFETs:
 - thermal noise in saturation region
