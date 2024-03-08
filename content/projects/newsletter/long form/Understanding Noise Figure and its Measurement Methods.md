@@ -79,39 +79,25 @@ Flicker or 1/f noise affects MOSFETs at low frequencies and its origins have bee
 
 There are attempts to merge the two theories too. Without getting deep into the origins of this noise, it is enough to understand that the PSD of flicker voltage noise is given by: $$\overline{V_n^2} =  \frac{K}{WLCox} . \frac{1}{f}$$where K is a process dependent constant, W and L are transistor dimensions and Cox is the oxide capacitance.
 
-It is important to know that the 1/f PSD of flicker noise  reaches the same level as thermal noise at a point called the "1/f noise corner frequency". Ideally we want this corner frequency to be as low as possible, but modern MOS devices can have this corner at several hundred MHz.
+It is important to know that the 1/f PSD of flicker noise  reaches the same level as thermal noise at a point called the "1/f noise corner frequency". Ideally we want this corner frequency to be as low as possible, but modern MOS devices can have this corner in 10-100 MHz range.
 #### Gate Noise
 
-The gate of a MOSFET is often a significant contributor to noise, and its effect is more important as the gate length is scaled down. The polysilicon gate in short channel transistors have more resistance that contributes to thermal noise whose voltage PSD can be approximated by $$\overline{V_n^2} = 4kTR_{g,eff}$$Due to the distributed resistance across the gate, the effective resistance is about 1/3 the value you get from counting the number of resistor squares on the gate. If the gate is contacted on both ends, the effective resistance can be as low as 1/12. Other methods to reduce gate resistance is to use transistors with multiple fingers.
+The gate of a MOSFET is often a significant contributor to noise, and its effect is more important as the gate length is scaled down. The polysilicon gate in short channel transistors have more resistance that contributes to thermal noise whose voltage PSD can be approximated by $$\overline{V_n^2} = 4kTR_{g,eff}$$Due to the distributed resistance across the gate, the effective resistance is about 1/3 the value you get from counting the number of resistor squares on the gate. If the gate is contacted on both ends, the effective resistance can be as low as 1/12. Other methods to reduce gate resistance is to use transistors with multiple fingers and siliciding the polysilicon gate to minimize its resistance.
 
 #### Induced Gate Noise
 
 This one is interesting. Remember that the space between the gate and channel of transistor is separated by a thin oxide layer. This makes the channel and the gate capacitively coupled, and if the frequency of operation is sufficiently high, there is a low impedance coupling path between the channel and the gate.
 
-This means that any thermal noise in the channel induces a noise at the gate through the coupling path and its PSD can be expressed as: $$\overline{I_n^2}=4kTR_{g,eff}.(\omega^2C_{gg}^2) $$where Cgg is the effective gate capacitance. Induced gate current noise has a squared relationship to the frequency. When using thin oxide, short channel transistors with high gate resistance and high oxide capacitance at high frequency, induced gate noise can be a significant contributor to overall noise.
+This means that any thermal noise in the channel "induces" a noise at the gate through the capacitive coupling path and its PSD can be expressed as: $$\overline{I_n^2}=4kTR_{g,eff}.(\omega^2C_{gg}^2) $$where Cgg is the effective gate capacitance. Induced gate current noise has a squared relationship to the frequency. When using thin oxide, short channel transistors with high gate resistance and capacitance at high frequency, induced gate noise can be a significant contributor to overall noise.
 
 Similarly, the 1/f noise from the transistor will also be induced at the gate, with the frequency-squared dependence making it effectively proportional to frequency. Luckily, these mechanisms are at odds with each other. 1/f noise is low at high frequency, and the capacitive coupling is low at low frequency. As a result, induced flicker noise is not a major contributor.
 
 #### Shot Noise
 
+As the channel length of transistors shrink, there is an additional source of noise to worry about. The leaky gate oxide causes the carriers in the channel to "tunnel" through the oxide resulting in a gate leakage current. This quantum-mechanical effect will result in a shot noise contribution to the overall gate current noise and is related to the gate leakage current as: $$\overline{I_n^2}=2qI_G$$
+Fortunately, the impact of shot noise is dominated by gate resistance noise and induced gate noise at RF frequencies of a few GHz. At frequencies below the GHz range, shot noise may become a significant source of noise. If you tied the source and drain of a MOSFET together to make a capacitor, the shot noise of gate current will be a dominant noise source in that case.
 
-#### Popcorn Noise
-
-
-
-
-
-
-
-MOSFETs:
-- thermal noise in saturation region
-- gate resistance noise
-- gate induced noise current
-- flicker noise
-
-BJTs:
-- thermal noise from physical B, C, E resistors
-- Shot noise from carrier transport across Base / Emitter
+Now that there is gate leakage through the oxide dielectric, the resulting DC gate leakage current generates its own thermal noise and 1/f noise contributions to the gate current. The origins of 1/f noise in gate tunneling current is really not well understood. Its best to let sleeping dogs lie for the sake of this article.
 
 ## Noise in Circuits
 
@@ -128,3 +114,4 @@ BJTs:
 - https://briefs.techconnect.org/wp-content/volumes/Nanotech2014v2/pdf/992.pdf
 - M. J. Deen, C. . -H. Chen, S. Asgaran, G. A. Rezvani, J. Tao and Y. Kiyota, "High-Frequency Noise of Modern MOSFETs: Compact Modeling and Measurement Issues," in IEEE Transactions on Electron Devices, vol. 53, no. 9, pp. 2062-2081, Sept. 2006, doi: 10.1109/TED.2006.880370.
 
+[[Excalidraw/Noise_in_MOS_transistors.excalidraw|Noise_in_MOS_transistors.excalidraw]]
