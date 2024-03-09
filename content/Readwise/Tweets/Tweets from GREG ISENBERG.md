@@ -79,3 +79,49 @@
   Shoot your shot.
   -- 
   You can follow me <a href="https://twitter.com/gregisenberg">@gregisenberg</a> if this struck a chord. Did it? Do you feel young or old?<img src='https://pbs.twimg.com/media/GGFHTVUXcAAkz_q.png'/> ([View Tweet](https://twitter.com/gregisenberg/status/1756764587884425452))
+## New highlights added March 8, 2024 at 9:44 PM
+- **How to write good copy for the internet (a guide):**
+  Bad copy kills businesses, good copy makes them.
+  I think we’re entering an era where the best products don’t necessarily win, the best copy does.
+  Most people write copy like they are writing instruction manuals.
+  They got lost in explaining how the sausage is made and no one cares.
+  And even worse they use that same robotic copy in the content they create.
+  **1. Paint a picture**
+  Make your reader see, feel, and believe in the world you're describing as if they're living it. It's like telling a story that they become a part of.
+  **2. Conversational tone**
+  Write like you're chatting with a friend. It should feel easy and friendly, making your reader feel right at home.
+  **3. Use line breaks generously**
+  Space out your sentences like breathing spaces in a conversation. It makes everything easier to read and feels less crowded. People don;t have time to read dense paragraphs when you are competing with TikTok and Instagram.
+  **4. Hone in on a single focal point**
+  Keep your message tight around one big idea. It's like using a spotlight in a dark room to show off the most important thing.
+  **5. Shows credibility with examples**
+  Use real stories or examples to prove your point. It's like showing a picture to prove you've been somewhere cool.
+  **6. Anticipates concerns and works through objections**
+  Think ahead about what might bother your reader and talk it out. It's like answering their questions before they've even asked them.
+  **7. Entertaining**
+  Keep things fun or interesting so your reader enjoys reading. It’s like adding a dash of spice to make a meal tastier.
+  **8. Know who you’re trying to reach**
+  Write for someone specific, like you know exactly who they are, what they like, and what they need. It’s like picking out a gift for a good friend.
+  **9. Show how the product works**
+  Explain how things work in simple terms. It’s like explaining a game so everyone can play.
+  **10. Has clear calls-to-action**
+  Be clear about what you want your reader to do next. It’s like giving clear directions so someone doesn’t get lost.
+  **11. Don’t be a robot**
+  Put some personality in your writing. It’s like wearing your favorite outfit instead of a uniform.
+  **12. Be different than your competition**
+  Stand out by being yourself. It’s like choosing to dance to your own music when everyone else is doing the same dance.
+  13. Use positive words
+  Use words that make people feel good and hopeful. It’s like smiling through your words.
+  **14. Avoid exclamation points**
+  Use them sparingly. It’s like not shouting in a conversation.
+  **15. Clear and concise**
+  Keep it short and sweet. It’s like telling a story without adding unnecessary details.
+  **16. Safe copy is risky copy**
+  Dare to be different. It’s like taking a new path through the woods instead of the worn trail.
+  **17. Be interesting, be brave**
+  Write something that grabs attention. It’s like telling a story that no one wants to end.
+  **18. Every word matters**
+  Choose your words carefully. It’s like picking out just the right ingredients for a recipe.
+  I hope this guide has been helpful. You can follow me [gregisenberg](https://twitter.com/gregisenberg) for more of this stuff.
+  Happy writing.
+  ![](https://pbs.twimg.com/media/GIKbdTOaUAAo1sf.png) ([View Tweet](https://twitter.com/gregisenberg/status/1766145844766790041))
