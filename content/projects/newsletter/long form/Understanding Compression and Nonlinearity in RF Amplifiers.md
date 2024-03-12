@@ -5,7 +5,8 @@ tags:
 project: substack
 date_published: 2024-03-03
 status: 🟢
-final title: 5 Key Concepts Every RF Engineer should know
+final title: An (almost) Equation-Free Introduction to Compression and Nonlinearity Metrics
+url: https://www.viksnewsletter.com/p/understanding-compression-and-nonlinearity?r=222kot&utm_campaign=post&utm_medium=web
 ---
 
 

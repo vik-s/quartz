@@ -6,6 +6,7 @@ project: substack
 date_published: 2024-01-07
 status: 🟢
 final title: Absolute basics of Transmission Line Theory
+url: https://www.viksnewsletter.com/p/absolute-basics-of-transmission-line?r=222kot&utm_campaign=post&utm_medium=web
 ---
 Transmission lines are everywhere whether you realize it or not.
 

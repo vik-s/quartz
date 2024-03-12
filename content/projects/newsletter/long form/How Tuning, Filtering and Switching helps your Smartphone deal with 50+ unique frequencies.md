@@ -6,6 +6,7 @@ project: substack
 date_published: 2024-02-25
 status: 🟢
 final title: How Tuning, Filtering and Switching helps your Smartphone deal with 50+ unique frequencies
+url: https://www.viksnewsletter.com/p/how-tuning-filtering-and-switching?r=222kot&utm_campaign=post&utm_medium=web
 ---
 It is incredible how many standards your smartphone has to support.
 

@@ -1,0 +1,81 @@
+---
+title: What it takes to design an RF integrated circuit
+tags:
+  - circuit
+project: substack
+date_published: 
+status: 🚧
+final title: 
+url:
+---
+The process of designing an RF integrated circuit (RFIC) is a long and arduous one. With the advent of AI, there is a lot of activity among researchers and industry to automate away the design process as much as possible. There is also an undercurrent in the industry that once AI takes over, knowledge workers are going to lose a lot of jobs.
+
+In this article, I'd like to describe the process of RFIC chip design to the best extent I understand it. The purpose is to provide a glimpse into this world for readers who have not had a chance to work directly in this field. For people who do, perhaps this will still be instructive and maybe you'll take away some new perspectives you can apply.
+
+Here,  we will discuss:
+- thing1
+- thing2
+- thing3
+
+Let's get into it!
+
+---
+
+## Specification and Program Management
+
+The first step to designing an RFIC is to ensure you'll be able to sell it when you do. The technical marketing teams in companies work with customers to understand their requirements, both technical and the volume of products they will need. 
+
+This requires a solid understanding of what is actually possible in terms of IC design. A lot of technical marketing guys I've worked with in the past, have been IC design engineers in the past. Their experience is vital in communicating a reasonable spec to the customer and pushing back when specs become too challenging to implement.
+
+Once the specifications are agreed upon between the company and the customer, the details of the design are handed to the IC design teams with an expectation of when the final design should be ready for manufacturing. A program manager is usually assigned at this point to the project to ensure that all the time lines are being met. And also to ensure that all the necessary parties such as marketing, design, packaging and testing are in constant communication with each other to manage their workloads. The role of the program manager is to ensure that the teams are ready to work on their part of the design project when their turn arrives so that the design receives all the necessary support in the timeline specified.
+## Circuit design
+
+Let's say that an RF amplifier needs to be designed. What kind of circuit should you choose? This is where most young engineers especially fresh out of graduate school will be surprised. In most large companies, you will have surprisingly little leeway to implement any fancy design techniques you invented in your PhD program.
+
+The bread and butter of RFIC design is still the basic circuits you learn in school, and most design managers are weary of implementing any "unproven" techniques published in papers or conferences. Additionally, the specifications that are agreed to are often based on a previous product that was successful, so in all likelihood, using a similar circuit topology will ensure the greatest chances of success. You might even be designing a derivative product- that is, a slight improvement on an earlier product. This could be a wider frequency range, a different supply voltage, or a few additional features. In such cases, there is no reason to start afresh with a new circuit topology. Simply use what has worked before and make the necessary changes.
+
+If you're lucky to get to work on a brand new project that's not a derivative, it is important that you floorplan first. You are given a certain chip size, and your design should fit into it. So don't plan on making any monstrous inductors. The best thing to do at this point is to quickly design a schematic and estimate the values of components that will be necessary. Plan out where your transistors will go, how your inductors will be placed and in what orientation to minimize coupling, where your connections to the external world will be placed, and where the supply bypass capacitors will go. Even run some simulations in an electromagnetic tool if you need to validate that your floorplan will work. Communicate with the packaging team to ensure that you can eventually interface your chip to the outside world. A little prep work here can go a long way. Once this is reasonably in place, you can actually design the circuit.
+
+Circuit design is where the meat and potatoes are. This is the most exciting part of the process for most. You get to optimize the design to ensure that you extract the best performance possible. You iterate over the design to meet all the current draw requirements, gain, linearity and matching specifications provided. In addition, you will have to verify that the design:
+- works over process variation by simulating corners and running statistical monte-carlo simulations
+- works across temperature and voltage by simulating each case and evaluating performance
+
+As your progress through the design phase, you develop a "feel" for how sensitive the design performance is to various components in the circuit. This is important for several reasons:
+- you will include spare transistors, resistors and capacitors that are not connected to anything, so that you can hook it up in a metal redesign later if needed. We will revisit this later.
+- you will create "variants" of the design by over or under designing components to bracket the performance, and ensure that you get at least one working version.
+- when the time comes to debug the circuit (and it always comes around), you know where to look based on the intuition you developed.
+
+At this point arrives one of the most grueling parts of chip design: The Design Review. Or at least it should be grueling. Your design will be critiqued by a wide audience for many hours at a time. I've even seen teams of 50 people critique a design for 4 hours. This kind of critique is important because chip manufacturing is a costly (hundreds of thousands of dollars) and time-consuming process (many months) and the last thing a company wants is to make obvious mistakes that sets the program back.
+
+Based on the design review feedback, you will be expected to make the changes suggested by the team. In most cases,  you will also run an extensive battery of extra simulations to verify whether or not some of the concerns raised in a design review are valid or not. The key piece of advice here is to not take any of the critique in a design review personally even if it becomes a heated discussion. A rigorous and thorough design review is what makes a chip successful. Fixing problems that you missed after the chip is manufactured is infinitely harder.
+
+## Device Models, Parasitic Extraction and Electromagnetics
+- Device models - a primer. What they are. What they're not. How much to believe them.
+- What is parasitic extraction and why do we need it.
+- How do device models interact with parasitic extraction
+- Why EM is required? Where do you get the process stackup?
+- What is the best EM tool? 
+- Correlating EM tool accuracy
+
+## Design Rules, LVS, Density
+- What are design rules? How many do I have to meet? In GaAs? In modern cmos?
+- Layout versus schematic is a must, and everyone does it
+- Density fill and why its needed. What is cheesing? Why is it needed?
+- Run electromagnetics again if time permits.
+
+## Packaging, Board Evaluation and Testing
+- Impact of packaging on the IC design
+- Introduction of new ground planes and coupling paths
+- Impedance control and good ground plane access on the EVB
+- Testing a chip for all its specs - across voltages, temperatures and multiple samples.
+- Generating the data sheet in collaboration with marketing.
+- Providing samples to customers
+
+## Iterations
+- Few ICs work straight out of the gate. 
+- Always correlate your measurements with simulation. this takes extra work but its worth it.
+- There will be some spec not being met, or something the customer doesnt like
+- Do a tapeout revision-- if you can use the spares to reconfigure the circuit, you can only do a metal mask spin. otherwise you have to do an all-layer change -- more $
+
+## Productization
+- what is involved here.

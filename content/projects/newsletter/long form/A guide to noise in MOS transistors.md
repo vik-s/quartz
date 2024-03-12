@@ -1,11 +1,11 @@
 ---
 title: Understanding Noise Figure and its Measurement Methods
 tags:
-  - metrology
+  - device
 project: substack
-date_published: 
-status: 🚧
-final title:
+date_published: 2024-03-10
+status: 🟢
+final title: A guide to noise in MOS Transistors
 ---
 Noise is the great limiter. Without it, we would be communicating with aliens, have infinite computing power and create Skynet. Unfortunately for us mere mortals, we have to overcome the effects of noise in our world. In this article, we look at the basics.
 
