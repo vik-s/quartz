@@ -342,3 +342,7 @@
   If you found it helpful:
   - Follow me <a href="https://twitter.com/JMatthewMcGarry">@JMatthewMcGarry</a> for more content like this.
   - Join my newsletter below to get access to all my best content. ([View Tweet](https://twitter.com/JMatthewMcGarry/status/1743263919907524791))
+## New highlights added March 15, 2024 at 7:04 AM
+- Newsletter growth hack I've used to drive 100K+ subscribers:
+  Referral giveaways.
+  Here's how you can use them to do the same for your newsletter (it's much easier than most think): ([View Tweet](https://twitter.com/JMatthewMcGarry/status/1768615390479818878))
