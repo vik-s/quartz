@@ -269,3 +269,11 @@
   Phase III started by using what I learned in Phase II.
   So, if you're lost, consider focusing an inordinate amount of time on finding that perfect job.
   It's often a springboard in your career and life. ([View Tweet](https://twitter.com/thejustinwelsh/status/1762826847962702252))
+## New highlights added March 15, 2024 at 6:04 AM
+- Online businesses aren't built overnight:
+  - Month 1: Fumbling around in the dark
+  - Month 3: Gaining some traction
+  - Month 6: Solidifying your offer
+  - Month 12: Predictable sales
+  - Year 2+: Streamlining and outsourcing
+  Play the long game & reap the benefits. ([View Tweet](https://twitter.com/thejustinwelsh/status/1768373198251335763))

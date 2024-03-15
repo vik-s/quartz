@@ -23,40 +23,57 @@ Let's get into it!
 
 ## Specification and Program Management
 
-The kickoff of any RFIC design in a company starts with answering the following:
+The start of RFIC design in any company starts with answering the following questions:
 - What does this RFIC do, and what industry does it serve?
 - Who are the competitors to this design?
 - What is the differentiating feature that will set this RFIC design apart?
 - Who are the potential customers for this chip?
 - What is the volume of expected sales and expected lifetime of the product?
 
-The chip design can serve customers both internal and external to the company. While its easier to understand how a chip may be packaged up and sold to other original equipment manufacturers (OEMs), larger companies have chip design teams that provide products for the larger chipset or module they are building. Regardless, the questions above still need solid answers.
+The chip design can serve customers both internal and external to the company. While its easier to understand how a chip may be packaged up and sold to other original equipment manufacturers (OEMs), larger companies have chip design teams that provide products for the larger chipset or module they are building. 
 
-The answers usually come from discussions between technical sales and marketing teams, and RFIC design managers. The technical sales/marketing teams meet with customers to define the requirements.
+The answers usually come from discussions between the technical sales and marketing team, and RFIC design managers. The technical sales/marketing teams meet with customers to define the requirements and then convene with RF design managers to come up with a specification that is both reasonable and achievable.
 
-This requires a solid understanding of what is actually possible in terms of IC design. A lot of technical marketing guys I've worked with in the past, have been IC design engineers in the past. Their experience is vital in communicating a reasonable spec to the customer and pushing back when specs become too challenging to implement.
+This requires a solid understanding of what is actually possible in terms of IC design from everyone involved. A lot of technical marketing folks I've worked with in the past, have been IC design engineers in their previous lives. Their experience is vital in communicating a reasonable specification to the customer and pushing back when they become too challenging to implement.
 
-Once the specifications are agreed upon between the company and the customer, the details of the design are handed to the IC design teams with an expectation of when the final design should be ready for manufacturing. A program manager is usually assigned at this point to the project to ensure that all the time lines are being met. And also to ensure that all the necessary parties such as marketing, design, packaging and testing are in constant communication with each other to manage their workloads. The role of the program manager is to ensure that the teams are ready to work on their part of the design project when their turn arrives so that the design receives all the necessary support in the timeline specified.
+Once the specifications are agreed upon, they are handed to the IC design teams along with a completion deadline. The product has an official kick-off meeting where the high level details are presented to an audience containing marketing, design, technology, packaging, test and production teams. 
+
+A program manager is usually assigned to the project who ensures that
+- the product design is proceeding according to the timeline
+- there is good communication between various teams involved
+- monitors the workload of the different teams and maintains project statuses
+
+Significant groundwork needs to be laid out before the design process can actually begin. IC design is quite an involved process as we will see. Laying a solid foundation in the beginning goes a long way in ensuring that the companies resources are being deployed appropriately.
 ## Circuit design
 
 Let's say that an RF amplifier needs to be designed. What kind of circuit should you choose? This is where most young engineers especially fresh out of graduate school will be surprised. In most large companies, you will have surprisingly little leeway to implement any fancy design techniques you invented in your PhD program.
 
-The bread and butter of RFIC design is still the basic circuits you learn in school, and most design managers are weary of implementing any "unproven" techniques published in papers or conferences. Additionally, the specifications that are agreed to are often based on a previous product that was successful, so in all likelihood, using a similar circuit topology will ensure the greatest chances of success. You might even be designing a derivative product- that is, a slight improvement on an earlier product. This could be a wider frequency range, a different supply voltage, or a few additional features. In such cases, there is no reason to start afresh with a new circuit topology. Simply use what has worked before and make the necessary changes.
+The bread and butter of RFIC design is still the basic circuits you learn in school, and most design managers are weary of implementing any "unproven" techniques published in papers or conferences. Design specifications are often based on a previous product that was successful. In all likelihood, using a similar circuit topology will ensure the greatest chances of success. 
 
-If you're lucky to get to work on a brand new project that's not a derivative, it is important that you floorplan first. You are given a certain chip size, and your design should fit into it. So don't plan on making any monstrous inductors. The best thing to do at this point is to quickly design a schematic and estimate the values of components that will be necessary. Plan out where your transistors will go, how your inductors will be placed and in what orientation to minimize coupling, where your connections to the external world will be placed, and where the supply bypass capacitors will go. Even run some simulations in an electromagnetic tool if you need to validate that your floorplan will work. Communicate with the packaging team and understand where the input-output pins should be placed to ensure it can be packaged into a product later. A little prep work here can go a long way. Once this is reasonably in place, you can actually design the circuit.
+You might even be designing a derivative product, i.e., a slight improvement on an earlier product. This could be a wider frequency range, a different supply voltage, or a few additional features. In such cases, there is no reason to start afresh with a new circuit topology. Simply use what has worked before and make the necessary changes.
 
-Circuit design is where the meat and potatoes are. This is the most exciting part of the process for most. You get to optimize the design to ensure that you extract the best performance possible. You iterate over the design to meet all the current draw requirements, gain, linearity and matching specifications provided. In addition, you will have to verify that the design:
+If you're lucky to get to work on a brand new project that's not a derivative, it is important that you floor-plan first. The specification will define the overall chip area, and your design should fit into it. So don't plan on making any monstrous inductors. 
+
+The best thing to do at this point is to quickly design a schematic and estimate the values of components that will be necessary. Plan out where your transistors will go, where and in what orientations your inductors will be placed, where your connections to the external world will be, and where the supply bypass capacitors will go. 
+
+Most importantly, communicate with the packaging team and understand where the input-output pins should be placed. This will guarantee that your chip will fit into the desired package later. This is usually fixed early in the design for the large part, with only minor changes to accommodate things like extra ground connections.
+
+Run some simulations in an electromagnetic tool if you need to validate that your floor-plan will work.  Mutual coupling issues between critical inductors in your chip should be caught early. Reorient them as necessary to find the optimal placement.
+
+Circuit design is where the meat and potatoes are. This is the most exciting part of the process for most. You get to optimize the design to ensure that you extract the best performance possible. You iterate over the design to meet all the current draw requirements, gain, linearity and matching specifications provided. 
+
+In addition, you will have to verify that the design:
 - works over process variation by simulating corners and running statistical monte-carlo simulations
 - works across temperature and voltage by simulating each case and evaluating performance
 
 As your progress through the design phase, you develop a "feel" for how sensitive the design performance is to various components in the circuit. This is important for several reasons:
-- you will include spare transistors, resistors and capacitors that are not connected to anything, so that you can hook it up in a metal redesign later if needed. We will revisit this later.
-- you will create "variants" of the design by over or under designing components to bracket the performance, and ensure that you get at least one working version.
-- when the time comes to debug the circuit (and it always comes around), you know where to look based on the intuition you developed.
+- you will include spare transistors, resistors and capacitors that are not connected to anything, so that you can hook it up in a metal redesign later if needed. 
+- you will create "variants" of the design by over or under designing components to bracket the performance. This ensures that you get at least one working version.
+- when the time comes to debug the circuit (and it always does), you know where to look based on the intuition you developed.
 
 At this point arrives one of the most grueling parts of chip design: The Design Review. Or at least it should be grueling. Your design will be critiqued by a wide audience for many hours at a time. I've even seen teams of over 50 people critique a design for 4+ hours. This kind of critique is important because chip manufacturing is a costly (hundreds of thousands of dollars) and time-consuming process (many months) and the last thing a company wants is to make obvious mistakes that sets the program back.
 
-Based on the design review feedback, you will be expected to make the changes suggested by the team. In most cases,  you will also run an extensive battery of extra simulations to verify whether or not some of the concerns raised in a design review should be addressed or not. The key piece of advice here is to not take any of the critique in a design review personally even if it becomes a heated discussion. A rigorous and thorough design review is what makes a chip successful. Fixing problems that you missed after the chip is manufactured is infinitely harder. Understand that your colleagues are are trying to help you be successful.
+Based on the design review feedback, you will be expected to make the changes suggested by the team. In most cases,  you will also run an extensive battery of extra simulations to verify the concerns raised in a design review. The key piece of advice here is to not take any of the critique in a design review personally even if it becomes a heated discussion. A rigorous and thorough design review is what makes a chip successful. Fixing problems that you missed after the chip is manufactured is infinitely harder. Understand that your colleagues are are trying to help you be successful.
 
 Once you make the requested changes to your design based on the review process, there will be several follow up rounds to ensure that the changes haven't broken anything. The extra simulations you run will help prove to the team that critical issues brought up in the previous design review have been looked at. At this point, the design lead or manager will sign off on it and you're off to the races.
 
@@ -64,7 +81,7 @@ The official term is that you are now ready to 'tapeout', and the assumption is 
 
 ## Designing for manufacturability
 
-There are three four major checks to satisfy that ensures a chip is manufacturable.
+There are four major checks to satisfy that ensures a chip is manufacturable.
 ### Layout vs Schematic
 
 Your schematic is what you've actually simulated in a circuit simulator to create your design. The layout is the actual placement of devices, components and trace routing that implements what your schematic is intended to do. The process of Layout vs Schematic, or LVS, ensures that the layout exactly represents what is on your schematic design.
