@@ -1,12 +1,12 @@
 ---
-title: What it takes to design an RF integrated circuit
+title: A Beginner's Guide to the Process of RFIC design
 tags:
   - circuit
 project: substack
 date_published: 
-status: 🚧
-final title: 
-url:
+status: 🟢
+final title: A Beginner's Guide to the Process of RFIC design
+url: https://www.viksnewsletter.com/p/a-beginners-guide-to-the-process?r=222kot&utm_campaign=post&utm_medium=web
 ---
 In this article, I describe the process of RFIC chip design to the best extent I understand it. The purpose is to provide a glimpse into this world for readers who have not had a chance to work directly in this field. For people who do, maybe you’ll get a fresh perspective. I do understand every company has their own way of implementing this workflow. My goal is to provide a general overview helpful to a newcomer in the industry.
 
@@ -142,29 +142,3 @@ During manufacturing, each layer on the chip has a mask and if you can reconfigu
 [2](#footnote-anchor-2)
 
 Depending on the technology node in question, the cost can vary from a hundred thousand to more than a million dollars for a single run. Processing time for silicon technologies is typically several months. Gallium Arsenide technologies need fewer masks and take a few weeks to a month.
-## Device Models, Parasitic Extraction and Electromagnetics
-- Device models - a primer. What they are. What they're not. How much to believe them.
-- What is parasitic extraction and why do we need it.
-- How do device models interact with parasitic extraction
-- Why EM is required? Where do you get the process stackup?
-- What is the best EM tool? 
-- Correlating EM tool accuracy
-
-
-
-## Packaging, Board Evaluation and Testing
-- Impact of packaging on the IC design
-- Introduction of new ground planes and coupling paths
-- Impedance control and good ground plane access on the EVB
-- Testing a chip for all its specs - across voltages, temperatures and multiple samples.
-- Generating the data sheet in collaboration with marketing.
-- Providing samples to customers
-
-## Iterations
-- Few ICs work straight out of the gate. 
-- Always correlate your measurements with simulation. this takes extra work but its worth it.
-- There will be some spec not being met, or something the customer doesnt like
-- Do a tapeout revision-- if you can use the spares to reconfigure the circuit, you can only do a metal mask spin. otherwise you have to do an all-layer change -- more $
-
-## Productization
-- what is involved here.
