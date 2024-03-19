@@ -5,6 +5,7 @@ tags:
 style: listicle
 written: ✅
 published: ✅
+url: https://www.linkedin.com/feed/update/urn:li:activity:7173844957022023681
 ---
 Here are the top python frameworks I use as an RF engineer and why: 👇
 
