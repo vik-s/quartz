@@ -51,9 +51,9 @@ With enough rigor, any EM simulator can be verified to a high degree of certaint
 
 ### What do these models look like?
 
-The electrical model of an amplifying device such as a MOSFET or Bipolar transistor is quite a lot more complicated that what is typically shown in textbooks. The commonly used small signal model of a MOSFET shown below is sufficient for a conceptual understanding and some simple estimations, but are not practical for the real world. The simple model does not account for all the physics of a transistor, will not scale properly with device sizing or support advanced nonlinear simulations.
+The electrical model of an amplifying device such as a MOSFET or Bipolar transistor is quite a lot more complicated than the small signal model of a MOSFET often shown in textbooks. The simple model does not account for all the physics of a transistor, will not scale properly with device sizing or support advanced nonlinear simulations.
 
-"Real" device models consist of extensive equations written in Verilog-A or C that are implemented as a model framework. The equations are based on the analytical charge transport equations and are designed to exhibit a lot of the physics the actual transistor does. Charge transport in modern devices are however so complicated that there are usually substantial number of "fitting factors" used to account for various effects.
+"Real" device models consist of extensive equations written in Verilog-A or C that are implemented as a model framework. The equations are based on the analytical equations for currents and charge storage, and are designed to exhibit a lot of the physics the actual transistor does. Charge transport in modern devices are however so complicated that there are usually substantial number of "fitting factors" used to account for various effects.
 
 These models are usually provided by the foundry who employ a team of device modeling engineers to extract these models. The role of the device modeling engineer is to find the values of the coefficients of the equations so that the model predicts the current and charge dependence on voltage, temperature and frequency. Usually extensive device level measurements are required for fitting of device models.
 
@@ -61,13 +61,26 @@ The BSIM family of models are the industry standard for MOSFETs and have over 30
 
 ### How are these models validated?
 
+They often are not, or only validated to a limited extent. Design teams often place inherent trust that they model is correct because it takes a lot of transistor-level measurements to verify that this is sufficiently accurate. Some companies may have enough means to fund a small team of device modeling experts who will place transistors on test vehicles, measure them and validate them against the foundry model. They will also adjust the model internally if needs be.
 
+In my opinion, the real way to validate the accuracy of a model is to build reference designs like an amplifier on a test vehicle, and check if the model predicts the DC, s-parameter and nonlinear performance of the reference amplifier. The reference amplifier can be designed for low current mobile applications or high current infrastructure applications, or anything in between.
 
-- Designer should always be sus about its accuracy because it is general purpose, and intended to fit every application. It may not be most accurate around your region of operation.
-- When predictions of distortion are required, derivatives also need fitting, and it is unlikely that the model fits this out of the box.
-- Often, companies have teams of people who optimize models based on internal circuit know how for highly accurate RF design.
+I have personally done a lot of this, and the accuracy with which device models can predict these "real" circuits is often of great interest to an RFIC designer. This quantitatively identifies shortcomings of a device model, especially on aspects like nonlinearity which are hard to tell from purely device level measurements alone.
 
+The key takeaway here is to never inherently trust what the device model simulations tell you. Foundry models are usually quite good, but it really depends on the foundry and the technology node. **Reasonable importance should be given to comprehensive validation of device models before they are used in multi-million dollar projects.**
 ## Co-simulation
+
+Using a reference amplifier design for device model validation is a good idea for another reason: it allows us to validate active and passive modeling simultaneously. Amplifiers often have inductors, transmission lines and capacitors, and interfacing an active device with a passive model is called co-simulation.
+
+Co-simulation is required because EM simulators cannot deal with transistor-level physics. Active and passive models need to be combined in a circuit simulator to capture parasitics required for accurate prediction of circuit performance. In general, parasitics need to be capture at three levels.
+### Transistor Level
+
+
+### Circuit Level
+
+
+### Package / Board Level
+
 
 - Active model needs to be combined with passive model because there are always routing parasitics. 
 - EM is the most accurate approach to getting passive model performance.

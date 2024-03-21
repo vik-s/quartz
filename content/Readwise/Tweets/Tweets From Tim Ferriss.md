@@ -132,3 +132,5 @@
   *
   —
   Once again, Happy New Year, everyone! ([View Tweet](https://twitter.com/tferriss/status/1742759020182597943))
+## New highlights added March 20, 2024 at 4:02 PM
+- You are the author of your own life, and it’s never too late to replace the stories you tell yourself and the world. It’s never too late to begin a new chapter, add a surprise twist, or change genres entirely. ([View Tweet](https://twitter.com/tferriss/status/1768422937483264116))
