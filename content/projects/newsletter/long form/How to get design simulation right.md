@@ -61,23 +61,38 @@ The BSIM family of models are the industry standard for MOSFETs and have over 30
 
 ### How are these models validated?
 
-They often are not, or only validated to a limited extent. Design teams often place inherent trust that they model is correct because it takes a lot of transistor-level measurements to verify that this is sufficiently accurate. Some companies may have enough means to fund a small team of device modeling experts who will place transistors on test vehicles, measure them and validate them against the foundry model. They will also adjust the model internally if needs be.
+They often are not, or only validated to a limited extent. Design teams often place inherent trust that the model is correct because it takes a lot of transistor-level measurements to verify that this is sufficiently accurate. Some companies may have enough means to fund a small team of device modeling experts who will place transistors on test vehicles, measure them and validate them against the foundry model. They will also adjust the model internally if needs be.
 
 In my opinion, the real way to validate the accuracy of a model is to build reference designs like an amplifier on a test vehicle, and check if the model predicts the DC, s-parameter and nonlinear performance of the reference amplifier. The reference amplifier can be designed for low current mobile applications or high current infrastructure applications, or anything in between.
 
-I have personally done a lot of this, and the accuracy with which device models can predict these "real" circuits is often of great interest to an RFIC designer. This quantitatively identifies shortcomings of a device model, especially on aspects like nonlinearity which are hard to tell from purely device level measurements alone.
+I have personally done a lot of this, and the accuracy with which device models can predict these "real" circuits is often of great interest to an RFIC designer. This quantitatively identifies shortcomings of a device model, especially on aspects like nonlinearity which are hard to tell from purely device-level measurements alone.
 
-The key takeaway here is to never inherently trust what the device model simulations tell you. Foundry models are usually quite good, but it really depends on the foundry and the technology node. **Reasonable importance should be given to comprehensive validation of device models before they are used in multi-million dollar projects.**
+The key takeaway here is to never inherently trust what the device model simulations tell you. Foundry models are usually quite good, but it really depends on the foundry, the technology node and how much accuracy you require from it.  **Comprehensive validation of device models is important before they are used in multi-million dollar projects.**
 ## Co-simulation
 
 Using a reference amplifier design for device model validation is a good idea for another reason: it allows us to validate active and passive modeling simultaneously. Amplifiers often have inductors, transmission lines and capacitors, and interfacing an active device with a passive model is called co-simulation.
 
-Co-simulation is required because EM simulators cannot deal with transistor-level physics. Active and passive models need to be combined in a circuit simulator to capture parasitics required for accurate prediction of circuit performance. In general, parasitics need to be capture at three levels.
+Co-simulation is required because EM simulators cannot deal with transistor-level physics. Active and passive models need to be combined in a circuit simulator to capture parasitics required for accurate prediction of circuit performance. In general, parasitics need to be captured at three levels.
 ### Transistor Level
 
+The transistor model for any active device consists of two parts:
+1. **Intrinsic**: This represents the core behavior of the device. This is essentially what we just discussed in the active modeling section, where equations control the how the device behaves in simulation.
+2. **Extrinsic**: This is the part of the model that defines all the parasitic elements associated with the transistor that are external to the core behavior of the device. One example is the parasitic capacitance between the source and drain due to coupling between metal connections to these terminals.
 
+The extrinsic part of the model is usually provided only up to a certain metal level. In the source-drain capacitance example, it might only be included up to the first metal level.
+
+In practical chip layout, it is necessary to use other metal levels to make connections on the chip. The associated parasitics need to be included in simulation. An EM simulator is a possible solution, but the complexity and narrow dimensions involved make it a resource intensive task. Also, the extreme accuracy that EM simulators are capable of is just overkill for device parasitic extraction.
+
+Instead, most EDA tools offer a parasitic extraction tool that can be used to get extrinsic parasitics. These parasitic extraction tools are not field solvers. They use a pattern matching algorithm to extract the capacitance based on a pre-trained dataset. Parasitic extraction is the industry standard when accounting for routing parasitics in the transistor. But it is important to understand where the device model ends and the parasitic model begins to avoid under or over counting parasitics.
 ### Circuit Level
 
+This step of parasitic modeling is an absolutely essential. Whether you are designing an RF circuit off-chip or on-chip, you need to account for every connection and passive component in the presence of everything else. Here is a list of usual suspects that need careful attention.
+- Inductors are especially notorious for generating a significant electromagnetic field that affects anything in its vicinity. 
+- Metal seal rings are used to enclose your circuit design before manufacture, and can provide a coupling path to various parts of the chip.
+- Large bypass capacitors on-chip when placed next to inductors appear as ground planes moved too close to the inductor.
+- If density fill cannot be avoided, they must somehow be accounted for.
+
+The real challenge is when you have to interface active devices to the circuit level EM model. How you define ports for the transistor terminals has a major impact on the simulation accuracy. Ports cannot always be "calibrated out" and often themselves have an impact on the circuit. The goal of co-simulation is to minimize the impact by implementing the shortest possible return path for current by choosing ports properly. Additionally, you should also be careful to ensure that the EM model has enough low frequency data to ensure DC convergence of the circuit.
 
 ### Package / Board Level
 
