@@ -4,22 +4,15 @@ tags:
 project: substack
 date_published: 
 status: 🚧
-final title:
+final title: The Ultimate Guide to Simulating an RFIC Correctly
 ---
-In the last article, we looked at the process of RFIC design from specification to tapeout. The chip design process does not end there. It has only begun. In this article, we will fill in the dots about the design process and look at some post processing steps.
+When we spoke of the design process last time, we quickly skipped over the details of the actual design phase and over one important question. 
 
-In this article, we will look at the simulation and modeling aspect of any RF design in a bit more detail. The concepts here are not limited to integrated circuits. Instead, they apply to all of RF design. Unlike digital design, RF/analog design is still at the transistor level.
+*How do we trust that our simulations correlate with the real world?* 
 
-More specifically, you will learn:
-- thing1
-- thing2
-- thing3
+The answer lies in the accurate modeling and validation of the chip and its surroundings using EDA tools. All of RF simulation and modeling relies on a few key concepts, and if done right, is capable of predicting the performance of a chip design correctly in the real world.
 
-Let's dive in!
-
----
-
-When we spoke of the design process last time, we quickly skipped over the details of the actual design phase and over one important question. How do we trust that our simulations correlate with the real world? The answer lies in the accurate modeling of the chip using EDA tools. All of RF simulation and modeling relies on a few key concepts, and if done right, is capable of predicting the performance of a chip design in the real world.
+Here is what we will discuss in depth:
 - Passive modeling
 - Active modeling
 - Combining the above- also called co-simulation.
@@ -27,6 +20,7 @@ When we spoke of the design process last time, we quickly skipped over the detai
 
 Let's look at each one.
 
+---
 ## Passive Modeling
 
 In the RF world, anything passive refers to components not involving amplifying devices of any sort. Examples include inductors, capacitors, transmission lines, wirebonds, antennas, and filters. They primarily consist of arbitrary configurations of metals and dielectrics in three dimensional space.
@@ -72,67 +66,43 @@ The key takeaway here is to never inherently trust what the device model simulat
 
 Using a reference amplifier design for device model validation is a good idea for another reason: it allows us to validate active and passive modeling simultaneously. Amplifiers often have inductors, transmission lines and capacitors, and interfacing an active device with a passive model is called co-simulation.
 
-Co-simulation is required because EM simulators cannot deal with transistor-level physics. Active and passive models need to be combined in a circuit simulator to capture parasitics required for accurate prediction of circuit performance. In general, parasitics need to be captured at three levels.
+Co-simulation is required because electromagnetic simulators cannot deal with transistor-level physics. Active and passive models need to be combined in a circuit simulator to capture parasitics required for accurate prediction of circuit performance. In general, parasitics need to be captured at three levels.
 ### Transistor Level
 
 The transistor model for any active device consists of two parts:
 1. **Intrinsic**: This represents the core behavior of the device. This is essentially what we just discussed in the active modeling section, where equations control the how the device behaves in simulation.
 2. **Extrinsic**: This is the part of the model that defines all the parasitic elements associated with the transistor that are external to the core behavior of the device. One example is the parasitic capacitance between the source and drain due to coupling between metal connections to these terminals.
 
-The extrinsic part of the model is usually provided only up to a certain metal level. In the source-drain capacitance example, it might only be included up to the first metal level.
+The foundry provides the extrinsic model only up to a certain level. In the source-drain capacitance example, it might only be included up to the first metal level.
 
-In practical chip layout, it is necessary to use other metal levels to make connections on the chip. The associated parasitics need to be included in simulation. An EM simulator is a possible solution, but the complexity and narrow dimensions involved make it a resource intensive task. Also, the extreme accuracy that EM simulators are capable of is just overkill for device parasitic extraction.
+In practical chip layout, it is necessary to use other metal levels to make connections on the chip. The associated parasitics need to be included in simulation. An EM simulator is a possible solution, but the complexity and narrow dimensions involved make it a resource intensive task. Also, the high accuracy that EM simulators are capable of is just overkill for device parasitic extraction.
 
-Instead, most EDA tools offer a parasitic extraction tool that can be used to get extrinsic parasitics. These parasitic extraction tools are not field solvers. They use a pattern matching algorithm to extract the capacitance based on a pre-trained dataset. Parasitic extraction is the industry standard when accounting for routing parasitics in the transistor. But it is important to understand where the device model ends and the parasitic model begins to avoid under or over counting parasitics.
+Instead, most EDA tools offer a parasitic extraction tool that can be used to get extrinsic parasitics. These parasitic extraction tools are not field solvers. They use a pattern matching algorithm to extract the capacitance based on a pre-trained dataset. 
+
+Parasitic extraction is the industry standard when accounting for routing parasitics in the transistor. But it is important to understand where the device model ends and the parasitic model begins to avoid under or over counting parasitics.
 ### Circuit Level
 
 This step of parasitic modeling is an absolutely essential. Whether you are designing an RF circuit off-chip or on-chip, you need to account for every connection and passive component in the presence of everything else. Here is a list of usual suspects that need careful attention.
-- Inductors are especially notorious for generating a significant electromagnetic field that affects anything in its vicinity. 
-- Metal seal rings are used to enclose your circuit design before manufacture, and can provide a coupling path to various parts of the chip.
-- Large bypass capacitors on-chip when placed next to inductors appear as ground planes moved too close to the inductor.
+- Inductors are especially notorious massive electromagnetic fields 
+- Metal seal rings can provide a coupling path to various parts of the chip.
+- Large bypass capacitors when placed next to inductors appear as ground planes.
 - If density fill cannot be avoided, they must somehow be accounted for.
 
-The real challenge is when you have to interface active devices to the circuit level EM model. How you define ports for the transistor terminals has a major impact on the simulation accuracy. Ports cannot always be "calibrated out" and often themselves have an impact on the circuit. The goal of co-simulation is to minimize the impact by implementing the shortest possible return path for current by choosing ports properly. Additionally, you should also be careful to ensure that the EM model has enough low frequency data to ensure DC convergence of the circuit.
+The real challenge is interfacing active devices to the circuit level EM model. How you define ports for the transistor terminals has a major impact on the simulation accuracy. Ports cannot always be "calibrated out" and often themselves have an impact on the circuit. The goal of co-simulation is to minimize the impact by implementing the shortest possible return path for current by choosing ports properly. Additionally, you should also be careful to ensure that the EM model has enough low frequency data to ensure DC convergence of the circuit.
 
+As soon as you co-simulate your design, you will notice performance degradation on several key performance metrics. Interactions between passive elements cause unwanted signal paths which you need to identify and eliminate by iterative EM co-simulation. **The more attention you pay to EM co-simulation, the higher your chances of design success.**
 ### Package / Board Level
 
+The chip eventually needs to be packaged or included in a final module. This is ultimately what will be measured as chip performance or dictate whether the chip is meeting the requirements of the module it is in. The impact of the package or module on chip performance needs to be included via EM simulation.
 
-- Active model needs to be combined with passive model because there are always routing parasitics. 
-- EM is the most accurate approach to getting passive model performance.
-- Its not always most practical. Sometimes we need to use parasitic extraction when it is needed for a large number of transistor devices.
-- Choosing the right interface between active and passive device is critical to avoid missing anything or double counting it.
-- Active device cannot be EM simulated, so we will need ports for it so that acrtive device model can be plugged in later.
-## Package/EVB Co-simulation
+In wirebond packaging, there are wires of metal that connect the chip to the package. These wires being made of metal, can interact with each other. In flipchip packaging, the chip is flipped upside down and attached with solderballs to a package or module. Doing so often brings the ground plane of the package much closer to the chip and impacts the electromagnetic field on-chip.
 
-- If designers stop simulating at the periphery of the chip, that would be a big mistake. The impact of the package on the IC needs to be considered.
-- There is a lot of ambiguity as to what constitutes a good ground reerence for ports on the chip/
-- The EVB needs to be simulated in EM too, to ensure that all the transitions are captured. This gets critical the higher the frequency of operratiom/
-- 
+Chip-package EM co-simulation becomes important to capture such interactions. This is considerably more intensive computationally because you need to include narrow dimension traces on-chip with the large feature sizes of a package in the same simulation.
 
-
-## Device Models, Parasitic Extraction and Electromagnetics
-- Device models - a primer. What they are. What they're not. How much to believe them.
-- What is parasitic extraction and why do we need it.
-- How do device models interact with parasitic extraction
-- Why EM is required? Where do you get the process stackup?
-- What is the best EM tool? 
-- Correlating EM tool accuracy
-
-
-
-## Packaging, Board Evaluation and Testing
-- Impact of packaging on the IC design
-- Introduction of new ground planes and coupling paths
-- Impedance control and good ground plane access on the EVB
-- Testing a chip for all its specs - across voltages, temperatures and multiple samples.
-- Generating the data sheet in collaboration with marketing.
-- Providing samples to customers
+Finally, when the chip is mounted on a evaluation circuit board with connectors, it is best to simulate the whole board in an electromagnetic simulator too. You will need to account for connector to trace transitions, and trace to package transitions. Simulating a chip of a full board is quite challenging due to the relative scale of dimensions involved, but it is best to at least ensure that the board is sufficiently well designed to allow proper measurement of the chip during testing.
 
 ## Iterations
 - Few ICs work straight out of the gate. 
 - Always correlate your measurements with simulation. this takes extra work but its worth it.
 - There will be some spec not being met, or something the customer doesnt like
 - Do a tapeout revision-- if you can use the spares to reconfigure the circuit, you can only do a metal mask spin. otherwise you have to do an all-layer change -- more $
-
-## Productization
-- what is involved here.
