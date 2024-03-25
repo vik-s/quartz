@@ -6,7 +6,7 @@ style: listicle
 written: ✅
 published: ✅
 ---
-6 RFIC lessons I learned from 12 years of industry experience: 👇🏼
+.≥6 RFIC lessons I learned from 12 years of industry experience: 👇🏼
 
 ☑︎ Floorplanning
 ↳ Experiment with placing your passives. 
