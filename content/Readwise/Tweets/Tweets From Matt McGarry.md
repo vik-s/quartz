@@ -346,3 +346,8 @@
 - Newsletter growth hack I've used to drive 100K+ subscribers:
   Referral giveaways.
   Here's how you can use them to do the same for your newsletter (it's much easier than most think): ([View Tweet](https://twitter.com/JMatthewMcGarry/status/1768615390479818878))
+## New highlights added March 26, 2024 at 10:56 PM
+- Way too many newsletters miss out on additional ad revenue because they either:
+  a) Do sponsor reporting the wrong way
+  b) Neglect it altogether
+  Here's how to go about ad reporting so you can increase renewal rate: ([View Tweet](https://twitter.com/JMatthewMcGarry/status/1772601653344022638))
