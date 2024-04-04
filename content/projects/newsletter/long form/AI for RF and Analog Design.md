@@ -20,25 +20,32 @@ Some futurists in the industry believe this is genuinely going to happen down th
 For engineering work, optimization algorithms, machine learning techniques and neural networks have been the bread and butter for minimizing the number of human design iterations. The advent of LLMs has stirred up a new flurry of activity and interest in these areas under the moniker of AI. Corporate departments grow their budgetary resources using the term AI, publications about AI have more readership, and EDA companies eagerly introduce AI capabilities within their tools. Everyone is looking for a piece of the AI pie.
 
 In the rest of this article, we will look at ways engineers have tried to minimize human intervention in RF/analog design. My preference lies in identifying the underlying algorithm, since AI in electrical engineering at this point has become a catch-all term. We will focus instead on how capable machines have been in generating faster or better performing RF/analog designs than their human counterparts would.
+
 ## Use in layout generation
 
-While digital layout today is done using place and route, analog/RF layout is done manually by layout engineers. The complexity of layout involved is much higher to ensure layout symmetry, minimize losses and dispersion, and account for coupling effects and parasitics. This makes analog layout a time consuming process in which the experience level of the engineer plays a major role in getting it right. 
+While digital layout today is done using place and route, analog/RF layout is done manually by layout engineers making it a time consuming process which involves highly skilled engineers. The complexity of layout involved is much higher to ensure layout symmetry, minimize losses and dispersion, and account for coupling effects and parasitics. 
 
-There have been several attempts to automate analog layout generation, but none of them have caught on in industrial analog electronic design. It still worth looking at how they work.
-- [ALIGN](https://arxiv.org/pdf/2008.10682.pdf) (Analog Layout, Intelligently Generated from Netlists): This is an [open-source](https://github.com/ALIGN-analoglayout/ALIGN-public) automatic layout generation flow for analog circuits which translates an input SPICE netlist to an output GDSII layout, specific to a given technology.
+In the past, there have been several attempts to automate analog layout generation, but none of them have really caught on in the design industry. There are three major reasons why automated analog layout is relevant today:
+1. Modern technologies like FinFET have highly restrictive design rules, which reduces the overall design space to be explored for layout generation.
+2. There need for analog content is increasing and design iterations need to be minimized.
+3. Advent of machine learning techniques provides new opportunities for solving the automated analog layout problem.
 
-rules.
-- [BLADES](https://ieeexplore.ieee.org/abstract/document/31523):
-- [MAGICAL](https://github.com/magical-eda/MAGICAL):
-- [Astrus](https://www.future-of-computing.com/astrus-shaping-the-future-of-analog-chip-design-with-artificial-intelligence/):
+The latest approach to doing this is called [ALIGN](https://arxiv.org/pdf/2008.10682.pdf) (Analog Layout, Intelligently Generated from Netlists). This is an [open-source](https://github.com/ALIGN-analoglayout/ALIGN-public) automatic layout generation flow for analog circuits which translates an input SPICE netlist to an output GDSII layout, specific to a given technology. 
 
+ALIGN attempts to build IC layouts much like a human would. This involves identifying  layout hierarchies, generating layouts of the building blocks and then assembling them at each level of the layout hierarchy. For example, the lowest level of hierarchy would be an individual transistor. They are used to generate primitives such as current mirrors and differential pairs, which are then assembled into modules such as transconductance amplifiers. Using these modules, the system such as an RF transceiver is built.
+
+Another [open source project](https://github.com/magical-eda/MAGICAL) that attempts automatic analog layout generation is [MAGICAL](https://github.com/magical-eda/MAGICAL), which is described as "a human-intelligence inspired, fully- automated analog IC layout system" that is funded by the [DARPA IDEA](https://www.darpa.mil/program/intelligent-design-of-electronic-assets) program 
+
+The overall flow is the same as ALIGN. Take an input netlist and generate an optimized layout. Interestingly, MAGICAL places emphasis in making sure that differential transistors are matched by identifying transistor sources that are connected to each other to form a virtual ground. The overall routing and placement is done based on a variety of optimization algorithms.
+
+Recently, a startup company called [Astrus](https://www.future-of-computing.com/astrus-shaping-the-future-of-analog-chip-design-with-artificial-intelligence/) is looking at commercializing analog layout generation out of Toronta, Canada. Co-founded by Brad Moon and Zeyi Wang, they recently announced a $2.4M pre-seed funding round. Moon says that analog layout generation presents a very-specific, high value problem to the 60,000 or so analog designers globally. With increasing chip demand and shortage of highly skilled analog engineers, Astrus has a multi-billion dollar opportunity on their hands.
 
 ## Use in circuit design 
 
 It’s not just analog layout that is an issue. Choosing optimal component values for an analog circuit is equally complicated and time consuming. Often, the design process heavily relies on the experience of the designer, and the number of possible iterations by a human is always limited. **What if we can feed human intuition to a machine learning algorithm that can generate optimal designs?**
 
 A 2020 paper from UC Berkeley describes a deep-learning based automated analog circuit designer called [AutoCkt](https://arxiv.org/pdf/2001.01808.pdf). The paper claims that the algorithm intuitively understands the design space much like a human designer would, and converges on a working solution 40X faster than a genetic algorithm optimization. It uses [Berkeley Analog Generator](https://bag3-readthedocs.readthedocs.io/en/latest/index.html), a tool that simulates a circuit with layout parasitics, to design forty two-stage operational transconductance amplifiers (OTAs) that meet specification and pass [LVS](https://www.viksnewsletter.com/p/a-beginners-guide-to-the-process?r=222kot&utm_campaign=post&utm_medium=web) using a single-core CPU in under three days. Not bad.
-
+- [BLADES](https://ieeexplore.ieee.org/abstract/document/31523):
 ## Use in Electromagnetics
 
 Another time consuming aspect of RF design involves the creation of optimum passive structures using electromagnetic simulation. We often look at matching circuits in a classical sense - a series inductor with a shunt capacitor, for example to convert the impedances from source to load. But what if these predetermined metal shapes or matching topologies are not the optimal answer? 
