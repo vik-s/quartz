@@ -103,4 +103,13 @@ If all this whole article was too much detail, just check out this video from [
 PyCells https://arxiv.org/pdf/1607.00859.pdf
 Learn to Design Circuits https://arxiv.org/abs/1812.02734
 
+[[Excalidraw/AnalogDesignLoop.excalidraw|AnalogDesignLoop.excalidraw]]
 
+
+B. Xu _et al._, “MAGICAL: Toward Fully Automated Analog IC Layout Leveraging Human and Machine Intelligence: Invited Paper,” in _2019 IEEE/ACM International Conference on Computer-Aided Design (ICCAD)_, Westminster, CO, USA: IEEE, Nov. 2019, pp. 1–8. doi: [10.1109/ICCAD45719.2019.8942060](https://doi.org/10.1109/ICCAD45719.2019.8942060).
+
+E. Chang _et al._, “BAG2: A process-portable framework for generator-based AMS circuit design,” in _2018 IEEE Custom Integrated Circuits Conference (CICC)_, San Diego, CA: IEEE, Apr. 2018, pp. 1–8. doi: [10.1109/CICC.2018.8357061](https://doi.org/10.1109/CICC.2018.8357061).
+
+K. Settaluri, A. Haj-Ali, Q. Huang, K. Hakhamaneshi, and B. Nikolic, “AutoCkt: Deep Reinforcement Learning of Analog Circuit Designs.” arXiv, Jan. 20, 2020. Accessed: Apr. 05, 2024. [Online]. Available: [http://arxiv.org/abs/2001.01808](http://arxiv.org/abs/2001.01808)
+
+T. Dhar _et al._, “ALIGN: A System for Automating Analog Layout.” arXiv, Aug. 24, 2020. Accessed: Apr. 06, 2024. [Online]. Available: [http://arxiv.org/abs/2008.10682](http://arxiv.org/abs/2008.10682)
