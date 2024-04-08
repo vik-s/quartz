@@ -3,8 +3,8 @@ title: Getting through grad school
 tags:
   - atomic
 style: motivational
-written: 
-published:
+written: ✅
+published: ✅
 ---
 What I did, and would do again to get through grad school FAST: 👇🏼
 

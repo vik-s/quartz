@@ -3,8 +3,8 @@ title: I did not know Linux
 tags:
   - atomic
 style: actionable
-written: 
-published:
+written: ✅
+published: ✅
 ---
 Nobody told me to learn this before I started working in RFIC: 👇🏼
 

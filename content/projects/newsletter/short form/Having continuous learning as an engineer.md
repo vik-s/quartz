@@ -2,9 +2,9 @@
 title: Having continuous learning as an engineer
 tags:
   - atomic
-style: 
-written: 
-published:
+style: motivational
+written: ✅
+published: ✅
 ---
 The tech world is moving faster than anyone can keep up. 👇🏼
 
