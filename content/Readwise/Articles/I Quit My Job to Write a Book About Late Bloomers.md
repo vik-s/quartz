@@ -14,3 +14,5 @@
 - Sometimes it is the body which is the first to surrender to old age,” says Montaigne, “sometimes the soul.” ([View Highlight](https://read.readwise.io/read/01htnxeqrb3hhm8d86jfv7x21x))
 - Opsimath is a mesmerising word — and an even more captivating idea ([View Highlight](https://read.readwise.io/read/01htnxjgdhgecxq763fw8dz1dp))
 - People who have not yet succeeded but maybe they will.” ([View Highlight](https://read.readwise.io/read/01htnxjnjate1d866nazh7ydb1))
+## New highlights added April 8, 2024 at 9:51 AM
+- **You spot talent by looking at what people persist at, not what persistently happens to them**. ([View Highlight](https://read.readwise.io/read/01hty20gj3bwgtedxdtf7t05wx))
