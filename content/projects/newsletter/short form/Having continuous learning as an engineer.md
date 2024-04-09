@@ -26,5 +26,5 @@ Or you can sign up for my weekly newsletter where I curate topics related to RF 
 ~~
 
 🔔 Follow me for posts on RF engineering
-♻️ Repost 
+♻️ Repost if you agree
 ✍🏼 Join 2K+ others: viksnewsletter.com
