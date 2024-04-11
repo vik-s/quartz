@@ -3,9 +3,10 @@ title: Basic design considerations in a superheterodyne radio receiver
 tags:
   - systems
 project: substack
-date_published: 
-status: 🚧
-final title:
+date_published: 2024-02-18
+status: 🟢
+final title: The Dark History behind Radio Communication
+url: https://www.viksnewsletter.com/p/how-a-superheterodyne-transceiver?r=222kot
 ---
 Last week, I asked readers on Substack chat about what topics I should write about. There seemed to be considerable interest in transceiver architecture and design. But transceiver architecture is a vast topic and hardly possible to cover in any detail in a single newsletter edition. Instead, I will write it as an ongoing series that I will keep adding to. This way, each newsletter will still take only 5-10 minutes to read. 
 

@@ -4,7 +4,7 @@ tags:
   - insights
 project: substack
 date_published: 2024-03-24
-status: 🚧
+status: 🟢
 final title: The Ultimate Guide to Simulating an RFIC Correctly
 ---
 In the previous post, we swiftly skimmed over the specifics of the actual design phase and overlooked one critical question. 

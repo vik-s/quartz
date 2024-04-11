@@ -1,8 +1,9 @@
 ### Fundamentals
 ```dataview
-TABLE status, date_published AS "published"
-FROM "projects/newsletter" AND #fundamentals
+TABLE status, date_published AS "Published"
+FROM "projects/newsletter" AND #fundamentals 
 ```
+
 ### Circuits
 ```dataview
 TABLE status, date_published AS "Published"

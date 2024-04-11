@@ -4,7 +4,7 @@ tags:
   - circuit
 project: substack
 date_published: 
-status: 
+status: 🚧
 final title:
 ---
 - **Electromagnetics**: Coupling within the RFIC should be taken very carefully into account. Depending on the frequency, every little thing matters. The more effort you put into this, the better your chances of success.  

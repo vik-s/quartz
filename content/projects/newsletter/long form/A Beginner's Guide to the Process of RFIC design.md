@@ -3,7 +3,7 @@ title: A Beginner's Guide to the Process of RFIC design
 tags:
   - circuit
 project: substack
-date_published: 
+date_published: 2024-03-17
 status: 🟢
 final title: A Beginner's Guide to the Process of RFIC design
 url: https://www.viksnewsletter.com/p/a-beginners-guide-to-the-process?r=222kot&utm_campaign=post&utm_medium=web

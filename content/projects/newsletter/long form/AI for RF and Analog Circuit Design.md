@@ -1,11 +1,12 @@
 ---
 title: AI for RF and Analog Circuit Design
 tags:
-  - systems
+  - circuit
 project: substack
-date_published: 
-status: 🚧
-final title:
+date_published: 2024-04-07
+status: 🟢
+final title: Applications of AI/ML for Analog and Mixed Signal Circuit Design
+url: https://www.viksnewsletter.com/p/ai-ml-for-automated-analog-circuit-design?r=222kot
 ---
 RF and analog circuit design is an entirely manual process. The process of engineering relies on developing a "feel" for things by doing it over and over, by learning what works and what does not. This intuition is the currency with which we build our engineering careers. We take pride in our intuition being irreplaceable. But is it?
 
