@@ -8,8 +8,6 @@ FLATTEN tags
 GROUP BY tags
 ```
 
-
-
 ## Completed Articles
 ```dataview
 TABLE WITHOUT ID tags,rows.file.link as "Title", rows.date_published as "Published"
