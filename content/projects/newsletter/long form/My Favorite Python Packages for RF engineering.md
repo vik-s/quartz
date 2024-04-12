@@ -1,7 +1,7 @@
 ---
 title: My Favorite Python Packages for RF engineering
 tags:
-  - programming
+  - coding
 project: substack
 date_published: 
 status: 🚧
@@ -30,7 +30,7 @@ Another concept you should understand when just starting out, is the use of virt
 
 Finally, I'd recommend you learn how Git works. Git is a distributed version control system that you can use to control code revisions. This is helpful if you ever need to revert to a previous version of the code, or have multiple people working on a code project. You can install Git locally and use it to version control your code. If you want to do it on a companywide basis, you might have to talk to IT.
 
-This is super common among software engineers, but I see few RF engineers use it effectively. If you want to learn how to get started, read this.
+This is super common among software engineers, but I see few RF engineers use it effectively. If you want to learn how to get started, read this. If you want to learn git by gamifying it, then ohmygit is what you want.
 
 Let's dive into some useful applications of python in RF engineering work.
 ### Scikit-RF

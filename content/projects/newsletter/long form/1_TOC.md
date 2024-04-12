@@ -1,56 +1,49 @@
-### Fundamentals
+## Ongoing Articles
 ```dataview
-TABLE status, date_published AS "Published"
-FROM "projects/newsletter" AND #fundamentals 
+TABLE without id tags,rows.file.link as "Title"
+FROM "projects/newsletter/long form"
+WHERE project = "substack"
+WHERE status = "🚧"
+FLATTEN tags
+GROUP BY tags
 ```
 
-### Circuits
+
+
+## Completed Articles
 ```dataview
-TABLE status, date_published AS "Published"
-FROM "projects/newsletter" AND #circuit 
+TABLE WITHOUT ID tags,rows.file.link as "Title", rows.date_published as "Published"
+FROM "projects/newsletter/long form"
+WHERE project = "substack"
+WHERE status = "🟢"
+FLATTEN tags
+GROUP BY tags
 ```
-### Device Tech and Modeling
+
+## Ideas
 ```dataview
-TABLE status, date_published AS "published"
-FROM "projects/newsletter" AND #device
+TABLE without id tags,rows.file.link as "Title"
+FROM "projects/newsletter/long form"
+WHERE project = "substack"
+WHERE status != "🟢" AND status != "🚧"
+FLATTEN tags
+GROUP BY tags
 ```
-### Passives
-```dataview
-TABLE status, date_published AS "published"
-FROM "projects/newsletter" AND #passive
-```
-### Metrology
-```dataview
-TABLE status, date_published AS "published"
-FROM "projects/newsletter" AND #metrology
-```
-### Pop-Science
-```dataview
-TABLE status, date_published AS "published"
-FROM "projects/newsletter" AND #popsci
-```
-### Coding
-```dataview
-TABLE status, date_published AS "published"
-FROM "projects/newsletter" AND #coding
-```
-### Communication
-```dataview
-TABLE status, date_published AS "published"
-FROM "projects/newsletter" AND #communication 
-```
-### Systems
-```dataview
-TABLE status, date_published AS "published"
-FROM "projects/newsletter" AND #systems 
-```
-### Insights
-```dataview
-TABLE status, date_published AS "published"
-FROM "projects/newsletter" AND #insights 
-```
-### Misc
-```dataview
-TABLE status, date_published AS "published"
-FROM "projects/newsletter" AND #misc_letters  
-```
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
