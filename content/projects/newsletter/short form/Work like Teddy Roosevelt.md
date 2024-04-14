@@ -22,4 +22,26 @@ I've applied this at work where I give myself very specific tasks to complete in
 
 The idea is to avoid procrastination and get it done. It can always be edited later.
 
+## Rewrite April 14th, 2024
 
+Here's a counterintuitive way to get more work done in less time.👇🏼
+
+Give yourself harsher deadlines.
+
+Parkinson's law: Work balloons to fill the time allotted.
+
+So give it less.
+
+In his book Deep Work, Cal Newport explains how "Roosevelt Dashes" just get it done.
+
+See Teddy Roosevelt was a prolific multitasker. A body builder, naturalist, ornithologist, rower, and boxer. He still graduated magna cum laude from Harvard. How?
+
+His secret was to use short periods of time for school work but do it with BLISTERING INTENSITY.
+
+Here's how you can apply this:
+- Pick a task that is hard to complete in 2 hours.
+- Remove all distractions - phone, chat, ...
+- Set a timer for 90 mins.
+- Hit it hard.
+
+You'll be amazed what you'll accomplish.

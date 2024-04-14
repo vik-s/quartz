@@ -6,17 +6,17 @@ style: contrarian
 written: 🚧
 published:
 ---
-A common misconception about RF engineering is that it is black magic. 
+RF engineering is NOT black magic.
 
-That it is some special skill only a few people can acquire through some unknown means.
+It used to be before the advent of modern computer tools. RF had to be taught and learned through complex equations, trial and error.
 
-Before the advent of modern computational tools, RF had to be taught and learned through complex equations, trial and error.
+Those who did it well seemed supernatural.
 
-Not anymore.
+But not anymore.
 
-Here is what you need to know:
+Here's how you can have some "magic" too:
 
-1. Electromagnetic fields. Don't be scared off by Maxwell's equations. Intuitively learn it using modern electromagnetic simulators.
+1. Learn electromagnetic fields. Don't be scared off by Maxwell's equations. Intuitively learn it using modern electromagnetic simulators.
 2. Learn your EDA software. They are tools that will let you explore complex engineering.
 3. Everything affects everything else. Explore how your circuit is affected by changing ONLY one thing at a time.
 4. You need to DO to learn, like anything else. Books can only take you so far.

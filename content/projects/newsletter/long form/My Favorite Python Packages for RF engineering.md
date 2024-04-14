@@ -3,9 +3,10 @@ title: My Favorite Python Packages for RF engineering
 tags:
   - coding
 project: substack
-date_published: 
-status: 🚧
-final title:
+date_published: 2024-04-14
+status: 🟢
+final_title: Python Resources for RF Engineers
+url: https://www.viksnewsletter.com/p/python-resources-for-rf-engineers
 ---
 Learning to code has paid itself back 100x for the time I have spent learning it.
 

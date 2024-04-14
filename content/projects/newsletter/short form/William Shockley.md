@@ -57,6 +57,28 @@ Fairchild Semiconductor, a pivotal company in the history of Silicon Valley and 
 
 These individuals not only played a crucial role in the development of Fairchild Semiconductor but also in shaping the future of Silicon Valley. Many of them went on to found or contribute to other significant technology companies and ventures, further cementing their legacy in the tech industry.
 
+## Rewrite April 14 2024
 
+Have you heard of the world's worst manager? 👇🏼
 
+William Shockley - inventor of the junction transistor, winner of the 1956 Nobel prize.
 
+Why so terrible?
+- Worked on secret projects without telling his team.
+- Blocked his colleagues from working on his secret stuff.
+- Vied for credit and failed to give recognition, thus angering his team.
+- When excluded from patents, considered rewriting them solely under his name.
+
+His team eventually left him and came to be called the traitorous eight.
+
+Here is what they went on to do:
+1. **Robert Noyce**: co-founded Intel Corporation.
+2. **Gordon Moore**: co-founded Intel with Noyce.
+3. **Julius Blank**: significant role in the manufacturing processes at Fairchild
+4. **Jean Hoerni**: invented the planar semiconductor process
+5. **Eugene Kleiner**: co-founded Kleiner Perkins, one of the first VC firms in Silicon Valley.
+6. **Victor Grinich**: expert in manufacturing, later became an academic.
+7. **Jay Last**: instrumental in the development of silicon integrated circuits.
+8. **Sheldon Roberts**: Contributed to the development of semiconductor materials.
+
+Treat your team well.
