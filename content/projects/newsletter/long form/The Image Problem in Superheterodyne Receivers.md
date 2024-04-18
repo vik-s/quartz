@@ -26,9 +26,11 @@ Let's say that the RF and LO signals are both cosines with angular frequencies w
 
 The concept of negative frequency is confusing, and we will get to that in the next section. For now, just know that a real signal needs to have a positive and negative frequency component which are equal. In real life measurement, we just deal with positive frequencies and things are just fine.
 
-The modulated RF signal is not a pure cosine, and has some bandwidth associated with it. The process of mixing moves the whole spectrum of the RF signal to the new sum and difference frequencies. In practice, the frequency translation looks something like the figure below.
+The modulated RF signal is not a pure cosine, and has some bandwidth associated with it. The process of mixing moves the whole spectrum of the RF signal to the new sum and difference frequencies. The components "upconverted" to higher frequencies are easily filtered out with a low pass filter. This just leaves the "downconverted" components are an IF frequency lower than the original signal.
 
-Fig1.
+In practice, the frequency translation looks something like the figure below. The negative frequency components are shown with a line fill to distinguish them from the positive frequency components.
+
+put *a figure of a single channel being downconverted*
 
 In reality, we want to convert a particular RF channel of fixed bandwidth to IF. We have two options:
 1. Have a fixed LO signal, which results in different IF.
@@ -36,7 +38,7 @@ In reality, we want to convert a particular RF channel of fixed bandwidth to IF.
 
 Of these choices, option two is the better one. It is much more challenging to design low loss, high rejection IF filters that are also tunable. A variable LO is much easier to generate using a frequency synthesizer circuit, which can be designed to be highly accurate and stable.
 
-Let's make a short detour to understand negative frequencies before we proceed with  superheterodyne mixing.
+Let's make a short detour to understand negative frequencies before we proceed with  superheterodyne mixing and its associated problems.
 ### The Need for Negative Frequencies
 
 To many, including myself until I actually looked into it, the concept of negative frequency seems almost... unreal. After all, when we measure a sinusoidal tone, we only see one line on the spectrum analyzer screen. But, we are looking at only half the story.
@@ -56,11 +58,11 @@ This immediately tells us how to create a complex sinusoid in the lab, and trans
 - At the other end, connect them to the horizontal and vertical channels of an oscilloscope, respectively.
 - You will see a spot rotating anti-clockwise on the screen as shown below.
 
-*put animation of a rotating spot on the screen*
+Add figure *rotating spot on the screen*
 
 If you look at this in three dimensions, with time as the third axis, what you see is a helix that is propagating forward with time. Thus, the complex sinusoidal signal can be broken down into what are called its *in-phase* and *quadrature* components. This is a concept you will keep running into when you learn about RF systems.
 
-*put animation of helix propagating*
+https://youtu.be/YVLEsxq2kEA?si=th5vkgJeL6nOEy0S
 
 Back to the case of a single cosine signal. Using Euler's identity, a cosine signal can be represented as
 $$
@@ -68,28 +70,24 @@ $$
 $$
 There it is. The negative frequency. Here is how you interpret it.
 
-Your distracted office buddy accidentally swapped the sine and cosine signals. As a result, the spot on the oscilloscope now goes clockwise, instead of anticlockwise. In three dimensions, this would appear as a helix spiraling backward in time. That's pretty much all there is to it - a reversal of direction.
+Your distracted office buddy accidentally swapped the sine and cosine signals. As a result, the spot on the oscilloscope now goes clockwise, instead of anti-clockwise. In three dimensions, this would appear as a helix spiraling backward in time. That's pretty much all there is to it - a reversal of direction.
 
-In polar form, a cosine wave has a positive frequency sinusoid rotating anticlockwise, with a negative frequency sinusoid rotating clockwise, such that **their imaginary parts always perfectly cancel**.
-
-*put a picture of complex components of cosine*
+In polar form, a cosine wave has a positive frequency sinusoid rotating anti-clockwise, with a negative frequency sinusoid rotating clockwise, such that **their imaginary parts always perfectly cancel**.
 
 How about a sinusoidal signal? Euler's identity tells us,
 $$
 
 \sin(\omega_0 t) = -j\frac{e^{j\omega_0 t}}{2} + j\frac{e^{-j\omega_0 t}}{2}
 $$
-The j-operator means you need a 90 degree shift, and the negative sign implies an additional 180 degrees. In the complex plane, you have the positive frequency at 270 degrees and negative frequency at 90 degrees, and they rotate in a way that the imaginary parts still perfectly cancel, giving you a pure sine wave.
+The j-operator means you need a 90 degree shift, and the negative sign implies an additional 180 degrees. In the complex plane, you have the positive frequency at 270 degrees and negative frequency at 90 degrees, and they rotate in a way that the real parts perfectly cancel, with the imaginary parts having opposite signs - giving you a pure sine wave.
 
-*put a picture of complex components of sine*
+*put a picture of complex components of sine and cosine*
 
 We can now think of how this is all represented in the frequency domain. The components of a sine and cosine signal are shown in the figure below. The cosine just has two components with the same sign on the real axis. The sine has two components with opposite signs on the real axis. 
 
 *put a picture of frequency domain representation of sine and cosine*
 
-Now you can see why almost all technical analyses start with cosines - they are just easier without the j-operator and negative sign.
-
-With the idea of negative frequency firmly planted in our minds, we can proceed with drawing more spectral diagrams for the mixing process.
+Now you can see why almost all technical analyses start with cosines - they are just easier without the j-operator and negative sign. Hopefully it is now clear that negative frequencies to fully represent a signal.
 
 ### High- and Low-side Injection, and Image Problem
 
@@ -102,7 +100,7 @@ With the idea of negative frequency firmly planted in our minds, we can proceed 
 
 
 
-
+[[Excalidraw/ProblemOfImage.excalidraw|ProblemOfImage.excalidraw]]
 
 Stuff to write about
 - Function of the mixer
