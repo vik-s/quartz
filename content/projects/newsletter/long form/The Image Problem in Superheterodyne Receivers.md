@@ -39,6 +39,69 @@ Of these choices, option two is the better one. It is much more challenging to d
 Let's make a short detour to understand negative frequencies before we proceed with  superheterodyne mixing.
 ### The Need for Negative Frequencies
 
+To many, including myself until I actually looked into it, the concept of negative frequency seems almost... unreal. After all, when we measure a sinusoidal tone, we only see one line on the spectrum analyzer screen. But, we are looking at only half the story.
+
+To see the whole picture, we need to look at complex sinusoids. In its polar form, it is represented as,
+$$
+x(t) = e^{j2\pi f_0t} = e^{j\omega_0 t}
+$$
+Thanks to Swiss mathematician Leonhard Euler, we can represent this quantity in rectangular axes (x=real, y=imaginary), using
+$$
+e^{j\omega_0 t} = \cos(\omega_0 t) + j\sin(\omega_0 t)
+$$
+This immediately tells us how to create a complex sinusoid in the lab, and transmit it to your buddy in the neighboring office. This is what you do:
+- Take two sinusoidal signal generators set to the same frequency f0.
+- Phase shift one of the signals by 90 degrees.
+- Connect cables to both the original and 90 degree shifted signals.
+- At the other end, connect them to the horizontal and vertical channels of an oscilloscope, respectively.
+- You will see a spot rotating anti-clockwise on the screen as shown below.
+
+*put animation of a rotating spot on the screen*
+
+If you look at this in three dimensions, with time as the third axis, what you see is a helix that is propagating forward with time. Thus, the complex sinusoidal signal can be broken down into what are called its *in-phase* and *quadrature* components. This is a concept you will keep running into when you learn about RF systems.
+
+*put animation of helix propagating*
+
+Back to the case of a single cosine signal. Using Euler's identity, a cosine signal can be represented as
+$$
+\cos(\omega_0 t) = \frac{e^{j\omega_0 t}}{2} + \frac{e^{-j\omega_0 t}}{2}
+$$
+There it is. The negative frequency. Here is how you interpret it.
+
+Your distracted office buddy accidentally swapped the sine and cosine signals. As a result, the spot on the oscilloscope now goes clockwise, instead of anticlockwise. In three dimensions, this would appear as a helix spiraling backward in time. That's pretty much all there is to it - a reversal of direction.
+
+In polar form, a cosine wave has a positive frequency sinusoid rotating anticlockwise, with a negative frequency sinusoid rotating clockwise, such that **their imaginary parts always perfectly cancel**.
+
+*put a picture of complex components of cosine*
+
+How about a sinusoidal signal? Euler's identity tells us,
+$$
+
+\sin(\omega_0 t) = -j\frac{e^{j\omega_0 t}}{2} + j\frac{e^{-j\omega_0 t}}{2}
+$$
+The j-operator means you need a 90 degree shift, and the negative sign implies an additional 180 degrees. In the complex plane, you have the positive frequency at 270 degrees and negative frequency at 90 degrees, and they rotate in a way that the imaginary parts still perfectly cancel, giving you a pure sine wave.
+
+*put a picture of complex components of sine*
+
+We can now think of how this is all represented in the frequency domain. The components of a sine and cosine signal are shown in the figure below. The cosine just has two components with the same sign on the real axis. The sine has two components with opposite signs on the real axis. 
+
+*put a picture of frequency domain representation of sine and cosine*
+
+Now you can see why almost all technical analyses start with cosines - they are just easier without the j-operator and negative sign.
+
+With the idea of negative frequency firmly planted in our minds, we can proceed with drawing more spectral diagrams for the mixing process.
+
+### High- and Low-side Injection, and Image Problem
+
+
+
+
+
+
+
+
+
+
 
 
 Stuff to write about
