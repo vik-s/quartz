@@ -22,11 +22,13 @@ The heart of the superheterodyne receiver lies in the conversion of the amplifie
 
 The mixing operation in the time domain is simply an analog multiplication of two signals: the RF modulated signal and a local oscillator (LO) signal. In the frequency domain, this is a convolution of the two signals.
 
-Let's say that the RF and LO signals are both cosines with angular frequencies wRF and wLO. There is a good reason we use cosines, we will see why later. The multiplication of these cosines results in four distinct frequency products. The sum and difference between the two signals in the positive and negative frequency domains. This is the result of simple trigonometry when multiplying two cosines.
+Let's say that the RF and LO signals are both cosines with angular frequencies wRF and wLO (wLO < wRF). There is a good reason we use cosines, we will see why later. The multiplication of these cosines results in four distinct frequency products. The sum and difference between the two signals in the positive and negative frequency domains. This is the result of simple trigonometry when multiplying two cosines.
 
 The concept of negative frequency is confusing, and we will get to that in the next section. For now, just know that a real signal needs to have a positive and negative frequency component which are equal. In real life measurement, we just deal with positive frequencies and things are just fine.
 
-The modulated RF signal is not a pure cosine, and has some bandwidth associated with it. The process of mixing moves the whole spectrum of the RF signal to the new sum and difference frequencies. The components "upconverted" to higher frequencies are easily filtered out with a low pass filter. This just leaves the "downconverted" components are an IF frequency lower than the original signal.
+The modulated RF signal is not a pure cosine, and has some bandwidth associated with it. The process of mixing moves the whole spectrum of the RF signal to the new sum and difference frequencies. 
+
+The components "upconverted" to higher frequencies are easily filtered out with a low pass filter. This just leaves the "downconverted" components are an IF frequency lower than the original signal. This is common in receivers. Instead, the high frequency components could be retained by appropriate filtering. Such upconverting mixers are common in transmitters. When only one of the two generated frequencies are retained, it is called a Single Side-Band (SSB) mixer.
 
 In practice, the frequency translation looks something like the figure below. The negative frequency components are shown with a line fill to distinguish them from the positive frequency components.
 
@@ -87,10 +89,10 @@ We can now think of how this is all represented in the frequency domain. The com
 
 *put a picture of frequency domain representation of sine and cosine*
 
-Now you can see why almost all technical analyses start with cosines - they are just easier without the j-operator and negative sign. Hopefully it is now clear that negative frequencies to fully represent a signal.
+Now you can see why almost all technical analyses start with cosines - they are just easier without the j-operator and negative sign. Hopefully it is now clear that we need negative frequencies to fully represent a signal.
+### The Problem of Images
 
-### High- and Low-side Injection, and Image Problem
-
+The example of downconversion in the first section imposed that wLO was lower than wRF. This is called low-side injection. We could have generated similar downconverted IF signals by having wLO > wRF. This is called high-side injection.
 
 
 
