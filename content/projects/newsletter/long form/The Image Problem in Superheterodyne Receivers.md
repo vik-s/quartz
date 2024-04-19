@@ -22,7 +22,7 @@ The heart of the superheterodyne receiver lies in the conversion of the amplifie
 
 The mixing operation in the time domain is simply an analog multiplication of two signals: the RF modulated signal and a local oscillator (LO) signal. In the frequency domain, this is a convolution of the two signals.
 
-Let's say that the RF and LO signals are both cosines with angular frequencies wRF and wLO (wLO < wRF). There is a good reason we use cosines, we will see why later. The multiplication of these cosines results in four distinct frequency products. The sum and difference between the two signals in the positive and negative frequency domains. This is the result of simple trigonometry when multiplying two cosines.
+Let's say that the RF and LO signals are both cosines with angular frequencies ωRF and ωLO (ωLO < ωRF). There is a good reason we use cosines, we will see why later. The multiplication of these cosines results in four distinct frequency products. The sum and difference between the two signals in the positive and negative frequency domains. This is the result of simple trigonometry when multiplying two cosines.
 
 The concept of negative frequency is confusing, and we will get to that in the next section. For now, just know that a real signal needs to have a positive and negative frequency component which are equal. In real life measurement, we just deal with positive frequencies and things are just fine.
 
@@ -45,7 +45,7 @@ Let's make a short detour to understand negative frequencies before we proceed w
 
 To many, including myself until I actually looked into it, the concept of negative frequency seems almost... unreal. After all, when we measure a sinusoidal tone, we only see one line on the spectrum analyzer screen. But, we are looking at only half the story.
 
-To see the whole picture, we need to look at complex sinusoids. In its polar form, it is represented as,
+To see the whole picture, we need to look at a complex sinusoid. In its polar form, it is represented as,
 $$
 x(t) = e^{j2\pi f_0t} = e^{j\omega_0 t}
 $$
@@ -61,6 +61,8 @@ This immediately tells us how to create a complex sinusoid in the lab, and trans
 - You will see a spot rotating anti-clockwise on the screen as shown below.
 
 Add figure *rotating spot on the screen*
+
+For more complicated signals, you can apply a *filter* that shifts each sinusoidal component by 90 degrees. Such a filter is called a [Hilbert Transform](https://ccrma.stanford.edu/~jos/mdft/Analytic_Signals_Hilbert_Transform.html).
 
 If you look at this in three dimensions, with time as the third axis, what you see is a helix that is propagating forward with time. Thus, the complex sinusoidal signal can be broken down into what are called its *in-phase* and *quadrature* components. This is a concept you will keep running into when you learn about RF systems.
 
@@ -81,7 +83,7 @@ $$
 
 \sin(\omega_0 t) = -j\frac{e^{j\omega_0 t}}{2} + j\frac{e^{-j\omega_0 t}}{2}
 $$
-The j-operator means you need a 90 degree shift, and the negative sign implies an additional 180 degrees. In the complex plane, you have the positive frequency at 270 degrees and negative frequency at 90 degrees, and they rotate in a way that the real parts perfectly cancel, with the imaginary parts having opposite signs - giving you a pure sine wave.
+The j-operator means you need a 90 degree shift, and the negative sign implies an additional 180 degrees. In the complex plane, you have the positive frequency at 270 degrees and negative frequency at 90 degrees, and they rotate in a way that the real parts perfectly cancel, with the imaginary parts having opposite signs - giving you a pure sine wave (when multiplied by j, the result is real.)
 
 *put a picture of complex components of sine and cosine*
 
@@ -89,10 +91,53 @@ We can now think of how this is all represented in the frequency domain. The com
 
 *put a picture of frequency domain representation of sine and cosine*
 
-Now you can see why almost all technical analyses start with cosines - they are just easier without the j-operator and negative sign. Hopefully it is now clear that we need negative frequencies to fully represent a signal.
+Finally, you can see why almost all technical analyses start with cosines - they are just easier without the j-operator and negative sign. Hopefully it is now clear that we need negative frequencies to fully represent an arbitrary signal.
+### Low- vs. High Side LO Injection
+
+The example of downconversion in the first section imposed that wLO was lower than wRF. This is called low-side injection. We could have generated similar down-converted IF signal by having wLO > wRF. This is called high-side injection. The figure below shows the down-converted spectrum. 
+
+Put *picture of high side injection*
+
+Notice that the spectrum is mirrored compared to the low-side injection case. This is quite important, and needs to be corrected by the digital signal processor. If there was another down-conversion step to a second IF using high-side injection, then this spectrum will mirror again, restoring the correct spectral shape. 
+
+As an aside, this is only an issue because the signal spectrum is not symmetric - which is often the case with single sideband modulation. If we used both sidebands to have a symmetric baseband signal, as is the case with double sideband modulation, then this flipping of the spectrum would not be of concern.
+
+The choice of low- vs high-side injection depends on the system design and the occupancy of the spectrum around the desired signal. Here are some advantages to using high-side injection:
+- Enhanced filter rejection: Since the LO is located at a frequency higher than the RF signal, good filters can be designed to select the IF signal and reject higher frequencies.
+- Improved Linearity: Since the LO is much farther away from the IF, there are lower LO-feedthrough problems arising from leakage of LO into IF.
+- Lower Noise: Designing the LO at a higher frequency makes it less susceptible to flicker (1/f) noise and other low frequency spurious signals.
+
 ### The Problem of Images
 
-The example of downconversion in the first section imposed that wLO was lower than wRF. This is called low-side injection. We could have generated similar downconverted IF signals by having wLO > wRF. This is called high-side injection.
+So far we have only considered a single RF channel being down-converted to lower frequencies. In reality, this is rarely the case. There are neighboring channels on either side of the desired RF channel that also get down-converted.
+
+As a special case, consider the situation where the LO is located exactly between the desired signal and undesired channel. In the example below, the LO is used in high-side injection to down-convert the desired RF channel. Unfortunately, there is an another channel for which the same LO acts as low-side injection.
+
+When the spacing between channels is exactly twice IF, both the desired and image channels down-convert to the same frequency. The undesired channel that overlaps the desired one is called the image. If the image channel has a high signal level, it can completely swamp out the desired signal.
+
+Put *picture of the image problem*
+
+#### Image Filtering and Choice of IF
+
+The classical method to avoid the image problem is to filter it out preemptively. A bandpass filter is placed before the mixer to remove the image frequency, called the "image reject filter."
+
+The effectiveness of this approach depends on the trade-off between the IF frequency and channel selection.
+- Choose a high IF. 
+	- Image filtering is easy because the filter has sufficient rejection at twice the IF frequency, where the image is located. But, high IF makes it difficult to select the proper channel using a channel select filter because it may not have sufficient rejection to suppress the neighboring channel.
+- Choose a low IF. 
+	- Channel selection becomes easy because highly selective filters can be designed at lower frequencies. The rejection of image frequency becomes harder due to limited rejection of the image-reject filter at image frequency.
+
+This trade off is shown in the figure below.
+
+Put *picture of image reject vs channel select tradeoff*
+
+Suppose there were no interferers, like in space applications, would we still use image-reject and channel select filters? The answer is yes. Even if no signals are present, there is still thermal noise to deal with. Using filters to suppress noise levels improves the SNR of the system.
+
+The metric most commonly use to measure the level of image rejection is called image rejection ratio (IRR). IRR is defined as the ratio between the IF signal level from the desired signal, to the IF signal level produced from the image frequency. We want this ratio to be as high as possible, and is often expressed in decibels (dB).
+
+There are ways to circumvent the trade-offs from imposed by the image reject superheterodyne architecture described here. They include direct downconversion, dual downconversion and image reject architectures, among others.
+
+But, that will have to wait for another day.
 
 
 
