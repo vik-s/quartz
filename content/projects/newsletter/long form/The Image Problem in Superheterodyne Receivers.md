@@ -9,12 +9,14 @@ final title:
 ---
 In a previous article, we looked at the superheterodyne receiver architecture and the story of Armstrong, Sarnoff and RCA. What we did not cover in detail is the problem of image frequencies and the problems they pose in an RF receiver.
 
-In this article, you will learn:
-- topic 1
-- topic 2
-- topic 3
+In this week's newsletter, we will learn the following in detail:
+1. A mixer is used in a receiver to convert the RF signal to an intermediate frequency (IF) by multiplying the RF signal with a local oscillator (LO) signal.
+2. Why negative frequencies exist and they mean?
+3. The LO signal can be lower or higher than the radio signal. Accordingly the mixer has low-side or high-side injection, respectively.
+4. When the LO signal is right in between two RF signals, they both convert to the same IF. This is called the image problem.
+5. The choice of IF is a trade-off between rejection of image vs selectivity of the channel.
 
-Let's dive in!
+Read time: 10 mins
 
 ### The Mixing Operation
 
@@ -138,14 +140,6 @@ The metric most commonly use to measure the level of image rejection is called i
 There are ways to circumvent the trade-offs from imposed by the image reject superheterodyne architecture described here. They include direct downconversion, dual downconversion and image reject architectures, among others.
 
 But, that will have to wait for another day.
-
-
-
-
-
-
-
-
 
 [[Excalidraw/ProblemOfImage.excalidraw|ProblemOfImage.excalidraw]]
 

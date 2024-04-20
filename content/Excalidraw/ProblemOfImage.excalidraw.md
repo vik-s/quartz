@@ -183,8 +183,8 @@ e58065b1ea9badb6398773db2021403b832c2f79: $$-\omega_{LO}$$
 	"elements": [
 		{
 			"type": "arrow",
-			"version": 466,
-			"versionNonce": 1812329435,
+			"version": 490,
+			"versionNonce": 1432821083,
 			"isDeleted": false,
 			"id": "Q56Nflvzv5nwqybyN9pBi",
 			"fillStyle": "cross-hatch",
@@ -206,7 +206,7 @@ e58065b1ea9badb6398773db2021403b832c2f79: $$-\omega_{LO}$$
 				"type": 2
 			},
 			"boundElements": [],
-			"updated": 1713535805159,
+			"updated": 1713579162609,
 			"link": null,
 			"locked": false,
 			"startBinding": {
@@ -254,11 +254,11 @@ e58065b1ea9badb6398773db2021403b832c2f79: $$-\omega_{LO}$$
 				"type": 2
 			},
 			"seed": 1266486133,
-			"version": 345,
-			"versionNonce": 991492379,
+			"version": 369,
+			"versionNonce": 1918747291,
 			"isDeleted": false,
 			"boundElements": null,
-			"updated": 1713535805159,
+			"updated": 1713579162609,
 			"link": null,
 			"locked": false,
 			"points": [
@@ -1864,8 +1864,8 @@ e58065b1ea9badb6398773db2021403b832c2f79: $$-\omega_{LO}$$
 		},
 		{
 			"type": "arrow",
-			"version": 1167,
-			"versionNonce": 647736923,
+			"version": 1191,
+			"versionNonce": 2136741851,
 			"isDeleted": false,
 			"id": "MPnAaXLPf3xd4JFi3aQGQ",
 			"fillStyle": "solid",
@@ -1887,7 +1887,7 @@ e58065b1ea9badb6398773db2021403b832c2f79: $$-\omega_{LO}$$
 				"type": 2
 			},
 			"boundElements": [],
-			"updated": 1713535805160,
+			"updated": 1713579162612,
 			"link": null,
 			"locked": false,
 			"startBinding": {
@@ -1956,8 +1956,8 @@ e58065b1ea9badb6398773db2021403b832c2f79: $$-\omega_{LO}$$
 		},
 		{
 			"type": "arrow",
-			"version": 1222,
-			"versionNonce": 979506075,
+			"version": 1246,
+			"versionNonce": 37100827,
 			"isDeleted": false,
 			"id": "vmb8YZL2pT-Jt37tH2C2v",
 			"fillStyle": "solid",
@@ -1979,7 +1979,7 @@ e58065b1ea9badb6398773db2021403b832c2f79: $$-\omega_{LO}$$
 				"type": 2
 			},
 			"boundElements": [],
-			"updated": 1713535805162,
+			"updated": 1713579162612,
 			"link": null,
 			"locked": false,
 			"startBinding": {
