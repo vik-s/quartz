@@ -3,9 +3,9 @@ title: The Image Problem in Superheterodyne Receivers
 tags:
   - systems
 project: substack
-date_published: 
-status: 🚧
-final title:
+date_published: 2024-04-21
+status: 🟢
+final title: The Image Problem in Superheterodyne Receivers
 ---
 In a previous article, we looked at the superheterodyne receiver architecture and the story of Armstrong, Sarnoff and RCA. What we did not cover in detail is the problem of image frequencies and the problems they pose in an RF receiver.
 
