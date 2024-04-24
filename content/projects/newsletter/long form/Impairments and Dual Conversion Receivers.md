@@ -42,7 +42,7 @@ A_V = 20 \log \frac{V_{out}}{V_{in}}
 $$
 It is important to remember when to use the factor of 10 or 20 when calculating decibels. It depends on whether the input and output is expressed in power or voltage. This often becomes a simple source of error for RF engineers, which is why we are addressing it right at the start.
 
-Also note that both of these quantities are only ratios, and says nothing about how much actual voltage or power is present at the input or output. When talking about absolute terms, we use yet another decibel metric called dBm - decibels over milliwatt.
+Both of these quantities are only ratios, and say nothing about how much actual voltage or power is present at the input or output. When talking about absolute terms, we use yet another decibel metric called dBm - decibels over milliwatt.
 
 $$
 P_{dBm} = 10 \log\frac{P_{sig}}{1 \text{mW}}
@@ -54,8 +54,42 @@ Consider two RF blocks that are cascaded as shown in the figure below. The volta
 Put *picture of a cascaded gain block*
 
 This makes it quite simple to add and subtract the gain of each block in a cascaded system to calculate overall gain.
-
 ### Noise
+
+In a previous article, we looked at sources of electronic noise. We use a different perspective from a system point of view. We are not concerned with the actual source of noise, but only a metric that defines how noisy a circuit is.
+#### Input-referred noise
+
+To do this, we use the concept of *input-referred noise*, and is commonly used in analog circuit design. It is represented by a series voltage source and a shunt current source connected at the input of a noiseless circuit. The composite noise from each of these sources, in presence of the noiseless circuit, is equal to the noise from the original circuit. The voltage and current noise sources are often correlated too.
+
+> Put *picture of input referred noise*
+
+Why *input-referred*? Depending on the gain of the circuit, the noise at the output is also amplified. This makes it difficult to compare noise performance of circuits with different gain. The simpler way is to define noise at the input of the circuit.
+
+How do we find the values of the voltage and current noise sources?
+- **Voltage noise**: Short the input terminal to eliminate current noise. Measure the output noise, and divide it by the voltage gain to obtain input-referred voltage noise.
+- **Current noise**: Open the input terminal to eliminate voltage noise. Measure the output noise, and divide it by the transconductance gain to get input-referred current noise.
+
+> Put *picture showing how voltage and current noise is obtained*
+
+#### Noise Figure
+For simple circuits, the concept of input-referred noise works nicely. For complex RF blocks, finding voltage and transimpedance gain is not trivial. Instead, we can define another metric - Noise Figure - in terms of signal to ratio (SNR).
+
+If an amplifying RF block has a signal at its input terminal, the amplification increases both the signal and noise by the same level at the output. In terms of SNR, nothing has changed from input to the output -  SNRin = SNRout. This is only assuming that the amplifier itself did not contribute any noise by itself.
+
+In reality, in addition to the amplification of noise, there is additional noise being added by the RF block. As a result, the SNRout is lower than SNRin, which leads itself to a simple definition of noise - Noise Figure (NF) - given by
+
+$$NF = \frac{SNR_{in}}{SNR_{out}}$$
+Noise figure is most often expressed in terms of decibels by taking 10xlog(NF). A noiseless circuit has a NF=1 or 0dB.
+
+Let us dive in a bit deeper with an example. Take the case of an amplifier with gain G and input impedance Zi. This amplifier is noisy and produces an equivalent output noise voltage Vn. The amplifier is fed with a supply whose input resistance is Rs, generating a thermal noise 4kTRs. This scenario is shown in the figure below.
+
+> Put *noise figure of amplifier example*
+
+
+
+
+
+
 
 
 
