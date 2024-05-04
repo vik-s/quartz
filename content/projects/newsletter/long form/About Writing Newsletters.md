@@ -5,7 +5,7 @@ tags:
 project: substack
 date_published: 2024-05-05
 status: 🟢
-final title:
+final title: How I write an Engineering Newsletter
 ---
 Hey, I'm Vikram and thank you for reading.
 
