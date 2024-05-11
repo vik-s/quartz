@@ -38,6 +38,7 @@ Put *picture of drain current equation*
 
 ## MOSFET Models
 
+
 ### The BSIM Family
 One of the most popular device models for MOS transistors is the Berkeley Short-Channel IGFET{fn} Model (BSIM) developed by a team of researchers at the University of California, Berkeley. The first version introduced in the late 1980s [1] was a rather rudimentary version with only 17 model parameters. 
 
@@ -66,6 +67,7 @@ https://home.iitk.ac.in/~chauhan/ESSDERC2012_YSChauhan.pdf
 Put *picture of evolution of BSIM*
 ## Bipolar Device Models
 
+Bipolar device models are arguably a bit of the wild west.
 ### HiCUM Model
 
 The Hi Current Model (HiCUM) according to the University of Technology, Dresden website (https://www.iee.et.tu-dresden.de/iee/eb/hic_new/hic_intro.html) who maintain the model is described as:
@@ -76,32 +78,14 @@ They are applicable to homojunction silicon-based BiCMOS (Bipolar+CMOS) devices 
 The L2-level model  includes a sophisticated approach to modeling a variety of physical effects and is the more comprehensive version of the model. The L0 model is a simpler version of the HiCUM model which can be used when the extra accuracy provided by L2 is not required for the applications, or for feasibility studies.
 
 ### MEXTRAM
-This is a bipolar device model which is a rather immodest abbreviation for [Most EXquisite TRAnsistor Model (MEXTRAM)](https://www.eng.auburn.edu/~niuguof/mextram/), and is currently supported by the University of Auburn. Mextram originated from NXP semiconductors in 1985, but the first release Mextram 503 was released to the public in 1994. The first digit 5 refers to the fifth generation of bipolar device models, with the first four being Ebers-Moll versions 1-3, and Gummel Poon model. The most recent Mextram release is version 505.
+This is a bipolar device model which is a rather immodest abbreviation for [Most EXquisite TRAnsistor Model (MEXTRAM)](https://www.eng.auburn.edu/~niuguof/mextram/), and is currently supported by the University of Auburn. Mextram originated from NXP semiconductors in 1985, but the first release Mextram 503 was released to the public in 1994. The first digit 5 refers to the fifth generation of bipolar device models, with the first four being Ebers-Moll versions 1-3, and the Standard Gummel Poon model. The most recent Mextram release is version 505.
 
-While the HiCUM model has been reported to do very well at high injection currents, Mextram is a viable choice for Si/SiGe bipolar devices for most RF and power applications.
+While the HiCUM model has been reported to do very well at high injection currents, Mextram is a viable choice for most Si/SiGe bipolar devices targeting RF and power applications. It is a comprehensive model that captures most advanced physical effects occuring in modern bipolar devices and is widely used in industry.
 ### VBIC
-The Vertical Bipolar Intercompany (VBIC) Model for Bipolar transistors was developed as a replacement for the standard Gummel Pool Model (SGPM), and has been widely used in industry primarily for its good accuracy in most regions of operation except high current regions. Compared to Mextram and HiCUM, the VBIC model is easier to extract and has been extensively used in modeling of GaAs devices.
+The Vertical Bipolar Intercompany (VBIC) Model for Bipolar transistors was developed as a replacement for the standard Gummel Pool Model, and has been widely used in industry primarily for its good accuracy in most regions of operation except high current regions. Compared to Mextram and HiCUM, the VBIC model is easier to extract and has been extensively used in modeling of GaAs devices. The choices of VBIC over MEXTRAM or HiCUM mostly depends on the application for which the device is used, which physical effects dominate transistor action and what impact they have on the circuit operation.
 ### AHBT
 
-The Agilent (now Keysight) HBT model is a Keysight Technologies specific device model aimed at improved accuracy in predicting the performance of heterojunction devices. It has been used quite extensively for 
-
-## HEMT Device Models
-### Curtice-3
-
-### EEHEMT
-
-### Angelov-GaN
-
-### ASM- HEMT
-
-## Measurement-Based Device Models
-
-### Root Model 
-
-### DynaFET
-
-
-
+The Agilent (now Keysight) HBT (AHBT) model is a proprietary HBT model developed by Keysight Technologies. In my opinion, there is no specific reason to use AHBT over others and the decision to use it might often be rooted in the product design flow of the company, which may be reliant on Keysight Advanced Design System. Keysight also provides a turnkey model extraction package for AHBT which assists in rapid model extraction. The model is accurate enough to capture most effects occurring in bipolar devices and is arguably as good as any of the others.
 
 
 [1] 
