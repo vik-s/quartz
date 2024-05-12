@@ -1,12 +1,12 @@
 ---
-title: How transistor models are developed
+title: Understanding Compact Models for MOS and Bipolar Devices
 tags:
   - device
 project: substack
-date_published: 
-status: 🚧
-final title: 
-Subtext: Looking under the hood of your schematics...
+date_published: 2024-05-12
+status: 🟢
+final title: Understanding Compact Models for MOS and Bipolar Devices
+subtext: Looking under the hood of your schematics...
 ---
 Transistor models are fundamental for circuit design.  But every model has its strengths and weaknesses. Having an understanding of what model is being used, and what other options are available provides an additional dimension of trust (or distrust) in the simulation results. Having a healthy level of skepticism regarding the simulated circuit metrics differentiates the designer new to the art of circuit design, from a veteran who has done it for decades. 
 
@@ -88,18 +88,15 @@ The Hi Current Model (HiCUM) according to the University of Technology, Dresden 
 
 The HiCUM model is available in the two 'flavors' - the L2 and L0 variations. The L2-level model  includes a sophisticated approach to modeling a variety of physical effects and is the more comprehensive version of the model. The L0 model is a simpler version of the HiCUM model which can be used when the extra accuracy provided by L2 is not required for the applications, or for feasibility studies.
 
-HiCUM has been used for the modeling of 55nm SiGe HBTs from STMicroelectronics up to the Sub-THz range [6]. HiCUM has also shown good applicability for scalable  GaAs HBT modeling [7].
+HiCUM has been used for the modeling of 55nm SiGe HBTs from STMicroelectronics up to the Sub-THz range [6]. HiCUM has also shown good applicability for scalable  GaAs HBT modeling [7]. HiCUM is the most accurate and actively researched bipolar model in recent literature, although the model is quite complex to extract.
 ### MEXTRAM
 This is a bipolar device model which is a rather immodest abbreviation for [Most EXquisite TRAnsistor Model (MEXTRAM)](https://www.eng.auburn.edu/~niuguof/mextram/), and is currently supported by the University of Auburn. Mextram originated from NXP semiconductors in 1985, but the first release Mextram 503 was released to the public in 1994. The first digit 5 refers to the fifth generation of bipolar device models, with the first four being Ebers-Moll versions 1-3, and the Standard Gummel Poon model. 
 
-While the HiCUM model has been reported to do very well at high injection currents, Mextram is a viable choice for most Si/SiGe bipolar devices targeting RF and power applications. It is a comprehensive model that captures most advanced physical effects occuring in modern bipolar devices and is widely used in industry.
+While the HiCUM model has been reported to do very well at high injection currents, Mextram is also a viable choice for most Si/SiGe bipolar devices targeting RF and power applications. Recent research activity has been focussed on improving the RF linearity prediction of IIP3 with the MEXTRAM model especially at high injection currents [8] It is a comprehensive model that captures most advanced physical effects occurring in modern bipolar devices and is widely used in industry.
 ### VBIC
-The Vertical Bipolar Intercompany (VBIC) Model for Bipolar transistors was developed as a replacement for the standard Gummel Pool Model, and has been widely used in industry primarily for its good accuracy in most regions of operation except high current regions. Compared to Mextram and HiCUM, the VBIC model is easier to extract and has been extensively used in modeling of GaAs devices. The choices of VBIC over MEXTRAM or HiCUM mostly depends on the application for which the device is used, which physical effects dominate transistor action and what impact they have on the circuit operation.
+The Vertical Bipolar Intercompany (VBIC) Model for Bipolar transistors was developed as a replacement for the standard Gummel Pool Model, and has been widely used in industry primarily for its good accuracy in most regions of operation except high current regions. Compared to Mextram and HiCUM, the VBIC model is easier to extract and has been extensively used in modeling of GaAs devices. HiCUM and MEXTRAM have mostly replaced VBIC as the industry standard model for bipolar devices.
 ### AHBT
-The Agilent (now Keysight) HBT (AHBT) model is a proprietary HBT model developed by Keysight Technologies. In my opinion, there is no specific reason to use AHBT over others and the decision to use it might often be rooted in the product design flow of the company, which may be reliant on Keysight's Advanced Design System. Keysight also provides a turnkey model extraction package for AHBT which assists in rapid model extraction. The model is accurate enough to capture most effects occurring in bipolar devices and is arguably as good as any of the others.
-## Conclusion
-
-
+The Agilent (now Keysight) HBT (AHBT) model is a proprietary HBT model developed by Keysight Technologies. In my opinion, there is no specific reason to use AHBT over others and the decision to use it might often be rooted in the product design flow of the company, which may be reliant on Keysight's Advanced Design System. Keysight also provides a turnkey model extraction package for AHBT which assists in rapid model extraction. Unless there are legacy reasons to use AHBT models, the abundance of published literature for HiCUM and MEXTRAM might make them better choices for most applications.
 ## References
 
 [1] B. J. Sheu, D. L. Scharfetter, P.-K. Ko, and M.-C. Jeng, “BSIM: Berkeley short-channel IGFET model for MOS transistors,” _IEEE J. Solid-State Circuits_, vol. 22, no. 4, pp. 558–566, Aug. 1987, doi: [10.1109/JSSC.1987.1052773](https://doi.org/10.1109/JSSC.1987.1052773).
@@ -115,3 +112,7 @@ The Agilent (now Keysight) HBT (AHBT) model is a proprietary HBT model developed
 [6] S. R. Panda, T. Zimmer, A. Chakravorty, N. Derrier, and S. Fregonese, “Exploring Compact Modeling of SiGe HBTs in Sub-THz Range With HICUM,” _IEEE Trans. Electron Devices_, vol. 71, no. 1, pp. 173–183, Jan. 2024, doi: [10.1109/TED.2023.3321017](https://doi.org/10.1109/TED.2023.3321017).
 
 [7] T. Nardmann, P. Kolev, N. Tao, and M. Schröter, “Geometry scalable compact modeling of GaAs HBTs,” in _2022 IEEE BiCMOS and Compound Semiconductor Integrated Circuits and Technology Symposium (BCICTS)_, Phoenix, AZ, USA: IEEE, Oct. 2022, pp. 212–215. doi: [10.1109/BCICTS53451.2022.10051750](https://doi.org/10.1109/BCICTS53451.2022.10051750).
+
+[8] H. Zhang, G. Niu, M. B. Willemsen, and A. J. Scholten, “Improved Compact Modeling of SiGe HBT Linearity With MEXTRAM,” _IEEE Trans. Electron Devices_, vol. 68, no. 6, pp. 2597–2603, Jun. 2021, doi: [10.1109/TED.2021.3070530](https://doi.org/10.1109/TED.2021.3070530).
+
+![[projects/newsletter/long form/Understanding Compact Models for MOS and Bipolar Devices 2024-05-12 06.59.51.excalidraw]]
