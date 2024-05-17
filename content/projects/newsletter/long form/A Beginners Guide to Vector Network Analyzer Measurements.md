@@ -7,7 +7,9 @@ date_published:
 status: 🚧
 final title:
 ---
-Scattering (S) parameter measurements are the bedrock of RF engineering. They are used to calculate gain, matching, stability, noise, and efficiency, among other metrics. The process of measuring S-parameters involves sending an RF signal to a multiport device, and finding out the ratio of reflected and transmitted powers at each port. If you want a nice visual introduction to s-parameters, then check out this video.
+If there was only laboratory instrument I'd learn to use as an RF engineer, its the Vector Network Analyzer, or VNA, to measure scattering (S) parameters.
+
+S-parameter measurements are the bedrock of RF engineering. They are used to calculate gain, matching, stability, noise, and efficiency, among other metrics. The process of measuring s-parameters involves sending an RF signal to a multiport device, and finding out the ratio of reflected and transmitted powers at each port. If you want a nice visual introduction to s-parameters, then check out this video.
 https://www.youtube.com/watch?v=CEA8njh4tLU
 
 I once attended a lecture by Prof. Andrea Ferrero, from Politecnico di Torino, who gave a talk on Vector Network Analyzer (VNA) measurements. His enthusiasm for the subject was infectious and his description of S parameter measurements with a VNA is something I never forgot.
@@ -27,7 +29,7 @@ Read time: X mins
 --
 ## Working of a Vector Network Analyzer
 
-A Vector Network Analyzer (VNA) is an instrument used to measure S-parameters of any multiport microwave network. It could be a one-port network like an antenna, a two-port like an amplifier or a multiport like a power splitter or directional coupler. VNAs are most commonly available in two- and four-port configurations. It is called a vector analyzer because the magnitude and phase of s-parameters are measured. In contrast, scalar network analyzers do exist when there is no need for phase information.
+VNAs are extensively used to test the performance of one-port networks like antennas, two-ports like amplifiers or a multiports like power splitters or directional couplers. VNAs are most commonly available in two- and four-port configurations. It is called a vector analyzer because the magnitude and phase of s-parameters are measured. In contrast, scalar network analyzers do exist when there is no need for phase information.
 
 Modern VNAs are extremely complicated machines which cost half a million dollars when configured with all the bells and whistles. But, you can get a basic understanding of a VNA with the following block diagram.
 
@@ -44,7 +46,7 @@ Similarly, at the output, the first directional coupler measures the power incid
 
 Accordingly, S21 and S12 are the ratios B/R1 and A/R2, respectively.
 
-The measurements of the four quantities are made with four receivers each of which employ a superheterdyne architecture with two intermediate frequency (IF) stages for best image frequency rejection. These are systems designed to have best signal detection possible. Component cost and power efficiency are not major concerns like in communication receivers. Dual IF architecture uses more components but provides exceptional signal detection capability. 
+The measurements of the four quantities (A, B, R1, R2) are made with four receivers each of which employ a superheterodyne architecture with two intermediate frequency (IF) stages for best image frequency rejection. These are systems designed to have best signal detection possible. Component cost and power efficiency are not major concerns like in communication receivers. Dual IF architecture uses more components but provides exceptional signal detection capability. 
 
 Modern VNAs use a three receiver architecture to still save on component cost, by eliminating a reference receiver that is not being used by the incident signal and instead measuring "switch terms," a concept we will save for a future article. 
 
