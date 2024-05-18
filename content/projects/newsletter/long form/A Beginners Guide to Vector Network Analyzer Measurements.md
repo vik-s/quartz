@@ -58,11 +58,19 @@ For now, we will only concern ourselves with how to make good s-parameter measur
 
 ## A Step by Step Guide to Good VNA Measurements
 
+The following steps are from my notes refined from about a decade of taking measurements with VNAs. Instead of considering these steps as hard-and-fast rules to abide by, you should view them as a set of guidelines that have worked reasonably well and is a good starting point to develop your own measurement experience.
+### Preset
+Before starting up a calibration and measurement with a VNA, I have always restored the VNA to its preset state, which you can do in most VNAs from the 'System' menu. By doing so, I have complete control over all settings I will input from the VNA. Any instrument settings from the previous VNA user will not slip by unnoticed.
+
+Also, if you just turned on the instrument from power-off state, I would give it about 30 mins before use. I've been told that there are low frequency transients that need to settle. I've never actually seen evidence of these transients, but it is something I follow anyway. It is safer to err on the side of caution.
+
 ### Frequency Range
+Most VNAs cover measurement frequencies from the MHz to tens of GHz range. I usually restrict the frequency range to *exactly* what I need with as few frequency steps are possible. The reason is that more frequencies usually does not tell you anything new, but increases measurement time. Measurement time is better spent in capturing higher fidelity measurements using other settings as we will describe later.
+
+Additionally, if you have external components like bias tees or filters that inherently operate in a specific frequency range, there is no point in taking VNA measurements outside those ranges.
+### Resolution bandwidth
 
 ### Input power
-
-### Resolution bandwidth
 
 ### Averaging and smoothing
 
