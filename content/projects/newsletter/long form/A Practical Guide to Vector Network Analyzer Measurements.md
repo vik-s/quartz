@@ -5,7 +5,8 @@ tags:
 project: substack
 date_published: 
 status: 🚧
-final title:
+final title: A Practical Guide to Vector Network Analyzer Measurements
+subtext: Learning to measure scattering parameters the proper way.
 ---
 If there was only one laboratory instrument I'd learn to use as an RF engineer, it is the Vector Network Analyzer, or VNA, to measure scattering (S) parameters.
 
