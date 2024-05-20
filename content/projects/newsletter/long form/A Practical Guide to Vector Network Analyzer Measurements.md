@@ -134,7 +134,7 @@ https://anlage.umd.edu/Anritsu_understanding-vna-calibration.pdf
 High power VNA measurements:
 https://www.keysight.com/us/en/assets/7018-01237/application-notes/5989-1349.pdf
 
-
+[[projects/newsletter/long form/A Practical Guide to Vector Network Analyzer Measurements.excalidraw]]
 
 
 
