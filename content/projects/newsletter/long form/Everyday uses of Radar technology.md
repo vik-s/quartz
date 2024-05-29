@@ -1,6 +1,7 @@
 ---
 title: Everyday uses of Radar technology
-tags: 
+tags:
+  - popsci
 project: substack
 date_published: 
 status: 🚧
