@@ -36,4 +36,7 @@ The RX chirp is a time delayed version of the original TX one because it is only
 
 The delay in the signal is the time taken by the signal to travel to the object located at a distance d, and back, divided by the speed of light. Thus, the IF generated at output of the mixer is represented by S*(2d/c). The IF signal is valid only when the RX chirp is received, up to the point in time that the TX chirp is still present. Thus the ADCs should sample the IF signal only in this window.
 
+The delay from the reflected signal is usually a small fraction of the chirp time frame (like 5%).
+
+Longer the observation window, the better the resolution of the radar. 
 
