@@ -50,22 +50,45 @@ An RF bandwidth from 77GHz - 81 GHz (4GHz) translates to a range resolution of 4
 
 --
 
-In this series of articles, I explore how radar systems work, particularly Frequency Modulated Continuous Wave (FMCW) radar. We've nearly all heard of Radar and if you haven't, it stands for Radio Detection and Ranging. While this is not my main field of expertise, the concepts and inner workings seem so interesting that I decided to learn as I go. I invite you to join me on this journey. If you are an expert, feel free to leave a comment below so that we can all learn from you.
+In this series of articles, I explore how radar systems work, particularly Frequency Modulated Continuous Wave (FMCW) radar. We've nearly all heard of Radar and if you haven't, it stands for Radio Detection and Ranging. 
 
-## What is FMCW Radar?
+- Companies doing Automotive safety stuff
+	- https://inrix.com/industries/automotive/
+	- https://www.perciv.ai
+	- https://www.aptiv.com/en/solutions/advanced-safety
+	- https://www.continental-automotive.com/en.html
+	- https://www.magna.com/products/electrical-electronics/adas-automated-driving
+	- https://www.autoliv.com/safety-solutions
+	- https://www.bosch-mobility.com/en/solutions/driving-safety/integrated-safety-systems/
+	- https://www.qualcomm.com/products/automotive/automated-driving
 
-FMCW is the most commonly used type of automotive radar. It is used for adaptive cruise control, blind spot detection, rear collision warning, object classification, among others. 
+Market Research
+- https://www.mordorintelligence.com/industry-reports/automotive-safety-systems-market
+- 
 
-FMCW is a continuous wave radar, which means that the RF signal is continuously on during the period of radar sensing. This is distinct from pulsed radar, which transmits short bursts of energy and waits for the reflected signal to arrive. The FM means that the frequency of the RF signal is not constant, but actually continuously modulated to increase in frequency.
+## Need for Automotive Safety 
+
+According to the [2023 WHO report](https://iris.who.int/bitstream/handle/10665/375016/9789240086517-eng.pdf?sequence=1), there are over a million worldwide road traffic fatalities every year, with the highest fatalities occurring in the southeast asian region (28% of global). It remains the leading cause of death for children and people under 30, and worldwide initiatives have been taken to improve road safety. For example, [Vision Zero](https://visionzeronetwork.org/about/what-is-vision-zero/) is a project initiated in the 1990s whose focus is on achieving zero traffic fatalities and injuries through technology, policy, and design.
+
+Today, the rise of electronics in automobiles has enabled safety features that allow the driver to actively avoid fatal mistakes increasing both driver and pedestrian safety. [Reports](https://finance.yahoo.com/news/automotive-safety-system-market-projected-072700837.html) place the total market for automotive safety systems at over 200 billion by 2030 with an annual growth rate of 9%.
+
+Among these safety features are adaptive cruise control, blind spot detection, rear collision warning, lane departure warning, lane keep assist, and automatic emergency braking and steering. Advanced Driver-Assistance Systems (ADAS) are designed to help implement these technology features in automobiles.
+
+An essential element of ADAS systems is RADAR, which stands for RAdio Detection And Ranging. Radar has been around for a good part of the century, but its use for automotive safety has been much more recent. For example, the 5th generation Waymo Driver had [6 radar sensors](https://www.sensortips.com/featured/what-sensors-make-the-latest-waymo-driver-smarter/), along with a plethora of ultrasonic, camera and lidar sensors.
+
+![[Newsletter_Images/022_FMCWRadar1/Renesas_radar-ADAS-pt1-why-need-radar-fig2.jpg]]
+Source: https://www.renesas.com/us/en/blogs/why-do-we-need-radar
+
+One of the key components of automotive radar is the Frequency Modulated Continuous Wave (FMCW) radar. FMCW is a continuous wave radar, which means that the RF signal is continuously present during the period of radar sensing. This is distinct from pulsed radar, which transmits short bursts of energy and waits for the reflected signal to arrive. The frequency modulation (FM) means that the frequency of the RF signal is not constant, but instead continuously increases for a fixed interval o
+## Chirps: What and Why?
 
 The fundamental signal used in FMCW radar is called a chirp.  It consists of an RF signal that goes from a starting frequency F1 to an ending frequency F2 during a time period called the chirp duration Tc. The bandwidth of the chirp B (=F2-F1), and the frequency slope S (=B/Tc) are critical system parameters as we will see later.
 
 Put *picture of a chirp signal* Compressed HI Resolution Pulse
-### The Need for a Chirp
 
-But why do we even need a chirp? It seems rather complex to generate signals like this. Fortunately, there is good reason for this. 
+Why do we even need a chirp? It seems rather complex to generate signals like this. Fortunately, there is good reason.
 
-But first, we need to understand the concept of a matched filter. A matched filter is a signal processing idea used to extract a known signal from a noisy reflected signal received by a radar. The way this is done is to find out how correlated the received signal is, to a known waveform known as a *template* signal. This is done by *convolving* these two signals together. 
+First, we need to understand the concept of a matched filter. A matched filter is a signal processing idea used to extract a known signal from a noisy reflected signal received by a radar. The way this is done is to find out how correlated the received signal is, to a known waveform known as a *template* signal. This is done by *convolving* these two signals together. 
 
 Put *picture of matched filter operating*
 
