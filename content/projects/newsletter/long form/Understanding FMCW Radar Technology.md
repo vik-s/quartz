@@ -26,17 +26,7 @@ The heart of FMCW radar is a signal called a chirp (Why do we even need a chirp?
 
 Single-TX, Single-RX system.
 
-A frequency synthesizer generates a chirp that is amplified and sent out via a TX antenna. The signal bounces off the object and is received by the RX antenna.  The received signal is mixed with  the original chirp to generate an intermediate frequency.
-
-The mixer here serves two important functions:
-1. Generate a frequency that is the difference of the *instantaneous* frequencies of the TX and RX signal (remember that frequency is linearly increasing)
-2. The instantaneous phase of the mixed signal has a value equal to the difference of the instantaneous phases of the input signals.
-
-The RX chirp is a time delayed version of the original TX one because it is only a static object. Therefore the output of the mixer at any instant is a signal with constant IF frequency that depends on how far away the object is. The greater the distance, the higher the IF value.
-
-The delay in the signal is the time taken by the signal to travel to the object located at a distance d, and back, divided by the speed of light. Thus, the IF generated at output of the mixer is represented by S*(2d/c). The IF signal is valid only when the RX chirp is received, up to the point in time that the TX chirp is still present. Thus the ADCs should sample the IF signal only in this window.
-
-The delay from the reflected signal is usually a small fraction of the chirp time frame (like 5%).
+-->
 
 Longer the observation window, the better the resolution of the radar. This has something to do with FFT needing a long enough observation time to be able to distinguish between two tones. An observation window of T can separate frequencies spaced apart 1/T Hz.
 
@@ -74,23 +64,51 @@ Today, the rise of electronics in automobiles has enabled safety features that a
 
 Among these safety features are adaptive cruise control, blind spot detection, rear collision warning, lane departure warning, lane keep assist, and automatic emergency braking and steering. Advanced Driver-Assistance Systems (ADAS) are designed to help implement these technology features in automobiles.
 
-An essential element of ADAS systems is RADAR, which stands for RAdio Detection And Ranging. Radar has been around for a good part of the century, but its use for automotive safety has been much more recent. For example, the 5th generation Waymo Driver had [6 radar sensors](https://www.sensortips.com/featured/what-sensors-make-the-latest-waymo-driver-smarter/), along with a plethora of ultrasonic, camera and lidar sensors.
+An essential element of ADAS systems is RADAR, which stands for RAdio Detection And Ranging. Radar has been around for a good part of a century, but its use for automotive safety has been much more recent. For example, the 5th generation Waymo Driver had [6 radar sensors](https://www.sensortips.com/featured/what-sensors-make-the-latest-waymo-driver-smarter/), along with a plethora of ultrasonic, camera and lidar sensors.
 
 ![[Newsletter_Images/022_FMCWRadar1/Renesas_radar-ADAS-pt1-why-need-radar-fig2.jpg]]
 Source: https://www.renesas.com/us/en/blogs/why-do-we-need-radar
 
-One of the key components of automotive radar is the Frequency Modulated Continuous Wave (FMCW) radar. FMCW is a continuous wave radar, which means that the RF signal is continuously present during the period of radar sensing. This is distinct from pulsed radar, which transmits short bursts of energy and waits for the reflected signal to arrive. The frequency modulation (FM) means that the frequency of the RF signal is not constant, but instead continuously increases for a fixed interval o
-## Chirps: What and Why?
+One of the key components of automotive radar is the Frequency Modulated Continuous Wave (FMCW) radar. FMCW is a continuous wave radar, which means that the RF signal is continuously present during the period of radar sensing. This is distinct from pulsed radar, which transmits short bursts of energy and waits for the reflected signal to arrive. The frequency modulation (FM) means that the frequency of the RF signal is not constant, but instead continuously changes for a fixed time interval. We'll dig into these ideas next.
+
+## Pulsed vs Continuous-Wave Radar
+
+There are two approaches to radar detection that we should define and discuss:
+- **Pulsed Radar**: In this radar, a short burst of RF energy for a known time duration is transmitted. The signal travels to an object, bounces off it, and hits the receiver. From the round trip delay measurement, the distance to the object is calculated.
+- **Continuous-Wave (CW) Radar**: In this radar, there is no distinct start and stop times to the RF energy. The signal is continuously transmitted and received at all times. Since there is no defined start and stop times, there is no delay to be measured. Special methods are used to estimate distance as we will see shortly.
+
+The downsides of pulsed radar are the following:
+- The burst of RF energy needs to be sufficiently high powered so that the reflected signal reaches the receiver with enough fidelity. This makes the design of transmit amplifiers expensive and challenging.
+- It is difficult to measure short ranges because the pulse duration needs to be extremely short. As a result it is better for longer range applications. 
+- The time taken to switch from transmit to receive mode presents a 'blind spot' where no radar tracking is available.
+
+Pulsed radar does have its use cases where long range, high speed target tracking is needed, particularly for military applications. It is also useful when fine resolution is need between radar targets.
+
+On the other hand, CW radar can utilize lower power transmit signals which makes the design of radio electronics much more conducive to applications such as automotive safety.  CW can be designed to have short, medium or long range capability depending on system design and since the RF signal is always on, CW radar does not have any blind spots. 
+## The Doppler Effect
+
+In pulsed radar, it is relatively simple to measure distance from round trip delay. In CW radar, we rely on the doppler effect, beat frequencies and frequency modulation.
+
+The doppler effect is a phenomenon where the frequency of a signal source shifts if it is moving towards or away from an observer. When the signal source is moving towards the observer, the frequency shifts to higher values, and vice versa. In CW radar, the velocity of an object can be measured from doppler shift of the RF frequency. 
+
+The frequency shift due to doppler effect in a CW radar due to an object moving at 100-200 mph, is in the range of kHz for an RF signal in the 77-81 GHz range. The detection of this shift is done by multiplying the received signal with the transmitted signal in a mixer, resulting in sum and difference frequencies. The sum frequency will be in the 150 GHz range and is easily filtered out by a low-pass filter that only allows the difference frequency in the kHz range through.
+
+Due to the [image problem](https://www.viksnewsletter.com/p/the-image-problem-in-rf-receiver?r=222kot&utm_campaign=post&utm_medium=web) we discussed earlier, we already know that the beat frequency is the same whether the received signal is above or below the transmitted signal. As a result, we cannot tell if the object is moving toward or away from the receiver. To resolve this we need another transmitted signal offset by 90 degrees in phase, to generate in-phase and quadrature (IQ) components, mix them both down and examine their phase components. Just know that for now, and we'll get into this at another time.
+
+However range (a radar term for distance) measurement is not straightforward as there are no start and stop times. To measure range in CW radar, we need frequency modulation (FM).
+## Anatomy of a Chirp
+
+We will examine the need for FM in both pulsed and CW radar contexts. 
 
 The fundamental signal used in FMCW radar is called a chirp.  It consists of an RF signal that goes from a starting frequency F1 to an ending frequency F2 during a time period called the chirp duration Tc. The bandwidth of the chirp B (=F2-F1), and the frequency slope S (=B/Tc) are critical system parameters as we will see later.
 
-Put *picture of a chirp signal* Compressed HI Resolution Pulse
+> Put *picture of a chirp signal* Compressed HI Resolution Pulse
 
 Why do we even need a chirp? It seems rather complex to generate signals like this. Fortunately, there is good reason.
 
-First, we need to understand the concept of a matched filter. A matched filter is a signal processing idea used to extract a known signal from a noisy reflected signal received by a radar. The way this is done is to find out how correlated the received signal is, to a known waveform known as a *template* signal. This is done by *convolving* these two signals together. 
+First, we need to understand the concept of a matched filter. A matched filter is a signal processing idea used to extract a known signal from a noisy signal, like the one receiver by a radar. The way this works is to find out how correlated the received signal is, to a known waveform known as a *template* signal. This is done by *convolving* these two signals together. 
 
-Put *picture of matched filter operating*
+> Put *picture of matched filter operating*
 
 Let's see how this works for a radar that uses constant frequency pulses. The transmitter sends out a RF pulse at a certain frequency for a duration Tc. It is reflected from a target and received along with noise. Next, compare this signal with a constant frequency pulse as template signal. As long as the pulse does not overlap the template, the correlation is zero. As the pulse starts to overlap, there is some correlation, and it reaches a maximum when it is completely aligned.
 
@@ -98,17 +116,31 @@ The peak of the matched filter output tells us the delay between the transmitted
 
 **SNR**: As the noise level rises, it quickly becomes difficult to tell where the peak is. We could increase the power level of the transmitted pulse, but it makes it hard to design linear transmit amplifiers that work well.
 
-**Resolution**: If there are reflections from two targets, the received pulses might overlap making it difficult to detect any peaks. The ability of a radar to distinguish between distinct objects is called its *resolution*. To improve resolution, we could make the pulses shorter to minimize the overlap between signals. But shorter pulses are harder to distinguish from noise. There is always a  trade-off between resolution and SNR.
+**Resolution**: If there are reflections from two targets, the received pulses might overlap making it difficult to detect any peaks. The ability of a radar to distinguish between distinct objects is called its *resolution*. To improve resolution, we could make the pulses shorter to minimize the overlap between signals. But shorter pulses are harder to distinguish from noise. There is always a trade-off between resolution and SNR.
 
 Put *pictures of how poor peaks are in SNR, and how overlap from multiple targets kills the peaks and makes it undetectable.*
 
 The ability to resolve targets in the presence of noise dramatically improves when a chirp is used. When an RF signal with continuously increasing frequency is used, the output of the matched filter produces sharper peaks. To understand how, let's look at the correlations of a received chirp with its corresponding template signal.
 
+> Put *pictures of FMCW matched filtering*.
+
 As before, when the two signals do not overlap, the correlation is zero. When they start to overlap, the correlation is still low because the waveforms do not line up when they are of different frequencies. The correlation is maximum only when the two FMCW signals exactly line up. This results in a more detectable peak that is easy to identify even in the presence of noise. The sharper peaks will also be separate when two reflected signals overlap due to their different frequencies at any instant of time.
 
 Put *pictures of how FMCW matched filter operation gives sharper peaks even in the presence of noise, and how overlapping signals produce distinct peaks.*
 
+## FMCW Radar System
 
+The block diagram of an FMCW radar is shown below. A frequency synthesizer generates a chirp that is amplified and sent out via a TX antenna. The signal travelsl through the air, bounces off the object and is received by the RX antenna.  The received signal is mixed with the original chirp to generate an intermediate frequency.
+
+The mixer here serves two important functions:
+1. Generate a frequency that is the difference of the *instantaneous* frequencies of the TX and RX signal (remember that frequency is linearly increasing)
+2. The instantaneous phase of the mixed signal has a value equal to the difference of the instantaneous phases of the input signals.
+
+The RX chirp is a time delayed version of the original TX one because it is only a static object. Therefore the output of the mixer at any instant is a signal with constant IF frequency that depends on how far away the object is. The greater the distance, the higher the IF value.
+
+The delay in the signal is the time taken by the signal to travel to the object located at a distance d, and back, divided by the speed of light. Thus, the IF generated at output of the mixer is represented by S*(2d/c). The IF signal is valid only when the RX chirp is received, up to the point in time that the TX chirp is still present. Thus the ADCs should sample the IF signal only in this window.
+
+The delay from the reflected signal is usually a small fraction of the chirp time frame (like 5%).
 
 
 ## FMCW in Nature
