@@ -7,6 +7,13 @@ date_published:
 status: 🚧
 final title:
 ---
+In this article you will learn:
+- Differences between pulsed and continuous-wave radar
+- Use of doppler effect, beat frequency and frequency modulation in distance measurement.
+- Design of frequency chirps for FMCW radar
+- Radar range versus resolution trade-off
+
+Read time: X mins
 ## Need for Automotive Safety 
 
 According to the [2023 WHO report](https://iris.who.int/bitstream/handle/10665/375016/9789240086517-eng.pdf?sequence=1), there are over a million worldwide road traffic fatalities every year, with the highest fatalities occurring in the southeast asian region (28% of global). It remains the leading cause of death for children and people under 30, and worldwide initiatives have been taken to improve road safety. For example, [Vision Zero](https://visionzeronetwork.org/about/what-is-vision-zero/) is a project initiated in the 1990s whose focus is on achieving zero traffic fatalities and injuries through technology, policy, and design.
@@ -85,46 +92,35 @@ The block diagram of an FMCW radar is shown below. A frequency synthesizer gener
 
 Put *picture of FMCW radar system*
 
-The mixer here serves two important functions:
-1. Generate a frequency that is the difference of the *instantaneous* frequencies of the transmit and receive signals.
-2. Generate the *instantaneous* phase of the mixed signal with a value equal to the difference of the instantaneous phases of the input signals.
-
-If the target is stationary, then the received signal is a chirp delayed in time. The mixing operation results in an intermediate frequency that is proportional to the distance of the object. If S is the frequency slope of the chirp signal, the IF is calculated as
+If the target is stationary, then the received signal is a chirp delayed in time. The delay in the signal is the time taken by the signal to travel to the object located at a distance d, and back, divided by the speed of light. The mixing operation results in an intermediate frequency that is proportional to the distance of the object. If S is the frequency slope of the chirp signal, the IF is calculated as
 $$ IF = S.\frac{2d}{c} $$
 The IF signal is digitized by the analog-to-digital converter (ADC) only in the time window where both transmitted and received chirps are present. In practice, the delay between transmitted and received chirps is quite small, usually under 5% of the total chirp period. So both chirps are available for over 95% of the sensing period to generate an IF.
 
-If there are multiple targets in the radar sensing field, then multiple reflected chirps will be received by the radar, which will produce multiple IF. **The ability to resolve two nearby objects is called the range resolution of a radar.** 
+#### Range Resolution
+If there are multiple targets in the radar sensing field, then multiple reflected chirps will be received by the radar, which will produce multiple IF. 
 
+> The ability to resolve two nearby objects is called the range resolution of a radar. 
 
-FMCW measures the range, velocity and angle of the object in front of it.
+To be able to distinguish between two tones in a frequency versus distance plot (also called a range FFT), we need to have two separate peaks in the spectrum. The ability to distinguish between peaks depends on the duration of the chirp signal Tc. A higher time-window allows for better resolution of closely spaced objects. For the same frequency slope S, this means a higher frequency sweep bandwidth B.
+
+Two IF signals spaced Δf apart can distinguished if Δf > 1/Tc. Using our earlier relationship mapping IF to distance, the range resolution of a radar is given by
+$$ d_{res} = \frac{c}{2B} $$
+**To improve resolution of two nearby objects, a higher frequency bandwidth is needed for the chirp signal.** An RF chirp from 77GHz - 81 GHz (B=4GHz) translates to a range resolution of 3.75 cm.
+#### Maximum Range
+How far an object can be and still be sensed by the radar depends mainly on the ADC bandwidth available to digitize the IF signal. For a far away object, the IF signal frequency will be higher and the ADC bandwidth should be sufficiently large to handle that. For an ADC sample rate Fs, the maximum range of the radar is given by
+$$ d_{max}=\frac{F_s c}{2S} $$
+This tells us that for a given ADC sampling rate, the maximum range can be improved by lowering the frequency slope of the chirp.
+#### Resolution versus Range Trade-off
+Consider two chirp signals with the same frequency sweep bandwidth B. Chirp X has a longer chirp duration, but lower frequency slope. Chirp Y has a shorter chirp duration but higher frequency slope.
+
+Both chirps give the same range resolution because they have the same bandwidth. However, because chirp X has a lower slope, it generates lower IF frequencies. This means that the ADC bandwidth requirements are more relaxed for chirp X and therefore is capable of sensing greater distances. While chirp Y is capable of faster sensing due to smaller chirp duration, it places a higher specification on ADC performance and corresponding limitations in maximum range.
+
 
 Some questions to be answered:
 - How does the radar estimate range of the object in front of it?
 - What if there are multiple objects?
 - How can two closeby objects be resolved?
 - How far can a radar sense an object?
-
-
-Single-TX, Single-RX system.
-
-
-The delay in the signal is the time taken by the signal to travel to the object located at a distance d, and back, divided by the speed of light. Thus, the IF generated at output of the mixer is represented by S*(2d/c). The IF signal is valid only when the RX chirp is received, up to the point in time that the TX chirp is still present. Thus the ADCs should sample the IF signal only in this window.
-
-The delay from the reflected signal is usually a small fraction of the chirp time frame (like 5%).
-
--->
-
-Longer the observation window, the better the resolution of the radar. This has something to do with FFT needing a long enough observation time to be able to distinguish between two tones. An observation window of T can separate frequencies spaced apart 1/T Hz.
-
-Consider the case of multiple targets. Depending the distance to target you will get different IF tones. This will be seen as different peaks on the spectrum (it can be plotted with range on X axis, this is called a range FFT in literature). To differentiate these two signals, we need a long obseravation window of the IF signal. This means that we will need a wider chirp bandwidth. 
-
-What if you have two chirps with different durations but same chirp bandwidth? Which chirp has better resolution? What is the intuition behind this?
-
-Another thing is that the IF signals are digitized by the ADC and then sent to DSP. The maximum IF frequency is set by Dmax the maximum distance seen by the radar, and the Slope of the chirp. Ultimately, the ADC sampling frequency which must be greater than S2d/c (or is it twice that?) can become a limiting factor for max distance a radar can see. This can be traded off by reducing the slope of the chirp.
-
-An RF bandwidth from 77GHz - 81 GHz (4GHz) translates to a range resolution of 4cm.
-
-## FMCW in Nature
 
 
 
@@ -142,3 +138,5 @@ Market Research
 - https://www.mordorintelligence.com/industry-reports/automotive-safety-systems-market
 
 https://www.ti.com/video/series/mmwave-training-series.html
+
+![[projects/newsletter/long form/Understanding FMCW Radar Technology 2024-06-09 10.33.39.excalidraw]]
