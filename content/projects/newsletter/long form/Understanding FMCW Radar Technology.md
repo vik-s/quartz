@@ -3,9 +3,9 @@ title: Understanding FMCW Radar Technology
 tags:
   - systems
 project: substack
-date_published: 
-status: 🚧
-final title:
+date_published: 2023-06-09
+status: 🟢
+final title: How Automotive Radar uses Chirp Signals for Sensing
 ---
 In this article you will learn:
 - Differences between pulsed and continuous-wave radar
