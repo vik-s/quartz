@@ -134,6 +134,8 @@ Some questions to be answered:
 	- https://www.bosch-mobility.com/en/solutions/driving-safety/integrated-safety-systems/
 	- https://www.qualcomm.com/products/automotive/automated-driving
 
+UWB Sensing: https://novelda.com/technology#
+
 Market Research
 - https://www.mordorintelligence.com/industry-reports/automotive-safety-systems-market
 
