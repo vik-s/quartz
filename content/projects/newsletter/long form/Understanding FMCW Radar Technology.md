@@ -141,4 +141,4 @@ Market Research
 
 https://www.ti.com/video/series/mmwave-training-series.html
 
-![[projects/newsletter/long form/Understanding FMCW Radar Technology 2024-06-09 10.33.39.excalidraw]]
+[[projects/newsletter/long form/Understanding FMCW Radar Technology 2024-06-09 10.33.39.excalidraw]]
