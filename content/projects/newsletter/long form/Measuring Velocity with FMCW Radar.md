@@ -3,9 +3,9 @@ title: Measuring Velocity with FMCW Radar
 tags:
   - systems
 project: substack
-date_published: 
-status: 🚧
-final title:
+date_published: 2024-06-15
+status: 🟢
+final title: How Automotive Radar Measures the Velocity of Objects
 ---
 ## The Ambiguity Problem
 
