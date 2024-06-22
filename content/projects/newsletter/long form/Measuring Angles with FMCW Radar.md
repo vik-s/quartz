@@ -89,8 +89,9 @@ From the last section, doubling the number of antennas cuts the minimum angle re
 
 The figure above shows the relative phase shift at each antenna element of an eight element receiver array, with one transmitting antenna, from which an angle FFT can be calculated to estimate the angle of arrival. Instead, the same phase shifts are achieved by just adding a transmitting antenna and using only four receiving antennas.
 
-For four receive antennas, the key trick is to space the transmit antennas out by a distance 4p, where p (=λc/2) is the distance between the receive antennas. As a result, the signal from the second transmit antenna travels an extra distance of 4dsin(𝚹). Due to this cleverly designed delay, the signals from the second transmit antenna only arrives after reflections from the transmitted signal by the first antenna have reached all receive antennas. This way, the same phase shifts are obtained as in the eight receive antenna case.
+For four receive antennas, the *key trick* is to space the transmit antennas out by a distance 4p, where p (=λc/2) is the distance between the receive antennas. As a result, the signal from the second transmit antenna travels an extra distance of 4dsin(𝚹). Due to this cleverly designed delay, the signals from the second transmit antenna arrives only after reflections from the transmitted signal by the first antenna have reached all receive antennas. This way, the same phase shifts are obtained as in the eight receive antenna case.
 
+In general, T transmit antennas and R receive antennas can be designed to be equivalent to T x R receive antennas with a single transmit antenna. These "virtual" antennas created are simply a reuse of the existing ones
 
 
 :fn -- Find the phase change due to a small change in arrival Δ𝚹, and equate it to 2π/N. You will need to use the finite difference approximation to derivative of a sine, which is cos. Trigonometric magic, but not too much.
