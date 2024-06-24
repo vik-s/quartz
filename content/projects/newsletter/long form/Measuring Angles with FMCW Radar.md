@@ -13,12 +13,12 @@ Next, we looked at how to estimate velocity using the phase of the intermediate 
 *Put link to velocity article*
 
 In this article, we will focus on the estimation of angle of arrival of objects using multiple antennas. Specifically we will cover:
-- thing1
-- thing2
-- thing3
+- 3D radar data, or radar cuboid
+- How angle of arrival is estimated
+- The Angle FFT
+- Use of MIMO for radar
 
 Read time: X mins
-
 ## Understanding the Radar Cuboid*
 
 fn: Literature calls it a Radar Cube, but I refuse to use that nomenclature because it implies all dimensions of cube are the same. As we will see quite quickly, it is almost never so. A more accurate term is cuboid, even if it does not roll off the tongue.
@@ -83,22 +83,27 @@ $$ \theta_{min}=\frac{2}{N} $$
 
 ## MIMO Antennas for Radar
 
-From the last section, doubling the number of antennas cuts the minimum angle resolution in half. But simply doubling the number of receive antennas is wasteful. Every antenna channel needs amplifiers, mixers, filters and ADCs to handle the range-doppler generation. There is a much cleverer solution.
+From the last section, doubling the number of antennas cuts the minimum angle resolution in half. But simply doubling the number of receive antennas is wasteful because every antenna channel needs amplifiers, mixers, filters and ADCs to handle the range-doppler generation. There is a cleverer solution.
 
 *put picture of 8 rx antennas, vs 2 tx and 4 rx antennas*
 
 The figure above shows the relative phase shift at each antenna element of an eight element receiver array, with one transmitting antenna, from which an angle FFT can be calculated to estimate the angle of arrival. Instead, the same phase shifts are achieved by just adding a transmitting antenna and using only four receiving antennas.
 
-For four receive antennas, the *key trick* is to space the transmit antennas out by a distance 4p, where p (=λc/2) is the distance between the receive antennas. As a result, the signal from the second transmit antenna travels an extra distance of 4dsin(𝚹). Due to this cleverly designed delay, the signals from the second transmit antenna arrives only after reflections from the transmitted signal by the first antenna have reached all receive antennas. This way, the same phase shifts are obtained as in the eight receive antenna case.
+For four receive antennas, the *key trick* is to space the transmit antennas out by a distance 4p, where p (=λc/2) is the distance between the receive antennas. As a result, the signal from the second transmit antenna travels an extra distance of 4dsin(𝚹). Due to this cleverly designed delay, the signals from the second transmit antenna arrives only after reflections of the transmitted signal by the first antenna have reached all receive antennas. This way, the same phase shifts are obtained as in the eight receive antenna case.
 
-In general, T transmit antennas and R receive antennas can be designed to be equivalent to T x R receive antennas with a single transmit antenna. These "virtual" antennas created are simply a reuse of the existing ones
+In general, with proper spacing, T transmit antennas and R receive antennas can be designed to be equivalent to T x R receive antennas with a single transmit antenna. These "virtual" antennas created are simply a reuse of the existing ones by appropriately time-ordering the received signals. This allows the hardware for each antenna channel to be reused, and fewer overall antennas.
 
+For multiple transmit antennas to work, we need to know which transmit antenna signal the received signal corresponds to. There are two popular approaches to separating signals from different transmit antennas:
+1. **Time Division Multiplexing**: Separation in time is easy to understand. One antenna first sends out chirps, and then the other. The range-doppler FFT at the receiver is then performed for each transmit-receive antenna pair. This approach is most widely used.
+2. **Binary Phase Multiplexing**: The phases of the transmitted chirps from each antenna are separated by 180 degrees, which is equivalent to multiplying chirps by +1 or -1. Compared to the time-division approach, using binary phases gives higher signal-to-noise ratio at the receiver since all antennas are transmitting at all times.
+
+This multiple-input multiple-output (MIMO) antenna arrangement can be made even in two dimensions, which allows for angle of arrival estimation in both elevation and azimuth (up/down and side-to-side). The figure below shows alternate MIMO antenna arrangements in linear and two-dimensions.
+
+*put alternate virtual antenna configurations*
 
 :fn -- Find the phase change due to a small change in arrival Δ𝚹, and equate it to 2π/N. You will need to use the finite difference approximation to derivative of a sine, which is cos. Trigonometric magic, but not too much.
 
-
-
-
+[[projects/newsletter/long form/Measuring Angles with FMCW Radar 2024-06-23 14.45.20.excalidraw]]
 
 
 
