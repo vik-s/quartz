@@ -1,0 +1,10 @@
+- Pg 3: When you mention antenna tuners ... actually the tuner is made up of a bunch of switches that connect inductors/capacitors in and out of the circuit to tune the antenna. It's not something found within antenna switches.
+- Comments on the 5G growth cycle being dead:
+	- On its own, 5G is not going anywhere and I agree with that. 6G adoption is likely years away, probably 2030, mm-Wave is DoA, and I think the chinese competition to western RFFE incumbents is likely going to rise and they will take over a larger piece of the pie. Your bearishness is warranted in my opinion.
+	- However, with the rise of AI on edge devices which we have only begun to scrape, we will likely see a second wave of phone upgrades that includes new edge inference hardware from the likes of Apple and Qualcomm. While there may not be fresh RFFE content on these devices, there is likely a lot of money to still be made by western or chinese companies on RFFE products. You still need wireless connectivity on smartphone devices.
+- Comments on WiFi FEM
+	- Wifi7 supports 16 spatial streams as opposed to 8 in wifi6. Wifi 7 might therefore need up to 16 WiFi FEMs?
+	- I have a detailed article on WiFi 7 if you are interested in linking it (put link)
+	- I am not sure how much WiFi 7 adoption will be there on smartphones, unless the whole AR/VR thing takes off. The feature upgrades for WiFi 7 is primarily useful for high density enterprise applications and low latency applications. On smart phone, it might not be the highest priority item. Also, the access points should be WiFi 7 compatible, which in most environments, is rather a costly upgrade. In all, WiFi 7 wouldn't really be a selling point for a newer phone model.. most people won't care.
+- Comments on revenue numbers
+	- I cannot confirm nor deny any revenue estimates about Qualcomm RFFE since I am under a company confidentiality agreement.
