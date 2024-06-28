@@ -1,4 +1,4 @@
-  ## Ongoing Articles
+## Ongoing Articles
 ```dataview
 TABLE without id tags,rows.file.link as "Title"
 FROM "projects/newsletter/long form"

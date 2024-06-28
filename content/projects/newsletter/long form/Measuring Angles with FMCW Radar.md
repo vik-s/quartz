@@ -3,9 +3,9 @@ title: Measuring Angles with FMCW Radar
 tags:
   - systems
 project: substack
-date_published: 
-status: 🚧
-final title:
+date_published: 2024-06-23
+status: 🟢
+final title: How Automotive Radar Measures the Angle of Arrival of Objects
 ---
 In this article, we continue the discussion on automotive radars. Previously, we looked at how chirp signals are used to measure distance or range of objects. A lot of the fundamentals of frequency modulated continuous wave (FMCW) radar are covered in the article below.
 *Put link to chirp article*
