@@ -3,8 +3,8 @@ title: The Graduate School Dilemma
 tags:
   - career
 project: substack
-date_published: 
-status: 🚧
+date_published: 2024-07-07
+status: 🟢
 final title: The Graduate School Dilemma
 ---
 One of my favorite online writers, Venkatesh Rao, recently wrote about the [Flaubert Frontier](https://studio.ribbonfarm.com/p/the-flaubert-frontier?utm_campaign=post&utm_medium=web), which describes the need for order in daily life to be original in one's creative work. Due to my recent travels to and from Bangalore, my sense of daily order has fallen to the way side and routines broken. So, instead of writing a heavy technical article, I figured there is another way to deliver useful content.

@@ -7,19 +7,19 @@ date_published:
 status: 🚧
 final title:
 ---
-## What is Silicon on Insulator?
+## What is Silicon on Insulator (SOI)?
 
 Before we discuss SOI, we need to understand the physical structure of a silicon transistor.  The starting material is a p-type silicon substrate, a semiconductor that has an impurity such as boron injected into it. Specific regions of this substrate are then heavily doped with impurities such as phosphorus or arsenic to make it an n-type material. These *implanted* n-type regions form the source and drain of the transistor. Metal connections are made to these regions to interface with the outside world. 
 
-*Draw picture of a tarnsistor*
+*Draw picture of a transistor*
 
 The space between the source and drain is called the *channel*.  Above this region, a layer of thin oxide is deposited called the *gate oxide*, and then a layer of polycrystalline silicon is deposited on top of the gate oxide to form the transistor gate terminal. By adjusting the voltage on the gate, the current flow between source and drain is controlled. Check out this video for a nice animated explanation of transistor operation.
 
 https://youtu.be/rkbjHNEKcRw?si=BjOqYDPQe4mDu6Bo
 
-In SOI, the source and drain regions are not implanted directly on the p-type substrate. Instead, a thin layer of silicon dioxide, several tenths of a micrometer thick, is deposited on top of the p-type substrate. Then, on top of that, deposit another thin layer of semiconducting p-type silicon where the source, drain and channel regions will be formed. The thickness of this silicon layer is important to transistor operation but we'll revisit that shortly.
+In SOI, the source and drain regions are not implanted directly on the p-type substrate. Instead, a thin layer of silicon dioxide, several tenths of a micrometer thick, is deposited on top of the p-type substrate. Then, on top of that, another thin layer of semiconducting p-type silicon is deposited where the source, drain and channel regions will be formed. The thickness of this silicon layer is important to transistor operation but we'll revisit that shortly.
 
-*draw pictiure of soi transistor*
+*draw picture of soi transistor*
 
 https://youtu.be/uvV7jcpQ7UY?si=ay_8HfvUzVKsEW_8
 
