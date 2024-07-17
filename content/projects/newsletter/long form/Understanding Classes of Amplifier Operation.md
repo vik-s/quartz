@@ -7,14 +7,16 @@ date_published:
 status: 🚧
 final title:
 ---
-# Class A, B, and AB
+# Fundamentals
 I recently concluded a 4-part mini-series on automotive radar, and found that it is much easier for me to write these articles if I can hold a train of thought on a particular topic. And since lot of electrical engineering is so complex to explain, most topics will benefit from being its own mini-series. This way I can go sufficiently in-depth while keeping the content manageable in length, and not rushing through the explanations.
 
-In this spirit, I'd like to start a series on amplifiers. Specifically, we will look at the classes of amplifier operation which are generally categorized by alphabets from A to S. Not all alphabets exist as amplifier classes. Some are exclusively used in audio applications. We will conceptually break down the seemingly random assignment of letters and look at the operation of each one closely.
+In this spirit, I'd like to start a series on power amplifiers. The scope can be very large. Here, we will focus on amplifier classes labeled by alphabet, A through S. Not all letters in between are amplifier classes, not all are even RF (they're audio range), and we might even argue about whether thats how a particular class is defined. But herein lies the fun.
 
-This is a challenging undertaking and will take many articles to cover fully. Please consider subscribing to the newsletter so that you will get all the articles of the series delivered to your inbox.
+It is not easy to define a specific power level after which an amplifier becomes a "power amplifier." For example, a cell phone amplifier outputs about 1 watt, audio amplifiers output hundreds of watts, while low power bluetooth circuits might output only 10 milliwatts. An amplifier at any output power can be made to operate in different classes.
 
-In this article, we will discuss:
+This series is a challenging undertaking and will take many articles to cover fully. Please consider subscribing to the newsletter so that you will get all the articles of the series delivered to your inbox.
+
+In this article, we will define some basics, get our terminology in line and look at a simple amplifier:
 
 - thing1
 - thing2
@@ -26,9 +28,9 @@ Read Time: X mins
 
 First, we need to understand the ideal operating behavior of an active, amplifying device. This is the foundation on which amplifier classes and operation will be defined.
 
-In general, an active transistor generates current when a voltage is applied to it. For a bipolar transistor, a constant current is held at the base terminal, and the collector voltage is varied to generate a collector current. Bipolar junction transistors can be made on silicon, or they can employ heterojunctions like in Gallium Arsenide (GaAs) devices. The latter is more popularly used for GHz-range power amplifier designs.
+In general, an active transistor generates current when a voltage is applied to it. For a bipolar transistor with a voltage at its collector, injecting a base current results in a large collector current. The ratio of collector current to base current is called the *current gain*, β. Bipolar junction transistors can be made on silicon, or they can employ heterojunctions such as Silicon-Germanium (SiGe) or Gallium Arsenide (GaAs). 
 
-For a field-effect transistor (FET), the gate is held at a constant voltage and the drain current is varied to generate a drain current. The FET can be made on silicon, such as a bulk-silicon or silicon-on-insulator (SOI) MOSFET, or it can be made on GaAs using pseudomorphic high-electron mobility transistors (pHEMTs). A more recent development involves the use of Gallium Nitride FETs, which provide high power operation.
+For a field-effect transistor (FET) with a voltage at the drain, increasing the gate voltage above a threshold value causes drain current to flow. The amount of drain current for a change in gate voltage is called *transconductance* (commonly represented as gm). The FET can be made on silicon, such as a bulk-silicon or silicon-on-insulator (SOI) MOSFET, or it can be made on GaAs using pseudomorphic high-electron mobility transistors (pHEMTs). A more recent development involves the use of Gallium Nitride (GaN) FETs, which provide high power operation.
 
 Regardless of what kind of device is being used, the current-voltage relationship of an ideal active device looks like in the figure below.
 
@@ -44,7 +46,7 @@ Real devices do not behave in such an ideal fashion, but we will describe transi
 Ideally, we want a device that can provide a high value of Imax, have a low Vknee voltage, and equally spaced, flat lines on the IV space as the gate voltage is increased.
 ## Load Line
 
-An amplifying device converts the output current into an output voltage only when a load is placed at its output. The choice of this load affects the voltage-gain and total power extracted from the output of the transistor. On the IV space, the *load-line* is a diagonal line whose slope depends on the load value. The figure shows a simplistic representation of a purely resistive load.
+An amplifying device converts the output current into a voltage only when a load is placed at its output. The choice of this load affects the voltage-gain and total power extracted from the output of the transistor. On the IV space, the *load-line* is a diagonal line whose slope depends on the load value. The figure shows a simplistic representation of a purely resistive load.
 
 In reality, the load is a complex value and is constructed as a combination of inductors, capacitors, transformers and resistors. This is because the output impedance of a transistor is usually capacitive, and depending on the purpose of the amplifier, the load network is a carefully designed, complex impedance.
 
@@ -65,17 +67,41 @@ https://www.qorvo.com/design-hub/blog/model-based-gan-pa-design-basics-what-and-
 
 In the simplest case of a low-power amplifier with a constant (not dynamic) quiescent bias point, the transistor can be conducting for the whole duration of amplification. In other words, the transistor is always conducting for all 360 degrees on the input sinusoidal signal. The *conduction angle* in this case is said to be 360 degrees.
 
-But we already saw that the RF waveform is capable of changing the operating condition of this device. Instead of wasting power by keeping the transistor in conduction all the time, we can keep it off by default and let the RF signal swing push it into conduction. In this case, the transistor will conduct only when the RF signal is sufficiently high to turn on the transistor. For the rest of the time, it will stay off. In such cases, the *conduction angle* will be less than 360 degrees.
+But we already saw that the RF waveform is capable of changing the operating condition of this device. Instead of wasting power by keeping the transistor in conduction all the time, we can keep it off by default and let the RF signal swing push it into conduction. In this case, the transistor will conduct only when the RF signal is sufficiently high to turn on the transistor. For the rest of the time, it will stay off. In such cases, the conduction angle will be *less than* 360 degrees.
 
-We'll encounter this idea quite a bit as we go through the different amplifier classes. Let's start with the simplest one.
+We'll encounter this idea as we go through the different amplifier classes.
+## Efficiency
+
+Efficiency is a metric of great importance for a power amplifier, and is loosely a measure of how much of the supplied DC power is converted to RF power at the output. An efficient amplifier implies better battery life for handheld devices, and lower heat generation in the active devices. As we will see later, efficiency almost always comes at the expense of amplifier linearity. 
+
+As we discussed in the previous section, having a conduction angle of 360 degrees means that the transistor is burning DC power the whole time. A reduced conduction angle saves power by keeping the transistor off through at least some part of the signal cycle, thereby increasing efficiency.
+
+There are two major efficiency metrics we need to define:
+- **Power Added Efficiency (PAE)**: It is the ratio of the output power after accounting for the gain of the amplifier, to the DC power supplied to the amplifier. This is the more accurate definition, and is generally applicable to all amplifiers regardless of their gain level.
+- **Drain Efficiency (DE)**: It is the ratio of the output power to the DC power supplied to the amplifier. This definition is valid only when the gain is sufficiently high such that the output power is much higher than the input power. If you need a yardstick, drain efficiency approaches PAE when the gain is 1000x (or 30 dB), in which case, not accounting for the input power is a negligible source of error.
+
+*add the formulas for PAE and DE*
+
+Many engineers and even vendors erroneously use these efficiency definitions interchangeably, so always make sure to clarify what is being referred to.
+
 ## Class A
 
-Class A operation is the classical linear amplifier that most basic textbooks introduce. In this class of operation, the device operates only in the quasi-linear region. To ensure that the output current does not get limited by cutoff region or reach the peak current of the transistor at the peak or trough, the transistor is biased at Imax/2 and a voltage Vdc that is sufficiently above knee-voltage.
+Class A operation is the classical linear amplifier that most basic textbooks introduce. Here we will choose the quiescent bias point to be smack dab in the center of the quasi-linear range. The input voltage is constrained to swing only in the limited range where the transistor response is linear. The current is set to Imax/2 so that the signal swing can utilize the entire linear range of output current, without being limited by the cutoff region, or Imax of the device.
 
-*put picture of transistor in class A operation; look at sedra/smith*
+*put picture of transistor in class A operation using only IV curves*
 
 Because we have been so careful to only have the voltage and current operate in the quasi-linear region, the output voltage is a faithful amplification of the input signal. The negative swing of the signal does not enter cutoff, and the positive swing does not enter saturation. The high fidelity of the output signal makes the class of operation highly linear. This means that there is minimal distortion of the amplified signal.
 
-During the entire cycle of the RF signal, the transistor is always conducting, and the angle of conduction is 360 degrees.
+But, as you'd have already noticed, the transistor is conducting for the whole cycle of the RF signal. That is bad for efficiency. How bad? Let's see.
 
-### Efficiency
+??
+## Circuit Example
+
+A simple emitter/source follower is a good example of a class A amplifier.
+
+**~END OF ARTICLE~**
+
+
+
+
+
