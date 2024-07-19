@@ -1,6 +1,6 @@
 Create a punchy attention capturing LinkedIn post focusing on [theme]. The post should be concise, engaging, and actionable. Use rhetorical questions to encourage reader interaction, and include a call to action or a thought-provoking question at the end. Dont use double quotes in the post. Here are the details and structure but dont include details of the structure in the final post:
 
-**Details:**
+**Details:*
 
 - **Theme:** Use the theme provided in the first line
 - **Tone:** Inspirational, encouraging, and direct.
