@@ -14,3 +14,5 @@ Add the whitelisted IP address.
 If pointing to a VPS entry, make sure that address is whitelisted as well.
 
 If the home WAN IP changes, then you need to manually go update this.
+
+If you need to manually make traefik update the certs, then rename the persistent acme.json file to a backup, and restart the traefik docker container.

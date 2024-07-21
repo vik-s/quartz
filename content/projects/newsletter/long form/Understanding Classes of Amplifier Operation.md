@@ -7,6 +7,7 @@ date_published:
 status: 🚧
 final title:
 ---
+[[projects/newsletter/long form/Understanding Classes of Amplifier Operation 2024-07-20 07.15.02.excalidraw]]
 # Part 1: Fundamentals
 I recently concluded a 4-part mini-series on automotive radar, and found that it is much easier for me to write these articles if I can hold a train of thought on a particular topic. And since lot of electrical engineering is so complex to explain, most topics will benefit from being its own mini-series. This way I can go sufficiently in-depth while keeping the content manageable in length, and not rushing through the explanations.
 
