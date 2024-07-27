@@ -131,6 +131,33 @@ See you then.
 **~END OF ARTICLE~**
 # Part 2: Class A Amplifier
 
+In this article, we will look at the Class A amplifier. It is a classical linear amplifier that delivers a faithful amplified version of the input signal.
+
+The last article setup the foundational ideas we will use to discuss amplifier classes. Here's a quick summary:
+1. An amplifier requires an active device biased at a given current and voltage called its quiescent bias point or Q-point.
+2. The input and output loads presented to the active device determine the amplifier performance.
+3. Amplifiers are classified according to their output waveform.
+4. There is always a trade-off between linearity and efficiency.
+
+*Insert previous article*
+
+In this post, we will discuss the following:
+- thing1
+- thing2
+- thing3
+
+Read time: X mins
+
+### Class A Amplifier Operation
+
+As long as power consumption is not a critical specification, most low-noise amplifiers (LNAs) are designed to be Class A amplifiers. LNAs are typically used in the receiver side to amplify the weak signal received from an antenna to a reasonable level for post-processing. Since the amplification should be distortion-free, having high linearity is paramount.
+
+The design of a class A FET amplifier is shown below, along with the choice of operating point on the IV-space. Let us unpack this schematic in a bit more detail.
+
+*Insert picture of class A schematic and bias point on IV*
+
+On the gate input side of the amplifier is a source resistance Rs and a time-varying signal that requires amplification. To appropriately bias the gate, a DC voltage needs to be applied on the gate. A simple way to do this is 
+
 Class A operation is the classical linear amplifier that most basic textbooks introduce. Here we will choose the quiescent bias point to be smack dab in the center of the quasi-linear range. The input voltage is constrained to swing only in the limited range where the transistor response is linear. The current is set to Imax/2 so that the signal swing can utilize the entire linear range of output current, without being limited by the cutoff region, or Imax of the device.
 
 *put picture of transistor in class A operation using only IV curves*
