@@ -148,21 +148,36 @@ In this post, we will discuss the following:
 
 Read time: X mins
 
-### Class A Amplifier Operation
+### The Common-Source Class A Amplifier
 
-As long as power consumption is not a critical specification, most low-noise amplifiers (LNAs) are designed to be Class A amplifiers. LNAs are typically used in the receiver side to amplify the weak signal received from an antenna to a reasonable level for post-processing. Since the amplification should be distortion-free, having high linearity is paramount.
+Class A amplifiers are ideal for applications where linear amplification is most important, not efficiency. One such use-case is the low-noise amplifier (LNA), whose purpose is to amplify the weak signal received from an antenna to a reasonable level for post-processing by the receiver chain. 
 
-The design of a class A FET amplifier is shown below, along with the choice of operating point on the IV-space. Let us unpack this schematic in a bit more detail.
+When faithful amplification of the input signal is the primary goal, a class A FET amplifier design shown below, is often a common choice. 
+
+The circuit shows a common-source amplifier, where the "common" refers to the terminal to which gate and drain voltages are referred to. When source is the common terminal, any mention of gate or drain voltage really refers to the voltage between the gate-source or drain-source terminals (Vgs/Vds).
 
 *Insert picture of class A schematic and bias point on IV*
 
-On the gate input side of the amplifier is a source resistance Rs and a time-varying signal that requires amplification. To appropriately bias the gate, a DC voltage needs to be applied on the gate. A simple way to do this is 
+Here is an explanation of the schematic:
 
-Class A operation is the classical linear amplifier that most basic textbooks introduce. Here we will choose the quiescent bias point to be smack dab in the center of the quasi-linear range. The input voltage is constrained to swing only in the limited range where the transistor response is linear. The current is set to Imax/2 so that the signal swing can utilize the entire linear range of output current, without being limited by the cutoff region, or Imax of the device.
+- On the gate input side of the amplifier is a source resistance RS and a time-varying signal that requires amplification. 
+- On the drain output side of the amplifier is a load resistance RL to which amplified power is delivered.
+- On both the input and output sides are matching networks that convert RS and RL into a complex impedance that is presented to the gate and drain terminals of the device.
+- There are bias generation circuits on the gate and drain that provide a gate voltage (VG) and a drain voltage (VD) to appropriately bias the FET device. 
+
+To make this circuit operate as a Class A amplifier, we need to bias the FET device so that the output waveform has as little distortion as possible. Here is how we make that happen.
+
+### Biasing for Class A
+
+Setting the quiescent bias point (Q-point) of the active device for Class A operation entirely depends on its current-voltage (IV) characteristics. The basis for doing so is simply stated as
+
+> Choose Q-point so that instantaneous voltage and current in the device stays in quasi-linear (or active) region of operation.
+
+Looking at the IV space of the device, we will choose a drain voltage VD such that its instantaneous value during amplification will not exceed the maximum allowed drain voltage. We will choose a gate voltage VG so that the instantaneous current will not exceed the maximum drain current (Imax) supported by the device. For this, we will need a gate voltage that establishes a quiescent current of Imax/2 so that the signal swing can utilize the entire linear range of output current, without being limited by the cutoff region, or Imax of the device. This usually means that the Q-point will be smack dab in the center of the quasi-linear range.
 
 *put picture of transistor in class A operation using only IV curves*
 
-Because we have been so careful to only have the voltage and current operate in the quasi-linear region, the output voltage is a faithful amplification of the input signal. The negative swing of the signal does not enter cutoff, and the positive swing does not enter saturation. The high fidelity of the output signal makes the class of operation highly linear. This means that there is minimal distortion of the amplified signal.
+The figure shows how the instantaneous voltage in the device is never restricted by voltage or current resulting in a linear amplification of the input voltage signal.
 
 However, having the transistor conduct for all 360 degrees of the signal cycle is bad for efficiency because it is dissipating power all the time. 
 
