@@ -154,9 +154,9 @@ Class A amplifiers are ideal for applications where linear amplification is most
 
 When faithful amplification of the input signal is the primary goal, a class A FET amplifier design shown below, is often a common choice. 
 
-The circuit shows a common-source amplifier, where the "common" refers to the terminal to which gate and drain voltages are referred to. When source is the common terminal, any mention of gate or drain voltage really refers to the voltage between the gate-source or drain-source terminals (Vgs/Vds).
-
 *Insert picture of class A schematic and bias point on IV*
+
+The circuit shows a common-source amplifier, where the "common" refers to the terminal to which gate and drain voltages are referred to. When source is the common terminal, any mention of gate or drain voltage really refers to the voltage between the gate-source or drain-source terminals (Vgs/Vds).
 
 Here is an explanation of the schematic:
 
@@ -165,23 +165,50 @@ Here is an explanation of the schematic:
 - On both the input and output sides are matching networks that convert RS and RL into a complex impedance that is presented to the gate and drain terminals of the device.
 - There are bias generation circuits on the gate and drain that provide a gate voltage (VG) and a drain voltage (VD) to appropriately bias the FET device. 
 
-To make this circuit operate as a Class A amplifier, we need to bias the FET device so that the output waveform has as little distortion as possible. Here is how we make that happen.
-
+To make this circuit operate as a Class A amplifier, we need to bias the FET device so that the output waveform has as little distortion as possible.
 ### Biasing for Class A
 
 Setting the quiescent bias point (Q-point) of the active device for Class A operation entirely depends on its current-voltage (IV) characteristics. The basis for doing so is simply stated as
 
 > Choose Q-point so that instantaneous voltage and current in the device stays in quasi-linear (or active) region of operation.
 
-Looking at the IV space of the device, we will choose a drain voltage VD such that its instantaneous value during amplification will not exceed the maximum allowed drain voltage. We will choose a gate voltage VG so that the instantaneous current will not exceed the maximum drain current (Imax) supported by the device. For this, we will need a gate voltage that establishes a quiescent current of Imax/2 so that the signal swing can utilize the entire linear range of output current, without being limited by the cutoff region, or Imax of the device. This usually means that the Q-point will be smack dab in the center of the quasi-linear range.
-
 *put picture of transistor in class A operation using only IV curves*
 
-The figure shows how the instantaneous voltage in the device is never restricted by voltage or current resulting in a linear amplification of the input voltage signal.
+From the IV space of the device, we can set voltages as follows:
+- Choose a drain voltage VD such that its instantaneous value during amplification will not exceed the maximum allowed drain voltage. 
+- Choose a gate voltage VG so that the instantaneous current will not exceed the maximum drain current (Imax) supported by the device. For this, we will need a gate voltage that establishes a quiescent current of Imax/2 so that the signal swing can utilize the entire linear range of output current, without being limited by the cutoff region, or Imax of the device. 
+The result of these choices is that the Q-point often lies smack dab in the middle of the IV space that offers linear operation.
 
-However, having the transistor conduct for all 360 degrees of the signal cycle is bad for efficiency because it is dissipating power all the time. 
+You can probably see how choosing the biasing condition is a chicken-or-the-egg problem. The voltage gain depends on the Q-point. However, choosing Q-point requires the voltage gain to be known. As a result, choosing Q-point is an iterative design process.
 
-*Add an equation / picture to show that efficiency of the amplifier is at best 50%*
+### Conduction Angles and Power Efficiency
+
+The output current and voltage waveforms shown below will help calculate some important properties of Class A amplifiers. For all phases of the input sinusoidal signal, the transistor stays biased at its Q-point and conducting all the time. 
+
+> The conduction angle for a Class A amplifier is 360°
+
+The voltage and current waveforms are opposite in phase. This is consistent with the assumption that voltage goes up at the output terminal when current comes out of the device.
+
+*draw instantaneous voltage, current, and power graphs*
+
+To find out how efficient a Class A amplifier is, we need to calculate how much RF power is generated for a given DC power. Instantaneous RF power is calculated as:
+$$
+P_{rf}=v_0\sin \theta \times i_0\sin \theta 
+$$
+The average power over a full sinusoid cycle is
+$$
+P_{rf,av} = \frac{1}{2\pi}\int_0^{2\pi}{v_o i_o \sin^2 \theta}d\theta = \frac{1}{2}v_o i_o
+$$
+From our choice of Q-point, the peak voltage of the AC signal is 2VD, which is a voltage VD above the Q-point. So the instantaneous maximum voltage is vo=VD.
+
+The peak current of the AC signal is Imax, which is Imax/2 above the Q-point. So the instantaneous maximum current in io=Imax/2.
+
+The average RF power delivered is then,
+$$
+P_{rf,av} = \frac{1}{2}V_D \frac{I_{max}}{2}=
+$$
+
+
 ## Circuit Example
 
 A simple emitter/source follower is a good example of a class A amplifier. 
