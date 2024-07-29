@@ -142,13 +142,14 @@ The last article setup the foundational ideas we will use to discuss amplifier c
 *Insert previous article*
 
 In this post, we will discuss the following:
-- thing1
-- thing2
-- thing3
+- Common-source Class A amplifier
+- Choice of bias conditions
+- Peak and back-off efficiency
+- Matching networks
 
-Read time: X mins
+**Read time**: X mins
 
-### The Common-Source Class A Amplifier
+### Common-Source Class A Amplifier
 
 Class A amplifiers are ideal for applications where linear amplification is most important, not efficiency. One such use-case is the low-noise amplifier (LNA), whose purpose is to amplify the weak signal received from an antenna to a reasonable level for post-processing by the receiver chain. 
 
@@ -195,24 +196,72 @@ To find out how efficient a Class A amplifier is, we need to calculate how much 
 $$
 P_{rf}=v_0\sin \theta \times i_0\sin \theta 
 $$
-The average power over a full sinusoid cycle is
+The average power over a full sinusoidal cycle is
 $$
 P_{rf,av} = \frac{1}{2\pi}\int_0^{2\pi}{v_o i_o \sin^2 \theta}d\theta = \frac{1}{2}v_o i_o
 $$
-From our choice of Q-point, the peak voltage of the AC signal is 2VD, which is a voltage VD above the Q-point. So the instantaneous maximum voltage is vo=VD.
+So what are the amplitudes vo and io of the sinusoidal waveforms? Remember, we already put the quiescent bias point around the middle of the IV space. Our choice of VD is approximately half the maximum voltage supported by the device. This means that the AC signal can only swing to a maximum level of VD. So, let us set vo=VD.
 
-The peak current of the AC signal is Imax, which is Imax/2 above the Q-point. So the instantaneous maximum current in io=Imax/2.
+Similarly, by choosing the DC current level at Imax/2, we can only expect the AC signal to swing another Imax/2 before it reaches it maximum possible value. So, let us set io=Imax/2.
 
-The average RF power delivered is then,
+The maximum possible average RF power is therefore only delivered when the input signal swings over the entire range of the allowed input values (not for smaller input signals). It can be expressed as,
 $$
-P_{rf,av} = \frac{1}{2}V_D \frac{I_{max}}{2}=
+P_{rf,max} = \frac{1}{2}V_D \frac{I_{max}}{2}=\frac{V_D I_{max}}{4}
+$$
+The DC power supplied is simply a product of the Q-point voltage and current.
+$$
+P_{dc}=\frac{V_D I_{max}}{2}
 $$
 
+Computing drain efficiency for a Class A amplifier is now easy.
+$$
+\eta=\frac{P_{rf,max}}{P_{dc}}\times 100= 50\% 
+$$
+> The maximum efficiency achievable from a Class A amplifier is 50%
 
-## Circuit Example
+The drain efficiency is same as the power-added-efficiency (PAE) if the gain is high enough (link). But we begin to realize that **half the supplied power is wasted in the pretext of linear amplification**. This is why Class A amplifiers are not the preferred type for mobile handset devices. Having a 360° conduction angle continuously burns power in the active device, and lowers efficiency.
 
-A simple emitter/source follower is a good example of a class A amplifier. 
+In reality, the presence of a non-zero knee-voltage (say Vk is 10% of Vmax of the device) in active device further reduces the maximum efficiency available to about 45%.
 
+### Backoff Efficiency
+
+Notice that we mentioned that maximum efficiency is achieved only when the input drive signal is strong enough to occupy the entire allowable quasi-linear voltage range.
+
+What happens when the input signal levels are reduced, or "backed-off" from the maximum level? This condition might occur if we simply do not want the amplifier to operate at its maximum power output all the time. Emission levels are regulated by the FCC and the radio transmitter is expected to function within those specifications.
+
+Let us recalculate the average RF power output when the voltage and current swing are half the required levels. 
+$$
+P_{rf,backoff} = \frac{(V_D/2)(I_{max}/2)}{4} = \frac{1}{4}\times P_{rf,max}
+$$
+The output power drops to one-fourth the maximum power value. In terms of decibels, that is 6 dB. This is a commonly used number in power amplifiers, and is called *6-dB backoff*.
+
+**What is the Class A efficiency in 6-dB backoff? It is 12.5%!** This means that 7/8ths of the power is being wasted in the amplifier. That is an unacceptably low level in power amplifiers and we will see how this is improved in other classes of amplifiers.
+
+### Matching Networks
+
+So far we have made one simplifying assumption that I did not explicitly mention. We assumed that the input signal "magically" appeared at the device terminals, and the amplified signal at the output of the device "magically" appeared at the load.
+
+For low-frequency voltage amplifiers, this assumption is reasonable due to the absence of signal reflections. At RF frequencies, we always need properly designed matching networks at the input and output to minimize these reflections and deliver maximum power to and from the device terminals.
+
+Since we are operating the amplifier within its voltage and current capabilities, a conjugate match at the input and output will ensure that maximum power transfer occurs between the source and device-input, and device-output to load. Note that if for some reason the process of amplification is constrained by how much voltage and current is available from the device, then we need to start thinking in terms of a power match.
+
+> A conjugate match involves presenting a complex load to the device input and output terminals that is a complex conjugate of the impedance looking into the device terminal.
+
+Such matching networks are usually implemented with lumped element or transmission line based elements to manufacture the required impedances. These networks are inherently frequency limiting, and as a result, the amplifier tends to operate well in a finite bandwidth around a center frequency. The active device itself is capable of amplifying signals over a wide range of frequencies, until it is limited by parasitics (the metric for this is transit frequency fT, or maximum oscillation frequency fMAX, depending on who you ask.)
+
+The losses in impedance matching networks also reduce the overall efficiency of the amplifier, and therefore a lot of effort is put into reducing the losses and improving the quality factor of passive components in power amplifiers.
+
+### Common Gate or Emitter Follower Amplifiers
+
+Emitter followers are another example of Class A amplifiers.
+
+In the next article, we will see how conduction angle can be reduced to improve amplifier efficiency, while paying the price for linearity.
+
+Stay tuned!
+
+**~END OF ARTICLE~**
+
+# Part 3: Class B Amplifiers
 
 
 
