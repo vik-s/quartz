@@ -229,31 +229,30 @@ Notice that we mentioned that maximum efficiency is achieved only when the input
 
 What happens when the input signal levels are reduced, or "backed-off" from the maximum level? This condition might occur if we simply do not want the amplifier to operate at its maximum power output all the time. Emission levels are regulated by the FCC and the radio transmitter is expected to function within those specifications.
 
-Let us recalculate the average RF power output when the voltage and current swing are half the required levels. 
+Let us recalculate the average RF power output when the voltage and current swing are half the maximum allowed levels. 
 $$
 P_{rf,backoff} = \frac{(V_D/2)(I_{max}/2)}{4} = \frac{1}{4}\times P_{rf,max}
 $$
-The output power drops to one-fourth the maximum power value. In terms of decibels, that is 6 dB. This is a commonly used number in power amplifiers, and is called *6-dB backoff*.
+The output power drops to one-fourth the maximum power value. In terms of decibels, that is a 6 dB drop. This is a commonly used number in power amplifiers, and is called *6-dB backoff*.
 
-**What is the Class A efficiency in 6-dB backoff? It is 12.5%!** This means that 7/8ths of the power is being wasted in the amplifier. That is an unacceptably low level in power amplifiers and we will see how this is improved in other classes of amplifiers.
-
+If you recalculate it, **Class A efficiency in 6-dB backoff is 12.5%.** This means that 7/8ths of the power is being wasted in the amplifier, and not being used for amplification. That is an unacceptably low level in power amplifiers and we will see how this is improved in other classes of amplifiers.
 ### Matching Networks
 
 So far we have made one simplifying assumption that I did not explicitly mention. We assumed that the input signal "magically" appeared at the device terminals, and the amplified signal at the output of the device "magically" appeared at the load.
 
 For low-frequency voltage amplifiers, this assumption is reasonable due to the absence of signal reflections. At RF frequencies, we always need properly designed matching networks at the input and output to minimize these reflections and deliver maximum power to and from the device terminals.
 
-Since we are operating the amplifier within its voltage and current capabilities, a conjugate match at the input and output will ensure that maximum power transfer occurs between the source and device-input, and device-output to load. Note that if for some reason the process of amplification is constrained by how much voltage and current is available from the device, then we need to start thinking in terms of a power match.
+Since we are operating the amplifier within its voltage and current capabilities, a conjugate match at the input and output will ensure that maximum power transfer occurs between the source and device-input, and device-output to load. Note that if for some reason the process of amplification is constrained by how much voltage and current is available from the device, then we need to start thinking of a power match.
 
-> A conjugate match involves presenting a complex load to the device input and output terminals that is a complex conjugate of the impedance looking into the device terminal.
+> A conjugate match involves presenting a complex load to the device input and output terminals whose value is a complex conjugate of the impedance looking into the device terminal.
 
-Such matching networks are usually implemented with lumped element or transmission line based elements to manufacture the required impedances. These networks are inherently frequency limiting, and as a result, the amplifier tends to operate well in a finite bandwidth around a center frequency. The active device itself is capable of amplifying signals over a wide range of frequencies, until it is limited by parasitics (the metric for this is transit frequency fT, or maximum oscillation frequency fMAX, depending on who you ask.)
+Such matching networks are usually implemented with lumped element or transmission-line based elements to manufacture the required impedances. These networks are inherently frequency limiting, and as a result, the amplifier tends to operate well in a finite bandwidth around a center frequency. The active device itself is capable of amplifying signals over a wide range of frequencies, until it is limited by parasitics (the metric for this is transit frequency fT, or maximum oscillation frequency fMAX, depending on who you ask.)
 
 The losses in impedance matching networks also reduce the overall efficiency of the amplifier, and therefore a lot of effort is put into reducing the losses and improving the quality factor of passive components in power amplifiers.
-
 ### Common Gate or Emitter Follower Amplifiers
 
 Emitter followers are another example of Class A amplifiers.
+
 
 In the next article, we will see how conduction angle can be reduced to improve amplifier efficiency, while paying the price for linearity.
 
