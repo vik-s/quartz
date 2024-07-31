@@ -249,9 +249,8 @@ Since we are operating the amplifier within its voltage and current capabilities
 Such matching networks are usually implemented with lumped element or transmission-line based elements to manufacture the required impedances. These networks are inherently frequency limiting, and as a result, the amplifier tends to operate well in a finite bandwidth around a center frequency. The active device itself is capable of amplifying signals over a wide range of frequencies, until it is limited by parasitics (the metric for this is transit frequency fT, or maximum oscillation frequency fMAX, depending on who you ask.)
 
 The losses in impedance matching networks also reduce the overall efficiency of the amplifier, and therefore a lot of effort is put into reducing the losses and improving the quality factor of passive components in power amplifiers.
-### Common Gate or Emitter Follower Amplifiers
 
-Emitter followers are another example of Class A amplifiers.
+### Example Design of a Class A Amplifier
 
 
 In the next article, we will see how conduction angle can be reduced to improve amplifier efficiency, while paying the price for linearity.
