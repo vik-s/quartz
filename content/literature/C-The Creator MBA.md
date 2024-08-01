@@ -131,3 +131,48 @@ What is my secret sauce? Why me?
 - What kind of solution are you providing?
 	- Affordable? Courses priced at what level at what demographic or income level.
 Rank the above 5 based on importance, and choose the top 3.
+
+## 04: The Modern Customer Journey
+
+How to take someone who doesn't know you to being a customer who would buy your product.
+
+- Problem unaware: They dont know they have a problem
+- Problem aware: Aware they have a problem
+- Solution aware: Aware there is a solution but not yours
+- Product aware: Aware of your business, but why you?
+- Most aware: You are the right choice, give me your best.
+
+1. **Problem Unaware**
+	1. People think engineering is hard to learn.
+	2. They don't realize they are smart enough to do engineering, and land a high paying job.
+	3. Don't realize that it is the teaching methodology that is the problem, and not them.
+	4. They think they need to be good at math.
+	5. Don't understand that semi jobs are on the rise again, and there is not enough talent.
+2. **Problem Aware**
+	1. People know engineering is hard to learn. They look for courses, youtube videos, podcasts, lecture notes, webinars etc.
+	2. Write content that provides these solutions.
+	3. People may not have access to licensed software. Teach them to use open source tools like Qucs-Studio, and others.
+	4. Use chatGPT to generate ideas for Top of Funnel (ToFu) content.
+3. **Solution Aware**
+	1. This is *not* the time to shove your product down the customers throats.
+	2. The best way is to offer help, and show off your expertise in the matter.
+	3. But solve a narrow problem. Don't give away everything you have, then you will have nothing to sell.
+	4. You can use social media content, newsletters, short course, lead magnet etc. to show your experience.
+	5. This is a middle of funnel (MoFu) content, and you can use GPT to generate those ideas as well.
+4. **Product Aware**
+	1. Customer realizes that you have a solution to their problem.
+	2. This is the *perfect time* to tell them why you are the best option.
+	3. The real best way to do this is to send out a series of emails.
+		1. Email 1: Introduce your brand, deliver your lead magnet (even a webinar), ask for info, ask subscribers what they want.
+		2. Email 2: Highlighting the problem. Show that you have a solution.
+		3. Email 3: Goodwill hunting email - "its not your fault" - the problems are not their fault, and need to be guilty that they have their problem. Discuss immediate and long-term benefits of your solution.
+		4. Email 4: ?
+		5. There is a chatGPT prompt for this Bottom of Funnel (BoFu) process.
+5. **Most Aware**
+	1. Even after all this, you have only single digit conversion rates. How do you convince them to buy?
+	2. You need to give them your best offer, expiring deals, discounts, etc, to get them to buy.
+	3. Email 5: Ramp up urgency - countdown timers, what will happen if they don't buy the product, time-limited discounts.
+	4. Email 6: Short email. Explain one-time offer is going away. Give one best testimonial.
+	5. There is another ChatGPT prompt that will generate a starting point for these emails.
+	6. Buyer should feel : "I must buy today!"
+
