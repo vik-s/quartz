@@ -143,9 +143,10 @@ The last article setup the foundational ideas we will use to discuss amplifier c
 
 In this post, we will discuss the following:
 - Common-source Class A amplifier
-- Choice of bias conditions
+- Choice of bias conditions and load line
+- Load network design
 - Peak and back-off efficiency
-- Matching networks
+- Design procedure
 
 **Read time**: X mins
 
@@ -167,9 +168,9 @@ Here is an explanation of the schematic:
 - There are bias generation circuits on the gate and drain that provide a gate voltage (VG) and a drain voltage (VD) to appropriately bias the FET device. 
 
 To make this circuit operate as a Class A amplifier, we need to bias the FET device so that the output waveform has as little distortion as possible.
-### Biasing for Class A
+### Biasing and Load Line for Class A
 
-Setting the quiescent bias point (Q-point) of the active device for Class A operation entirely depends on its current-voltage (IV) characteristics. The basis for doing so is simply stated as
+Setting the quiescent bias point (Q-point) of the active device for Class A operation entirely depends on its current-voltage (IV) characteristics. The basis for doing so is stated as:
 
 > Choose Q-point so that instantaneous voltage and current in the device stays in quasi-linear (or active) region of operation.
 
@@ -180,7 +181,28 @@ From the IV space of the device, we can set voltages as follows:
 - Choose a gate voltage VG so that the instantaneous current will not exceed the maximum drain current (Imax) supported by the device. For this, we will need a gate voltage that establishes a quiescent current of Imax/2 so that the signal swing can utilize the entire linear range of output current, without being limited by the cutoff region, or Imax of the device. 
 The result of these choices is that the Q-point often lies smack dab in the middle of the IV space that offers linear operation.
 
-You can probably see how choosing the biasing condition is a chicken-or-the-egg problem. The voltage gain depends on the Q-point. However, choosing Q-point requires the voltage gain to be known. As a result, choosing Q-point is an iterative design process.
+The next question is what kind of load should be presented at the output. If the drain voltage is VD and the drain current is Imax/2, then the optimum load resistance is
+$$
+R_{opt}=\frac{V_D}{I_{max}/2}
+$$
+If the device has a non-zero knee voltage Vk, then the optimum resistance can be modified as
+$$
+R_{opt}=\frac{V_D-V_k}{I_{max}/2}
+$$
+It is quite unlikely that Ropt will be close to 50 ohms, and will therefore result in mismatch (poor return loss) at the output of the amplifier. 
+### Load Network Design
+
+So far we have made one simplifying assumption that I did not explicitly mention. We assumed that the input signal "magically" appeared at the device terminals, and the amplified signal at the output of the device "magically" appeared at the load.
+
+For low-frequency voltage amplifiers, this assumption is reasonable due to the absence of signal reflections. At RF frequencies, we always need properly designed matching networks at the input and output to minimize these reflections and deliver maximum power to and from the device terminals.
+
+Since we are operating the amplifier within its voltage and current capabilities, a conjugate match at the input and output will ensure that maximum power transfer occurs between the source and device-input, and device-output to load. Note that if for some reason the process of amplification is constrained by how much voltage and current is available from the device, then we need to start thinking of a power match.
+
+> A conjugate match involves presenting a complex load to the device input and output terminals whose value is a complex conjugate of the impedance looking into the device terminal.
+
+Such matching networks are usually implemented with lumped element or transmission-line based elements to manufacture the required impedances. These networks are inherently frequency limiting, and as a result, the amplifier tends to operate well in a finite bandwidth around a center frequency. The active device itself is capable of amplifying signals over a wide range of frequencies, until it is limited by parasitics (the metric for this is transit frequency fT, or maximum oscillation frequency fMAX, depending on who you ask.)
+
+The losses in impedance matching networks also reduce the overall efficiency of the amplifier, and therefore a lot of effort is put into reducing the losses and improving the quality factor of passive components in power amplifiers.
 
 ### Conduction Angles and Power Efficiency
 
@@ -235,22 +257,20 @@ P_{rf,backoff} = \frac{(V_D/2)(I_{max}/2)}{4} = \frac{1}{4}\times P_{rf,max}
 $$
 The output power drops to one-fourth the maximum power value. In terms of decibels, that is a 6 dB drop. This is a commonly used number in power amplifiers, and is called *6-dB backoff*.
 
-If you recalculate it, **Class A efficiency in 6-dB backoff is 12.5%.** This means that 7/8ths of the power is being wasted in the amplifier, and not being used for amplification. That is an unacceptably low level in power amplifiers and we will see how this is improved in other classes of amplifiers.
-### Matching Networks
+If you recalculate it, **Class A efficiency in 6-dB backoff is 12.5%.** This means that 7/8ths of the power is being wasted in the amplifier, and not being used for amplification. That is an unacceptably low level in power amplifiers and we will later see how this is improved in other classes of amplifiers.
 
-So far we have made one simplifying assumption that I did not explicitly mention. We assumed that the input signal "magically" appeared at the device terminals, and the amplified signal at the output of the device "magically" appeared at the load.
+### Design Procedure for a Class A Amplifier
 
-For low-frequency voltage amplifiers, this assumption is reasonable due to the absence of signal reflections. At RF frequencies, we always need properly designed matching networks at the input and output to minimize these reflections and deliver maximum power to and from the device terminals.
+In this section, we will summarize the design procedure in a step-by-step fashion that you can use to experiment with your own designs.
 
-Since we are operating the amplifier within its voltage and current capabilities, a conjugate match at the input and output will ensure that maximum power transfer occurs between the source and device-input, and device-output to load. Note that if for some reason the process of amplification is constrained by how much voltage and current is available from the device, then we need to start thinking of a power match.
+1. Identify the active device:
+2. Determine Q-point for Class A:
+3. Determine optimum load:
+4. Design load network:
+5. Design input match network:
+6. Verify the design:
 
-> A conjugate match involves presenting a complex load to the device input and output terminals whose value is a complex conjugate of the impedance looking into the device terminal.
-
-Such matching networks are usually implemented with lumped element or transmission-line based elements to manufacture the required impedances. These networks are inherently frequency limiting, and as a result, the amplifier tends to operate well in a finite bandwidth around a center frequency. The active device itself is capable of amplifying signals over a wide range of frequencies, until it is limited by parasitics (the metric for this is transit frequency fT, or maximum oscillation frequency fMAX, depending on who you ask.)
-
-The losses in impedance matching networks also reduce the overall efficiency of the amplifier, and therefore a lot of effort is put into reducing the losses and improving the quality factor of passive components in power amplifiers.
-
-### Example Design of a Class A Amplifier
+If you would like a more detailed example of a Class A amplifier design, then check out Chapter 2.7 in "RF Power Amplifiers for Wireless Communications" by Steve C. Cripps (2nd ed.)
 
 
 In the next article, we will see how conduction angle can be reduced to improve amplifier efficiency, while paying the price for linearity.
