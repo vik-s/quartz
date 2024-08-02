@@ -152,9 +152,7 @@ In this post, we will discuss the following:
 
 ### Common-Source Class A Amplifier
 
-Class A amplifiers are ideal for applications where linear amplification is most important, not efficiency. One such use-case is the low-noise amplifier (LNA), whose purpose is to amplify the weak signal received from an antenna to a reasonable level for post-processing by the receiver chain. 
-
-When faithful amplification of the input signal is the primary goal, a class A FET amplifier design shown below, is often a common choice. 
+Class A amplifiers are ideal for applications where linear amplification is most important, not efficiency. A class A FET amplifier design shown below.
 
 *Insert picture of class A schematic and bias point on IV*
 
@@ -165,7 +163,7 @@ Here is an explanation of the schematic:
 - On the gate input side of the amplifier is a source resistance RS and a time-varying signal that requires amplification. 
 - On the drain output side of the amplifier is a load resistance RL to which amplified power is delivered.
 - On both the input and output sides are matching networks that convert RS and RL into a complex impedance that is presented to the gate and drain terminals of the device.
-- There are bias generation circuits on the gate and drain that provide a gate voltage (VG) and a drain voltage (VD) to appropriately bias the FET device. 
+- There are bias generation circuits on the gate and drain that provide a gate voltage (VG) and a drain voltage (VD) to appropriately bias the FET device. They are feed through a choke inductor large enough to pass only DC through. DC blocking capacitors allow on RF signals to pass.
 
 To make this circuit operate as a Class A amplifier, we need to bias the FET device so that the output waveform has as little distortion as possible.
 ### Biasing and Load Line for Class A
@@ -177,9 +175,14 @@ Setting the quiescent bias point (Q-point) of the active device for Class A oper
 *put picture of transistor in class A operation using only IV curves*
 
 From the IV space of the device, we can set voltages as follows:
-- Choose a drain voltage VD such that its instantaneous value during amplification will not exceed the maximum allowed drain voltage. 
-- Choose a gate voltage VG so that the instantaneous current will not exceed the maximum drain current (Imax) supported by the device. For this, we will need a gate voltage that establishes a quiescent current of Imax/2 so that the signal swing can utilize the entire linear range of output current, without being limited by the cutoff region, or Imax of the device. 
-The result of these choices is that the Q-point often lies smack dab in the middle of the IV space that offers linear operation.
+- Choose a drain voltage VD such that its instantaneous value during amplification:
+	- will not exceed the maximum allowed drain voltage
+	- will not put the transistor drain below knee-voltage, where it is primarily a voltage controlled resistor (keeps it in saturation)
+- Choose a gate voltage VG so that the instantaneous current:
+	- will not exceed the maximum drain current (Imax) supported by the device
+	- will not drop to zero due to device entering cut-off
+
+The result of these choices is that the Q-point often lies smack dab in the middle of the IV space that offers linear operation. VD is chosen to about half the maximum voltage tolerated by the transistor. VG is chosen so that the quiescent drain current is about half the maximum current supported by the device (Imax/2).
 
 The next question is what kind of load should be presented at the output. If the drain voltage is VD and the drain current is Imax/2, then the optimum load resistance is
 $$
@@ -189,21 +192,15 @@ If the device has a non-zero knee voltage Vk, then the optimum resistance can be
 $$
 R_{opt}=\frac{V_D-V_k}{I_{max}/2}
 $$
-It is quite unlikely that Ropt will be close to 50 ohms, and will therefore result in mismatch (poor return loss) at the output of the amplifier. 
 ### Load Network Design
 
-So far we have made one simplifying assumption that I did not explicitly mention. We assumed that the input signal "magically" appeared at the device terminals, and the amplified signal at the output of the device "magically" appeared at the load.
+Now that we know the optimum load that should be presented to the output of the transistor, we need to create a matching network that synthesizes this load.
 
-For low-frequency voltage amplifiers, this assumption is reasonable due to the absence of signal reflections. At RF frequencies, we always need properly designed matching networks at the input and output to minimize these reflections and deliver maximum power to and from the device terminals.
+It might be tempting to think that all we need is a conjugate match at the output. This is true if gain is the only metric we are looking to optimize. In the case of a class A PA, our goal is to maximize the output power. For this we need a power match, which is what the calculation of Ropt is. It is quite unlikely that Ropt will be close to 50 ohms, and will therefore result in mismatch (poor return loss) at the output of the amplifier. We will revisit this point in a bit more detail later.
 
-Since we are operating the amplifier within its voltage and current capabilities, a conjugate match at the input and output will ensure that maximum power transfer occurs between the source and device-input, and device-output to load. Note that if for some reason the process of amplification is constrained by how much voltage and current is available from the device, then we need to start thinking of a power match.
-
-> A conjugate match involves presenting a complex load to the device input and output terminals whose value is a complex conjugate of the impedance looking into the device terminal.
-
-Such matching networks are usually implemented with lumped element or transmission-line based elements to manufacture the required impedances. These networks are inherently frequency limiting, and as a result, the amplifier tends to operate well in a finite bandwidth around a center frequency. The active device itself is capable of amplifying signals over a wide range of frequencies, until it is limited by parasitics (the metric for this is transit frequency fT, or maximum oscillation frequency fMAX, depending on who you ask.)
+Load matching networks are usually implemented with lumped element or transmission-line based elements to manufacture the required impedances. These networks are inherently frequency limiting, and as a result, the amplifier tends to operate well in a finite bandwidth around a center frequency.
 
 The losses in impedance matching networks also reduce the overall efficiency of the amplifier, and therefore a lot of effort is put into reducing the losses and improving the quality factor of passive components in power amplifiers.
-
 ### Conduction Angles and Power Efficiency
 
 The output current and voltage waveforms shown below will help calculate some important properties of Class A amplifiers. For all phases of the input sinusoidal signal, the transistor stays biased at its Q-point and conducting all the time. 
@@ -241,7 +238,7 @@ $$
 $$
 > The maximum efficiency achievable from a Class A amplifier is 50%
 
-The drain efficiency is same as the power-added-efficiency (PAE) if the gain is high enough (link). But we begin to realize that **half the supplied power is wasted in the pretext of linear amplification**. This is why Class A amplifiers are not the preferred type for mobile handset devices. Having a 360° conduction angle continuously burns power in the active device, and lowers efficiency.
+The drain efficiency is same as the power-added-efficiency (PAE) if the gain is high enough (link). But we begin to realize that **half the supplied power is wasted in the pretext of linear amplification**. This is why Class A amplifiers are not the preferred type for applications that rely on battery life. Having a 360° conduction angle continuously burns power in the active device, and lowers efficiency.
 
 In reality, the presence of a non-zero knee-voltage (say Vk is 10% of Vmax of the device) in active device further reduces the maximum efficiency available to about 45%.
 
@@ -258,20 +255,28 @@ $$
 The output power drops to one-fourth the maximum power value. In terms of decibels, that is a 6 dB drop. This is a commonly used number in power amplifiers, and is called *6-dB backoff*.
 
 If you recalculate it, **Class A efficiency in 6-dB backoff is 12.5%.** This means that 7/8ths of the power is being wasted in the amplifier, and not being used for amplification. That is an unacceptably low level in power amplifiers and we will later see how this is improved in other classes of amplifiers.
-
 ### Design Procedure for a Class A Amplifier
 
-In this section, we will summarize the design procedure in a step-by-step fashion that you can use to experiment with your own designs.
+How exactly do you go about designing your own Class A power amplifier then? Here's a step-by-step approach:
 
-1. Identify the active device:
-2. Determine Q-point for Class A:
-3. Determine optimum load:
-4. Design load network:
-5. Design input match network:
-6. Verify the design:
+1. **Identify the active device**: Determine the active transistor you will use. They are often engineered for power amplifier applications to deliver maximum output power. Ensure that your choice of transistor will meet your power needs.
+2. **Determine Q-point for Class A**: Look at the current-voltage transfer characteristics of the device and identify the voltage and current range over which your signal will swing. Find a Q-point that ensures that the transistor is always operating in the linear region.
+3. **Determine optimum load**: Once you determine the Q-point, calculate the optimal load that needs to be presented to the device. Most often this is a complex number and is a result of load-pull measurements of a device. For a given transistor, you will have an optimum load and bias conditions that will deliver maximum output power. If you are using a discrete transistor, it might be part of the datasheet. In integrated transistors, foundries and internal teams in companies perform measurements to find the optimal load and bias conditions.
+4. **Design load network**: If your power amplifier is driving a 50 ohm load, then design a matching network that will transform 50 ohms into the optimum complex load required to power match the device. Make sure you use high quality passives to keep overall efficiency high.
+5. **Design input match network**: The input match can be designed based on the principles of low-noise amplifier design. You can find the optimum input impedance to get the best gain using gain circles^[This needs an article on its own^], or if you are not too concerned, a complex conjugate match to the input impedance of the transistor should suffice.
+6. **Verify the design**: Once proper biasing and matching networks are designed, verify that the DC operating point, gain, output power and linearity are as expected from circuit simulations.
 
 If you would like a more detailed example of a Class A amplifier design, then check out Chapter 2.7 in "RF Power Amplifiers for Wireless Communications" by Steve C. Cripps (2nd ed.)
 
+### Difference between LNA and Class-A PA 
+
+We should understand the difference between LNA and Class A PA design. Both are linear amplifier designs but serve different purposes.
+
+In LNAs, the main focus is high gain with low noise. This means that the voltage excursions on the device will not span a wide-range in the IV space especially because received signals are usually weak. This means that we will do just fine with a conjugate match at the device output.
+
+In Class A PAs, the focus is on sufficient gain with maximum output power and high efficiency. This means that we operate the device over its entire linear IV space by running the PA at high input signal levels. Since we are always burning power in a PA due to 360° conduction angle, backing off input power will drop efficiency. As a result, we need to have a power match based on an optimal load.
+
+As a result, Class A PAs might not always have the best output return loss because the main intention is to deliver maximum power and not entirely worry about the load impedance. RF systems often use circulators to avoid reflections back into the PA output. Whereas, in LNA design, there is a much higher emphasis on having good output matching.
 
 In the next article, we will see how conduction angle can be reduced to improve amplifier efficiency, while paying the price for linearity.
 
