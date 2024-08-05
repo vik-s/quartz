@@ -154,7 +154,6 @@ In this post, we will discuss the following:
 
 Class A amplifiers are ideal for applications where linear amplification is most important, not efficiency. A class A FET amplifier design shown below.
 
-*Insert picture of class A schematic and bias point on IV*
 
 The circuit shows a common-source amplifier, where the "common" refers to the terminal to which gate and drain voltages are referred to. When source is the common terminal, any mention of gate or drain voltage really refers to the voltage between the gate-source or drain-source terminals (Vgs/Vds).
 
