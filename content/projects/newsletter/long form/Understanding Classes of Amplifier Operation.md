@@ -282,11 +282,105 @@ In the next article, we will see how conduction angle can be reduced to improve 
 Stay tuned!
 
 **~END OF ARTICLE~**
-
 # Part 3: Class B Amplifiers
 
+In this article, we will look at the Class B amplifier.
+
+The other articles in this series are listed below, and contains the fundamentals leading up to the discussion in this post. Check them out if you haven't already.
+
+1. Foundations
+2. Class A Operation
+
+In this post, we will discuss the following:
+- thing1
+- thing2
+- thing3
+
+**Read time**: X mins
+
+~~
+
+### Class B Amplifier Operation
+
+In the article on Class A, we mentioned that the conduction angle is 360°. That is, the transistor is operating in the quasi-linear region for all phases of the input signal.
+
+In Class B operation, we keep the transistor in the quasi-linear operation only for one-half of the input sinusoidal signal. For the other half, the transistor is kept in cut-off and does not provide amplification.
+
+> The conduction angle for a Class B amplifier is 180° or ᴨ radians.
+
+The schematic of a Class B amplifier is shown below, and is fundamentally the same as the Class A amplifier, with slight modifications. The actual implementation is usually done in a push-pull configuration which we will come to later in the article.
+
+*insert schematic and Qpoint plot*
+
+The main difference lies in where we choose the quiescent bias point for this amplifier class. The Q-point is chosen right at the transistor cutoff. The transistor is driven into conduction by the positive cycle of the input signal, and remains in cut-off during the negative cycle. 
+
+Our earlier approach to calculate load line for a Class A amplifier involved finding the optimal load from the Q-point. That approach will not work here, because the quiescent current is zero. We will find the optimal load for Class B in the next section.
+
+In Class B, the current waveforms in the drain of the transistor are easy to draw since it only conducts in positive half cycles. The voltage will remain at the Q-point VD, till the current flows through the transistor, at which point the voltage drops. Current and voltage are still opposite in phase to each other.
+
+*insert IV waveforms for class B*
+
+We immediately get a sense that the efficiency should improve because the transistor is kept off half the time. But since only half the sinusoid is amplified, the output waveform is quite distorted degrading the amplifier linearity. We will look at both the efficiency and linearity aspects in more detail.
+
+### Class B Efficiency
+To calculate efficiency of this mode, like we did in Class A, we need a mathematical representation of the current and voltage waveforms. Unfortunately, this is where it gets hairy because half-sinusoids are not mathematically simple. We will deal with them anyway using Taylor series expansions (link).
+
+*insert IV equations*
+
+We will make two observations about the output current waveform to make this much simpler immediately.
+1. It has no odd-order harmonic components
+2. We will remove all the even-order components so we don't have to deal with them.
+
+Now, the output current equation is much easier to deal with.
+
+*insert simple drain current equation*
+
+It consists of a DC component Io/π and a fundamental frequency time-varying component (Io/2)sinθ, which we can use to calculate load lines and efficiency.
+
+If the maximum amplitude of the half-sinusoid is Imax, then the DC component of the drain current is Imax/π. Remember that the equivalent DC current in Class A was Imax/2. Due to lower DC current, it is apparent that Class B is already more efficient. If the drain voltage is set at VD, then the DC power dissipation is
+
+$$
+P_{DC} = \frac{V_DI_{max}}{\pi}
+$$
+We can calculate the RF power delivered from the time-varying part of the drain current.
+$$
+P_{RF}=\frac{1}{2\pi}\int_0^\pi{v_oi_osin^2\theta d\theta}=\frac{1}{4}v_oi_o
+$$
+
+The maximum RF power delivered is when vo=VD and io=Imax, which gives
+$$
+P_{RF}=\frac{1}{4}V_DI_{max}
+$$
+If you compare this with the output power from Class A (link), you will realize that Class B delivers the same output power as Class A. Which is cool if you think about it -- it delivers the same output power while using lower DC power.
+
+So what's the efficiency?
+
+$$
+\eta = \frac{P_{RF,max}}{P_{DC}} \times 100\% = \frac{\pi}{4} \times 100\% = 78.4\%
+$$
+> Maximum possible efficiency of Class B operation is 78.4%
+
+This is much better than the Class A value of 50%. We just got this by turning off the transistor for half the cycle, and didn't even affect the output RF power.
+
+But there is a price to pay. Linearity. The output waveform is not a faithful replica of the input signal anymore. This is not acceptable for most applications. Thus, Class B is often implemented in a push-pull configuration, which we will look at shortly.
+### Load Network Design
+The optimal load that should be presented to the amplifier output should be such that a current of Imax can be delivered to the load when a voltage VD is across it.
+$$
+R_{opt} = \frac{V_D}{I_{max}}
+$$
+Apart from this, remember that we assumed that all even-order harmonics were removed in the analysis of efficiency. The way this is implemented in practice is to design a harmonic short. 
+
+In terms of circuit elements, it can be a series L-C resonator whose resonant frequency is twice the fundamental frequency. 
+
+For transmission-line based amplifier designs, the harmonic short may be implemented as a quarter-wavelength, open-ended stub[^1]. 
+
+Similar resonators or stubs can be implemented at higher order harmonics (4,6,8,...) too. Usually, if these higher order harmonic components have a low enough amplitude, they can be ignored.
+
+*insert picture of harmonic termination*
 
 
+### Push-Pull Implementation
 
 
+[^1]: A quarter-wavelength open-ended stub transforms to a short-circuit at the other end.
 
