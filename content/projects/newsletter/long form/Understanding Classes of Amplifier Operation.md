@@ -299,7 +299,6 @@ In this post, we will discuss the following:
 **Read time**: X mins
 
 ~~
-
 ### Class B Amplifier Operation
 
 In the article on Class A, we mentioned that the conduction angle is 360°. That is, the transistor is operating in the quasi-linear region for all phases of the input signal.
@@ -308,13 +307,16 @@ In Class B operation, we keep the transistor in the quasi-linear operation only 
 
 > The conduction angle for a Class B amplifier is 180° or ᴨ radians.
 
-The schematic of a Class B amplifier is shown below, and is fundamentally the same as the Class A amplifier, with slight modifications. The actual implementation is usually done in a push-pull configuration which we will come to later in the article.
+The schematic of a Class B amplifier is shown below, and is fundamentally the same as the Class A amplifier, with slight modifications.
+- The output load is modified to have harmonic shorts
+- The amplifier is implemented in push-pull configuration
+We will get into the reasons for both modifications later.
 
 *insert schematic and Qpoint plot*
 
-The main difference lies in where we choose the quiescent bias point for this amplifier class. The Q-point is chosen right at the transistor cutoff. The transistor is driven into conduction by the positive cycle of the input signal, and remains in cut-off during the negative cycle. 
+The main difference lies in where we choose the quiescent bias point for this amplifier class. The Q-point is chosen right at the edge of transistor cutoff. The transistor is driven into conduction by the positive cycle of the input signal, and remains in cut-off during the negative cycle. 
 
-Our earlier approach to calculate load line for a Class A amplifier involved finding the optimal load from the Q-point. That approach will not work here, because the quiescent current is zero. We will find the optimal load for Class B in the next section.
+Our earlier approach to calculate load line for a Class A amplifier involved finding the optimal load from the Q-point. That approach will not work here, because the quiescent current is nearly zero. We will find the optimal load for Class B in the next section.
 
 In Class B, the current waveforms in the drain of the transistor are easy to draw since it only conducts in positive half cycles. The voltage will remain at the Q-point VD, till the current flows through the transistor, at which point the voltage drops. Current and voltage are still opposite in phase to each other.
 
