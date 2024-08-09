@@ -301,37 +301,35 @@ In this post, we will discuss the following:
 ~~
 ### Class B Amplifier Operation
 
-In the article on Class A, we mentioned that the conduction angle is 360°. That is, the transistor is operating in the quasi-linear region for all phases of the input signal.
+In the article on Class A amplifiers, we mentioned that the conduction angle is 360°. That is, the transistor is operating in the quasi-linear region for all phases of the input signal.
 
 In Class B operation, we keep the transistor in the quasi-linear operation only for one-half of the input sinusoidal signal. For the other half, the transistor is kept in cut-off and does not provide amplification.
 
 > The conduction angle for a Class B amplifier is 180° or ᴨ radians.
 
 The schematic of a Class B amplifier is shown below, and is fundamentally the same as the Class A amplifier, with slight modifications.
-- The output load is modified to have harmonic shorts
-- The amplifier is implemented in push-pull configuration
-We will get into the reasons for both modifications later.
+- The output load is modified to have harmonic traps
+- The amplifier is often implemented in push-pull configuration
+We will get into the reasons for both modifications later in this post.
 
 *insert schematic and Qpoint plot*
 
 The main difference lies in where we choose the quiescent bias point for this amplifier class. The Q-point is chosen right at the edge of transistor cutoff. The transistor is driven into conduction by the positive cycle of the input signal, and remains in cut-off during the negative cycle. 
 
-Our earlier approach to calculate load line for a Class A amplifier involved finding the optimal load from the Q-point. That approach will not work here, because the quiescent current is nearly zero. We will find the optimal load for Class B in the next section.
-
 In Class B, the current waveforms in the drain of the transistor are easy to draw since it only conducts in positive half cycles. The voltage will remain at the Q-point VD, till the current flows through the transistor, at which point the voltage drops. Current and voltage are still opposite in phase to each other.
 
 *insert IV waveforms for class B*
 
-We immediately get a sense that the efficiency should improve because the transistor is kept off half the time. But since only half the sinusoid is amplified, the output waveform is quite distorted degrading the amplifier linearity. We will look at both the efficiency and linearity aspects in more detail.
+We immediately get a sense that the efficiency should improve because the transistor is kept off half the time. But since only half the sinusoid is amplified, the output waveform is quite distorted degrading the amplifier linearity.
 
-### Class B Efficiency
+### Class B Efficiency and Backoff
 To calculate efficiency of this mode, like we did in Class A, we need a mathematical representation of the current and voltage waveforms. Unfortunately, this is where it gets hairy because half-sinusoids are not mathematically simple. We will deal with them anyway using Taylor series expansions (link).
 
 *insert IV equations*
 
 We will make two observations about the output current waveform to make this much simpler immediately.
 1. It has no odd-order harmonic components
-2. We will remove all the even-order components so we don't have to deal with them.
+2. We will remove all the even-order components so we don't have to deal with them (using harmonic shorts, explained later)
 
 Now, the output current equation is much easier to deal with.
 
@@ -355,34 +353,100 @@ P_{RF}=\frac{1}{4}V_DI_{max}
 $$
 If you compare this with the output power from Class A (link), you will realize that Class B delivers the same output power as Class A. Which is cool if you think about it -- it delivers the same output power while using lower DC power.
 
-So what's the efficiency?
+So what's the improved efficiency?
 
 $$
-\eta = \frac{P_{RF,max}}{P_{DC}} \times 100\% = \frac{\pi}{4} \times 100\% = 78.4\%
+\eta = \frac{P_{RF,max}}{P_{DC}} \times 100\% = \frac{\pi}{4} \times 100\% = 78.5\%
 $$
-> Maximum possible efficiency of Class B operation is 78.4%
+> Maximum possible efficiency of Class B operation is 78.5%
 
 This is much better than the Class A value of 50%. We just got this by turning off the transistor for half the cycle, and didn't even affect the output RF power.
 
-But there is a price to pay. Linearity. The output waveform is not a faithful replica of the input signal anymore. This is not acceptable for most applications. Thus, Class B is often implemented in a push-pull configuration, which we will look at shortly.
-### Load Network Design
-The optimal load that should be presented to the amplifier output should be such that a current of Imax can be delivered to the load when a voltage VD is across it.
+This almost feels like free lunch, but we pay in a couple of ways:
+1. **Linearity**: The output waveform is not a faithful replica of the input signal anymore. This is not acceptable for most applications. Thus, Class B is often implemented in a push-pull circuit configuration to recover the original sinusoidal waveform, at the cost of increased complexity.
+2. **Drive strength**: Input signal to the amplifier needs to be much stronger to drive the output current positive peak to +Imax and the negative peak to -Imax (which will be cutoff anyway). In contrast, Class A amplifier current needs to only swing from 0 to Imax *link*. If the output current has to have twice the peak-to-peak value, then **the drive power requirement for Class B increases 4x, or 6-dB, over a Class A amplifier**. Needing higher drive strength means that the power-added efficiency (PAE) *link* will drop, as will the power gain, which is not desirable.
+
+A quick recalculation of the efficiency at 25% maximum output power, or 6-dB-backoff condition, where the voltage and current are half their peak values will reveal that **the efficiency of a Class B amplifier at 6-dB back-off is 39.2%.** This is much better than the 12.5% efficiency at 6-dB backoff from a Class A amplifier.
+
+### Output Harmonic Content
+While the Class A amplifier provided faithful amplification with near-zero harmonic levels by operating in a quasi-linear region of the transistor, Class B operation generates significant harmonics at the output due to half the waveform being cut off.
+
+We already saw from the drain current Taylor series that all odd-order harmonics will naturally have a zero value. But the even-order harmonics exist.
+
+From the coefficients of the Taylor series, the magnitude of the fundamental and even-order harmonics of the drain current are shown in the table below for up to the 10th harmonic.
+
+*insert table of fundamental and even-order harmonics up to 10th harmonic*
+
+The most dominant harmonic is the 2nd harmonic, while the magnitudes of higher even-order components fall away according to the square of the order. The second harmonic amplitude is the same sign as the fundamental, which means it is in-phase with the fundamental component, while the fourth harmonic is out-of-phase with the fundamental component, and so on.
+
+This second harmonic component, when correctly engineered in a PA, is useful in reducing the drive requirements to the PA. That will be a topic for another day, however.
+### Load Network and Harmonic Traps
+
+Up until this point, we have still not discussed how the load line should be determined for a Class B amplifier. This is because the Class A load-line applies to Class B as well. 
+
+The maximum current Imax only flows through the device when the instantaneous VD is low, and relatively close to knee-voltage. Just like in Class A, the load line can be calculated as:
 $$
-R_{opt} = \frac{V_D}{I_{max}}
+R_{opt} = \frac{V_D-V_k}{I_{max}/2}
 $$
-Apart from this, remember that we assumed that all even-order harmonics were removed in the analysis of efficiency. The way this is implemented in practice is to design a harmonic short. 
 
-In terms of circuit elements, it can be a series L-C resonator whose resonant frequency is twice the fundamental frequency. 
+Once the optimal load is determined, the output matching network implements it by transformation from a 50-ohm termination, or from the input impedance of the following stage if the amplifier acts as a driver stage. Matching networks can be implemented with lumped passive elements or transmission lines.
 
-For transmission-line based amplifier designs, the harmonic short may be implemented as a quarter-wavelength, open-ended stub[^1]. 
+Apart from this, remember that we assumed that all even-order harmonics were removed in the analysis of efficiency. The way this is implemented in practice is with a separate network called a *harmonic trap*. 
 
-Similar resonators or stubs can be implemented at higher order harmonics (4,6,8,...) too. Usually, if these higher order harmonic components have a low enough amplitude, they can be ignored.
+> A harmonic trap provides a short circuit at a harmonic frequency of operation, effectively removing its contribution to the output waveform.
 
-*insert picture of harmonic termination*
+Ideally, the harmonic trap does not interfere with the output match at fundamental frequency, but this is rarely the case in practice. The interactions will need to be accounted for via circuit simulation.
+
+In integrated circuit designs, harmonic traps are implemented as on-chip LC-resonators, or off-chip with surface-mount components. In hybrid designs (discrete transistor on a printed circuit board, or PCB), a widely used approach is to use a quarter-wavelength (λ0/4) (at fundamental f0) short-circuited stub. This provides two main advantages:
+1. It presents an open-circuit at the fundamental frequency f0, making it invisible to the output matching network.
+2. It presents a short at 2f0, 4f0, etc., effectively shorting out multiple even order harmonics.
+
+In reality, the bandwidth of the harmonic trap implemented with stubs is eventually limited, with higher characteristic impedance lines providing greater bandwidth. As a result, you will often see harmonic traps implemented as narrow traces meandered on a PCB to save space, in many hybrid PA designs.
+*insert picture of harmonic trap implementation using LC or stub*
+*can you find a pcb meandered stub implementation of trap?*
+### Push-Pull Topology
+
+As we mentioned earlier, the Class B amplifier output is still highly nonlinear due to only the positive half-sinusoid being amplified. A clever solution to improve linearity is the *push-pull* topology for Class B amplifiers.
+
+> A push-pull amplifier design recovers the linearity degradation in Class B amplifiers by amplifying the negative half-sinusoid as well, and combining it with the amplified positive half-sinusoid.
+
+The figure below shows the circuit implementation of a push-pull amplifier. 
+
+*insert picture of push-pull amplifier*
+
+The working principle of a push-pull amplifier is as follows:
+- It uses two Class B amplifiers, of which, only one of them actively amplifies the signal at any point in time.
+- The input has a *balun* (**bal**anced-**un**balanced) which divides the input signal into two paths which are 180° offset in phase from each other.
+- Amplifier 1 only amplifies the positive half-sinusoids
+- Amplifier 2 only amplifies the negative half-sinusoids (which are actually positive half-sinusoids after 180° input phase shift)
+- The output also has a balun that combines the outputs of amplifiers 1 and 2. Because there is again a 180° shift between the paths, the reconstructed signal is assembled as a pure sinusoidal wave.
+
+The output power and efficiency assuming lossless baluns are the same as a single Class B working on its own because only one of them is amplifying at any given time.
+
+There are two major benefits of using push-pull amplifier topology:
+
+**Wideband operation**: If a wide bandwidth balun can be implemented at the input and output, the push-pull amplifier configuration is capable of very broadband operation. If no harmonic traps are implemented at the outputs of the Class B amplifiers, the push-pull configuration is capable of reconstructing the full input signal at the output, even if it's not sinusoidal. This makes this topology very attractive when high linearity is needed is needed over a broad bandwidth of operation (even up to several octaves of frequency.)
+
+**High input/output impedance**: The input and output impedance of the balun-connected amplifier stages is two-times that of a single ended amplifier. For example, if Ropt is the load-line needed for a single-ended PA, then the push-pull implementation requires 2Ropt. This is a great advantage for high power PAs where the device size is so massive that Ropt is less than 1 ohm. Using a push-pull approach boosts that value so it becomes easier to design matching networks. 
+
+### Difficulty of Push-Pull at RF
+Unfortunately, the use of push-pull amplifiers is only widely used at frequencies below about 300 MHz. At GHz frequencies, there is one major limitation that limits the use of push-pull amplifiers: **balun loss**.
+
+At lower frequencies, push-pull implementation is possible due to the availability of toroidal ferrite-core balun-transformers (up to 30 MHz) and coaxial transmission-line based balun-transforms (up to 400 MHz). If you're interested, check out this 700W amplifier from Microsemi that operates from 1 - 52 MHz (thats over a decade of frequency!) and utilizes primarily ferrite based baluns at the input and output.
+
+https://www.microsemi.com/document-portal/doc_view/132525-a-700w-broadband-amplifier-using-vrf2944
+
+Baluns are notoriously difficult to design for high power PA applications at GHz frequencies because dissipative losses wipe out any advantages obtained from a push-pull implementation. That is not to say researchers have not tried to implement push-pull amplifiers at GHz frequencies. In 2020, Maktoomi et al. implemented a microstrip balun design with about 3dB insertion loss and still managed to design a 1.8-2.7 GHz push-pull PA with 60-75% efficiency.
+
+https://ieeexplore.ieee.org/abstract/document/9194327
+
+As a final word, the push-pull topology is not only restricted to Class B amplifiers. The idea can be applied to any reduced conduction angle amplifier to improve the overall linearity and bandwidth of operation.
+
+PS: you never really mentioned cross-over distortion in push-pull. Maybe you can reserve it for the mini ebook or something.
+
+**~~ END OF ARTICLE**
+
+# Part 4: Class AB Amplifiers
 
 
-### Push-Pull Implementation
-
-
-[^1]: A quarter-wavelength open-ended stub transforms to a short-circuit at the other end.
 
