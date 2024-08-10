@@ -291,10 +291,12 @@ The other articles in this series are listed below, and contains the fundamental
 1. Foundations
 2. Class A Operation
 
-In this post, we will discuss the following:
-- thing1
-- thing2
-- thing3
+In this post, we will discuss the following as related to Class B amplifiers:
+- Amplifier operation
+- Efficiency
+- Output harmonics
+- Load network (output match, harmonic traps)
+- Push-pull amplifiers
 
 **Read time**: X mins
 
@@ -325,7 +327,9 @@ We immediately get a sense that the efficiency should improve because the transi
 ### Class B Efficiency and Backoff
 To calculate efficiency of this mode, like we did in Class A, we need a mathematical representation of the current and voltage waveforms. Unfortunately, this is where it gets hairy because half-sinusoids are not mathematically simple. We will deal with them anyway using Taylor series expansions (link).
 
-*insert IV equations*
+$$
+i_0 = i_0\sin\theta, 0 \le \theta \le \pi
+$$
 
 We will make two observations about the output current waveform to make this much simpler immediately.
 1. It has no odd-order harmonic components
