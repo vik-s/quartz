@@ -311,19 +311,16 @@ In Class B operation, we keep the transistor in the quasi-linear operation only 
 
 The schematic of a Class B amplifier is shown below, and is fundamentally the same as the Class A amplifier, with slight modifications.
 - The output load is modified to have harmonic traps
-- The amplifier is often implemented in push-pull configuration
+- The amplifier is often implemented in push-pull configuration (schematic shown later)
 We will get into the reasons for both modifications later in this post.
-
-*insert schematic and Qpoint plot*
+![[projects/newsletter/long form/Understanding Classes of Amplifier Operation 2024-07-20 07.15.02.excalidraw.md#^group=4S9QkDW7IPUtJqystm1CX]]
 
 The main difference lies in where we choose the quiescent bias point for this amplifier class. The Q-point is chosen right at the edge of transistor cutoff. The transistor is driven into conduction by the positive cycle of the input signal, and remains in cut-off during the negative cycle. 
 
 In Class B, the current waveforms in the drain of the transistor are easy to draw since it only conducts in positive half cycles. The voltage will remain at the Q-point VD, till the current flows through the transistor, at which point the voltage drops. Current and voltage are still opposite in phase to each other.
-
-*insert IV waveforms for class B*
+![[projects/newsletter/long form/Understanding Classes of Amplifier Operation 2024-07-20 07.15.02.excalidraw.md#^group=XCHz4_EwD-5FFdRQWgpUr]]
 
 We immediately get a sense that the efficiency should improve because the transistor is kept off half the time. But since only half the sinusoid is amplified, the output waveform is quite distorted degrading the amplifier linearity.
-
 ### Class B Efficiency and Backoff
 To calculate efficiency of this mode, like we did in Class A, we need a mathematical representation of the current and voltage waveforms. Unfortunately, this is where it gets hairy because half-sinusoids are not mathematically simple. We will deal with them anyway using Taylor series expansions (link).
 
@@ -368,7 +365,7 @@ This is much better than the Class A value of 50%. We just got this by turning o
 
 This almost feels like free lunch, but we pay in a couple of ways:
 1. **Linearity**: The output waveform is not a faithful replica of the input signal anymore. This is not acceptable for most applications. Thus, Class B is often implemented in a push-pull circuit configuration to recover the original sinusoidal waveform, at the cost of increased complexity.
-2. **Drive strength**: Input signal to the amplifier needs to be much stronger to drive the output current positive peak to +Imax and the negative peak to -Imax (which will be cutoff anyway). In contrast, Class A amplifier current needs to only swing from 0 to Imax *link*. If the output current has to have twice the peak-to-peak value, then **the drive power requirement for Class B increases 4x, or 6-dB, over a Class A amplifier**. Needing higher drive strength means that the power-added efficiency (PAE) *link* will drop, as will the power gain, which is not desirable.
+2. **Drive strength**: Input signal to the amplifier needs to be much stronger to drive the output current positive peak to +Imax and the negative peak to -Imax (which will be cutoff anyway). In contrast, Class A amplifier current needs to only swing from 0 to Imax *link*. If the output current has to have twice the peak-to-peak value, then **the drive power requirement for Class B increases four-fold, or 6-dB, over a Class A amplifier**. Needing higher drive strength means that the power-added efficiency (PAE) *link* will drop, as will the power gain, which is not desirable.
 
 A quick recalculation of the efficiency at 25% maximum output power, or 6-dB-backoff condition, where the voltage and current are half their peak values will reveal that **the efficiency of a Class B amplifier at 6-dB back-off is 39.2%.** This is much better than the 12.5% efficiency at 6-dB backoff from a Class A amplifier.
 
@@ -392,7 +389,6 @@ The maximum current Imax only flows through the device when the instantaneous VD
 $$
 R_{opt} = \frac{V_D-V_k}{I_{max}/2}
 $$
-
 Once the optimal load is determined, the output matching network implements it by transformation from a 50-ohm termination, or from the input impedance of the following stage if the amplifier acts as a driver stage. Matching networks can be implemented with lumped passive elements or transmission lines.
 
 Apart from this, remember that we assumed that all even-order harmonics were removed in the analysis of efficiency. The way this is implemented in practice is with a separate network called a *harmonic trap*. 
@@ -450,7 +446,7 @@ PS: you never really mentioned cross-over distortion in push-pull. Maybe you can
 
 **~~ END OF ARTICLE**
 
-# Part 4: Class AB Amplifiers
+# Part 4: Class AB / C Amplifiers
 
 
 
