@@ -322,24 +322,28 @@ In Class B, the current waveforms in the drain of the transistor are easy to dra
 
 We immediately get a sense that the efficiency should improve because the transistor is kept off half the time. But since only half the sinusoid is amplified, the output waveform is quite distorted degrading the amplifier linearity.
 ### Class B Efficiency and Backoff
-To calculate efficiency of this mode, like we did in Class A, we need a mathematical representation of the current and voltage waveforms. Unfortunately, this is where it gets hairy because half-sinusoids are not mathematically simple. We will deal with them anyway using Taylor series expansions (link).
-
+To calculate efficiency of this mode, like we did in Class A, we need a mathematical representation of the current and voltage waveforms. The representation of 180° current conduction is given as
 $$
-i_0 = i_0\sin\theta, 0 \le \theta \le \pi
+\begin{align*}
+i_D &= i_0\sin\theta, \ \ \ \ \ \ \ 0 \le \theta \le \pi \\
+&= 0 \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \pi \le \theta \le 2\pi
+\end{align*}
 $$
-
+Unfortunately, this is where it gets hairy because half-sinusoids are not mathematically simple. We will deal with them anyway using Taylor series expansions (link).
+$$
+i_D = i_o \left( \frac{1}{\pi} + \frac{1}{2}\sin \theta - \frac{2}{\pi} \sum_{n=2,4,6,...}\frac{1}{n^2-1}\cos n\theta\right)
+$$
 We will make two observations about the output current waveform to make this much simpler immediately.
 1. It has no odd-order harmonic components
 2. We will remove all the even-order components so we don't have to deal with them (using harmonic shorts, explained later)
 
 Now, the output current equation is much easier to deal with.
-
-*insert simple drain current equation*
-
-It consists of a DC component Io/π and a fundamental frequency time-varying component (Io/2)sinθ, which we can use to calculate load lines and efficiency.
+$$
+i_D = i_o \left( \frac{1}{\pi} + \frac{1}{2}\sin \theta\right)
+$$
+It consists of a DC component io/π and a fundamental frequency time-varying component (io/2)sinθ, which we can use to calculate load lines and efficiency.
 
 If the maximum amplitude of the half-sinusoid is Imax, then the DC component of the drain current is Imax/π. Remember that the equivalent DC current in Class A was Imax/2. Due to lower DC current, it is apparent that Class B is already more efficient. If the drain voltage is set at VD, then the DC power dissipation is
-
 $$
 P_{DC} = \frac{V_DI_{max}}{\pi}
 $$
@@ -367,7 +371,7 @@ This almost feels like free lunch, but we pay in a couple of ways:
 1. **Linearity**: The output waveform is not a faithful replica of the input signal anymore. This is not acceptable for most applications. Thus, Class B is often implemented in a push-pull circuit configuration to recover the original sinusoidal waveform, at the cost of increased complexity.
 2. **Drive strength**: Input signal to the amplifier needs to be much stronger to drive the output current positive peak to +Imax and the negative peak to -Imax (which will be cutoff anyway). In contrast, Class A amplifier current needs to only swing from 0 to Imax *link*. If the output current has to have twice the peak-to-peak value, then **the drive power requirement for Class B increases four-fold, or 6-dB, over a Class A amplifier**. Needing higher drive strength means that the power-added efficiency (PAE) *link* will drop, as will the power gain, which is not desirable.
 
-A quick recalculation of the efficiency at 25% maximum output power, or 6-dB-backoff condition, where the voltage and current are half their peak values will reveal that **the efficiency of a Class B amplifier at 6-dB back-off is 19.6%.** This is  better than the 12.5% efficiency at 6-dB backoff from a Class A amplifier. In practice, the output waveform is engineered to generate
+A quick recalculation of the efficiency at 25% maximum output power, or 6-dB-backoff condition, where the voltage and current are half their peak values will reveal that **the efficiency of a Class B amplifier at 6-dB back-off is 19.6%.** This is  better than the 12.5% efficiency at 6-dB backoff from a Class A amplifier. In practice, the output waveform is further engineered to improve efficiency in back-off condition.
 
 ### Output Harmonic Content
 While the Class A amplifier provided faithful amplification with near-zero harmonic levels by operating in a quasi-linear region of the transistor, Class B operation generates significant harmonics at the output due to half the waveform being cut off.
@@ -376,8 +380,7 @@ We already saw from the drain current Taylor series that all odd-order harmonics
 
 From the coefficients of the Taylor series, the magnitude of the fundamental and even-order harmonics of the drain current are shown in the table below for up to the 10th harmonic.
 
-*insert table of fundamental and even-order harmonics up to 10th harmonic*
-
+![[projects/newsletter/long form/Understanding Classes of Amplifier Operation 2024-07-20 07.15.02.excalidraw.md#^group=XheY4LwN]]
 The most dominant harmonic is the 2nd harmonic, while the magnitudes of higher even-order components fall away according to the square of the order. The second harmonic amplitude is the same sign as the fundamental, which means it is in-phase with the fundamental component, while the fourth harmonic is out-of-phase with the fundamental component, and so on.
 
 This second harmonic component, when correctly engineered in a PA, is useful in reducing the drive requirements to the PA. That will be a topic for another day, however.
@@ -402,8 +405,7 @@ In integrated circuit designs, harmonic traps are implemented as on-chip LC-reso
 2. It presents a short at 2f0, 4f0, etc., effectively shorting out multiple even order harmonics.
 
 In reality, the bandwidth of the harmonic trap implemented with stubs is eventually limited, with higher characteristic impedance lines providing greater bandwidth. As a result, you will often see harmonic traps implemented as narrow traces meandered on a PCB to save space, in many hybrid PA designs.
-*insert picture of harmonic trap implementation using LC or stub*
-*can you find a pcb meandered stub implementation of trap?*
+![[projects/newsletter/long form/Understanding Classes of Amplifier Operation 2024-07-20 07.15.02.excalidraw.md#^group=2VO50lAqwtZhTwyp8pFPE]]
 ### Push-Pull Topology
 
 As we mentioned earlier, the Class B amplifier output is still highly nonlinear due to only the positive half-sinusoid being amplified. A clever solution to improve linearity is the *push-pull* topology for Class B amplifiers.
@@ -412,7 +414,7 @@ As we mentioned earlier, the Class B amplifier output is still highly nonlinear 
 
 The figure below shows the circuit implementation of a push-pull amplifier. 
 
-*insert picture of push-pull amplifier*
+![[projects/newsletter/long form/Understanding Classes of Amplifier Operation 2024-07-20 07.15.02.excalidraw.md#^group=hTREVbnseXFyVMvXZANJM]]
 
 The working principle of a push-pull amplifier is as follows:
 - It uses two Class B amplifiers, of which, only one of them actively amplifies the signal at any point in time.
