@@ -6,7 +6,7 @@ style: educational
 written: ✅
 published:
 ---
-Class B amps gives great efficiency, good power, but there's a flaw.
+Class B amps gives great efficiency, good power, but there's a flaw. 👇🏽
 
 It's something we can't look away from.
 
@@ -19,11 +19,15 @@ The output signal looks nothing like the input. It's distorted.
 The solution? - A push-pull amplifier.
 
 Here's the idea: 
-Smash together two Class B amplifiers such that one amplifies the positive signal cycles, and the other the negatives. Use only one at a time.
+Smash together two Class B amplifiers such that one amplifies the positive signal cycles, and the other the negatives. Put them back together at the output.
 
-Problem solved. You reconstruct the original sinusoid, but now amplified.
+Problem solved. 
 
-But what's the downside? Let me know in the comments.
+You reconstruct the original sinusoid, but now amplified. And the amp has killer wide bandwidth.
+
+But this is hard to implement at RF. Why?
+
+This article explains it all:
 
 Find out all about this in the upcoming post this week:
 ✍🏼 Join 3K+ others: www.viksnewsletter.com
