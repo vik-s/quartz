@@ -1,0 +1,1 @@
+_The views, thoughts, and opinions expressed in this newsletter are solely mine; they do not reflect the views or positions of my employer or any entities I am affiliated with. The content provided is for informational purposes only and does not constitute professional or investment advice._
