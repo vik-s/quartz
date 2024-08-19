@@ -316,9 +316,11 @@ We will get into the reasons for both modifications later in this post.
 ![[projects/newsletter/long form/Understanding Classes of Amplifier Operation 2024-07-20 07.15.02.excalidraw.md#^group=4S9QkDW7IPUtJqystm1CX]]
 
 The main difference lies in where we choose the quiescent bias point for this amplifier class. The Q-point is chosen right at the edge of transistor cutoff. The transistor is driven into conduction by the positive cycle of the input signal, and remains in cut-off during the negative cycle. 
+*picture*
 
 In Class B, the current waveforms in the drain of the transistor are easy to draw since it only conducts in positive half cycles. The voltage will remain at the Q-point VD, till the current flows through the transistor, at which point the voltage drops. Current and voltage are still opposite in phase to each other.
-![[projects/newsletter/long form/Understanding Classes of Amplifier Operation 2024-07-20 07.15.02.excalidraw.md#^group=XCHz4_EwD-5FFdRQWgpUr]]
+
+*picture*
 
 We immediately get a sense that the efficiency should improve because the transistor is kept off half the time. But since only half the sinusoid is amplified, the output waveform is quite distorted degrading the amplifier linearity.
 ### Class B Efficiency and Backoff
@@ -446,9 +448,59 @@ As a final word, the push-pull topology is not only restricted to Class B amplif
 
 PS: you never really mentioned cross-over distortion in push-pull. Maybe you can reserve it for the mini ebook or something.
 
-**~~ END OF ARTICLE**
+**~ END OF ARTICLE ~**
 
 # Part 4: Class AB / C Amplifiers
+
+In this article, we will look at Class AB and Class C amplifiers.
+
+This article is part of a series on power amplifier classes of operation. If you want to read the other articles, check out the links below:
+1. Foundations
+2. Class A Operation
+3. Class B Operation
+4. Class AB, C Operation (this article)
+
+In this post, we will discuss the following as related to Class AB and Class C amplifiers:
+- thing1
+- thing2
+- thing3
+
+**Read time**: X mins
+~~
+### Cross-over Distortion
+
+We'll approach Class AB amplifiers in a slightly unconventional way, by talking about the issue of *cross-over distortion* in Class B push-pull amplifiers. 
+
+In the last article (link), we looked at the push-pull topology that used two amplifiers with 180° phase shift between them to reconstruct the output signal with minimum distortion. The operation is analogous to a tandem bicycle, where only one person is pedaling at a time to keep it moving. We also discussed the need for increased drive strength of the input signal to keep the operation in Class B.
+
+What happens if the input level drops? We calculated 6-dB backoff efficiency of Class B to be 39.3%, but what happens to linearity of the output signal.
+
+If you look at the waveforms at weaker input drive, you notice that there is a portion of the signal cycle where neither amplifier is conducting resulting in zero output signal. This phenomenon is called *cross-over distortion* where the output signal is no longer resembles an amplified version of the input signal due to neither amplifier working at the zero-crossing point. Going back to our analogy, this corresponding to neither cyclist pedaling. Or if you prefer an olympic sport example, the baton is passed between runners but neither one is running.
+
+*insert picture of cross-over distortion in push-pull amplifier*
+
+### Class AB Operation
+
+There is a quick fix to the problem.
+
+Change the bias point of the transistor so that when the input signal drops below zero, the transistor is still conducting and amplification continues.
+
+In our tandem bicycle analogy, if one cyclist stops pedaling, the flywheel keeps the wheels moving till the other cyclist picks up the pedal. In contrast, pure Class B operation is more like a fixie tandem bicycle where it slows down if either one stops pedaling.
+
+What this means from a Q-point perspective is that the transistor should be biased above cutoff but not so much that it becomes a Class A amplifier.
+
+> In a Class AB amplifier, the Q-point is in between Class A and Class B, and the conduction angle is between 180° and 360° (or π and 2π radians.)
+
+*insert picture of a class AB amplifier*
+
+If the bias point of a Class AB amplifier is between that of Class A and Class B, we can also infer that **the efficiency of Class AB is between 50% and 78.5%**.
+
+Depending on the drive strength, a Class AB amplifier can even give linear amplification like a Class A amplifier, or high efficiency like a Class B amplifier. This is what makes Class AB so attractive for audio applications, and is a popular power amplifier topology for RF applications. While push-pull Class AB might make sense for audio applications, RF power amplifiers often use Class AB in single-ended operation.
+
+### Loadline and Output Power
+
+
+
 
 
 
