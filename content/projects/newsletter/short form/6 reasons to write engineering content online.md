@@ -18,3 +18,9 @@ published:
 [[Excalidraw/6-reasons-to-write-online.excalidraw|6-reasons-to-write-online.excalidraw]]
 Follow me (🔔) for posts on RF engineering.
 Subscribe to my newsletter: https://www.viksnewsletter.com
+
+### Aug 21 2024
+
+Electrical engineering education is in a state of flux.
+
+People are not solely relying on university 

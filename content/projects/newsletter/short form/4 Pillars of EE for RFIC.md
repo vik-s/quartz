@@ -23,3 +23,31 @@ Don't stop here. Anything more you learn will always make you a better engineer.
 
 [[Excalidraw/4pillarsofRFIC.excalidraw|4pillarsofRFIC.excalidraw]]
 
+### aug 21 2024
+RFIC Design 101
+
+Over the past 13 years I have worked with colleagues from all backgrounds in several companies.
+
+These 4 subject areas are what every one of them were good at.
+
+Area #1: Analog Circuits
+- Building blocks: op-amps, bandgaps, current mirrors
+- Good PVT-independent bias generation
+- Stats simulations (corners/monte-carlo)
+
+Area #2: Microwave engineering
+- S-parameters, matching, smith charts
+- Gain, noise, stability, linearity.
+- Wave propagation and electromagnetics
+
+Area #3: Semiconductor devices
+- MOS devices
+- Bipolar transistors
+- III-V technology (GaAs/GaN)
+
+Area #4: RF systems
+- System architectures
+- Modulation schemes
+- Wireless standards
+
+You can specialize in any one, but having a working knowledge in all these areas will help you stand out.
