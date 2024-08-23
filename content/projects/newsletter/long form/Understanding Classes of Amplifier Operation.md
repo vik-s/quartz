@@ -461,10 +461,10 @@ This article is part of a series on power amplifier classes of operation. If you
 4. Class AB, C Operation (this article)
 
 In this post, we will discuss the following as related to Class AB and Class C amplifiers:
-- The problem of cross-over distortion in Class B
+- Cross-over distortion in Class B
 - Class AB operation
 - Class C operation
-- Comparison of A, AB, B, and C amplifier classes
+- Summary of Amplifier Classes
 
 **Read time**: X mins
 
@@ -477,13 +477,13 @@ In the last article (link), we looked at the push-pull topology that used two am
 
 What happens if the input level drops? We calculated 6-dB backoff efficiency of Class B to be 39.3%, but what happens to linearity of the output signal?
 
-If you look at the waveforms at weaker input drive, you notice that there is a portion of the signal cycle where neither amplifier is conducting resulting in zero output signal. This phenomenon is called *cross-over distortion* where the output signal is no longer resembles an amplified version of the input signal due to neither amplifier working at the zero-crossing point. Going back to our analogy, this corresponding to neither cyclist pedaling. Or if you prefer an olympic sport example, the baton is passed between runners but neither one is running.
+If you look at the waveforms at weaker input drive, you notice that there is a portion of the signal cycle where neither amplifier is conducting resulting in zero output signal. This phenomenon is called *cross-over distortion* where the output signal is no longer resembles an amplified version of the input signal due to neither amplifier working at the zero-crossing point. Going back to our analogy, this corresponds to neither cyclist pedaling. Or if you prefer an olympic sport example, the baton is passed between runners but neither one is running.
 
 *insert picture of cross-over distortion in push-pull amplifier*
 
 ### Class AB Operation
 
-There is a quick fix to the problem.
+Here is the quick fix to the problem.
 
 Change the bias point of the transistor so that when the input signal drops below zero, the transistor is still conducting and amplification continues.
 
@@ -497,21 +497,22 @@ What this means from a Q-point perspective is that the transistor should be bias
 
 #### Efficiency and Power Back-off
 
-If the bias point of a Class AB amplifier is between that of Class A and Class B, we can also infer that **the efficiency of Class AB is between 50% and 78.5%**. But unlike Class A or B, there is no specific condition that classifies it as Class AB. You could bias it closer to Class B and get better efficiency or bias it closer to Class A and get better linearity.
+If the bias point of a Class AB amplifier is between that of Class A and Class B, we can also infer that **the efficiency of Class AB is between 50% and 78.5%**. But unlike Class A or B, there is no specific condition that classifies it as Class AB. You could bias it closer to Class B (often referred to as *deep* Class AB) and get better efficiency or bias it closer to Class A and get better linearity.
 
 If you lower the level of the input signal, Class AB amplifiers can still provide linear amplification, especially if the Q-point is closer to Class A operation. But unlike Class A or B, where a 3-dB drop in input level results in a 3-dB drop in the output signal, a Class AB amplifier does not drop its output by 3-dB because is not a linear amplifier. 
 
 This is due to the fact that the conduction angle and Q-point in a class AB amplifier is a function of the drive level. The gain of the amplifier, and consequently the output power depends on where the amplifier is biased at any given level of input signal.
+
 *show that conduction angle is a function of drive level*
 
 https://youtu.be/kwMWpy_HhGs?si=lg69xxEkW0q6zuGm
 #### Output Load and Power
 
-To the first order, the loadline of a Class AB amplifier can be retained from Class A or Class B. In practice, the increased conduction angle (over Class B) results in a higher fundamental component of current. Thus, the optimal resistive load required for a Class AB amplifier is about 10% lower than its first order value and consequently, the gain is a few tenths of a dB higher than its Class A and B counterparts. The extra gain is not significant enough to warrant much attention in the way of analysis.
+To the first order, the loadline of a Class AB amplifier can be retained from Class A or Class B. In practice, the increased conduction angle (over Class B) results in a higher fundamental component of current. Thus, the optimal resistive load required for a Class AB amplifier is about 10% lower than its first order (Class A/B) value and consequently, the gain is a few tenths of a dB higher than its Class A and B counterparts. The extra gain is not significant enough to warrant much attention in the way of analysis.
 
-Unlike Classes A and B which had no output odd-harmonics due to the symmetric nature of the waveform, Class AB amplifiers have both odd- and even-harmonics at the output. A significant amount of research has been performed on the best impedances to present at harmonic frequencies to optimize output power, linearity or a balance of both.
+Unlike Classes A and B which had no output odd-harmonics due to the symmetric nature of the waveform, Class AB amplifiers have both odd- and even-harmonics at the output. A significant amount of research has been performed on the best impedances to present at harmonic frequencies to optimize output power, linearity, or a balance of both.
 
-As an example, students from the University of Bristol won the Student Design Competition at the 2016 International Microwave Symposium for designing a Class AB power amplifier that used the distortion of the output waveform to cancel out the weak nonlinearity of the transistor itself by both tweaking the gate-bias voltage and the third-harmonic impedance, which turns out is particularly significant in Class AB PAs. This presented a "sweet spot" where the third-order intermodulation products at the output were very low, resulting in improved PA linearity (link).
+As an example, students from the University of Bristol won the Student Design Competition at the 2016 International Microwave Symposium for designing a Class AB power amplifier that used the distortion of the output waveform to cancel out the weak nonlinearity of the transistor itself by both tweaking the gate-bias voltage and the third-harmonic impedance, which turns out is particularly significant in Class AB PAs. The cancellation effect presented a "sweet spot" where the third-order intermodulation products at the output were very low, resulting in improved PA linearity (link).
 ### Class C Operation
 
 Class C operation is the case when conduction angle is reduced  further compared to Class B. This results in an output that is  more distorted and nonlinear compared to Class B. 
@@ -522,58 +523,58 @@ Class C amplifiers have several drawbacks that limit its usefulness at RF freque
 
 1. Due to its highly nonlinear output waveform, amplitude modulation techniques cannot be used with such amplifiers.
 2. For a given output power, the device needs to handle larger currents than Class A or B operation, especially as conduction angle is reduced.
-3. For larger current, active device size used is large, which limits its operating frequency and bandwidth.
+3. For larger current, active device size used is large, which restricts its operating frequency and bandwidth to low values.
 
-In addition, the active device needs to be shut off for most part of the input sinusoidal signal, which implies that the transistor should have low leakage to realize high efficiencies. This makes bipolar transistors more suitable for Class C, compared to MOS devices which generally have high gate leakage.
+In addition, the active device needs to be shut off for most part of the input sinusoidal signal, which implies that the transistor should have low leakage to realize high efficiencies. This makes bipolar transistors more suitable for Class C compared to MOS devices, which generally have high gate leakage.
 
-Highly battery sensitive applications that do not require high output power might be suitable applications for Class C, but even then other high efficiency techniques exist with better performance. We will look at Class C only briefly more for the sake of completeness.
+Highly battery sensitive applications that do not require high output power might be suitable applications for Class C. It is not used often because other high efficiency techniques exist with better performance. We will look at Class C only briefly for the sake of completeness.
 #### Efficiency and Power
 
 Instead of calculating power and efficiency from first principles like we did for Class A and B amplifiers, we will simply list out some expressions for the case of Class C. *For more details, read Chapter 8.4 in Bahl's "Fundamentals of RF and Microwave Power Amplifiers," but there is an error in eq. 8.27. There is a missing factor of ϕ. (add this as a footnote)*
 
 For a conduction angle of 2ϕ, the maximum DC power consumption is given by
 $$
-P_{DC} = \frac{I_{max}V_D}{\pi}\left(\sin\phi - \phi\cos\phi\right)
+P_{DC} = 2
+\frac{I_{max}V_D}{\pi}\left(\frac{\sin\phi - \phi\cos\phi}{1-\cos\phi}\right)
 $$
 The maximum RF power is given by
 $$
-P_{RF}=\frac{I_{max}V_D}{4\pi}\left(2\phi - \sin 2\phi \right)
+P_{RF}=\frac{I_{max}V_D}{2\pi}\left(\frac{2\phi - \sin 2\phi}{1-\cos\phi} \right)
 $$
 And the drain efficiency is given by
 $$
-\eta_D = \frac{2\phi - \sin 2\phi}{4(\sin \phi - \phi\cos\phi)}
+\eta_D (\%) = \frac{2\phi - \sin 2\phi}{4(\sin \phi - \phi\cos\phi)} \times 100
 $$
-Thus, for a conduction angle of 90° (2ϕ=π/2 or ϕ=π/4 radians), the drain efficiency is 94%. For the same conduction angle, the output power is almost half (~3-dB lower) of the equivalent Class A (or B) output power (which we can find by setting ϕ=π/2). As conduction angle is further reduced, the efficiency approaches 100%, and the output power precipitously drops.
+The DC and RF power values are normalized to Class A, and it turns out that these equations are applicable to all classes of amplifier operation.
+
+The plot below shows these equations plotted against conduction angle. As the conduction angle decreases, the DC power consumption drops and so does the delivered RF power. For low conduction angle Class C operation, the efficiency reaches nearly 100% but the low RF output power makes this class undesirable, especially with its associated highly nonlinear waveform.
 
 *plot DC, RF and efficiency as a function of conduction angle.*
 
-*This seems like a good article. Use the plot of average, fundamental components and efficiency over conduction angle. https://www.allaboutcircuits.com/technical-articles/introduction-to-the-class-c-power-amplifier/*
+From this plot, we can also justify why Class AB is a popular class of operation. It provides even slightly higher RF power compared to Class A, gives good efficiency (60-70%) and has manageable output distortion due to reduced conduction angle.
+### Summary of Amplifier Classes of Operation
 
-### Comparison of Classes A, AB, B, and C
+This is a good time to put together all our learnings so far about amplifier classes, and summarize some results.
 
-This is a good time to put together all the amplifier classes and their properties based on the conduction angle.
+The operation of an amplifier in different classes depends on how the quiescent bias point is selected. The figure below shows how the Q-point for each class is chosen.
 
-Make a table based on:
-- Class name
-- Angle of conduction
-- Efficiency
-- Output power
-- Even harmonics
-- Odd harmonics
+*put picture of different q-points*
 
-Pictures that can compare classes of operation
-- IdVd plot with various Qpoints
-- IdVg plot with various Qpoints
-- Current waveforms
+Depending on what fraction of the signal cycle the active device conducts, the output current flows only for part of the overall sinusoid. Based on the angle of conduction, the output waveforms progressively get more nonlinear -- with Class A being most linear and Class C being most nonlinear.
+
+As the conduction angle is reduced, the input of the amplifier must be driven harder to achieve good efficiencies. This is usually bad for gain and power-added efficiency because transistor gain is a scare resource at RF frequencies.
+
+*put plot of different current waveforms*
+
+Depending on the conduction angle, the table shows a quick numerical summary of the theoretical DC dissipation, RF power delivered and drain efficiency of various classes of power amplifier operation.
+
+*put in a table of the numbers*
 
 If you want see some amplifier designs for each class, then check out this excellent playlist from Keysight Technologies.
 https://youtu.be/GhPqPVlDRPY?si=6Q-ILgMrPFpkgW5u
 
-This articles concludes the basic classes of amplifier operation that are simple to understand based on conduction angle. From now on, we will enter the realm of switched power amplifiers, harmonic load control, supply modulation and a whole assignment of seemingly random letters for operating class. 
+This article concludes the basic classes of amplifier operation that are simple to understand based on conduction angle. From now on, we will enter the realm of switched power amplifiers, harmonic load control, supply modulation and a whole assignment of seemingly random letters for operating class. 
 
 I'm not even sure how I'm going to go about it at the moment. As always, its best to embrace the chaos and enjoy the ride. 
 
 See you in the next one.
-
-
-
