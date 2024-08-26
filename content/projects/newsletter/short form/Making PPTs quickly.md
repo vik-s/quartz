@@ -4,7 +4,7 @@ tags:
   - atomic
 style: actionable
 written: ✅
-published:
+published: ✅
 ---
 Most people dread putting technical presentations together before a meeting.
 

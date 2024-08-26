@@ -4,7 +4,7 @@ tags:
   - atomic
 style: actionable
 written: ✅
-published:
+published: ✅
 ---
 # A Simple 3-Part Framework That Will Capture Your Engineering Audience
 
@@ -48,12 +48,9 @@ There is a simple fix to make technical presentations more interesting.
 
 Over the last 13+ years of working in engineering, I have seen hundreds of presentations given by people all over the world. The best presentations I have seen often have a simple structure to them.
 
-In this article, I have distilled my observations into a dead simple framework to make engineering presentations that people will actually listen to.
+In this article, I have distilled my observations into a simple framework to make engineering presentations that people actually listen to.
 
-I call it the "Why-What-How" framework.
-
-The basic idea behind it is to lead the listener along by addressing their most important questions first, and then predicting thier 
-
+I call it the "Why-What-How" framework and here is how it works.
 ### The WHY
 
 The first thing you mention in your technical presentation is WHY you are talking about it in the first place.
@@ -68,20 +65,19 @@ Great. Now the audience knows why they are there and they're all ears because yo
 
 It doesn't not have to be a financial metric if you can't pin one down. You can point out the importance in many other ways -- applicability to other products, reduction of design cycle time, improvements in accuracy, or any other metric that underscores the impact of your work.
 
-Finally, you can briefly mention why your solution actually works. For example,
-
-> "The approach I will present today shows improvements to {problem} based on {principle} that ensures that {bad things} do not happen under {conditions}."
-
-So now the audience knows why they are listening to you, and what ideas your solutions involve. This engages their interest and they are motivated to keep listening.
-
 ### The WHAT
 
-Now that your audience understands why they are even listening to you in the first place.
+Now that your audience understands why they are listening to you, you need to tell them WHAT exactly you did in one simple sentence.
 
-**The "What"**
+Let's continue the same example from earlier.
+
+> "The improvement is possible because of {reason} and I used"
+
+
+### The HOW
+
 - What exactly did you do to solve it?
 - What kind of improvement did you achieve?
 - Explain the idea behind your solution in one sentence
-- 
 
 
