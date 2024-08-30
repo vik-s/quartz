@@ -76496,8 +76496,8 @@ c174677db08ab7a9cbe6678a2a22c9434ef80158: [[Excalidraw/Sinewave1.svg]]
 		},
 		{
 			"type": "line",
-			"version": 1352,
-			"versionNonce": 111612273,
+			"version": 1412,
+			"versionNonce": 1359661489,
 			"index": "buY3",
 			"isDeleted": false,
 			"id": "2dNie9PifnaBBRm3g3mVV",
@@ -76518,7 +76518,7 @@ c174677db08ab7a9cbe6678a2a22c9434ef80158: [[Excalidraw/Sinewave1.svg]]
 			"frameId": null,
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1724899263277,
+			"updated": 1724910134295,
 			"link": null,
 			"locked": false,
 			"startBinding": {
@@ -76621,8 +76621,8 @@ c174677db08ab7a9cbe6678a2a22c9434ef80158: [[Excalidraw/Sinewave1.svg]]
 		},
 		{
 			"type": "line",
-			"version": 1017,
-			"versionNonce": 1871035217,
+			"version": 1047,
+			"versionNonce": 1565027217,
 			"index": "buY5",
 			"isDeleted": false,
 			"id": "drsGq-SO5w8nc_2DzUaeZ",
@@ -76643,7 +76643,7 @@ c174677db08ab7a9cbe6678a2a22c9434ef80158: [[Excalidraw/Sinewave1.svg]]
 			"frameId": null,
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1724899263277,
+			"updated": 1724910134296,
 			"link": null,
 			"locked": false,
 			"startBinding": {
@@ -78396,8 +78396,8 @@ c174677db08ab7a9cbe6678a2a22c9434ef80158: [[Excalidraw/Sinewave1.svg]]
 		},
 		{
 			"type": "line",
-			"version": 1344,
-			"versionNonce": 2125736241,
+			"version": 1374,
+			"versionNonce": 959893873,
 			"index": "buYW",
 			"isDeleted": false,
 			"id": "k0iOcCVLrWFx8IHBKup3Y",
@@ -78420,7 +78420,7 @@ c174677db08ab7a9cbe6678a2a22c9434ef80158: [[Excalidraw/Sinewave1.svg]]
 				"type": 2
 			},
 			"boundElements": [],
-			"updated": 1724899263279,
+			"updated": 1724910134298,
 			"link": null,
 			"locked": false,
 			"startBinding": null,
@@ -78445,8 +78445,8 @@ c174677db08ab7a9cbe6678a2a22c9434ef80158: [[Excalidraw/Sinewave1.svg]]
 		},
 		{
 			"type": "line",
-			"version": 1421,
-			"versionNonce": 1570364177,
+			"version": 1451,
+			"versionNonce": 975010641,
 			"index": "buYX",
 			"isDeleted": false,
 			"id": "FOanc8_5BpqSqkxEsc8TI",
@@ -78469,7 +78469,7 @@ c174677db08ab7a9cbe6678a2a22c9434ef80158: [[Excalidraw/Sinewave1.svg]]
 				"type": 2
 			},
 			"boundElements": [],
-			"updated": 1724899263280,
+			"updated": 1724910134298,
 			"link": null,
 			"locked": false,
 			"startBinding": {
@@ -78833,8 +78833,8 @@ c174677db08ab7a9cbe6678a2a22c9434ef80158: [[Excalidraw/Sinewave1.svg]]
 		},
 		{
 			"type": "line",
-			"version": 806,
-			"versionNonce": 481186033,
+			"version": 836,
+			"versionNonce": 542370097,
 			"index": "buYdV",
 			"isDeleted": false,
 			"id": "9GSAvm5_4R9v3c94iymqM",
@@ -78855,7 +78855,7 @@ c174677db08ab7a9cbe6678a2a22c9434ef80158: [[Excalidraw/Sinewave1.svg]]
 			"frameId": null,
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1724899263281,
+			"updated": 1724910134299,
 			"link": null,
 			"locked": false,
 			"startBinding": {
@@ -78880,8 +78880,8 @@ c174677db08ab7a9cbe6678a2a22c9434ef80158: [[Excalidraw/Sinewave1.svg]]
 		},
 		{
 			"type": "line",
-			"version": 857,
-			"versionNonce": 1366887121,
+			"version": 887,
+			"versionNonce": 893491985,
 			"index": "buYe",
 			"isDeleted": false,
 			"id": "R5s0rEmW-hQKI4VE5J59P",
@@ -78902,7 +78902,7 @@ c174677db08ab7a9cbe6678a2a22c9434ef80158: [[Excalidraw/Sinewave1.svg]]
 			"frameId": null,
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1724899263281,
+			"updated": 1724910134300,
 			"link": null,
 			"locked": false,
 			"startBinding": null,
@@ -80141,8 +80141,8 @@ c174677db08ab7a9cbe6678a2a22c9434ef80158: [[Excalidraw/Sinewave1.svg]]
 		},
 		{
 			"type": "line",
-			"version": 1273,
-			"versionNonce": 2141145745,
+			"version": 1333,
+			"versionNonce": 842058449,
 			"index": "buZ4",
 			"isDeleted": false,
 			"id": "MIIoHtPifeWSxZLSUyLev",
@@ -80163,7 +80163,7 @@ c174677db08ab7a9cbe6678a2a22c9434ef80158: [[Excalidraw/Sinewave1.svg]]
 			"frameId": null,
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1724899263283,
+			"updated": 1724910134301,
 			"link": null,
 			"locked": false,
 			"startBinding": {
@@ -82624,8 +82624,8 @@ c174677db08ab7a9cbe6678a2a22c9434ef80158: [[Excalidraw/Sinewave1.svg]]
 		},
 		{
 			"type": "line",
-			"version": 1078,
-			"versionNonce": 1264177265,
+			"version": 1108,
+			"versionNonce": 1750157489,
 			"index": "bub8",
 			"isDeleted": false,
 			"id": "9kVenGecdX2pv72F3CTKB",
@@ -82646,7 +82646,7 @@ c174677db08ab7a9cbe6678a2a22c9434ef80158: [[Excalidraw/Sinewave1.svg]]
 			"frameId": null,
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1724899263283,
+			"updated": 1724910134301,
 			"link": null,
 			"locked": false,
 			"startBinding": null,
@@ -82875,8 +82875,8 @@ c174677db08ab7a9cbe6678a2a22c9434ef80158: [[Excalidraw/Sinewave1.svg]]
 		},
 		{
 			"type": "arrow",
-			"version": 550,
-			"versionNonce": 763927121,
+			"version": 580,
+			"versionNonce": 1701251729,
 			"index": "bubl",
 			"isDeleted": false,
 			"id": "IbXU62_p7To0oK1RqNlN7",
@@ -82897,7 +82897,7 @@ c174677db08ab7a9cbe6678a2a22c9434ef80158: [[Excalidraw/Sinewave1.svg]]
 			"frameId": null,
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1724899263284,
+			"updated": 1724910134301,
 			"link": null,
 			"locked": false,
 			"startBinding": {
@@ -83084,8 +83084,8 @@ c174677db08ab7a9cbe6678a2a22c9434ef80158: [[Excalidraw/Sinewave1.svg]]
 		},
 		{
 			"type": "line",
-			"version": 3929,
-			"versionNonce": 1907423761,
+			"version": 3989,
+			"versionNonce": 341858897,
 			"index": "bucV",
 			"isDeleted": false,
 			"id": "dB8n_0J8IaOIzACJl45e4",
@@ -83108,7 +83108,7 @@ c174677db08ab7a9cbe6678a2a22c9434ef80158: [[Excalidraw/Sinewave1.svg]]
 				"type": 2
 			},
 			"boundElements": [],
-			"updated": 1724899263285,
+			"updated": 1724910134302,
 			"link": null,
 			"locked": false,
 			"startBinding": {
@@ -83185,8 +83185,8 @@ c174677db08ab7a9cbe6678a2a22c9434ef80158: [[Excalidraw/Sinewave1.svg]]
 		},
 		{
 			"type": "arrow",
-			"version": 1640,
-			"versionNonce": 1939106257,
+			"version": 1700,
+			"versionNonce": 1436072465,
 			"index": "bucl",
 			"isDeleted": false,
 			"id": "zIXqCXnyOba5HhdFdwUMP",
@@ -83209,7 +83209,7 @@ c174677db08ab7a9cbe6678a2a22c9434ef80158: [[Excalidraw/Sinewave1.svg]]
 				"type": 2
 			},
 			"boundElements": [],
-			"updated": 1724899263285,
+			"updated": 1724910134303,
 			"link": null,
 			"locked": false,
 			"startBinding": {
@@ -83284,8 +83284,8 @@ c174677db08ab7a9cbe6678a2a22c9434ef80158: [[Excalidraw/Sinewave1.svg]]
 		},
 		{
 			"type": "arrow",
-			"version": 1463,
-			"versionNonce": 732883345,
+			"version": 1523,
+			"versionNonce": 1351363025,
 			"index": "budV",
 			"isDeleted": false,
 			"id": "sYKyC1-PvT7LpGYyAPvgx",
@@ -83308,7 +83308,7 @@ c174677db08ab7a9cbe6678a2a22c9434ef80158: [[Excalidraw/Sinewave1.svg]]
 				"type": 2
 			},
 			"boundElements": [],
-			"updated": 1724899263286,
+			"updated": 1724910134303,
 			"link": null,
 			"locked": false,
 			"startBinding": {

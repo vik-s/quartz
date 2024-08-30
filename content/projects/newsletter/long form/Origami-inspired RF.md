@@ -4,7 +4,7 @@ tags:
   - misc_letters
 project: substack
 date_published: 
-status: 
+status: 🚧
 final title:
 ---
 It's been a whole month that we have been going hard on RF power amplifier classes. Not sure if you've had enough yet, but my ability to write about power amplifiers is running a bit saturated (pun intended.) If you enjoyed the series, or want more articles, reply to this email and let me know.
@@ -20,17 +20,19 @@ As it turns out, there is a new class of RF circuits that draw inspiration from 
 
 This paper describes **a phased array antenna from which you can synthesize any radiation pattern**. It uses both electronic and physical modifications to achieve this. In this post, we will get into the details of exactly how this works.
 
-Special thanks to Hani for providing additional information, pictures and review a draft of this post.
+Special thanks to Hani for providing additional information, pictures and for reviewing a draft of this post.
 
 Here is a brief outline of the content:
-- thing1
-- thing2
-- thing3
+- Need for Adaptive RF Circuits
+- Eggbox Phased Array
+- Interconnect Systems
+- Practical Applications
 
 **Read time**: X mins
 
 ~~
-### The Need for Adaptive RF Circuits
+### Need for Adaptive RF Circuits
+
 Fixed RF systems are not optimal when it comes to changing RF environments. It is better if RF blocks are context-aware and adapt to provide the best overall system performance. Back in the old days, reconfigurability meant that components like antennas were mounted on big servos and moved around to point to where the signal is coming from. In fact, radio astronomers still mount [large parabolic dishes](https://www.viksnewsletter.com/i/140865578/gigantic-antenna-arrays) [on train tracks](https://public.nrao.edu/telescopes/VLA/) and move them around to form [different configurations](https://public.nrao.edu/vla-configurations/) in order to detect faint signals from the universe. This is often too slow for modern applications.
 
 Soon, engineers found that they could achieve the same results by steering antennas using [phased arrays](https://www.viksnewsletter.com/p/basics-of-phased-array-antennas-and?r=222kot&utm_campaign=post&utm_medium=web). Instead of moving the antennas around, they could do the same thing by controlling the phase shift between different antennas. The constructive and destructive interference between different antennas in the array helped steer the radiated beam without physically moving it. Since the whole thing is electronic, the time taken to steer antennas is really fast, in the order of microseconds.
@@ -51,49 +53,43 @@ Just like an origami design, this unit cell can be folded across either axis, or
 
 Here are some ways to shape the radiated beam from this antenna.
 
-1. **360° Azimuth Coverage**: In its pyramidal orientation, turn on only one phased array and steer the beam to its maximum value, at which point turn on the phased array on the next face. This ensures a continuous handoff between different phased array on the faces, and provides 360° azimuth beam steering.
+1. **360° Azimuth Coverage**: In its pyramidal orientation, turn on only one phased array and steer the beam to its maximum value, and then switch to the phased array on the next face. This ensures a continuous handoff between different phased arrays on the faces, and provides 360° azimuth beam steering.
 2. **Bending along an axis**: Fold the array along any one axis, and as the fold angle decreases, the radiation pattern reconfigures from a four-beam pattern to a two-beam pattern as shown in the figure.
 3. **Arbitrary shaped beams**: Fold the array across either axes by an arbitrary angle, turn on anywhere between a single phased array to all four phased arrays, provide digital weights to the phased array to control both amplitude and phase to antenna elements (even do [gain tapering](https://www.viksnewsletter.com/i/140865578/gain-tapering) to control grating lobes), and then you can virtually synthesize any radiation pattern you want.
 
-### Foldable Hinge Interconnects
+### Interconnect Systems
 
+Whenever you see a foldable circuit running at 28 GHz, the immediate concern is the RF performance of the interconnect, and its stability over repeated folding. The authors designed a clever solution that uses an "arch hinge interconnect" and is created using 3D printing technology with flexible80A, a flexible photopolymer resin. The interconnect itself is a 50Ω transmission line inkjet printed onto a Rogers RO3003 substrate and combined with the 3D printed support structures.
 
+The result is a stable hinge design that does maintains low loss over the 180° range of folding, and shows no degradation up to 300 folds.
 
+*put picture of hinge interconnect system*
 
+Another concern when designing interconnects for the eggbox unit cell is that the feed-point can only be present on one of the faces of the 3D structure. This means that the interconnect system does not feed all four phased arrays on the structure equally. (footnote: which is important for proper beamforming. you want phase shifts to be controlled only by the beamformer IC and not have static shifts from things like interconnect systems.) To fix this, there are extra sections of interconnects to compensate for this difference of overall electrical length.
 
+*put picture of beta_l compensation networks*
 
+### Practical Applications
 
+The beauty of this design is that the eggbox unit cell can simply be cascaded to form a larger array that can be spatially reconfigured along either axes. The modular design approach has more advantages:
+1. If any single unit cell fails, it can easily be replaced.
+2. Selective faces of the eggbox array can be activated to synthesize different radiation patterns based on power consumption requirements and transmit/receive operating modes.
+3. The additive 3D printing approach produces lesser waste.
 
+Let's look at some ways this phased array can be effectively used:
 
+- **Full Duplex Operation**: Say we want to use the same antenna array for transmit and receive simultaneously. With the modular system, it is possible to simply activate all phased arrays on any given face for transmit, and a different face for receive. The ability to control beams electronically also allows the transmit/receive beams to track targets if needed.
+- **Multi-beam Operation**: By using different folding angles, we already saw how we could synthesize two or four beams from the array. In autonomous vehicles, for example, each beam can be assigned to a different function such as communication, navigation and obstacle avoidance.
+- **Adjustable Beamwidths**: Since folding angle controls the width of the beam, unfolding the array to form wide beam widths is helpful in aircraft search operations, and then by folding up the array, a narrow beam helps in targeted rescue operations.
+- **Space Constrained Systems**: Especially with the rise in popularity of small form-factor, low-cost satellites such as CubeSats, the ability to fold up an antenna array during launch, and then deploy while in orbit is valuable. Reshaping the antenna array and steering beams in space will be useful to form satellite mesh networks to increase connectively across the globe.
 
+This implementation of an origami-inspired antenna uses only two degrees of freedom, but it paves the way for improvements that have utilize even more degrees of freedom for reconfigurability.
 
+The future of wireless communications will rely heavily on the ability to modify radiation beams at-will whether it is for 5G, 6G, automotive radar, space, or military applications.
 
+If you enjoy paper review articles like these, reply to this email and let me know and I can do more of them. If you find any interesting articles that involve a clever idea or unique implementation, reply to this email and let me know. I will cover them in a future newsletter post.
 
-
-~~
-
-If you find any other interesting articles on this topic, reply to this email and let me know, I will cover them in a future article.
-
-Also, if you enjoy paper review articles like these, reply to this email and let me know and I can do more of them.
-
-
-I may have to look up and write about this.
-
-Origami tessellations, notably the miura-ori [1] and the “eggbox” [2], have found applications in frequency-selective surfaces (FSS), showcasing spatial frequency reconfigurability.
-
-### From Hani Al Jamal
-
-**Novelty of work:**
-
-The proposed work therein presents several novelties. First, the combination of mechanical and electrical reconfigurability enables continuous $360^{\circ}$ beamsteering through 2 degrees-of-freedom (2-DOF) resulting in virtually infinite radiation pattern reconfigurability capabilities. Second, the multi-faceted 3-dimensional nature of the phased array leads to highly reconfigurable multi-beam directional or quasi-isotropic patterns. Third, the proposed origami-inspired phased array is fully-contained with on-structure beamforming RFICs and a flexible feeding network that utilizes the first additively manufactured foldable hinge interconnect (arch interconnect) exhibiting near-constant insertion loss across folding angles and cycles. The result of this is a lightweight prototype with a small formfactor. Fourthly, a modular tile-based approach is employed; realizing the proposed eggbox origami phased array through scalable unit-cells. This not only allows for scalability, but also reduces costs in case of failure, as unit-cells can be individually replaced. In addition, a modular tile-based approach allows for the selective activation of specific unit-cells of eggbox faces based on desired patterns, TX/RX modes, and/or power consumption requirements. Finally, the use of additive manufacturing techniques leads to reduced waste, faster fabrication, and lower costs.
-
-**Applications:** 
-
-The eggbox phased array offers versatile application scenarios across various domains. Firstly, it enables multi-mode in-band full-duplex applications by selectively or simultaneously activating different faces or unit cells as transmitters (TX) or receivers (RX). This capability allows the array to function as an active transmit-receive relay system, where a signal is received from one side and transmitted in another direction, enhancing communication efficiency and reliability. Secondly, its multifunctionality is exemplified by its multi-beam capability, which is invaluable for autonomous vehicles. Different beams can be allocated for specific tasks such as communication, obstacle detection, and navigation, or in military applications where beams are used for jamming, radar, and communication, ensuring comprehensive situational awareness and operational effectiveness. Thirdly, the eggbox phased array can be deployed in search and rescue operations, particularly when mounted on an aircraft. Its geometric configuration addresses the tradeoff between gain and angular coverage; when unfolded, it provides wide angular coverage for rapid search operations, and can then be folded to offer narrow beams with high gain for precise localization. Lastly, its ability to be easily folded and deployed is crucial for space-constrained environments, such as space applications, where compactness and efficient deployment are essential. This adaptability presents the eggbox phased array as versatile and impactful with broad applicability.
-
-  
-
-**Kindly make sure to cite the paper:**
+### References
 
 H. A. Jamal, C. Hu, N. Wille, K. Zeng and M. M. Tentzeris, "Beyond Planar: An Additively Manufactured, Origami-Inspired Shape-Changing, and RFIC-Based Phased Array for Near-Limitless Radiation Pattern Reconfigurability in 5G/mm-Wave Applications," in _IEEE Microwave and Wireless Technology Letters_, vol. 34, no. 6, pp. 841-844, June 2024, doi: 10.1109/LMWT.2024.3396026.
 
