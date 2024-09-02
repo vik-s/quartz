@@ -15,13 +15,13 @@ Didn't work? Let's talk some more.
 My child points to an antenna and asks what it is. I told him that it creates invisible ripples that lets him watch cartoons. 
 His eyes lit up in wonder. Yes, it is magic.
 
-I'm still surprised that any of this actually works, and that this technology is in the hands of billions of people today. In this newsletter, I explore the engineering behind the technology in a fairly detailed fashion. My aim is to help readers understand the fundamentals, stay abreast with the latest developments and explain the history of what got us to where we are.
+I'm still surprised that any of this actually works, and that this technology is in the hands of billions of people today. In this newsletter, I explore the engineering behind the technology in a fairly detailed manner. My aim is to help readers understand the fundamentals, stay abreast with the latest developments and explain the history of what got us to where we are.
 
-To date, I have written 30 articles and nearly sixty thousand words, which is almost a full length book. The articles have been read over a hundred thousand times since the birth of this newsletter. **I strive to publish on most Sunday afternoons, and each post will take about 10 minutes to read.** 
+To date, I have written 30 articles and nearly sixty thousand words, which is almost a full length book. The articles have been read over a hundred thousand times since the birth of this newsletter. **I publish on most Sunday afternoons, and each post will take about 10 minutes to read.** 
 
-To date, **all my content is completely free**, and I earn nothing (other than the warm fuzzy feeling of helping others understand radio electronics) from this publication. I spends 10-15 hours per article doing the best I can to explain. 
+To date, **all my content is completely free**, and I earn nothing (other than the warm fuzzy feeling of helping others understand radio electronics) from this publication. I spend 10-15 hours per article doing the best I can to explain. 
 
-If you're worried that the content might be too technical, **I strive to use minimal jargon, simple language and few mathematical equations to get complex ideas across**. My goal is to be your friendly neighborhood co-worker who explains ideas in a way that is easy to understand. 
+If you're worried that the content might be too technical, **I use minimal jargon, simple language and few mathematical equations to get complex ideas across**. My goal is to be your friendly neighborhood co-worker who explains ideas in a way that is easy to understand. 
 
 It would mean the world to me if you spend a few minutes reading any article that grabs your fancy, from this curated list.
 

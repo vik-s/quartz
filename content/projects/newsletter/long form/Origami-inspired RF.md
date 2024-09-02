@@ -1,11 +1,11 @@
 ---
 title: Origami-inspired RF
 tags:
-  - misc_letters
+  - antennas
 project: substack
-date_published: 
+date_published: 2024-09-01
 status: 🚧
-final title:
+final title: How origami-inspired phased arrays are reshaping the future of antennas
 ---
 It's been a whole month that we have been going hard on RF power amplifier classes. Not sure if you've had enough yet, but my ability to write about power amplifiers is running a bit saturated (pun intended.) If you enjoyed the series, or want more articles, reply to this email and let me know.
 
