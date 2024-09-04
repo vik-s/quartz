@@ -73,15 +73,22 @@ Luckily, he went with the third option.
 
 #### Left-handed Materials
 
-Veselago started with looking at cases where ε and μ occur separately - in Maxwell's equations. Maxwell's equations when solved in regular materials with positive ε and μ establishes the direction of wave propagation according to the right hand rule.
+Veselago started by looking at cases where ε and μ occur separately - like in Maxwell's equations. Maxwell's equations when solved in regular materials with positive ε and μ establishes the direction of wave propagation according to the right hand rule.
 
-Make mutual right angles with your thumb, index and middle finger. If the electric field is pointing in the direction of the thumb, magnetic field is pointing in the direction of the index finger, then the direction of the middle finger points in the direction of wave propagation.
+Make mutual right angles with your thumb, index and middle finger. If the electric field is pointing in the direction of the thumb, magnetic field is pointing in the direction of the index finger, then the middle finger points in the direction of wave propagation.
 
 *add picture of right and left handed rules in materials*
 
 If both ε and μ are negative, then wave propagation in such materials follow the left hand rule, with each of the fingers representing the same quantities. Such materials, were they to exist, would be "left-handed" as opposed to naturally occurring "right-handed materials" and wave propagation would appear backwards compared to the normal case.
 
-#### Reversal of Doppler and Vavilov-Cerenkov Effects
+#### Reversal of Physical Phenomena
+
+##### Doppler Effect
+
+##### Vavilov-Cerenkov Effect
+
+##### Snell's Law
+
 
 #### Perfect/Super Lenses
 
