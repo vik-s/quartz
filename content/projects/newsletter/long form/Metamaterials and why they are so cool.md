@@ -4,10 +4,10 @@ tags:
 project: substack
 date_published: 
 status: 🚧
-final title: The remarkable and unnatural properties of Metamaterials
+final title: The remarkable and unnatural electromagnetic properties of artificial metamaterials
 subtext: From ether to artificially engineered materials that have the potential to change the world
 ---
-Metamaterials are artificially engineered structures that allow wave propagation in ways that do not occur in nature. For a propagating electromagnetic wave to seemingly defy the laws of nature has far reaching and fantastic consequences - invisibility cloaks, stealth aircraft, perfect lenses, doppler reversal and a whole lot more we are still learning.
+Metamaterials are artificially engineered structures that allow wave propagation in ways that do not occur in nature. A propagating electromagnetic wave to seemingly defy the laws of nature has far reaching and fantastic consequences - invisibility cloaks, stealth aircraft, perfect lenses, doppler reversal and a whole lot more we are still learning.
 
 In this article, we will ... what.
 - On the existence of ether
@@ -18,17 +18,17 @@ Read time: X mins
 
 ~~
 
-### To Ether or Not?
+### To Ether or not to Ether?
 
 Let me tell you a story.
 
-Scientists in the 19th century believed that there should be an invisible "elastic, compressible, non gravitational solid" called luminiferous (means light-bearing) ether that is ubiquitous in our universe through which an electromagnetic wave can propagate. The idea of an invisible medium makes common sense if you think of a rock thrown into still water. You see waves propagating outwards from the point of disturbance. Even sound waves travel through air vibrations. A good part of the century was spent on studying "ether mechanics" and the most prominent proponent of the idea was William Thomson/Lord Kelvin who dedicated his entire life to the properties of ether, [and wrote](https://online.ucpress.edu/hsns/article-abstract/doi/10.2307/27757305/47770/In-Defense-of-Ether-The-British-Response-to?redirectedFrom=fulltext):
+Scientists in the 19th century believed that there should be an invisible "elastic, compressible, non gravitational solid" called luminiferous (meaning light-bearing) ether that is ubiquitous in our universe through which an electromagnetic wave can propagate. The idea of an invisible medium makes  sense if you think of a rock thrown into still water. You see waves propagating outwards from the point of disturbance. Even sound waves travel through air vibrations. A good part of this century was spent on studying "ether mechanics" and the most prominent proponent of the idea was William Thomson/Lord Kelvin who dedicated his entire life to the properties of ether, [and wrote](https://online.ucpress.edu/hsns/article-abstract/doi/10.2307/27757305/47770/In-Defense-of-Ether-The-British-Response-to?redirectedFrom=fulltext):
 
 > Ether of Space has been my life study. ... I always meant some day to write a scientific treatise about the Ether of Space; but when in my old age I came to write this book, I found that the Ether pervaded all my ideas, both of this world and the next. I could no longer keep my treatise within the proposed scientific confines; it escaped in every direction and now I find has grown into a comprehensive statement of my philosophy."
 
 To detect the presence of ether, in 1887, two scientists named Albert Michelson and Edward Morley devised an experiment. They built a device that split a beam of light in two, bounced off a mirror and arrived at a detector. If ether existed, then the speed of light would change depending on whether the light was moving in the direction of earth's motion or at right angles to it. They expected to see the beams of light arrive at different times at the detector. To their dismay, the beams of light arrived at exactly the same time proving that ether did not exist.
 
-In 1905, the [annus mirabilis](https://en.wikipedia.org/wiki/Annus_mirabilis_papers) "miracle year", in the paper titled "[On the Electrodynamics of Moving Bodies](https://archive.org/details/einstein-1905-relativity/page/n3/mode/2up)", Albert Einstein wrote:
+In 1905, the [annus mirabilis](https://en.wikipedia.org/wiki/Annus_mirabilis_papers) "miracle year," in the paper titled "[On the Electrodynamics of Moving Bodies](https://archive.org/details/einstein-1905-relativity/page/n3/mode/2up)," Albert Einstein wrote:
 
 > The introduction of a “luminiferous ether” will prove to be superfluous inasmuch as the view here to be developed will not require an “absolutely stationary space” provided with special properties...
 
@@ -36,7 +36,7 @@ What he was saying is that explaining electromagnetic phenomena did not require 
 
 If you thought the whole world immediately went, "Wow! How come I didn't think of that!", you'd be wrong. Einstein's work on relativity largely went unnoticed except in Germany. The widely accepted concept of ether was simply the status quo and most physicists ridiculed Einstein's theory as impractical and absurd.
 
-Einstein himself went back to the concept of ether in 1920 in an attempt to integrate gravity into special relativity. Without the concept of ether, he found gravity's "action-at-a-distance" mechanically inconsistent. In 1693, Newton himself foresaw the need for a "medium" in which gravity can act, and that the ability of gravity to simply cause mechanical movement through vacuum is absurd. He [wrote](https://www.jstor.org/stable/27900530):
+Einstein himself went back to the concept of ether in 1920 in an attempt to integrate gravity into special relativity. Without the concept of ether, he found gravity's "action-at-a-distance" mechanically inconsistent. In 1693, Newton foresaw the need for a "medium" in which gravity can act, and that the ability of gravity to simply cause mechanical movement through vacuum is absurd. He [wrote](https://www.jstor.org/stable/27900530):
 
 > That gravity should be innate, inherent, and essential to matter, so that one body may act upon another at a distance through a vacuum, without the mediation of anything else, and by and through which their action and force may be conveyed from one to another, is to me so great an absurdity that I believe no man who has in philosophical matters a competent faculty of thinking can ever fall into it.
 
@@ -92,17 +92,37 @@ The phenomenon of backward wave propagation immediately means that doppler effec
 *draw picture of reverse doppler effect*
 ##### Vavilov-Cherenkov Effect
 
-[Cherenkov effect](https://en.wikipedia.org/wiki/Cherenkov_radiation) is the emission of radiation when a charged particle travels in a dielectric medium with a phase velocity faster than that of light. Think of it like a sonic boom, but a photonic shock-wave for charged particles exceeding speed of light. This is what makes underwater nuclear reactors emit blue light.
+[Cherenkov effect](https://en.wikipedia.org/wiki/Cherenkov_radiation) is the emission of radiation when a charged particle travels in a dielectric medium with a phase velocity faster than that of light. Think of it like a sonic boom, but a photonic shock-wave for charged particles exceeding speed of light. This is what makes [underwater nuclear reactors emit blue light](https://youtu.be/CYcesh3uHb4?si=-TCU5ZHiB-gEUd_I).
 
 In a right-handed medium, the emission of Cherenkov radiation occurs in the forward direction of the wavefront. In left-handed materials, the radiation occurs in the reverse direction - behind the wavefront of the moving particle.
 
 Researchers have [demonstrated](https://dspace.mit.edu/bitstream/handle/1721.1/96293/Chen-2011-Flipping%20photons%20bac.pdf) the reversal of Cherenkov radiation at microwave frequencies by pushing charged particles through slot waveguides. Reversed Cherenkov radiation has many possible applications in electronic devices, particle detectors, and accelerators.
 
+*picture of reversed cherenkov effect*
 ##### Snell's Law
 
+Snell's law determines the angle of refraction when a ray of light goes from one medium to another with different refractive indices. If a ray of light traveling in a medium of refractive index n1 is incident at angle of θ1 at the interface of two materials, then the angle of propagation θ2 in a medium of refractive index is given by
+$$
+n_1\sin\theta_1 = n_2\sin\theta_2
+$$
 
-#### Perfect/Super Lenses
+This equation is pretty well known and well understood when the media on both sides of the interface are right handed. But when one medium (say n2) has negative refractive index, θ2 has to be negative to satisfy snell's law (sin(-θ)=-sinθ). This negative angle of refraction creates some interesting optical phenomena.
 
+*picture of snells law*
+
+From our regular experience, convex lenses converge light and concave lenses diverge light. But if the lens were made of a double negative index metamaterial, the lenses would do the opposite -- convex lenses will diverge light and concave lenses will converge light.
+
+*picture of convex and concave lenses*
+
+### Discovery of Artificial Double Negative Metamaterials
+
+For his work on negative refraction in electrodynamics, Victor Veselago was nominated for the Nobel Prize in 2011. But since original paper in 1968, his work went largely unnoticed for the next thirty years. In 1996, Sir John Pendry, today known as the Father of Metamaterials, found a way to implement a double negative metamaterial using split ring resonators.
+
+Although Veselago already alluded to it in his original paper, negative refraction implies that perfect or super lenses can be implemented that overcome conventional limitations imposed by lenses made of natural materials. Sir Pendry later revealed that a slab of double negative material could challenge the Abbé diffraction limit on traditional lenses, focus a perfect image and act as a perfect lens. His finding was so ground-breaking that even he did not believe it. As he says in an [interview with Nature's *Light: Science and Applications*](https://www.nature.com/articles/s41377-023-01082-w):
+
+> I didn’t believe it. I thought, if I publish this, I’m going to be branded an idiot and my career will be finished in the optics. As you know, some people would have liked to see my career finished, so controversial was the result! But it wasn’t so. Eventually, we won through and persuaded people that this lens could do perfect focusing.
+
+The applications of metamaterials span diverse fields including electromagnetics, optics, acoustics and elastics. 
 
 
 
