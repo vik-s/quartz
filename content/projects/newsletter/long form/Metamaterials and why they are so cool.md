@@ -116,7 +116,10 @@ From our regular experience, convex lenses converge light and concave lenses div
 
 ### Discovery of Artificial Double Negative Metamaterials
 
-For his work on negative refraction in electrodynamics, Victor Veselago was nominated for the Nobel Prize in 2011. But since original paper in 1968, his work went largely unnoticed for the next thirty years. In 1996, Sir John Pendry, today known as the Father of Metamaterials, found a way to implement a double negative metamaterial using split ring resonators.
+For his work on negative refraction in electrodynamics, Victor Veselago was nominated for the Nobel Prize in 2011. But since original paper in 1968, his work went largely unnoticed for the next thirty years. In 1996, Sir John Pendry, today known as the Father of Metamaterials, found a way to implement materials with negative ε and μ.
+
+
+
 
 Although Veselago already alluded to it in his original paper, negative refraction implies that perfect or super lenses can be implemented that overcome conventional limitations imposed by lenses made of natural materials. Sir Pendry later revealed that a slab of double negative material could challenge the Abbé diffraction limit on traditional lenses, focus a perfect image and act as a perfect lens. His finding was so ground-breaking that even he did not believe it. As he says in an [interview with Nature's *Light: Science and Applications*](https://www.nature.com/articles/s41377-023-01082-w):
 
